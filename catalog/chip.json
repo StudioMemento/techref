@@ -1,0 +1,3087 @@
+{
+  "products": [
+    {
+      "id": "apple-a4",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A4",
+      "series": "Apple A",
+      "year": 2010,
+      "variant": "iPad / iPhone 4",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "1 core",
+        "cpuCores": 1,
+        "clusters": "1× CPU Apple",
+        "gpu": "Grafica integrata",
+        "gpuCores": "Non dichiarato",
+        "frequency": "1 GHz (iPad)",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 1,
+          "type": "CPU Apple",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "Grafica integrata",
+        "cores": null,
+        "coreUnit": "core grafici dichiarati da Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://support.apple.com/it-it/112438",
+          "kind": "manufacturer"
+        },
+        {
+          "label": "iFixit / Chipworks · teardown A4",
+          "url": "https://www.ifixit.com/Teardown/Apple%2BA4%2BTeardown/2204",
+          "kind": "primary-teardown"
+        }
+      ],
+      "notes": [
+        "La frequenza indicata riguarda iPad originale; Apple non dichiara il clock iPhone 4 nella scheda consultata.",
+        "Un core CPU identificato dal teardown primario iFixit/Chipworks."
+      ],
+      "image": null
+    },
+    {
+      "id": "apple-a5",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A5",
+      "series": "Apple A",
+      "year": 2011,
+      "variant": "iPhone 4S / iPad 2",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "2 core",
+        "cpuCores": 2,
+        "clusters": "2× CPU Apple",
+        "gpu": "Grafica integrata",
+        "gpuCores": "Non dichiarato",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "CPU Apple",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "Grafica integrata",
+        "cores": null,
+        "coreUnit": "core grafici dichiarati da Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://www.apple.com/newsroom/2011/10/04Apple-Launches-iPhone-4S-iOS-5-iCloud/",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [],
+      "image": null
+    },
+    {
+      "id": "apple-a5x",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A5X",
+      "series": "Apple A",
+      "year": 2012,
+      "variant": "iPad 3",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "2 core",
+        "cpuCores": 2,
+        "clusters": "2× CPU Apple",
+        "gpu": "Grafica integrata",
+        "gpuCores": "4 core grafici dichiarati da Apple",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "CPU Apple",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "Grafica integrata",
+        "cores": 4,
+        "coreUnit": "core grafici dichiarati da Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://support.apple.com/it-it/111992",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [],
+      "image": null
+    },
+    {
+      "id": "apple-a6",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A6",
+      "series": "Apple A",
+      "year": 2012,
+      "variant": "iPhone 5 / 5c",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "2 core",
+        "cpuCores": 2,
+        "clusters": "2× CPU Apple",
+        "gpu": "Grafica integrata",
+        "gpuCores": "Non dichiarato",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "CPU Apple",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "Grafica integrata",
+        "cores": null,
+        "coreUnit": "core grafici dichiarati da Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://www.apple.com/it/newsroom/2012/09/12Apple-Introduces-iPhone-5/",
+          "kind": "manufacturer"
+        },
+        {
+          "label": "iFixit / Chipworks · teardown A6",
+          "url": "https://www.ifixit.com/Teardown/Apple%2BA6%2BTeardown/10528",
+          "kind": "primary-teardown"
+        }
+      ],
+      "notes": [
+        "Due core CPU rilevati dal teardown primario iFixit/Chipworks; conteggio GPU non dichiarato da Apple."
+      ],
+      "image": null
+    },
+    {
+      "id": "apple-a6x",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A6X",
+      "series": "Apple A",
+      "year": 2012,
+      "variant": "iPad 4",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "2 core",
+        "cpuCores": 2,
+        "clusters": "2× CPU Apple",
+        "gpu": "Grafica integrata",
+        "gpuCores": "4 core grafici dichiarati da Apple",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "CPU Apple",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "Grafica integrata",
+        "cores": 4,
+        "coreUnit": "core grafici dichiarati da Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://support.apple.com/it-it/111993",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [],
+      "image": null
+    },
+    {
+      "id": "apple-a7",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A7",
+      "series": "Apple A",
+      "year": 2013,
+      "variant": "iPhone 5s / iPad Air / mini 2–3",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "2 core",
+        "cpuCores": 2,
+        "clusters": "2× CPU Apple",
+        "gpu": "Grafica integrata",
+        "gpuCores": "Non dichiarato",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "CPU Apple",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "Grafica integrata",
+        "cores": null,
+        "coreUnit": "core grafici dichiarati da Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://www.apple.com/newsroom/2013/09/10Apple-Announces-iPhone-5s-The-Most-Forward-Thinking-Smartphone-in-the-World/",
+          "kind": "manufacturer"
+        },
+        {
+          "label": "iFixit · teardown iPad mini 2",
+          "url": "https://www.ifixit.com/Teardown/iPad%2BMini%2B2%2BTeardown/19374",
+          "kind": "primary-teardown"
+        }
+      ],
+      "notes": [
+        "Architettura CPU a 64 bit. Conteggio CPU dal teardown primario."
+      ],
+      "image": null
+    },
+    {
+      "id": "apple-a8",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A8",
+      "series": "Apple A",
+      "year": 2014,
+      "variant": "iPhone 6 / 6 Plus / iPad mini 4",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "2 core",
+        "cpuCores": 2,
+        "clusters": "2× CPU Apple",
+        "gpu": "Grafica integrata",
+        "gpuCores": "Non dichiarato",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "CPU Apple",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "Grafica integrata",
+        "cores": null,
+        "coreUnit": "core grafici dichiarati da Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "iFixit · teardown A8",
+          "url": "https://www.ifixit.com/Teardown/Apple%2BTV%2B4th%2BGeneration%2BTeardown/49046",
+          "kind": "primary-teardown"
+        },
+        {
+          "label": "Apple · A8 in iPhone 6 e iPod touch",
+          "url": "https://www.apple.com/uk/newsroom/2015/07/15Apple-Introduces-The-Best-iPod-touch-Yet/",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Conteggio CPU osservato nel teardown dello stesso SoC. Apple non pubblica core GPU o clock nella fonte di prodotto."
+      ],
+      "image": null
+    },
+    {
+      "id": "apple-a8x",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A8X",
+      "series": "Apple A",
+      "year": 2014,
+      "variant": "iPad Air 2",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "Non dichiarato",
+        "cpuCores": null,
+        "clusters": "Non dichiarato",
+        "gpu": "Grafica integrata",
+        "gpuCores": "Non dichiarato",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": null,
+          "type": "Non dichiarato",
+          "clock": "Non dichiarato",
+          "note": "Topologia non specificata nella fonte ufficiale consultata."
+        }
+      ],
+      "gpuDetail": {
+        "name": "Grafica integrata",
+        "cores": null,
+        "coreUnit": "core grafici dichiarati da Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://www.apple.com/it/newsroom/2014/10/16Apple-Introduces-iPad-Air-2-The-Thinnest-Most-Powerful-iPad-Ever/",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "CPU a 64 bit. Conteggi interni non dichiarati nella fonte Apple consultata."
+      ],
+      "image": null
+    },
+    {
+      "id": "apple-a9",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A9",
+      "series": "Apple A",
+      "year": 2015,
+      "variant": "iPhone 6s / SE 1 / iPad 5",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "Non dichiarato",
+        "cpuCores": null,
+        "clusters": "Non dichiarato",
+        "gpu": "Grafica integrata",
+        "gpuCores": "Non dichiarato",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": null,
+          "type": "Non dichiarato",
+          "clock": "Non dichiarato",
+          "note": "Topologia non specificata nella fonte ufficiale consultata."
+        }
+      ],
+      "gpuDetail": {
+        "name": "Grafica integrata",
+        "cores": null,
+        "coreUnit": "core grafici dichiarati da Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://www.apple.com/newsroom/2015/09/09Apple-Introduces-iPhone-6s-iPhone-6s-Plus/",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "CPU a 64 bit; coprocessore M9 integrato. Topologia non dichiarata nella fonte Apple consultata."
+      ],
+      "image": null
+    },
+    {
+      "id": "apple-a9x",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A9X",
+      "series": "Apple A",
+      "year": 2015,
+      "variant": "iPad Pro 12,9″ / 9,7″",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "Non dichiarato",
+        "cpuCores": null,
+        "clusters": "Non dichiarato",
+        "gpu": "Grafica integrata",
+        "gpuCores": "Non dichiarato",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": null,
+          "type": "Non dichiarato",
+          "clock": "Non dichiarato",
+          "note": "Topologia non specificata nella fonte ufficiale consultata."
+        }
+      ],
+      "gpuDetail": {
+        "name": "Grafica integrata",
+        "cores": null,
+        "coreUnit": "core grafici dichiarati da Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://www.apple.com/it/newsroom/2015/09/09Apple-Introduces-iPad-Pro-Featuring-Epic-12-9-inch-Retina-Display/",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "CPU a 64 bit. Conteggi interni non dichiarati nella fonte Apple consultata."
+      ],
+      "image": null
+    },
+    {
+      "id": "apple-a10",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A10 Fusion",
+      "series": "Apple A",
+      "year": 2016,
+      "variant": "iPhone 7 / 7 Plus / iPad 6–7",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "4 core",
+        "cpuCores": 4,
+        "clusters": "2× Performance + 2× Efficiency",
+        "gpu": "Grafica integrata",
+        "gpuCores": "Non dichiarato",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "Performance",
+          "clock": "Non dichiarato",
+          "note": ""
+        },
+        {
+          "count": 2,
+          "type": "Efficiency",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "Grafica integrata",
+        "cores": null,
+        "coreUnit": "core grafici dichiarati da Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://www.apple.com/newsroom/2016/09/apple-introduces-iphone-7-iphone-7-plus/",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [],
+      "image": null
+    },
+    {
+      "id": "apple-a10x",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A10X Fusion",
+      "series": "Apple A",
+      "year": 2017,
+      "variant": "iPad Pro 2017",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "6 core",
+        "cpuCores": 6,
+        "clusters": "6× CPU Apple",
+        "gpu": "Grafica integrata",
+        "gpuCores": "12 core grafici dichiarati da Apple",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 6,
+          "type": "CPU Apple",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "Grafica integrata",
+        "cores": 12,
+        "coreUnit": "core grafici dichiarati da Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://www.apple.com/newsroom/2017/06/ipad-pro-10-5-and-12-9-inch-models-introduces-worlds-most-advanced-display-breakthrough-performance/",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Apple dichiara il totale dei core; ripartizione del cluster non specificata nel comunicato."
+      ],
+      "image": null
+    },
+    {
+      "id": "apple-a11",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A11 Bionic",
+      "series": "Apple A",
+      "year": 2017,
+      "variant": "iPhone 8 / 8 Plus / X",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "6 core",
+        "cpuCores": 6,
+        "clusters": "2× Performance + 4× Efficiency",
+        "gpu": "GPU integrata Apple",
+        "gpuCores": "3 core GPU Apple",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "Performance",
+          "clock": "Non dichiarato",
+          "note": ""
+        },
+        {
+          "count": 4,
+          "type": "Efficiency",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "GPU integrata Apple",
+        "cores": 3,
+        "coreUnit": "core GPU Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://www.apple.com/newsroom/2017/09/the-future-is-here-iphone-x/",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [],
+      "image": null
+    },
+    {
+      "id": "apple-a12",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A12 Bionic",
+      "series": "Apple A",
+      "year": 2018,
+      "variant": "iPhone XS / XS Max / XR",
+      "values": {
+        "process": "7 nm",
+        "cpu": "6 core",
+        "cpuCores": 6,
+        "clusters": "2× Performance + 4× Efficiency",
+        "gpu": "GPU integrata Apple",
+        "gpuCores": "4 core GPU Apple",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "Performance",
+          "clock": "Non dichiarato",
+          "note": ""
+        },
+        {
+          "count": 4,
+          "type": "Efficiency",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "GPU integrata Apple",
+        "cores": 4,
+        "coreUnit": "core GPU Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://www.apple.com/newsroom/2018/09/iphone-xs-and-iphone-xs-max-bring-the-best-and-biggest-displays-to-iphone/",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [],
+      "image": null
+    },
+    {
+      "id": "apple-a12x",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A12X Bionic",
+      "series": "Apple A",
+      "year": 2018,
+      "variant": "iPad Pro 2018",
+      "values": {
+        "process": "7 nm",
+        "cpu": "8 core",
+        "cpuCores": 8,
+        "clusters": "4× Performance + 4× Efficiency",
+        "gpu": "GPU integrata Apple",
+        "gpuCores": "7 core GPU Apple",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 4,
+          "type": "Performance",
+          "clock": "Non dichiarato",
+          "note": ""
+        },
+        {
+          "count": 4,
+          "type": "Efficiency",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "GPU integrata Apple",
+        "cores": 7,
+        "coreUnit": "core GPU Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://www.apple.com/cf/newsroom/2018/10/new-ipad-pro-with-all-screen-design-is-most-advanced-powerful-ipad-ever/",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [],
+      "image": null
+    },
+    {
+      "id": "apple-a12z",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A12Z Bionic",
+      "series": "Apple A",
+      "year": 2020,
+      "variant": "iPad Pro 2020",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "8 core",
+        "cpuCores": 8,
+        "clusters": "8× CPU Apple",
+        "gpu": "GPU integrata Apple",
+        "gpuCores": "8 core GPU Apple",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 8,
+          "type": "CPU Apple",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "GPU integrata Apple",
+        "cores": 8,
+        "coreUnit": "core GPU Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://www.apple.com/ie/newsroom/2020/03/apple-unveils-new-ipad-pro-with-lidar-scanner-and-trackpad-support-in-ipados/",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Apple dichiara il totale di 8 core CPU; non estrapoliamo i cluster dal chip A12X."
+      ],
+      "image": null
+    },
+    {
+      "id": "apple-a13",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A13 Bionic",
+      "series": "Apple A",
+      "year": 2019,
+      "variant": "iPhone 11 / 11 Pro / SE 2",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "6 core",
+        "cpuCores": 6,
+        "clusters": "2× Performance + 4× Efficiency",
+        "gpu": "GPU integrata Apple",
+        "gpuCores": "4 core GPU Apple",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "Performance",
+          "clock": "Non dichiarato",
+          "note": ""
+        },
+        {
+          "count": 4,
+          "type": "Efficiency",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "GPU integrata Apple",
+        "cores": 4,
+        "coreUnit": "core GPU Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://www.apple.com/uk/iphone/compare/?modelList=iphone-11%2Ciphone-13%2Ciphone-13-mini",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [],
+      "image": null
+    },
+    {
+      "id": "apple-a14",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A14 Bionic",
+      "series": "Apple A",
+      "year": 2020,
+      "variant": "iPhone 12 / iPad Air 4 / iPad 10",
+      "values": {
+        "process": "5 nm",
+        "cpu": "6 core",
+        "cpuCores": 6,
+        "clusters": "2× Performance + 4× Efficiency",
+        "gpu": "GPU integrata Apple",
+        "gpuCores": "4 core GPU Apple",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "Performance",
+          "clock": "Non dichiarato",
+          "note": ""
+        },
+        {
+          "count": 4,
+          "type": "Efficiency",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "GPU integrata Apple",
+        "cores": 4,
+        "coreUnit": "core GPU Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://www.apple.com/newsroom/2020/09/apple-unveils-all-new-ipad-air-with-a14-bionic-apples-most-advanced-chip/",
+          "kind": "manufacturer"
+        },
+        {
+          "label": "Apple · topologia iPhone 12",
+          "url": "https://www.apple.com/iphone/compare/?modelList=iphone-13%2Ciphone-12-pro-max%2Ciphone-12",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [],
+      "image": null
+    },
+    {
+      "id": "apple-a15-4gpu",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A15 Bionic",
+      "series": "Apple A",
+      "year": 2021,
+      "variant": "GPU 4 core · iPhone 13 / 13 mini / SE 3",
+      "values": {
+        "process": "5 nm",
+        "cpu": "6 core",
+        "cpuCores": 6,
+        "clusters": "2× Performance + 4× Efficiency",
+        "gpu": "GPU integrata Apple",
+        "gpuCores": "4 core GPU Apple",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "Performance",
+          "clock": "Non dichiarato",
+          "note": ""
+        },
+        {
+          "count": 4,
+          "type": "Efficiency",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "GPU integrata Apple",
+        "cores": 4,
+        "coreUnit": "core GPU Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://www.apple.com/newsroom/2021/09/apple-introduces-iphone-13-and-iphone-13-mini/",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [],
+      "image": null
+    },
+    {
+      "id": "apple-a15-5gpu",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A15 Bionic",
+      "series": "Apple A",
+      "year": 2021,
+      "variant": "GPU 5 core · iPhone 13 Pro / 14 / iPad mini 6",
+      "values": {
+        "process": "5 nm",
+        "cpu": "6 core",
+        "cpuCores": 6,
+        "clusters": "2× Performance + 4× Efficiency",
+        "gpu": "GPU integrata Apple",
+        "gpuCores": "5 core GPU Apple",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "Performance",
+          "clock": "Non dichiarato",
+          "note": ""
+        },
+        {
+          "count": 4,
+          "type": "Efficiency",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "GPU integrata Apple",
+        "cores": 5,
+        "coreUnit": "core GPU Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://www.apple.com/ie/newsroom/2021/09/apple-unveils-iphone-13-pro-and-iphone-13-pro-max-more-pro-than-ever-before/",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [],
+      "image": null
+    },
+    {
+      "id": "apple-a16",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A16 Bionic",
+      "series": "Apple A",
+      "year": 2022,
+      "variant": "iPhone 14 Pro / iPhone 15",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "6 core",
+        "cpuCores": 6,
+        "clusters": "2× Performance + 4× Efficiency",
+        "gpu": "GPU integrata Apple",
+        "gpuCores": "5 core GPU Apple",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "Performance",
+          "clock": "Non dichiarato",
+          "note": ""
+        },
+        {
+          "count": 4,
+          "type": "Efficiency",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "GPU integrata Apple",
+        "cores": 5,
+        "coreUnit": "core GPU Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://www.apple.com/ie/newsroom/2022/09/apple-debuts-iphone-14-pro-and-iphone-14-pro-max/",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [],
+      "image": null
+    },
+    {
+      "id": "apple-a17-pro",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A17 Pro",
+      "series": "Apple A",
+      "year": 2023,
+      "variant": "iPhone 15 Pro / Pro Max",
+      "values": {
+        "process": "3 nm",
+        "cpu": "6 core",
+        "cpuCores": 6,
+        "clusters": "2× Performance + 4× Efficiency",
+        "gpu": "GPU integrata Apple",
+        "gpuCores": "6 core GPU Apple",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "Performance",
+          "clock": "Non dichiarato",
+          "note": ""
+        },
+        {
+          "count": 4,
+          "type": "Efficiency",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "GPU integrata Apple",
+        "cores": 6,
+        "coreUnit": "core GPU Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://www.apple.com/newsroom/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Ray tracing hardware. Clock CPU non dichiarato da Apple."
+      ],
+      "image": null
+    },
+    {
+      "id": "apple-a18",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A18",
+      "series": "Apple A",
+      "year": 2024,
+      "variant": "iPhone 16 / 16 Plus",
+      "values": {
+        "process": "3 nm · seconda generazione",
+        "cpu": "6 core",
+        "cpuCores": 6,
+        "clusters": "2× Performance + 4× Efficiency",
+        "gpu": "GPU integrata Apple",
+        "gpuCores": "5 core GPU Apple",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "Performance",
+          "clock": "Non dichiarato",
+          "note": ""
+        },
+        {
+          "count": 4,
+          "type": "Efficiency",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "GPU integrata Apple",
+        "cores": 5,
+        "coreUnit": "core GPU Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://www.apple.com/ie/newsroom/2024/09/apple-introduces-iphone-16-iphone-16-plus/",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Ray tracing hardware."
+      ],
+      "image": null
+    },
+    {
+      "id": "apple-a18-pro",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A18 Pro",
+      "series": "Apple A",
+      "year": 2024,
+      "variant": "iPhone 16 Pro / Pro Max",
+      "values": {
+        "process": "3 nm · seconda generazione",
+        "cpu": "6 core",
+        "cpuCores": 6,
+        "clusters": "2× Performance + 4× Efficiency",
+        "gpu": "GPU integrata Apple",
+        "gpuCores": "6 core GPU Apple",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "Performance",
+          "clock": "Non dichiarato",
+          "note": ""
+        },
+        {
+          "count": 4,
+          "type": "Efficiency",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "GPU integrata Apple",
+        "cores": 6,
+        "coreUnit": "core GPU Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://www.apple.com/ie/newsroom/2024/09/apple-debuts-iphone-16-pro-iphone-16-pro-max/",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Ray tracing hardware."
+      ],
+      "image": null
+    },
+    {
+      "id": "apple-a19",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A19",
+      "series": "Apple A",
+      "year": 2025,
+      "variant": "iPhone 17",
+      "values": {
+        "process": "3 nm · terza generazione",
+        "cpu": "6 core",
+        "cpuCores": 6,
+        "clusters": "2× Performance + 4× Efficiency",
+        "gpu": "GPU integrata Apple",
+        "gpuCores": "5 core GPU Apple",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "Performance",
+          "clock": "Non dichiarato",
+          "note": ""
+        },
+        {
+          "count": 4,
+          "type": "Efficiency",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "GPU integrata Apple",
+        "cores": 5,
+        "coreUnit": "core GPU Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://support.apple.com/it-it/125089",
+          "kind": "manufacturer"
+        },
+        {
+          "label": "Apple · processo A19",
+          "url": "https://www.apple.com/it/newsroom/2025/09/apple-introduces-iphone-17/",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [],
+      "image": null
+    },
+    {
+      "id": "apple-a19-pro",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A19 Pro",
+      "series": "Apple A",
+      "year": 2025,
+      "variant": "GPU 6 core · iPhone 17 Pro / Pro Max",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "6 core",
+        "cpuCores": 6,
+        "clusters": "2× Performance + 4× Efficiency",
+        "gpu": "GPU integrata Apple",
+        "gpuCores": "6 core GPU Apple",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "Performance",
+          "clock": "Non dichiarato",
+          "note": ""
+        },
+        {
+          "count": 4,
+          "type": "Efficiency",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "GPU integrata Apple",
+        "cores": 6,
+        "coreUnit": "core GPU Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://support.apple.com/it-it/125090",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Neural Accelerator integrati nei core GPU."
+      ],
+      "image": null
+    },
+    {
+      "id": "apple-a19-pro-5gpu",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A19 Pro",
+      "series": "Apple A",
+      "year": 2025,
+      "variant": "GPU 5 core · iPhone Air",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "6 core",
+        "cpuCores": 6,
+        "clusters": "2× Performance + 4× Efficiency",
+        "gpu": "GPU integrata Apple",
+        "gpuCores": "5 core GPU Apple",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "Performance",
+          "clock": "Non dichiarato",
+          "note": ""
+        },
+        {
+          "count": 4,
+          "type": "Efficiency",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "GPU integrata Apple",
+        "cores": 5,
+        "coreUnit": "core GPU Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://support.apple.com/en-sg/125092",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Variante GPU ridotta: distinto dal chip dei modelli Pro."
+      ],
+      "image": null
+    },
+    {
+      "id": "apple-a20-pro",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A20 Pro",
+      "series": "Apple A",
+      "year": 2026,
+      "variant": "iPhone 18 Pro / Pro Max / Duo",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "6 core",
+        "cpuCores": 6,
+        "clusters": "2× Super + 4× Efficiency",
+        "gpu": "GPU integrata Apple",
+        "gpuCores": "7 core GPU Apple",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "Super",
+          "clock": "Non dichiarato",
+          "note": ""
+        },
+        {
+          "count": 4,
+          "type": "Efficiency",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "GPU integrata Apple",
+        "cores": 7,
+        "coreUnit": "core GPU Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://www.apple.com/it/iphone-18-pro/specs/",
+          "kind": "manufacturer"
+        },
+        {
+          "label": "Apple · lancio A20 Pro",
+          "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "GPU con Neural Accelerator; due Neural Engine da 16 core."
+      ],
+      "image": null
+    },
+    {
+      "id": "snapdragon-8-gen-2",
+      "cat": "chip",
+      "brand": "Qualcomm",
+      "name": "Snapdragon 8 Gen 2",
+      "series": "Snapdragon 8",
+      "year": 2022,
+      "variant": "Versione standard del product brief",
+      "values": {
+        "process": "4 nm",
+        "cpu": "8 core",
+        "cpuCores": 8,
+        "clusters": "1× Kryo Prime @ 3,19 GHz + 4× Kryo Performance @ 2,8 GHz + 3× Kryo Efficiency @ 2,0 GHz",
+        "gpu": "Adreno",
+        "gpuCores": "Non dichiarato",
+        "frequency": "3,19 GHz",
+        "isp": "Spectra · triplo ISP 18 bit"
+      },
+      "cpuDetail": [
+        {
+          "count": 1,
+          "type": "Kryo Prime",
+          "clock": "3,19 GHz",
+          "note": ""
+        },
+        {
+          "count": 4,
+          "type": "Kryo Performance",
+          "clock": "2,8 GHz",
+          "note": ""
+        },
+        {
+          "count": 3,
+          "type": "Kryo Efficiency",
+          "clock": "2,0 GHz",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "Adreno",
+        "cores": null,
+        "coreUnit": "Non dichiarato",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Qualcomm · product brief",
+          "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Snapdragon-8-Gen-2-Product-Brief.pdf",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Qualcomm non rende pubblico un conteggio GPU confrontabile con i core Apple o Arm.",
+        "Frequenze massime nominali; esistono bin e varianti OEM."
+      ],
+      "image": null
+    },
+    {
+      "id": "snapdragon-8-gen-3",
+      "cat": "chip",
+      "brand": "Qualcomm",
+      "name": "Snapdragon 8 Gen 3",
+      "series": "Snapdragon 8",
+      "year": 2023,
+      "variant": "Versione standard del product brief",
+      "values": {
+        "process": "4 nm",
+        "cpu": "8 core",
+        "cpuCores": 8,
+        "clusters": "1× Kryo Prime @ 3,3 GHz + 5× Kryo Performance @ 3,2 GHz + 2× Kryo Efficiency @ 2,3 GHz",
+        "gpu": "Adreno",
+        "gpuCores": "Non dichiarato",
+        "frequency": "3,3 GHz",
+        "isp": "Spectra · triplo ISP 18 bit"
+      },
+      "cpuDetail": [
+        {
+          "count": 1,
+          "type": "Kryo Prime",
+          "clock": "3,3 GHz",
+          "note": ""
+        },
+        {
+          "count": 5,
+          "type": "Kryo Performance",
+          "clock": "3,2 GHz",
+          "note": ""
+        },
+        {
+          "count": 2,
+          "type": "Kryo Efficiency",
+          "clock": "2,3 GHz",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "Adreno",
+        "cores": null,
+        "coreUnit": "Non dichiarato",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Qualcomm · product brief",
+          "url": "https://docs.qualcomm.com/bundle/publicresource/87-71408-1_REV_G_Snapdragon_8_gen_3_Mobile_Platform_Product_Brief.pdf",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Qualcomm non rende pubblico un conteggio GPU confrontabile con i core Apple o Arm.",
+        "Frequenze massime nominali; esistono bin e varianti OEM."
+      ],
+      "image": null
+    },
+    {
+      "id": "snapdragon-8-elite",
+      "cat": "chip",
+      "brand": "Qualcomm",
+      "name": "Snapdragon 8 Elite",
+      "series": "Snapdragon 8",
+      "year": 2024,
+      "variant": "Versione standard del product brief",
+      "values": {
+        "process": "3 nm",
+        "cpu": "8 core",
+        "cpuCores": 8,
+        "clusters": "2× Oryon Prime @ 4,32 GHz + 6× Oryon Performance @ 3,53 GHz",
+        "gpu": "Adreno",
+        "gpuCores": "Non dichiarato",
+        "frequency": "4,32 GHz",
+        "isp": "Spectra · triplo ISP 18 bit"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "Oryon Prime",
+          "clock": "4,32 GHz",
+          "note": ""
+        },
+        {
+          "count": 6,
+          "type": "Oryon Performance",
+          "clock": "3,53 GHz",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "Adreno",
+        "cores": null,
+        "coreUnit": "Non dichiarato",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Qualcomm · product brief",
+          "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Snapdragon-8-Elite-Platform-Product-Brief.pdf",
+          "kind": "manufacturer"
+        },
+        {
+          "label": "realme · topologia Oryon 2 + 6",
+          "url": "https://www.realme.com/global/newsroom/realme-gt-7-pro-sets-new-gaming-standard",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Qualcomm non rende pubblico un conteggio GPU confrontabile con i core Apple o Arm.",
+        "Frequenze massime nominali; esistono bin e varianti OEM."
+      ],
+      "image": null
+    },
+    {
+      "id": "snapdragon-8-elite-gen-5",
+      "cat": "chip",
+      "brand": "Qualcomm",
+      "name": "Snapdragon 8 Elite Gen 5",
+      "series": "Snapdragon 8",
+      "year": 2025,
+      "variant": "Versione standard del product brief",
+      "values": {
+        "process": "3 nm",
+        "cpu": "8 core",
+        "cpuCores": 8,
+        "clusters": "2× Oryon Prime @ 4,6 GHz + 6× Oryon Performance @ 3,62 GHz",
+        "gpu": "Adreno",
+        "gpuCores": "Non dichiarato",
+        "frequency": "4,6 GHz",
+        "isp": "Spectra · triplo ISP 20 bit"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "Oryon Prime",
+          "clock": "4,6 GHz",
+          "note": ""
+        },
+        {
+          "count": 6,
+          "type": "Oryon Performance",
+          "clock": "3,62 GHz",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "Adreno",
+        "cores": null,
+        "coreUnit": "Non dichiarato",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Qualcomm · product brief",
+          "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/images/company/news-media/media-center/press-kits/snapdragon-summit-2025-press-kit/day-2-/documents/Snapdragon8EliteGen5_ProductBrief.pdf",
+          "kind": "manufacturer"
+        },
+        {
+          "label": "Qualcomm · varianti di clock",
+          "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Snapdragon-8-Elite-Gen-5-product-brief.pdf",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Qualcomm non rende pubblico un conteggio GPU confrontabile con i core Apple o Arm.",
+        "Frequenze massime nominali; esistono bin e varianti OEM.",
+        "Il product brief aggiornato documenta anche la variante fino a 4,74 GHz; qui è riportata la versione di lancio a 4,6 GHz."
+      ],
+      "image": null
+    },
+    {
+      "id": "snapdragon-8-elite-gen-6",
+      "cat": "chip",
+      "brand": "Qualcomm",
+      "name": "Snapdragon 8 Elite Gen 6",
+      "series": "Snapdragon 8",
+      "year": 2026,
+      "variant": "Versione standard del product brief",
+      "values": {
+        "process": "2 nm",
+        "cpu": "8 core",
+        "cpuCores": 8,
+        "clusters": "2× Oryon Prime @ 5,0 GHz + 6× Oryon Performance @ 4,0 GHz",
+        "gpu": "Adreno con matrix core",
+        "gpuCores": "Non dichiarato",
+        "frequency": "5,0 GHz",
+        "isp": "Spectra · triplo ISP 20 bit"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "Oryon Prime",
+          "clock": "5,0 GHz",
+          "note": ""
+        },
+        {
+          "count": 6,
+          "type": "Oryon Performance",
+          "clock": "4,0 GHz",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "Adreno con matrix core",
+        "cores": null,
+        "coreUnit": "Non dichiarato",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Qualcomm · product brief",
+          "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Snapdragon-8-Elite-Gen-6-Product-Brief.pdf",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Qualcomm non rende pubblico un conteggio GPU confrontabile con i core Apple o Arm.",
+        "Frequenze massime nominali; esistono bin e varianti OEM."
+      ],
+      "image": null
+    },
+    {
+      "id": "snapdragon-8-elite-extreme-gen-6",
+      "cat": "chip",
+      "brand": "Qualcomm",
+      "name": "Snapdragon 8 Elite Extreme Gen 6",
+      "series": "Snapdragon 8",
+      "year": 2026,
+      "variant": "Versione standard del product brief",
+      "values": {
+        "process": "2 nm",
+        "cpu": "8 core",
+        "cpuCores": 8,
+        "clusters": "2× Oryon Prime @ 5,0 GHz + 6× Oryon Performance @ 4,0 GHz",
+        "gpu": "Adreno con matrix core",
+        "gpuCores": "Non dichiarato",
+        "frequency": "5,0 GHz",
+        "isp": "Spectra · triplo ISP 20 bit"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "Oryon Prime",
+          "clock": "5,0 GHz",
+          "note": ""
+        },
+        {
+          "count": 6,
+          "type": "Oryon Performance",
+          "clock": "4,0 GHz",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "Adreno con matrix core",
+        "cores": null,
+        "coreUnit": "Non dichiarato",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Qualcomm · product brief",
+          "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Snapdragon-8-Elite-Extreme-Gen-6-Product-Brief.pdf",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Qualcomm non rende pubblico un conteggio GPU confrontabile con i core Apple o Arm.",
+        "Frequenze massime nominali; esistono bin e varianti OEM."
+      ],
+      "image": null
+    },
+    {
+      "id": "dimensity-9200",
+      "cat": "chip",
+      "brand": "MediaTek",
+      "name": "Dimensity 9200",
+      "series": "Dimensity",
+      "year": 2022,
+      "variant": "1 + 3 + 4",
+      "values": {
+        "process": "4 nm · TSMC seconda generazione",
+        "cpu": "8 core",
+        "cpuCores": 8,
+        "clusters": "1× Cortex-X3 @ 3,05 GHz + 3× Cortex-A715 @ 2,85 GHz + 4× Cortex-A510 @ 1,8 GHz",
+        "gpu": "Arm Immortalis-G715",
+        "gpuCores": "Non dichiarato",
+        "frequency": "3,05 GHz",
+        "isp": "Imagiq 890"
+      },
+      "cpuDetail": [
+        {
+          "count": 1,
+          "type": "Cortex-X3",
+          "clock": "3,05 GHz",
+          "note": ""
+        },
+        {
+          "count": 3,
+          "type": "Cortex-A715",
+          "clock": "2,85 GHz",
+          "note": ""
+        },
+        {
+          "count": 4,
+          "type": "Cortex-A510",
+          "clock": "1,8 GHz",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "Arm Immortalis-G715",
+        "cores": null,
+        "coreUnit": "shader core Arm",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "MediaTek · specifiche",
+          "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9200",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "MC indica il numero di shader core Arm, non il numero di ALU."
+      ],
+      "image": null
+    },
+    {
+      "id": "dimensity-9300",
+      "cat": "chip",
+      "brand": "MediaTek",
+      "name": "Dimensity 9300",
+      "series": "Dimensity",
+      "year": 2023,
+      "variant": "All Big Core",
+      "values": {
+        "process": "4 nm",
+        "cpu": "8 core",
+        "cpuCores": 8,
+        "clusters": "4× Cortex-X4 + 4× Cortex-A720 @ 2,0 GHz",
+        "gpu": "Arm Immortalis-G720 MC12",
+        "gpuCores": "12 shader core Arm",
+        "frequency": "3,25 GHz",
+        "isp": "Imagiq 990"
+      },
+      "cpuDetail": [
+        {
+          "count": 4,
+          "type": "Cortex-X4",
+          "clock": "Non dichiarato",
+          "note": "Fino a 3,25 GHz sul core principale; la pagina aggrega i 4 core X4."
+        },
+        {
+          "count": 4,
+          "type": "Cortex-A720",
+          "clock": "2,0 GHz",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "Arm Immortalis-G720 MC12",
+        "cores": 12,
+        "coreUnit": "shader core Arm",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "MediaTek · specifiche",
+          "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9300",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "MC indica il numero di shader core Arm, non il numero di ALU."
+      ],
+      "image": null
+    },
+    {
+      "id": "dimensity-9400",
+      "cat": "chip",
+      "brand": "MediaTek",
+      "name": "Dimensity 9400",
+      "series": "Dimensity",
+      "year": 2024,
+      "variant": "All Big Core",
+      "values": {
+        "process": "3 nm · TSMC seconda generazione",
+        "cpu": "8 core",
+        "cpuCores": 8,
+        "clusters": "1× Cortex-X925 @ 3,62 GHz + 3× Cortex-X4 + 4× Cortex-A720",
+        "gpu": "Arm Immortalis-G925 MC12",
+        "gpuCores": "12 shader core Arm",
+        "frequency": "3,62 GHz",
+        "isp": "Imagiq 1090"
+      },
+      "cpuDetail": [
+        {
+          "count": 1,
+          "type": "Cortex-X925",
+          "clock": "3,62 GHz",
+          "note": ""
+        },
+        {
+          "count": 3,
+          "type": "Cortex-X4",
+          "clock": "Non dichiarato",
+          "note": ""
+        },
+        {
+          "count": 4,
+          "type": "Cortex-A720",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "Arm Immortalis-G925 MC12",
+        "cores": 12,
+        "coreUnit": "shader core Arm",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "MediaTek · specifiche",
+          "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9400",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "MC indica il numero di shader core Arm, non il numero di ALU."
+      ],
+      "image": null
+    },
+    {
+      "id": "dimensity-9500",
+      "cat": "chip",
+      "brand": "MediaTek",
+      "name": "Dimensity 9500",
+      "series": "Dimensity",
+      "year": 2025,
+      "variant": "All Big Core",
+      "values": {
+        "process": "3 nm · TSMC N3P",
+        "cpu": "8 core",
+        "cpuCores": 8,
+        "clusters": "1× C1-Ultra @ 4,21 GHz + 3× C1-Premium + 4× C1-Pro",
+        "gpu": "Arm Mali-G1 Ultra MC12",
+        "gpuCores": "12 shader core Arm",
+        "frequency": "4,21 GHz",
+        "isp": "Imagiq 1190"
+      },
+      "cpuDetail": [
+        {
+          "count": 1,
+          "type": "C1-Ultra",
+          "clock": "4,21 GHz",
+          "note": "L2 2 MB"
+        },
+        {
+          "count": 3,
+          "type": "C1-Premium",
+          "clock": "Non dichiarato",
+          "note": "L2 1 MB per core"
+        },
+        {
+          "count": 4,
+          "type": "C1-Pro",
+          "clock": "Non dichiarato",
+          "note": "L2 512 KB per core"
+        }
+      ],
+      "gpuDetail": {
+        "name": "Arm Mali-G1 Ultra MC12",
+        "cores": 12,
+        "coreUnit": "shader core Arm",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "MediaTek · specifiche",
+          "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9500",
+          "kind": "manufacturer"
+        },
+        {
+          "label": "MediaTek · clock principale",
+          "url": "https://www.mediatek.com/tek-talk-blogs/meet-the-mediatek-dimensity-9500?hs_amp=true",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "MC indica il numero di shader core Arm, non il numero di ALU."
+      ],
+      "image": null
+    },
+    {
+      "id": "dimensity-9600-pro",
+      "cat": "chip",
+      "brand": "MediaTek",
+      "name": "Dimensity 9600 Pro",
+      "series": "Dimensity",
+      "year": 2026,
+      "variant": "All Big Core",
+      "values": {
+        "process": "2 nm",
+        "cpu": "8 core",
+        "cpuCores": 8,
+        "clusters": "2× C2-Ultra + 3× C2-Pro + 3× C2-Pro",
+        "gpu": "Arm Mali-G2 Ultra NX",
+        "gpuCores": "Non dichiarato",
+        "frequency": "Non dichiarato",
+        "isp": "Imagiq 1290"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "C2-Ultra",
+          "clock": "Non dichiarato",
+          "note": "L2 2 MB per core"
+        },
+        {
+          "count": 3,
+          "type": "C2-Pro",
+          "clock": "Non dichiarato",
+          "note": "L2 1 MB per core"
+        },
+        {
+          "count": 3,
+          "type": "C2-Pro",
+          "clock": "Non dichiarato",
+          "note": "L2 512 KB per core"
+        }
+      ],
+      "gpuDetail": {
+        "name": "Arm Mali-G2 Ultra NX",
+        "cores": null,
+        "coreUnit": "shader core Arm",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "MediaTek · specifiche",
+          "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9600-pro",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "MC indica il numero di shader core Arm, non il numero di ALU."
+      ],
+      "image": null
+    },
+    {
+      "id": "exynos-2100",
+      "cat": "chip",
+      "brand": "Samsung",
+      "name": "Exynos 2100",
+      "series": "Exynos",
+      "year": 2021,
+      "variant": "",
+      "values": {
+        "process": "5 nm",
+        "cpu": "8 core",
+        "cpuCores": 8,
+        "clusters": "1× Cortex-X1 @ 2,9 GHz + 3× Cortex-A78 @ 2,8 GHz + 4× Cortex-A55 @ 2,2 GHz",
+        "gpu": "Arm Mali-G78 MP14",
+        "gpuCores": "14 shader core Arm",
+        "frequency": "2,9 GHz",
+        "isp": "ISP Samsung · fino a 200 MP"
+      },
+      "cpuDetail": [
+        {
+          "count": 1,
+          "type": "Cortex-X1",
+          "clock": "2,9 GHz",
+          "note": ""
+        },
+        {
+          "count": 3,
+          "type": "Cortex-A78",
+          "clock": "2,8 GHz",
+          "note": ""
+        },
+        {
+          "count": 4,
+          "type": "Cortex-A55",
+          "clock": "2,2 GHz",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "Arm Mali-G78 MP14",
+        "cores": 14,
+        "coreUnit": "shader core Arm",
+        "note": "MP14 indica 14 shader core Arm, non 14 ALU. Le unità GPU non sono comparabili fra architetture."
+      },
+      "sources": [
+        {
+          "label": "Samsung · specifiche",
+          "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-2100/",
+          "kind": "manufacturer"
+        },
+        {
+          "label": "Samsung · scheda tecnica Exynos 2100",
+          "url": "https://image.semiconductor.samsung.com/content/samsung/p6/etc/exynos/file/solution/MobileProcessor-2100.pdf",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [],
+      "image": null
+    },
+    {
+      "id": "exynos-2200",
+      "cat": "chip",
+      "brand": "Samsung",
+      "name": "Exynos 2200",
+      "series": "Exynos",
+      "year": 2022,
+      "variant": "",
+      "values": {
+        "process": "4 nm",
+        "cpu": "8 core",
+        "cpuCores": 8,
+        "clusters": "1× Cortex-X2 + 3× Cortex-A710 + 4× Cortex-A510",
+        "gpu": "Xclipse 920",
+        "gpuCores": "Non dichiarato",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Samsung · fino a 200 MP"
+      },
+      "cpuDetail": [
+        {
+          "count": 1,
+          "type": "Cortex-X2",
+          "clock": "Non dichiarato",
+          "note": ""
+        },
+        {
+          "count": 3,
+          "type": "Cortex-A710",
+          "clock": "Non dichiarato",
+          "note": ""
+        },
+        {
+          "count": 4,
+          "type": "Cortex-A510",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "Xclipse 920",
+        "cores": null,
+        "coreUnit": "Non dichiarato",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Samsung · specifiche",
+          "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-2200/",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "GPU basata su architettura AMD RDNA 2; conteggio GPU non dichiarato nella pagina consultata."
+      ],
+      "image": null
+    },
+    {
+      "id": "exynos-2400",
+      "cat": "chip",
+      "brand": "Samsung",
+      "name": "Exynos 2400",
+      "series": "Exynos",
+      "year": 2024,
+      "variant": "",
+      "values": {
+        "process": "4 nm · terza generazione",
+        "cpu": "10 core",
+        "cpuCores": 10,
+        "clusters": "10× Cortex-X4 / Cortex-A720 / Cortex-A520",
+        "gpu": "Xclipse 940",
+        "gpuCores": "6 core GPU nella terminologia Samsung",
+        "frequency": "Non dichiarato",
+        "isp": "Non dichiarato"
+      },
+      "cpuDetail": [
+        {
+          "count": 10,
+          "type": "Cortex-X4 / Cortex-A720 / Cortex-A520",
+          "clock": "Non dichiarato",
+          "note": "Totale aggregato. Quantità per ciascuna architettura non dichiarata nella fonte consultata."
+        }
+      ],
+      "gpuDetail": {
+        "name": "Xclipse 940",
+        "cores": 6,
+        "coreUnit": "core GPU nella terminologia Samsung",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Samsung · specifiche",
+          "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-2400/",
+          "kind": "manufacturer"
+        },
+        {
+          "label": "Samsung · Exynos Developer Society",
+          "url": "https://soc-developer.semiconductor.samsung.com/global/remotelab/AI",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Samsung descrive una GPU hexa-core; il suo core non equivale a un core Apple o a uno shader core Arm.",
+        "La topologia CPU dettagliata non è esposta nella pagina consultata."
+      ],
+      "image": null
+    },
+    {
+      "id": "exynos-2500",
+      "cat": "chip",
+      "brand": "Samsung",
+      "name": "Exynos 2500",
+      "series": "Exynos",
+      "year": 2025,
+      "variant": "",
+      "values": {
+        "process": "3 nm · GAA",
+        "cpu": "10 core",
+        "cpuCores": 10,
+        "clusters": "1× Cortex-X925 + 7× Cortex-A725 + 2× Cortex-A520",
+        "gpu": "Xclipse 950",
+        "gpuCores": "Non dichiarato",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Samsung · fino a 320 MP"
+      },
+      "cpuDetail": [
+        {
+          "count": 1,
+          "type": "Cortex-X925",
+          "clock": "Non dichiarato",
+          "note": ""
+        },
+        {
+          "count": 7,
+          "type": "Cortex-A725",
+          "clock": "Non dichiarato",
+          "note": "Suddivisi in due gruppi di clock; ripartizione non dichiarata nella fonte consultata."
+        },
+        {
+          "count": 2,
+          "type": "Cortex-A520",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "Xclipse 950",
+        "cores": null,
+        "coreUnit": "Non dichiarato",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Samsung · specifiche",
+          "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-2500/",
+          "kind": "manufacturer"
+        },
+        {
+          "label": "Samsung · Exynos Developer Society",
+          "url": "https://soc-developer.semiconductor.samsung.com/global/remotelab/AI",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "GPU basata su AMD RDNA 3."
+      ],
+      "image": null
+    },
+    {
+      "id": "exynos-2600",
+      "cat": "chip",
+      "brand": "Samsung",
+      "name": "Exynos 2600",
+      "series": "Exynos",
+      "year": 2025,
+      "variant": "",
+      "values": {
+        "process": "2 nm · GAA",
+        "cpu": "10 core",
+        "cpuCores": 10,
+        "clusters": "1× C1-Ultra @ 3,8 GHz + 3× C1-Pro · performance @ 3,25 GHz + 6× C1-Pro · efficienza @ 2,75 GHz",
+        "gpu": "Xclipse 960",
+        "gpuCores": "Non dichiarato",
+        "frequency": "3,8 GHz",
+        "isp": "ISP Samsung · VPS / DVNR · fino a 320 MP"
+      },
+      "cpuDetail": [
+        {
+          "count": 1,
+          "type": "C1-Ultra",
+          "clock": "3,8 GHz",
+          "note": ""
+        },
+        {
+          "count": 3,
+          "type": "C1-Pro · performance",
+          "clock": "3,25 GHz",
+          "note": ""
+        },
+        {
+          "count": 6,
+          "type": "C1-Pro · efficienza",
+          "clock": "2,75 GHz",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "Xclipse 960",
+        "cores": null,
+        "coreUnit": "Non dichiarato",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Samsung · specifiche",
+          "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-2600/",
+          "kind": "manufacturer"
+        },
+        {
+          "label": "Samsung · Exynos Developer Society",
+          "url": "https://soc-developer.semiconductor.samsung.com/global/remotelab/AI",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "ENSS: upscaling e generazione frame con AI.",
+        "Clock documentati nella Device Farm ufficiale Samsung."
+      ],
+      "image": null
+    },
+    {
+      "id": "google-tensor",
+      "cat": "chip",
+      "brand": "Google",
+      "name": "Tensor",
+      "series": "Tensor",
+      "year": 2021,
+      "variant": "",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "Non dichiarato",
+        "cpuCores": null,
+        "clusters": "Non dichiarato",
+        "gpu": "Non dichiarato",
+        "gpuCores": "Non dichiarato",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Google Tensor"
+      },
+      "cpuDetail": [
+        {
+          "count": null,
+          "type": "Non dichiarato",
+          "clock": "Non dichiarato",
+          "note": "Topologia non specificata nella fonte ufficiale consultata."
+        }
+      ],
+      "gpuDetail": {
+        "name": "Non dichiarato",
+        "cores": null,
+        "coreUnit": "Non dichiarato",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Google · lancio / specifiche",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/introducing-google-tensor/",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Google identifica il SoC e le sue funzioni, ma le fonti ufficiali consultate non specificano core CPU, cluster o conteggio GPU. Nessuna topologia da leak è presentata come specifica ufficiale."
+      ],
+      "image": null
+    },
+    {
+      "id": "google-tensor-g2",
+      "cat": "chip",
+      "brand": "Google",
+      "name": "Tensor G2",
+      "series": "Tensor",
+      "year": 2022,
+      "variant": "",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "Non dichiarato",
+        "cpuCores": null,
+        "clusters": "Non dichiarato",
+        "gpu": "Non dichiarato",
+        "gpuCores": "Non dichiarato",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Google Tensor"
+      },
+      "cpuDetail": [
+        {
+          "count": null,
+          "type": "Non dichiarato",
+          "clock": "Non dichiarato",
+          "note": "Topologia non specificata nella fonte ufficiale consultata."
+        }
+      ],
+      "gpuDetail": {
+        "name": "Non dichiarato",
+        "cores": null,
+        "coreUnit": "Non dichiarato",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Google · lancio / specifiche",
+          "url": "https://support.google.com/pixelphone/answer/7158570?hl=en-gb",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Google identifica il SoC e le sue funzioni, ma le fonti ufficiali consultate non specificano core CPU, cluster o conteggio GPU. Nessuna topologia da leak è presentata come specifica ufficiale."
+      ],
+      "image": null
+    },
+    {
+      "id": "google-tensor-g3",
+      "cat": "chip",
+      "brand": "Google",
+      "name": "Tensor G3",
+      "series": "Tensor",
+      "year": 2023,
+      "variant": "",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "Non dichiarato",
+        "cpuCores": null,
+        "clusters": "Non dichiarato",
+        "gpu": "Non dichiarato",
+        "gpuCores": "Non dichiarato",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Google Tensor"
+      },
+      "cpuDetail": [
+        {
+          "count": null,
+          "type": "Non dichiarato",
+          "clock": "Non dichiarato",
+          "note": "Topologia non specificata nella fonte ufficiale consultata."
+        }
+      ],
+      "gpuDetail": {
+        "name": "Non dichiarato",
+        "cores": null,
+        "coreUnit": "Non dichiarato",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Google · lancio / specifiche",
+          "url": "https://support.google.com/pixelphone/answer/7158570?hl=en-gb",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Google identifica il SoC e le sue funzioni, ma le fonti ufficiali consultate non specificano core CPU, cluster o conteggio GPU. Nessuna topologia da leak è presentata come specifica ufficiale."
+      ],
+      "image": null
+    },
+    {
+      "id": "google-tensor-g4",
+      "cat": "chip",
+      "brand": "Google",
+      "name": "Tensor G4",
+      "series": "Tensor",
+      "year": 2024,
+      "variant": "",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "Non dichiarato",
+        "cpuCores": null,
+        "clusters": "Non dichiarato",
+        "gpu": "Non dichiarato",
+        "gpuCores": "Non dichiarato",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Google Tensor"
+      },
+      "cpuDetail": [
+        {
+          "count": null,
+          "type": "Non dichiarato",
+          "clock": "Non dichiarato",
+          "note": "Topologia non specificata nella fonte ufficiale consultata."
+        }
+      ],
+      "gpuDetail": {
+        "name": "Non dichiarato",
+        "cores": null,
+        "coreUnit": "Non dichiarato",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Google · lancio / specifiche",
+          "url": "https://support.google.com/pixelphone/answer/7158570?hl=en-gb",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Google identifica il SoC e le sue funzioni, ma le fonti ufficiali consultate non specificano core CPU, cluster o conteggio GPU. Nessuna topologia da leak è presentata come specifica ufficiale."
+      ],
+      "image": null
+    },
+    {
+      "id": "google-tensor-g5",
+      "cat": "chip",
+      "brand": "Google",
+      "name": "Tensor G5",
+      "series": "Tensor",
+      "year": 2025,
+      "variant": "",
+      "values": {
+        "process": "3 nm · TSMC",
+        "cpu": "Non dichiarato",
+        "cpuCores": null,
+        "clusters": "Non dichiarato",
+        "gpu": "Non dichiarato",
+        "gpuCores": "Non dichiarato",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Google Tensor"
+      },
+      "cpuDetail": [
+        {
+          "count": null,
+          "type": "Non dichiarato",
+          "clock": "Non dichiarato",
+          "note": "Topologia non specificata nella fonte ufficiale consultata."
+        }
+      ],
+      "gpuDetail": {
+        "name": "Non dichiarato",
+        "cores": null,
+        "coreUnit": "Non dichiarato",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Google · lancio / specifiche",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/tensor-g5-pixel-10/",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Google identifica il SoC e le sue funzioni, ma le fonti ufficiali consultate non specificano core CPU, cluster o conteggio GPU. Nessuna topologia da leak è presentata come specifica ufficiale."
+      ],
+      "image": null
+    },
+    {
+      "id": "google-tensor-g6",
+      "cat": "chip",
+      "brand": "Google",
+      "name": "Tensor G6",
+      "series": "Tensor",
+      "year": 2026,
+      "variant": "",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "Non dichiarato",
+        "cpuCores": null,
+        "clusters": "Non dichiarato",
+        "gpu": "Non dichiarato",
+        "gpuCores": "Non dichiarato",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Google Tensor"
+      },
+      "cpuDetail": [
+        {
+          "count": null,
+          "type": "Non dichiarato",
+          "clock": "Non dichiarato",
+          "note": "Topologia non specificata nella fonte ufficiale consultata."
+        }
+      ],
+      "gpuDetail": {
+        "name": "Non dichiarato",
+        "cores": null,
+        "coreUnit": "Non dichiarato",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Google · lancio / specifiche",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/google-pixel-11-pro-xl/",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Google identifica il SoC e le sue funzioni, ma le fonti ufficiali consultate non specificano core CPU, cluster o conteggio GPU. Nessuna topologia da leak è presentata come specifica ufficiale."
+      ],
+      "image": null
+    },
+    {
+      "id": "apple-a16-ipad",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A16",
+      "series": "Apple A",
+      "year": 2025,
+      "variant": "iPad · CPU 5 / GPU 4",
+      "values": {
+        "process": "Non dichiarato",
+        "cpu": "5 core",
+        "cpuCores": 5,
+        "clusters": "5× CPU Apple",
+        "gpu": "GPU integrata Apple",
+        "gpuCores": "4 core GPU Apple",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 5,
+          "type": "CPU Apple",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "GPU integrata Apple",
+        "cores": 4,
+        "coreUnit": "core GPU Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://support.apple.com/en-us/122240",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Variante iPad distinta da A16 Bionic di iPhone. Ripartizione dei cinque core non dichiarata."
+      ],
+      "image": null
+    },
+    {
+      "id": "apple-a17-pro-5gpu",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A17 Pro",
+      "series": "Apple A",
+      "year": 2024,
+      "variant": "iPad mini · GPU 5 core",
+      "values": {
+        "process": "3 nm",
+        "cpu": "6 core",
+        "cpuCores": 6,
+        "clusters": "2× Performance + 4× Efficiency",
+        "gpu": "GPU integrata Apple",
+        "gpuCores": "5 core GPU Apple",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "Performance",
+          "clock": "Non dichiarato",
+          "note": ""
+        },
+        {
+          "count": 4,
+          "type": "Efficiency",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "GPU integrata Apple",
+        "cores": 5,
+        "coreUnit": "core GPU Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://support.apple.com/en-au/121456",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [],
+      "image": null
+    },
+    {
+      "id": "apple-a18-4gpu",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A18",
+      "series": "Apple A",
+      "year": 2025,
+      "variant": "iPhone 16e · GPU 4 core",
+      "values": {
+        "process": "3 nm · seconda generazione",
+        "cpu": "6 core",
+        "cpuCores": 6,
+        "clusters": "2× Performance + 4× Efficiency",
+        "gpu": "GPU integrata Apple",
+        "gpuCores": "4 core GPU Apple",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "Performance",
+          "clock": "Non dichiarato",
+          "note": ""
+        },
+        {
+          "count": 4,
+          "type": "Efficiency",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "GPU integrata Apple",
+        "cores": 4,
+        "coreUnit": "core GPU Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://support.apple.com/en-us/122208",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [],
+      "image": null
+    },
+    {
+      "id": "apple-a19-4gpu",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A19",
+      "series": "Apple A",
+      "year": 2026,
+      "variant": "iPhone 17e · GPU 4 core",
+      "values": {
+        "process": "3 nm",
+        "cpu": "6 core",
+        "cpuCores": 6,
+        "clusters": "2× Performance + 4× Efficiency",
+        "gpu": "GPU integrata Apple",
+        "gpuCores": "4 core GPU Apple",
+        "frequency": "Non dichiarato",
+        "isp": "ISP Apple integrato"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "Performance",
+          "clock": "Non dichiarato",
+          "note": ""
+        },
+        {
+          "count": 4,
+          "type": "Efficiency",
+          "clock": "Non dichiarato",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "GPU integrata Apple",
+        "cores": 4,
+        "coreUnit": "core GPU Apple",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori."
+      },
+      "sources": [
+        {
+          "label": "Apple · specifiche e lancio",
+          "url": "https://support.apple.com/en-ie/126470",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Neural Accelerator integrati nei core GPU."
+      ],
+      "image": null
+    },
+    {
+      "id": "snapdragon-8-elite-7cpu",
+      "cat": "chip",
+      "brand": "Qualcomm",
+      "name": "Snapdragon 8 Elite",
+      "series": "Snapdragon 8",
+      "year": 2025,
+      "variant": "SM8750-3-AB · CPU 7 core",
+      "values": {
+        "process": "3 nm",
+        "cpu": "7 core",
+        "cpuCores": 7,
+        "clusters": "2× Oryon Prime @ 4,32 GHz + 5× Oryon Performance @ 3,53 GHz",
+        "gpu": "Adreno",
+        "gpuCores": "Non dichiarato",
+        "frequency": "4,32 GHz",
+        "isp": "Spectra · triplo ISP 18 bit"
+      },
+      "cpuDetail": [
+        {
+          "count": 2,
+          "type": "Oryon Prime",
+          "clock": "4,32 GHz",
+          "note": ""
+        },
+        {
+          "count": 5,
+          "type": "Oryon Performance",
+          "clock": "3,53 GHz",
+          "note": ""
+        }
+      ],
+      "gpuDetail": {
+        "name": "Adreno",
+        "cores": null,
+        "coreUnit": "Non dichiarato",
+        "note": "Le unità GPU sono specifiche dell’architettura; non equivalgono ai core CPU o alle ALU di altri produttori. Quantità non divulgata nella fonte ufficiale consultata."
+      },
+      "sources": [
+        {
+          "label": "Qualcomm · variante a 7 core",
+          "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Snapdragon-8-Elite-SM8750-3-AB-Product-Brief.pdf",
+          "kind": "manufacturer"
+        }
+      ],
+      "notes": [
+        "Variante distinta dal chip con 8 core CPU. GPU core count non dichiarato."
+      ],
+      "image": null
+    }
+  ],
+  "coverage": {
+    "scope": "Serie A Apple da A4 ad A20 Pro incluse varianti X/Z e GPU principali; Qualcomm Snapdragon high-end Gen 2–Elite Gen 6; MediaTek Dimensity 9200–9600 Pro; Samsung Exynos 2100–2600; Google Tensor–G6.",
+    "gaps": [
+      "Varianti minori/OEM e bin non tutti separati.",
+      "Le fonti ufficiali non divulgano sempre topologia, GPU core o frequenze: il valore nullo/Non dichiarato è intenzionale.",
+      "Core CPU dei primi Apple selezionati integrati con osservazioni primarie iFixit/Chipworks; conteggi GPU soltanto da specifiche del produttore.",
+      "Lineup non esaustiva di tutti i SoC mobile storici."
+    ],
+    "asOf": "2026-10-10",
+    "count": 55
+  },
+  "method": {
+    "cpu": "Un core CPU è un’unità di esecuzione general purpose. La topologia separa core per architettura, ruolo e frequenza. Il numero da solo non misura la qualità.",
+    "gpu": "Core Apple, shader core Arm, core Samsung e ALU Adreno sono unità diverse: non costruire una classifica fra queste quantità.",
+    "unknown": "Non dichiarato significa non divulgato o non verificabile nella fonte ufficiale consultata; non significa zero.",
+    "frequency": "Frequenze nominali massime, non prestazioni sostenute. Apple normalmente non pubblica i clock.",
+    "order": "Ordinare per anno/famiglia, non per numero di core come se fosse qualità."
+  },
+  "sources": [
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://support.apple.com/it-it/112438",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "iFixit / Chipworks · teardown A4",
+      "url": "https://www.ifixit.com/Teardown/Apple%2BA4%2BTeardown/2204",
+      "kind": "primary-teardown"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://www.apple.com/newsroom/2011/10/04Apple-Launches-iPhone-4S-iOS-5-iCloud/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://support.apple.com/it-it/111992",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://www.apple.com/it/newsroom/2012/09/12Apple-Introduces-iPhone-5/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "iFixit / Chipworks · teardown A6",
+      "url": "https://www.ifixit.com/Teardown/Apple%2BA6%2BTeardown/10528",
+      "kind": "primary-teardown"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://support.apple.com/it-it/111993",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://www.apple.com/newsroom/2013/09/10Apple-Announces-iPhone-5s-The-Most-Forward-Thinking-Smartphone-in-the-World/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "iFixit · teardown iPad mini 2",
+      "url": "https://www.ifixit.com/Teardown/iPad%2BMini%2B2%2BTeardown/19374",
+      "kind": "primary-teardown"
+    },
+    {
+      "label": "iFixit · teardown A8",
+      "url": "https://www.ifixit.com/Teardown/Apple%2BTV%2B4th%2BGeneration%2BTeardown/49046",
+      "kind": "primary-teardown"
+    },
+    {
+      "label": "Apple · A8 in iPhone 6 e iPod touch",
+      "url": "https://www.apple.com/uk/newsroom/2015/07/15Apple-Introduces-The-Best-iPod-touch-Yet/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://www.apple.com/it/newsroom/2014/10/16Apple-Introduces-iPad-Air-2-The-Thinnest-Most-Powerful-iPad-Ever/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://www.apple.com/newsroom/2015/09/09Apple-Introduces-iPhone-6s-iPhone-6s-Plus/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://www.apple.com/it/newsroom/2015/09/09Apple-Introduces-iPad-Pro-Featuring-Epic-12-9-inch-Retina-Display/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://www.apple.com/newsroom/2016/09/apple-introduces-iphone-7-iphone-7-plus/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://www.apple.com/newsroom/2017/06/ipad-pro-10-5-and-12-9-inch-models-introduces-worlds-most-advanced-display-breakthrough-performance/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://www.apple.com/newsroom/2017/09/the-future-is-here-iphone-x/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://www.apple.com/newsroom/2018/09/iphone-xs-and-iphone-xs-max-bring-the-best-and-biggest-displays-to-iphone/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://www.apple.com/cf/newsroom/2018/10/new-ipad-pro-with-all-screen-design-is-most-advanced-powerful-ipad-ever/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://www.apple.com/ie/newsroom/2020/03/apple-unveils-new-ipad-pro-with-lidar-scanner-and-trackpad-support-in-ipados/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://www.apple.com/uk/iphone/compare/?modelList=iphone-11%2Ciphone-13%2Ciphone-13-mini",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://www.apple.com/newsroom/2020/09/apple-unveils-all-new-ipad-air-with-a14-bionic-apples-most-advanced-chip/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · topologia iPhone 12",
+      "url": "https://www.apple.com/iphone/compare/?modelList=iphone-13%2Ciphone-12-pro-max%2Ciphone-12",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://www.apple.com/newsroom/2021/09/apple-introduces-iphone-13-and-iphone-13-mini/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://www.apple.com/ie/newsroom/2021/09/apple-unveils-iphone-13-pro-and-iphone-13-pro-max-more-pro-than-ever-before/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://www.apple.com/ie/newsroom/2022/09/apple-debuts-iphone-14-pro-and-iphone-14-pro-max/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://www.apple.com/newsroom/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://www.apple.com/ie/newsroom/2024/09/apple-introduces-iphone-16-iphone-16-plus/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://www.apple.com/ie/newsroom/2024/09/apple-debuts-iphone-16-pro-iphone-16-pro-max/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://support.apple.com/it-it/125089",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · processo A19",
+      "url": "https://www.apple.com/it/newsroom/2025/09/apple-introduces-iphone-17/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://support.apple.com/it-it/125090",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://support.apple.com/en-sg/125092",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://www.apple.com/it/iphone-18-pro/specs/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · lancio A20 Pro",
+      "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Qualcomm · product brief",
+      "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Snapdragon-8-Gen-2-Product-Brief.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Qualcomm · product brief",
+      "url": "https://docs.qualcomm.com/bundle/publicresource/87-71408-1_REV_G_Snapdragon_8_gen_3_Mobile_Platform_Product_Brief.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Qualcomm · product brief",
+      "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Snapdragon-8-Elite-Platform-Product-Brief.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "realme · topologia Oryon 2 + 6",
+      "url": "https://www.realme.com/global/newsroom/realme-gt-7-pro-sets-new-gaming-standard",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Qualcomm · product brief",
+      "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/images/company/news-media/media-center/press-kits/snapdragon-summit-2025-press-kit/day-2-/documents/Snapdragon8EliteGen5_ProductBrief.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Qualcomm · varianti di clock",
+      "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Snapdragon-8-Elite-Gen-5-product-brief.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Qualcomm · product brief",
+      "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Snapdragon-8-Elite-Gen-6-Product-Brief.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Qualcomm · product brief",
+      "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Snapdragon-8-Elite-Extreme-Gen-6-Product-Brief.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "MediaTek · specifiche",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9200",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "MediaTek · specifiche",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9300",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "MediaTek · specifiche",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9400",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "MediaTek · specifiche",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9500",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "MediaTek · clock principale",
+      "url": "https://www.mediatek.com/tek-talk-blogs/meet-the-mediatek-dimensity-9500?hs_amp=true",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "MediaTek · specifiche",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9600-pro",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Samsung · specifiche",
+      "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-2100/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Samsung · scheda tecnica Exynos 2100",
+      "url": "https://image.semiconductor.samsung.com/content/samsung/p6/etc/exynos/file/solution/MobileProcessor-2100.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Samsung · specifiche",
+      "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-2200/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Samsung · specifiche",
+      "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-2400/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Samsung · Exynos Developer Society",
+      "url": "https://soc-developer.semiconductor.samsung.com/global/remotelab/AI",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Samsung · specifiche",
+      "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-2500/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Samsung · specifiche",
+      "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-2600/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Google · lancio / specifiche",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/introducing-google-tensor/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Google · lancio / specifiche",
+      "url": "https://support.google.com/pixelphone/answer/7158570?hl=en-gb",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Google · lancio / specifiche",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/tensor-g5-pixel-10/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Google · lancio / specifiche",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/google-pixel-11-pro-xl/",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://support.apple.com/en-us/122240",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://support.apple.com/en-au/121456",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://support.apple.com/en-us/122208",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Apple · specifiche e lancio",
+      "url": "https://support.apple.com/en-ie/126470",
+      "kind": "manufacturer"
+    },
+    {
+      "label": "Qualcomm · variante a 7 core",
+      "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Snapdragon-8-Elite-SM8750-3-AB-Product-Brief.pdf",
+      "kind": "manufacturer"
+    }
+  ]
+}

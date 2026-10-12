@@ -1,0 +1,397 @@
+[
+  {
+    "id": "amd-radeon-630-4-gb-gddr5",
+    "cat": "gpu",
+    "brand": "AMD",
+    "name": "Radeon 630",
+    "series": "Radeon 600 Series",
+    "year": 2019,
+    "variant": "4 GB GDDR5",
+    "values": {
+      "tflops": 1.25,
+      "memory": 4.0,
+      "power": null,
+      "architecture": "4th Gen GCN Architecture",
+      "bus": "64-bit",
+      "cores": "512 stream processor",
+      "clock": "1219.0 MHz (massimo dichiarato)",
+      "memoryType": "GDDR5"
+    },
+    "image": null,
+    "sources": [
+      {
+        "label": "AMD • specifiche ufficiali",
+        "url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-600-series/radeon-630.html"
+      },
+      {
+        "label": "AMD • dataset completo",
+        "url": "https://www.amd.com/en/products/specifications/graphics.html"
+      }
+    ],
+    "notes": [
+      "Picco di calcolo pubblicato da AMD (Max Performance).",
+      "TFLOPS: capacità di calcolo, non classifica FPS. Architetture, dual-issue, boost e GPU multiple limitano il confronto diretto."
+    ],
+    "releaseDate": "Q3 2019",
+    "verification": "official-specs",
+    "memoryBasis": "Capacità massima nel dataset AMD",
+    "metricLabel": "FP32 teorico",
+    "exclusionReason": "AMD classifica la famiglia Desktop e/o Notebook, ma non è verificata una scheda desktop consumer add-in; nome usato prevalentemente da GPU mobile/AIO. Esclusa dal catalogo principale."
+  },
+  {
+    "id": "amd-radeon-rx-640-4-gb-gddr5",
+    "cat": "gpu",
+    "brand": "AMD",
+    "name": "Radeon RX 640",
+    "series": "Radeon RX 600",
+    "year": 2019,
+    "variant": "4 GB GDDR5",
+    "values": {
+      "tflops": 1.65,
+      "memory": 4.0,
+      "power": null,
+      "architecture": "4th Gen GCN Architecture",
+      "bus": "64-bit",
+      "cores": "512 / 640 stream processor",
+      "clock": "1287.0 MHz (massimo dichiarato)",
+      "memoryType": "GDDR5"
+    },
+    "image": null,
+    "sources": [
+      {
+        "label": "AMD • specifiche ufficiali",
+        "url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-600-series/radeon-rx-640.html"
+      },
+      {
+        "label": "AMD • dataset completo",
+        "url": "https://www.amd.com/en/products/specifications/graphics.html"
+      }
+    ],
+    "notes": [
+      "Picco di calcolo pubblicato da AMD (Max Performance).",
+      "La specifica ufficiale raggruppa più configurazioni OEM; il valore di picco è quello massimo della famiglia.",
+      "TFLOPS: capacità di calcolo, non classifica FPS. Architetture, dual-issue, boost e GPU multiple limitano il confronto diretto."
+    ],
+    "releaseDate": "Q3 2019",
+    "verification": "official-specs",
+    "memoryBasis": "Capacità massima nel dataset AMD",
+    "metricLabel": "FP32 teorico",
+    "exclusionReason": "AMD classifica la famiglia Desktop e/o Notebook, ma non è verificata una scheda desktop consumer add-in; nome usato prevalentemente da GPU mobile/AIO. Esclusa dal catalogo principale."
+  },
+  {
+    "id": "amd-radeon-rx-540x-4-gb-gddr5",
+    "cat": "gpu",
+    "brand": "AMD",
+    "name": "Radeon RX 540X",
+    "series": "Radeon RX 500",
+    "year": 2018,
+    "variant": "4 GB GDDR5",
+    "values": {
+      "tflops": 1.25,
+      "memory": 4.0,
+      "power": null,
+      "architecture": "4th Gen GCN Architecture",
+      "bus": "128-bit",
+      "cores": "512 stream processor",
+      "clock": "1219.0 MHz (massimo dichiarato)",
+      "memoryType": "GDDR5"
+    },
+    "image": null,
+    "sources": [
+      {
+        "label": "AMD • specifiche ufficiali",
+        "url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-500x-series/radeon-rx-540x.html"
+      },
+      {
+        "label": "AMD • dataset completo",
+        "url": "https://www.amd.com/en/products/specifications/graphics.html"
+      }
+    ],
+    "notes": [
+      "Picco di calcolo pubblicato da AMD (Max Performance).",
+      "TFLOPS: capacità di calcolo, non classifica FPS. Architetture, dual-issue, boost e GPU multiple limitano il confronto diretto."
+    ],
+    "releaseDate": "4/3/2018",
+    "verification": "official-specs",
+    "memoryBasis": "Capacità massima nel dataset AMD",
+    "metricLabel": "FP32 teorico",
+    "exclusionReason": "AMD classifica la famiglia Desktop e/o Notebook, ma non è verificata una scheda desktop consumer add-in; nome usato prevalentemente da GPU mobile/AIO. Esclusa dal catalogo principale."
+  },
+  {
+    "id": "amd-radeon-rx-550x-4-gb-gddr5",
+    "cat": "gpu",
+    "brand": "AMD",
+    "name": "Radeon RX 550X",
+    "series": "Radeon RX 500",
+    "year": 2018,
+    "variant": "4 GB GDDR5",
+    "values": {
+      "tflops": 1.65,
+      "memory": 4.0,
+      "power": null,
+      "architecture": "4th Gen GCN Architecture",
+      "bus": "128-bit",
+      "cores": "512 / 640 stream processor",
+      "clock": "1287.0 MHz (massimo dichiarato)",
+      "memoryType": "GDDR5"
+    },
+    "image": null,
+    "sources": [
+      {
+        "label": "AMD • specifiche ufficiali",
+        "url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-500x-series/radeon-rx-550x.html"
+      },
+      {
+        "label": "AMD • dataset completo",
+        "url": "https://www.amd.com/en/products/specifications/graphics.html"
+      }
+    ],
+    "notes": [
+      "Picco di calcolo pubblicato da AMD (Max Performance).",
+      "La specifica ufficiale raggruppa più configurazioni OEM; il valore di picco è quello massimo della famiglia.",
+      "TFLOPS: capacità di calcolo, non classifica FPS. Architetture, dual-issue, boost e GPU multiple limitano il confronto diretto."
+    ],
+    "releaseDate": "4/3/2018",
+    "verification": "official-specs",
+    "memoryBasis": "Capacità massima nel dataset AMD",
+    "metricLabel": "FP32 teorico",
+    "exclusionReason": "AMD classifica la famiglia Desktop e/o Notebook, ma non è verificata una scheda desktop consumer add-in; nome usato prevalentemente da GPU mobile/AIO. Esclusa dal catalogo principale."
+  },
+  {
+    "id": "amd-radeon-rx-560x-4-gb-gddr5",
+    "cat": "gpu",
+    "brand": "AMD",
+    "name": "Radeon RX 560X",
+    "series": "Radeon RX 500",
+    "year": 2018,
+    "variant": "4 GB GDDR5",
+    "values": {
+      "tflops": 2.6,
+      "memory": 4.0,
+      "power": null,
+      "architecture": "4th Gen GCN Architecture",
+      "bus": "128-bit",
+      "cores": "896 / 1024 stream processor",
+      "clock": "1275.0 MHz (massimo dichiarato)",
+      "memoryType": "GDDR5"
+    },
+    "image": null,
+    "sources": [
+      {
+        "label": "AMD • specifiche ufficiali",
+        "url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-500x-series/radeon-rx-560x.html"
+      },
+      {
+        "label": "AMD • dataset completo",
+        "url": "https://www.amd.com/en/products/specifications/graphics.html"
+      }
+    ],
+    "notes": [
+      "Picco di calcolo pubblicato da AMD (Max Performance).",
+      "La specifica ufficiale raggruppa più configurazioni OEM; il valore di picco è quello massimo della famiglia.",
+      "TFLOPS: capacità di calcolo, non classifica FPS. Architetture, dual-issue, boost e GPU multiple limitano il confronto diretto."
+    ],
+    "releaseDate": "4/3/2018",
+    "verification": "official-specs",
+    "memoryBasis": "Capacità massima nel dataset AMD",
+    "metricLabel": "FP32 teorico",
+    "exclusionReason": "AMD classifica la famiglia Desktop e/o Notebook, ma non è verificata una scheda desktop consumer add-in; nome usato prevalentemente da GPU mobile/AIO. Esclusa dal catalogo principale."
+  },
+  {
+    "id": "amd-radeon-540x-4-gb-gddr5",
+    "cat": "gpu",
+    "brand": "AMD",
+    "name": "Radeon 540X",
+    "series": "Radeon 500X Series",
+    "year": 2018,
+    "variant": "4 GB GDDR5",
+    "values": {
+      "tflops": 1.25,
+      "memory": 4.0,
+      "power": null,
+      "architecture": "4th Gen GCN Architecture",
+      "bus": "64-bit",
+      "cores": "512 stream processor",
+      "clock": "1219.0 MHz (massimo dichiarato)",
+      "memoryType": "GDDR5"
+    },
+    "image": null,
+    "sources": [
+      {
+        "label": "AMD • specifiche ufficiali",
+        "url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-500x-series/radeon-540x.html"
+      },
+      {
+        "label": "AMD • dataset completo",
+        "url": "https://www.amd.com/en/products/specifications/graphics.html"
+      }
+    ],
+    "notes": [
+      "Picco di calcolo pubblicato da AMD (Max Performance).",
+      "TFLOPS: capacità di calcolo, non classifica FPS. Architetture, dual-issue, boost e GPU multiple limitano il confronto diretto."
+    ],
+    "releaseDate": "4/3/2018",
+    "verification": "official-specs",
+    "memoryBasis": "Capacità massima nel dataset AMD",
+    "metricLabel": "FP32 teorico",
+    "exclusionReason": "AMD classifica la famiglia Desktop e/o Notebook, ma non è verificata una scheda desktop consumer add-in; nome usato prevalentemente da GPU mobile/AIO. Esclusa dal catalogo principale."
+  },
+  {
+    "id": "amd-radeon-550x-4-gb-gddr5",
+    "cat": "gpu",
+    "brand": "AMD",
+    "name": "Radeon 550X",
+    "series": "Radeon 500X Series",
+    "year": 2018,
+    "variant": "4 GB GDDR5",
+    "values": {
+      "tflops": 1.65,
+      "memory": 4.0,
+      "power": null,
+      "architecture": "4th Gen GCN Architecture",
+      "bus": "64-bit",
+      "cores": "512 / 640 stream processor",
+      "clock": "1287.0 MHz (massimo dichiarato)",
+      "memoryType": "GDDR5"
+    },
+    "image": null,
+    "sources": [
+      {
+        "label": "AMD • specifiche ufficiali",
+        "url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-500x-series/radeon-550x.html"
+      },
+      {
+        "label": "AMD • dataset completo",
+        "url": "https://www.amd.com/en/products/specifications/graphics.html"
+      }
+    ],
+    "notes": [
+      "Picco di calcolo pubblicato da AMD (Max Performance).",
+      "La specifica ufficiale raggruppa più configurazioni OEM; il valore di picco è quello massimo della famiglia.",
+      "TFLOPS: capacità di calcolo, non classifica FPS. Architetture, dual-issue, boost e GPU multiple limitano il confronto diretto."
+    ],
+    "releaseDate": "4/3/2018",
+    "verification": "official-specs",
+    "memoryBasis": "Capacità massima nel dataset AMD",
+    "metricLabel": "FP32 teorico",
+    "exclusionReason": "AMD classifica la famiglia Desktop e/o Notebook, ma non è verificata una scheda desktop consumer add-in; nome usato prevalentemente da GPU mobile/AIO. Esclusa dal catalogo principale."
+  },
+  {
+    "id": "amd-radeon-535-4-gb-gddr5",
+    "cat": "gpu",
+    "brand": "AMD",
+    "name": "Radeon 535",
+    "series": "Radeon 500 Series",
+    "year": null,
+    "variant": "4 GB GDDR5",
+    "values": {
+      "tflops": 0.7864,
+      "memory": 4.0,
+      "power": null,
+      "architecture": null,
+      "bus": "64-bit",
+      "cores": "384 stream processor",
+      "clock": "1024.0 MHz (massimo dichiarato)",
+      "memoryType": "GDDR5"
+    },
+    "image": null,
+    "sources": [
+      {
+        "label": "AMD • specifiche ufficiali",
+        "url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-500-series/radeon-535.html"
+      },
+      {
+        "label": "AMD • dataset completo",
+        "url": "https://www.amd.com/en/products/specifications/graphics.html"
+      }
+    ],
+    "notes": [
+      "FP32 calcolato: stream processor × clock massimo MHz × 2 / 1.000.000. Picco teorico, non FPS.",
+      "TFLOPS: capacità di calcolo, non classifica FPS. Architetture, dual-issue, boost e GPU multiple limitano il confronto diretto."
+    ],
+    "releaseDate": null,
+    "verification": "official-specs",
+    "memoryBasis": "Capacità massima nel dataset AMD",
+    "metricLabel": "FP32 teorico",
+    "exclusionReason": "AMD classifica la famiglia Desktop e/o Notebook, ma non è verificata una scheda desktop consumer add-in; nome usato prevalentemente da GPU mobile/AIO. Esclusa dal catalogo principale."
+  },
+  {
+    "id": "amd-radeon-520-4-gb-gddr5",
+    "cat": "gpu",
+    "brand": "AMD",
+    "name": "Radeon 520",
+    "series": "Radeon 500 Series",
+    "year": 2017,
+    "variant": "4 GB GDDR5",
+    "values": {
+      "tflops": 0.66,
+      "memory": 4.0,
+      "power": null,
+      "architecture": "Graphics Core Next Architecture",
+      "bus": "64-bit",
+      "cores": "320 stream processor",
+      "clock": "1030.0 MHz (massimo dichiarato)",
+      "memoryType": "GDDR5"
+    },
+    "image": null,
+    "sources": [
+      {
+        "label": "AMD • specifiche ufficiali",
+        "url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-500-series/radeon-520.html"
+      },
+      {
+        "label": "AMD • dataset completo",
+        "url": "https://www.amd.com/en/products/specifications/graphics.html"
+      }
+    ],
+    "notes": [
+      "Picco di calcolo pubblicato da AMD (Max Performance).",
+      "TFLOPS: capacità di calcolo, non classifica FPS. Architetture, dual-issue, boost e GPU multiple limitano il confronto diretto."
+    ],
+    "releaseDate": "4/18/2017",
+    "verification": "official-specs",
+    "memoryBasis": "Capacità massima nel dataset AMD",
+    "metricLabel": "FP32 teorico",
+    "exclusionReason": "AMD classifica la famiglia Desktop e/o Notebook, ma non è verificata una scheda desktop consumer add-in; nome usato prevalentemente da GPU mobile/AIO. Esclusa dal catalogo principale."
+  },
+  {
+    "id": "amd-radeon-530-4-gb-ddr3-gddr5",
+    "cat": "gpu",
+    "brand": "AMD",
+    "name": "Radeon 530",
+    "series": "Radeon 500 Series",
+    "year": 2017,
+    "variant": "4 GB DDR3 / GDDR5",
+    "values": {
+      "tflops": 0.8,
+      "memory": 4.0,
+      "power": null,
+      "architecture": "Graphics Core Next Architecture",
+      "bus": "64-bit",
+      "cores": "320 / 384 stream processor",
+      "clock": "1024.0 MHz (massimo dichiarato)",
+      "memoryType": "DDR3 / GDDR5"
+    },
+    "image": null,
+    "sources": [
+      {
+        "label": "AMD • specifiche ufficiali",
+        "url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-500-series/radeon-530.html"
+      },
+      {
+        "label": "AMD • dataset completo",
+        "url": "https://www.amd.com/en/products/specifications/graphics.html"
+      }
+    ],
+    "notes": [
+      "Picco di calcolo pubblicato da AMD (Max Performance).",
+      "La specifica ufficiale raggruppa più configurazioni OEM; il valore di picco è quello massimo della famiglia.",
+      "TFLOPS: capacità di calcolo, non classifica FPS. Architetture, dual-issue, boost e GPU multiple limitano il confronto diretto."
+    ],
+    "releaseDate": "4/18/2017",
+    "verification": "official-specs",
+    "memoryBasis": "Capacità massima nel dataset AMD",
+    "metricLabel": "FP32 teorico",
+    "exclusionReason": "AMD classifica la famiglia Desktop e/o Notebook, ma non è verificata una scheda desktop consumer add-in; nome usato prevalentemente da GPU mobile/AIO. Esclusa dal catalogo principale."
+  }
+]

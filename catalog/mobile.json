@@ -1,0 +1,5582 @@
+{
+  "products": [
+    {
+      "id": "iphone-18-pro-max",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 18 Pro Max",
+      "series": "iPhone 18",
+      "year": 2026,
+      "variant": "12 GB + 512 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 3423963,
+        "chip": "A20 Pro",
+        "ram": 12,
+        "storage": "256 GB, 512 GB, 1 TB, 2 TB",
+        "display": "6.9″ · OLED · 2868 × 1320 · fino a 120 Hz",
+        "battery": "Fino a 45 h video (Apple)",
+        "camera": "48 MP principale",
+        "cpuDetail": "6‑core CPU · 2 super cores + 4 efficienza cores",
+        "gpuDetail": "7‑core GPU · Neural Accelerators",
+        "cpuScore": 896792,
+        "gpuScore": 1386434,
+        "memoryScore": 413000,
+        "uxScore": 727737
+      },
+      "ranking": {
+        "position": 3,
+        "phonePosition": 1,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "12 GB + 512 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-18-pro-max-colors.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/b4e1cb5a51847761.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/en-us/148591"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "Apple · disponibile dal 18 settembre 2026",
+          "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-18-pro",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 18 Pro",
+      "series": "iPhone 18",
+      "year": 2026,
+      "variant": "12 GB + 256 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 3406662,
+        "chip": "A20 Pro",
+        "ram": 12,
+        "storage": "256 GB, 512 GB, 1 TB, 2 TB",
+        "display": "6.3″ · OLED · 2622 × 1206 · fino a 120 Hz",
+        "battery": "Fino a 36 h video (Apple)",
+        "camera": "48 MP principale",
+        "cpuDetail": "6‑core CPU · 2 super cores + 4 efficienza cores",
+        "gpuDetail": "7‑core GPU · Neural Accelerators",
+        "cpuScore": 884809,
+        "gpuScore": 1407094,
+        "memoryScore": 405307,
+        "uxScore": 709452
+      },
+      "ranking": {
+        "position": 4,
+        "phonePosition": 2,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "12 GB + 256 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-18-pro-colors.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/a447c5e74abd6d24.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/en-us/148590"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "Apple · disponibile dal 18 settembre 2026",
+          "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-17e",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 17e",
+      "series": "iPhone 17",
+      "year": 2026,
+      "variant": "8 GB + 256 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1960924,
+        "chip": "A19",
+        "ram": 8,
+        "storage": "256 GB, 512 GB",
+        "display": "6.1″ · OLED · 2532 × 1170",
+        "battery": "Fino a 26 h video (Apple)",
+        "camera": "48 MP principale",
+        "cpuDetail": "6‑core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "4‑core GPU · Neural Accelerators",
+        "cpuScore": 548544,
+        "gpuScore": 658459,
+        "memoryScore": 233942,
+        "uxScore": 519979
+      },
+      "ranking": {
+        "position": 19,
+        "phonePosition": 6,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "8 GB + 256 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-17e/iphone-17e-colors.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/8b6fb3200c0ebc29.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/126470"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-17-pro-max",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 17 Pro Max",
+      "series": "iPhone 17",
+      "year": 2025,
+      "variant": "12 GB + 256 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 2302338,
+        "chip": "A19 Pro",
+        "ram": 12,
+        "storage": "256 GB, 512 GB, 1 TB, 2 TB",
+        "display": "6.9″ · OLED · 2868 × 1320 · fino a 120 Hz",
+        "battery": "Fino a 39 h video (Apple)",
+        "camera": "48 MP principale",
+        "cpuDetail": "6‑core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "6‑core GPU · Neural Accelerators",
+        "cpuScore": 624114,
+        "gpuScore": 870273,
+        "memoryScore": 238608,
+        "uxScore": 569343
+      },
+      "ranking": {
+        "position": 15,
+        "phonePosition": 3,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "12 GB + 256 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-17-pro-max-colors.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/feaffd90d5ed9aaa.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/125091"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "Specifiche del produttore",
+          "url": "https://support.apple.com/it-it/125091"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-17-pro",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 17 Pro",
+      "series": "iPhone 17",
+      "year": 2025,
+      "variant": "12 GB + 256 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 2228146,
+        "chip": "A19 Pro",
+        "ram": 12,
+        "storage": "256 GB, 512 GB, 1 TB",
+        "display": "6.3″ · OLED · 2622 × 1206 · fino a 120 Hz",
+        "battery": "Fino a 33 h video (Apple)",
+        "camera": "48 MP principale",
+        "cpuDetail": "6‑core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "6‑core GPU · Neural Accelerators",
+        "cpuScore": 573517,
+        "gpuScore": 864276,
+        "memoryScore": 240493,
+        "uxScore": 549860
+      },
+      "ranking": {
+        "position": 16,
+        "phonePosition": 4,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "12 GB + 256 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-17-pro-colors.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/bddaa4243446641f.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/125090"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-17",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 17",
+      "series": "iPhone 17",
+      "year": 2025,
+      "variant": "8 GB + 256 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 2044064,
+        "chip": "A19",
+        "ram": 8,
+        "storage": "256 GB, 512 GB",
+        "display": "6.3″ · OLED · 2622 × 1206 · fino a 120 Hz",
+        "battery": "Fino a 30 h video (Apple)",
+        "camera": "48 MP principale",
+        "cpuDetail": "6‑core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "5‑core GPU · Neural Accelerators",
+        "cpuScore": 557057,
+        "gpuScore": 765221,
+        "memoryScore": 195721,
+        "uxScore": 526065
+      },
+      "ranking": {
+        "position": 17,
+        "phonePosition": 5,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "8 GB + 256 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-17-colors.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/781cab3829cf48ba.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/125089"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-air",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone Air",
+      "series": "iPhone Air",
+      "year": 2025,
+      "variant": "12 GB + 256 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1709647,
+        "chip": "A19 Pro",
+        "ram": 12,
+        "storage": "256 GB, 512 GB, 1 TB",
+        "display": "6.5″ · OLED · 2736 × 1260 · fino a 120 Hz",
+        "battery": "Fino a 27 h video (Apple)",
+        "camera": "48 MP principale",
+        "cpuDetail": "6‑core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "5‑core GPU · Neural Accelerators",
+        "cpuScore": 404628,
+        "gpuScore": 617312,
+        "memoryScore": 236074,
+        "uxScore": 451633
+      },
+      "ranking": {
+        "position": 25,
+        "phonePosition": 9,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "12 GB + 256 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-air-colors.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/2a4f2b0474fcde40.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/125092"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-16e",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 16e",
+      "series": "iPhone 16",
+      "year": 2025,
+      "variant": "8 GB + 128 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1607261,
+        "chip": "A18",
+        "ram": 8,
+        "storage": "128 GB, 256 GB, 512 GB",
+        "display": "6.1″ · OLED · 2532 × 1170",
+        "battery": "Fino a 26 h video (Apple)",
+        "camera": "48 MP principale",
+        "cpuDetail": "6‑core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "4‑core GPU",
+        "cpuScore": 463492,
+        "gpuScore": 456500,
+        "memoryScore": 186951,
+        "uxScore": 500318
+      },
+      "ranking": {
+        "position": 29,
+        "phonePosition": 12,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "8 GB + 128 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-16e/iphone-16e-colors.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/632b9158c4491acd.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/122208"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-16-pro-max",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 16 Pro Max",
+      "series": "iPhone 16",
+      "year": 2024,
+      "variant": "8 GB + 256 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1667412,
+        "chip": "A18 Pro",
+        "ram": 8,
+        "storage": "256 GB, 512 GB, 1 TB",
+        "display": "6.9″ · OLED · 2868 × 1320 · fino a 120 Hz",
+        "battery": "Fino a 33 h video (Apple)",
+        "camera": "48 MP principale",
+        "cpuDetail": "6‑core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "6‑core GPU",
+        "cpuScore": 466162,
+        "gpuScore": 531197,
+        "memoryScore": 177731,
+        "uxScore": 492322
+      },
+      "ranking": {
+        "position": 28,
+        "phonePosition": 11,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "8 GB + 256 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-16-pro-max-colors.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/0c178501af4a8640.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/121032"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-16-pro",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 16 Pro",
+      "series": "iPhone 16",
+      "year": 2024,
+      "variant": "8 GB + 256 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1672384,
+        "chip": "A18 Pro",
+        "ram": 8,
+        "storage": "128 GB, 256 GB, 512 GB, 1 TB",
+        "display": "6.3″ · OLED · 2622 × 1206 · fino a 120 Hz",
+        "battery": "Fino a 27 h video (Apple)",
+        "camera": "48 MP principale",
+        "cpuDetail": "6‑core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "6‑core GPU",
+        "cpuScore": 470632,
+        "gpuScore": 534214,
+        "memoryScore": 179252,
+        "uxScore": 488286
+      },
+      "ranking": {
+        "position": 27,
+        "phonePosition": 10,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "8 GB + 256 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-16-pro-colors.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/88d15adf63c09d41.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/121031"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-16-plus",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 16 Plus",
+      "series": "iPhone 16",
+      "year": 2024,
+      "variant": "8 GB + 128 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1863409,
+        "chip": "A18",
+        "ram": 8,
+        "storage": "128 GB, 256 GB, 512 GB",
+        "display": "6.7″ · OLED · 2796 × 1290",
+        "battery": "Fino a 27 h video (Apple)",
+        "camera": "48 MP principale",
+        "cpuDetail": "6‑core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "5‑core GPU",
+        "cpuScore": 559751,
+        "gpuScore": 568309,
+        "memoryScore": 182235,
+        "uxScore": 553114
+      },
+      "ranking": {
+        "position": 21,
+        "phonePosition": 8,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "8 GB + 128 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-16-plus-colors.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/d7aaf8608af76ac8.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/121030"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-16",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 16",
+      "series": "iPhone 16",
+      "year": 2024,
+      "variant": "8 GB + 128 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1871643,
+        "chip": "A18",
+        "ram": 8,
+        "storage": "128 GB, 256 GB, 512 GB",
+        "display": "6.1″ · OLED · 2556 × 1179",
+        "battery": "Fino a 22 h video (Apple)",
+        "camera": "48 MP principale",
+        "cpuDetail": "6‑core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "5‑core GPU",
+        "cpuScore": 565556,
+        "gpuScore": 576910,
+        "memoryScore": 181350,
+        "uxScore": 547827
+      },
+      "ranking": {
+        "position": 20,
+        "phonePosition": 7,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "8 GB + 128 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-16-colors.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/5a9bd8dc9b8be344.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/121029"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-15-pro-max",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 15 Pro Max",
+      "series": "iPhone 15",
+      "year": 2023,
+      "variant": "8 GB + 256 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1334021,
+        "chip": "A17 Pro",
+        "ram": 8,
+        "storage": "256 GB, 512 GB, 1 TB",
+        "display": "6.7″ · OLED · 2796 × 1290 · fino a 120 Hz",
+        "battery": "Fino a 29 h video (Apple)",
+        "camera": "48 MP principale",
+        "cpuDetail": "6‑core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "6‑core GPU",
+        "cpuScore": 320136,
+        "gpuScore": 446750,
+        "memoryScore": 169688,
+        "uxScore": 397447
+      },
+      "ranking": {
+        "position": 37,
+        "phonePosition": 18,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "8 GB + 256 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/fall-2023-iphone-colors-iphone-15-pro-max.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/22ed10c6986c2c52.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP904"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-15-pro",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 15 Pro",
+      "series": "iPhone 15",
+      "year": 2023,
+      "variant": "8 GB + 256 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1424444,
+        "chip": "A17 Pro",
+        "ram": 8,
+        "storage": "128 GB, 256 GB, 512 GB, 1 TB",
+        "display": "6.1″ · OLED · 2556 × 1179 · fino a 120 Hz",
+        "battery": "Fino a 23 h video (Apple)",
+        "camera": "48 MP principale",
+        "cpuDetail": "6‑core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "6‑core GPU",
+        "cpuScore": 361805,
+        "gpuScore": 454095,
+        "memoryScore": 181738,
+        "uxScore": 426806
+      },
+      "ranking": {
+        "position": 33,
+        "phonePosition": 16,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "8 GB + 256 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/fall-2023-iphone-colors-iphone-15-pro.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/e91c699fc07e1ad3.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP903"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-15-plus",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 15 Plus",
+      "series": "iPhone 15",
+      "year": 2023,
+      "variant": "6 GB + 128 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1533944,
+        "chip": "A16 Bionic",
+        "ram": 6,
+        "storage": "128 GB, 256 GB, 512 GB",
+        "display": "6.7″ · OLED · 2796 × 1290",
+        "battery": "Fino a 26 h video (Apple)",
+        "camera": "48 MP principale",
+        "cpuDetail": "6‑core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "5‑core GPU",
+        "cpuScore": 429402,
+        "gpuScore": 430667,
+        "memoryScore": 199051,
+        "uxScore": 474824
+      },
+      "ranking": {
+        "position": 31,
+        "phonePosition": 14,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "6 GB + 128 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/fall-2023-iphone-colors-iphone-15-plus.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/c6876c9136398acd.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP902"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-15",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 15",
+      "series": "iPhone 15",
+      "year": 2023,
+      "variant": "6 GB + 128 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1535551,
+        "chip": "A16 Bionic",
+        "ram": 6,
+        "storage": "128 GB, 256 GB, 512 GB",
+        "display": "6.1″ · OLED · 2556 × 1179",
+        "battery": "Fino a 20 h video (Apple)",
+        "camera": "48 MP principale",
+        "cpuDetail": "6‑core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "5‑core GPU",
+        "cpuScore": 429172,
+        "gpuScore": 433755,
+        "memoryScore": 199933,
+        "uxScore": 472691
+      },
+      "ranking": {
+        "position": 30,
+        "phonePosition": 13,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "6 GB + 128 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/fall-2023-iphone-colors-iphone-15.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/57742189fd91b8f6.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP901"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-14-pro-max",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 14 Pro Max",
+      "series": "iPhone 14",
+      "year": 2022,
+      "variant": "6 GB + 256 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1245866,
+        "chip": "A16 Bionic",
+        "ram": 6,
+        "storage": "128 GB, 256 GB, 512 GB, 1 TB",
+        "display": "6.7″ · OLED · 2796 × 1290 · fino a 120 Hz",
+        "battery": "Fino a 29 h video (Apple)",
+        "camera": "48 MP principale",
+        "cpuDetail": "6‑core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "5‑core GPU",
+        "cpuScore": 271545,
+        "gpuScore": 421818,
+        "memoryScore": 163243,
+        "uxScore": 389260
+      },
+      "ranking": {
+        "position": 41,
+        "phonePosition": 22,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "6 GB + 256 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-14-pro-max-colors.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/8d397286a0269672.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP876"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-14-pro",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 14 Pro",
+      "series": "iPhone 14",
+      "year": 2022,
+      "variant": "6 GB + 256 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1255135,
+        "chip": "A16 Bionic",
+        "ram": 6,
+        "storage": "128 GB, 256 GB, 512 GB, 1 TB",
+        "display": "6.1″ · OLED · 2556 × 1179 · fino a 120 Hz",
+        "battery": "Fino a 23 h video (Apple)",
+        "camera": "48 MP principale",
+        "cpuDetail": "6‑core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "5‑core GPU",
+        "cpuScore": 272834,
+        "gpuScore": 430589,
+        "memoryScore": 168367,
+        "uxScore": 383345
+      },
+      "ranking": {
+        "position": 40,
+        "phonePosition": 21,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "6 GB + 256 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-14-pro-colors.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/0f00a4cb89635d6d.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP875"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-14-plus",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 14 Plus",
+      "series": "iPhone 14",
+      "year": 2022,
+      "variant": "6 GB + 128 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1407782,
+        "chip": "A15 Bionic",
+        "ram": 6,
+        "storage": "128 GB, 256 GB, 512 GB",
+        "display": "6.7″ · OLED · 2778 × 1284",
+        "battery": null,
+        "camera": "12 MP principale",
+        "cpuDetail": "6‑core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "5‑core GPU",
+        "cpuScore": 398519,
+        "gpuScore": 377652,
+        "memoryScore": 164236,
+        "uxScore": 467375
+      },
+      "ranking": {
+        "position": 35,
+        "phonePosition": 17,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "6 GB + 128 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-14-plus-colors-spring-2023.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/7c91b723b6d73e38.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP874"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-14",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 14",
+      "series": "iPhone 14",
+      "year": 2022,
+      "variant": "6 GB + 128 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1437026,
+        "chip": "A15 Bionic",
+        "ram": 6,
+        "storage": "128 GB, 256 GB, 512 GB",
+        "display": "6.1″ · OLED · 2532 × 1170",
+        "battery": "Fino a 20 h video (Apple)",
+        "camera": "12 MP principale",
+        "cpuDetail": "6‑core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "5‑core GPU",
+        "cpuScore": 413992,
+        "gpuScore": 384295,
+        "memoryScore": 166067,
+        "uxScore": 472672
+      },
+      "ranking": {
+        "position": 32,
+        "phonePosition": 15,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "6 GB + 128 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-14-colors-spring-2023.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/a73b1f8a13f9ff9b.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP873"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-se-3rd-generation",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone SE (3rd generation)",
+      "series": "iPhone SE",
+      "year": 2022,
+      "variant": "4 GB + 128 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1283597,
+        "chip": "A15 Bionic",
+        "ram": 4,
+        "storage": "64 GB, 128 GB, 256 GB",
+        "display": "4.7″ · LCD · 1334 × 750",
+        "battery": "Fino a 15 h video (Apple)",
+        "camera": "12 MP principale",
+        "cpuDetail": "6-core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "4-core GPU",
+        "cpuScore": 363916,
+        "gpuScore": 339510,
+        "memoryScore": 166374,
+        "uxScore": 413797
+      },
+      "ranking": {
+        "position": 39,
+        "phonePosition": 20,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "4 GB + 128 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-se-3rd-gen-colors.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/d5114fb70fff1ac8.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP867"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-13-pro-max",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 13 Pro Max",
+      "series": "iPhone 13",
+      "year": 2021,
+      "variant": "6 GB + 256 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1103439,
+        "chip": "A15 Bionic",
+        "ram": 6,
+        "storage": "128 GB, 256 GB, 512 GB, 1 TB",
+        "display": "6.7″ · OLED · 2778 × 1284 · fino a 120 Hz",
+        "battery": "Fino a 28 h video (Apple)",
+        "camera": "12 MP principale",
+        "cpuDetail": "6‑core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "5‑core GPU",
+        "cpuScore": 241074,
+        "gpuScore": 344634,
+        "memoryScore": 145788,
+        "uxScore": 371943
+      },
+      "ranking": {
+        "position": 49,
+        "phonePosition": 29,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "6 GB + 256 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/2022-spring-iphone13-pro-max-colors.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/26c5d61d34f2e485.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP848"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-13-pro",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 13 Pro",
+      "series": "iPhone 13",
+      "year": 2021,
+      "variant": "6 GB + 256 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1108890,
+        "chip": "A15 Bionic",
+        "ram": 6,
+        "storage": "128 GB, 256 GB, 512 GB, 1 TB",
+        "display": "6.1″ · OLED · 2532 × 1170 · fino a 120 Hz",
+        "battery": "Fino a 22 h video (Apple)",
+        "camera": "12 MP principale",
+        "cpuDetail": "6‑core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "5‑core GPU",
+        "cpuScore": 242045,
+        "gpuScore": 355555,
+        "memoryScore": 146037,
+        "uxScore": 365253
+      },
+      "ranking": {
+        "position": 48,
+        "phonePosition": 28,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "6 GB + 256 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/2022-spring-iphone13-pro-colors.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/dcf2510a9e611bee.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP852"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-13",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 13",
+      "series": "iPhone 13",
+      "year": 2021,
+      "variant": "4 GB + 128 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1323962,
+        "chip": "A15 Bionic",
+        "ram": 4,
+        "storage": "128 GB, 256 GB, 512 GB",
+        "display": "6.1″ · OLED · 2532 × 1170",
+        "battery": "Fino a 19 h video (Apple)",
+        "camera": "12 MP principale",
+        "cpuDetail": "6‑core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "4‑core GPU",
+        "cpuScore": 375296,
+        "gpuScore": 353291,
+        "memoryScore": 150488,
+        "uxScore": 444887
+      },
+      "ranking": {
+        "position": 38,
+        "phonePosition": 19,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "4 GB + 128 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/2022-spring-iphone13-colors.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/5769035bf5e83c23.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP851"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-13-mini",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 13 mini",
+      "series": "iPhone 13",
+      "year": 2021,
+      "variant": "4 GB + 128 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1233931,
+        "chip": "A15 Bionic",
+        "ram": 4,
+        "storage": "128 GB, 256 GB, 512 GB",
+        "display": "5.4″ · OLED · 2340 × 1080",
+        "battery": "Fino a 17 h video (Apple)",
+        "camera": "12 MP principale",
+        "cpuDetail": "6‑core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "4‑core GPU",
+        "cpuScore": 328126,
+        "gpuScore": 335953,
+        "memoryScore": 154828,
+        "uxScore": 415024
+      },
+      "ranking": {
+        "position": 42,
+        "phonePosition": 23,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "4 GB + 128 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/2022-iphone13-mini-colors.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/980d1e1d8db13ae6.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP847"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-12-pro-max",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 12 Pro Max",
+      "series": "iPhone 12",
+      "year": 2020,
+      "variant": "6 GB + 256 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1204670,
+        "chip": "A14 Bionic",
+        "ram": 6,
+        "storage": "128, 256, 512 GB",
+        "display": "6.7″ · OLED · 2778 × 1284",
+        "battery": "Fino a 20 h video (Apple)",
+        "camera": "12 MP principale",
+        "cpuScore": 311567,
+        "gpuScore": 310085,
+        "memoryScore": 170104,
+        "uxScore": 412914
+      },
+      "ranking": {
+        "position": 44,
+        "phonePosition": 24,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "6 GB + 256 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-12-pro-max/iphone12-pro-max-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/62930059df436165.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP832"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-12-pro",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 12 Pro",
+      "series": "iPhone 12",
+      "year": 2020,
+      "variant": "6 GB + 128 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1190932,
+        "chip": "A14 Bionic",
+        "ram": 6,
+        "storage": "128, 256, 512 GB",
+        "display": "6.1″ · OLED · 2532 × 1170",
+        "battery": "Fino a 17 h video (Apple)",
+        "camera": "12 MP principale",
+        "cpuScore": 304094,
+        "gpuScore": 310953,
+        "memoryScore": 163796,
+        "uxScore": 412089
+      },
+      "ranking": {
+        "position": 45,
+        "phonePosition": 25,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "6 GB + 128 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-12-pro/iphone12-pro-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/df5a109197702dd1.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP831"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-12",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 12",
+      "series": "iPhone 12",
+      "year": 2020,
+      "variant": "4 GB + 128 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1132376,
+        "chip": "A14 Bionic",
+        "ram": 4,
+        "storage": "64, 128, 256 GB",
+        "display": "6.1″ · OLED · 2532 × 1170",
+        "battery": "Fino a 17 h video (Apple)",
+        "camera": "12 MP principale",
+        "cpuDetail": "6-core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "4-core GPU",
+        "cpuScore": 285302,
+        "gpuScore": 304770,
+        "memoryScore": 151519,
+        "uxScore": 390785
+      },
+      "ranking": {
+        "position": 47,
+        "phonePosition": 27,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "4 GB + 128 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/2021-iphone12-colors.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/b20589fa15261db1.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP830"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-12-mini",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 12 mini",
+      "series": "iPhone 12",
+      "year": 2020,
+      "variant": "4 GB + 128 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1171808,
+        "chip": "A14 Bionic",
+        "ram": 4,
+        "storage": "64, 128, 256 GB",
+        "display": "5.4″ · OLED · 2340 × 1080",
+        "battery": "Fino a 15 h video (Apple)",
+        "camera": "12 MP principale",
+        "cpuDetail": "6-core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "4-core GPU",
+        "cpuScore": 312054,
+        "gpuScore": 305179,
+        "memoryScore": 154008,
+        "uxScore": 400567
+      },
+      "ranking": {
+        "position": 46,
+        "phonePosition": 26,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "4 GB + 128 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/2021-iphone12-mini-colors.png",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/80de743ae2181f79.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP829"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-se-2nd-generation",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone SE (2nd generation)",
+      "series": "iPhone SE",
+      "year": 2020,
+      "variant": "3 GB + 128 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 787228,
+        "chip": "A13 Bionic",
+        "ram": 3,
+        "storage": "64, 128, 256 GB",
+        "display": "4.7″ · LCD · 1334 × 750",
+        "battery": "Fino a 13 h video (Apple)",
+        "camera": "12 MP principale",
+        "cpuDetail": "6-core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "4-core GPU",
+        "cpuScore": 187385,
+        "gpuScore": 227283,
+        "memoryScore": 98553,
+        "uxScore": 274007
+      },
+      "ranking": {
+        "position": 53,
+        "phonePosition": 33,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "3 GB + 128 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-se/iphone-se-2nd-gen-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/a9556c39fe77e976.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP820"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-11-pro",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 11 Pro",
+      "series": "iPhone 11",
+      "year": 2019,
+      "variant": "4 GB + 256 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1013960,
+        "chip": "A13 Bionic",
+        "ram": 4,
+        "storage": "64, 256, 512 GB",
+        "display": "5.8″ · OLED · 2436 × 1125",
+        "battery": "Fino a 18 h video (Apple)",
+        "camera": "12 MP principale",
+        "cpuScore": 244646,
+        "gpuScore": 290099,
+        "memoryScore": 142343,
+        "uxScore": 336872
+      },
+      "ranking": {
+        "position": 51,
+        "phonePosition": 31,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "4 GB + 256 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/identify-iphone-11pro.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/1d6087f961c75132.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP805"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-11-pro-max",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 11 Pro Max",
+      "series": "iPhone 11",
+      "year": 2019,
+      "variant": "4 GB + 256 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 1046160,
+        "chip": "A13 Bionic",
+        "ram": 4,
+        "storage": "64, 256, 512 GB",
+        "display": "6.5″ · OLED · 2688 × 1242",
+        "battery": "Fino a 20 h video (Apple)",
+        "camera": "12 MP principale",
+        "cpuScore": 260094,
+        "gpuScore": 290011,
+        "memoryScore": 141183,
+        "uxScore": 354872
+      },
+      "ranking": {
+        "position": 50,
+        "phonePosition": 30,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "4 GB + 256 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/identify-iphone-11pro-max.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/64701f43a33cda5e.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP806"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-11",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 11",
+      "series": "iPhone 11",
+      "year": 2019,
+      "variant": "4 GB + 128 GB · benchmark",
+      "platform": "iOS",
+      "values": {
+        "score": 950615,
+        "chip": "A13 Bionic",
+        "ram": 4,
+        "storage": "64, 128, 256 GB",
+        "display": "6.1″ · LCD · 1792 × 828",
+        "battery": "Fino a 17 h video (Apple)",
+        "camera": "12 MP principale",
+        "cpuDetail": "6-core CPU · 2 performance + 4 efficienza cores",
+        "gpuDetail": "4-core GPU",
+        "cpuScore": 221262,
+        "gpuScore": 282641,
+        "memoryScore": 137639,
+        "uxScore": 309073
+      },
+      "ranking": {
+        "position": 52,
+        "phonePosition": 32,
+        "version": "V11",
+        "period": "2026-09",
+        "source": "https://www.antutu.com/web/ranking",
+        "apiSource": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad",
+        "scope": "iOS globale, incl. iPad",
+        "configuration": "4 GB + 128 GB",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/identify-iphone-11-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/fe1ca1e7d755783c.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP804"
+        },
+        {
+          "label": "AnTuTu V11 · iOS · settembre 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iphone-xs",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone XS",
+      "series": "iPhone",
+      "year": 2018,
+      "variant": "Archivio Apple",
+      "platform": "iOS",
+      "values": {
+        "score": null,
+        "chip": "A12 Bionic",
+        "ram": null,
+        "storage": "64, 256, 512 GB",
+        "display": "5.8″ · OLED · 2436 × 1125",
+        "battery": null,
+        "camera": "12 MP principale"
+      },
+      "ranking": null,
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-xs-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/fec62a49942feb24.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP779"
+        }
+      ],
+      "notes": [
+        "Nessun punteggio presente nella classifica AnTuTu iOS V11 verificata. Navigabile per anno."
+      ]
+    },
+    {
+      "id": "iphone-xs-max",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone XS Max",
+      "series": "iPhone",
+      "year": 2018,
+      "variant": "Archivio Apple",
+      "platform": "iOS",
+      "values": {
+        "score": null,
+        "chip": "A12 Bionic",
+        "ram": null,
+        "storage": "64, 256, 512 GB",
+        "display": "6.5″ · OLED · 2688 × 1242",
+        "battery": null,
+        "camera": "12 MP principale"
+      },
+      "ranking": null,
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-xs-max-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/f4a3ba2fde33e4b9.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP780"
+        }
+      ],
+      "notes": [
+        "Nessun punteggio presente nella classifica AnTuTu iOS V11 verificata. Navigabile per anno."
+      ]
+    },
+    {
+      "id": "iphone-xr",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone XR",
+      "series": "iPhone",
+      "year": 2018,
+      "variant": "Archivio Apple",
+      "platform": "iOS",
+      "values": {
+        "score": null,
+        "chip": "A12 Bionic",
+        "ram": null,
+        "storage": "64, 128, 256 GB",
+        "display": "6.1″ · LCD · 1792 × 828",
+        "battery": null,
+        "camera": "12 MP principale"
+      },
+      "ranking": null,
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-xr/identify-iphone-xr-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/eeb5fa7956e87a80.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP781"
+        }
+      ],
+      "notes": [
+        "Nessun punteggio presente nella classifica AnTuTu iOS V11 verificata. Navigabile per anno."
+      ]
+    },
+    {
+      "id": "iphone-x",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone X",
+      "series": "iPhone",
+      "year": 2017,
+      "variant": "Archivio Apple",
+      "platform": "iOS",
+      "values": {
+        "score": null,
+        "chip": "A11 Bionic",
+        "ram": null,
+        "storage": "64, 256 GB",
+        "display": "5.8″ · OLED · 2436 × 1125",
+        "battery": null,
+        "camera": "12 MP principale"
+      },
+      "ranking": null,
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-x-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/deaa4ea43f23f0d2.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP770"
+        }
+      ],
+      "notes": [
+        "Nessun punteggio presente nella classifica AnTuTu iOS V11 verificata. Navigabile per anno."
+      ]
+    },
+    {
+      "id": "iphone-8",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 8",
+      "series": "iPhone 8",
+      "year": 2017,
+      "variant": "Archivio Apple",
+      "platform": "iOS",
+      "values": {
+        "score": null,
+        "chip": "A11 Bionic",
+        "ram": null,
+        "storage": "64, 128, 256 GB",
+        "display": "4.7″ · LCD · 1334 × 750",
+        "battery": null,
+        "camera": "12 MP principale"
+      },
+      "ranking": null,
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-8/iphone-8-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/2bb8189898192a63.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP767"
+        }
+      ],
+      "notes": [
+        "Nessun punteggio presente nella classifica AnTuTu iOS V11 verificata. Navigabile per anno."
+      ]
+    },
+    {
+      "id": "iphone-8-plus",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 8 Plus",
+      "series": "iPhone 8",
+      "year": 2017,
+      "variant": "Archivio Apple",
+      "platform": "iOS",
+      "values": {
+        "score": null,
+        "chip": "A11 Bionic",
+        "ram": null,
+        "storage": "64, 128, 256 GB",
+        "display": "5.5″ · LCD · 1920 × 1080",
+        "battery": null,
+        "camera": "12 MP principale"
+      },
+      "ranking": null,
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-8-plus/iphone-8plus-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/adc752117fdf9f20.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP768"
+        }
+      ],
+      "notes": [
+        "Nessun punteggio presente nella classifica AnTuTu iOS V11 verificata. Navigabile per anno."
+      ]
+    },
+    {
+      "id": "iphone-7",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 7",
+      "series": "iPhone 7",
+      "year": 2016,
+      "variant": "Archivio Apple",
+      "platform": "iOS",
+      "values": {
+        "score": null,
+        "chip": "A10 Fusion",
+        "ram": null,
+        "storage": "32, 128, 256 GB",
+        "display": "4.7″ · LCD · 1334 × 750",
+        "battery": "Fino a 13 h video (Apple)",
+        "camera": "12 MP principale"
+      },
+      "ranking": null,
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-7/iphone7-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/7df869ba3a19e212.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP743"
+        }
+      ],
+      "notes": [
+        "Nessun punteggio presente nella classifica AnTuTu iOS V11 verificata. Navigabile per anno."
+      ]
+    },
+    {
+      "id": "iphone-7-plus",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 7 Plus",
+      "series": "iPhone 7",
+      "year": 2016,
+      "variant": "Archivio Apple",
+      "platform": "iOS",
+      "values": {
+        "score": null,
+        "chip": "A10 Fusion",
+        "ram": null,
+        "storage": "32, 128, 256 GB",
+        "display": "5.5″ · LCD · 1920 × 1080",
+        "battery": "Fino a 14 h video (Apple)",
+        "camera": "12 MP principale"
+      },
+      "ranking": null,
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-7-plus/iphone7plus-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/6308fc72d1756b49.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP744"
+        }
+      ],
+      "notes": [
+        "Nessun punteggio presente nella classifica AnTuTu iOS V11 verificata. Navigabile per anno."
+      ]
+    },
+    {
+      "id": "iphone-se-1st-generation",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone SE (1st generation)",
+      "series": "iPhone SE",
+      "year": 2016,
+      "variant": "Archivio Apple",
+      "platform": "iOS",
+      "values": {
+        "score": null,
+        "chip": "A9",
+        "ram": null,
+        "storage": "16, 32, 64, 128 GB",
+        "display": "4″ · LCD · 1136 × 640",
+        "battery": null,
+        "camera": "12 MP principale"
+      },
+      "ranking": null,
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-se/iphone-se-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/8f8de661b5f6866c.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP738"
+        }
+      ],
+      "notes": [
+        "Nessun punteggio presente nella classifica AnTuTu iOS V11 verificata. Navigabile per anno."
+      ]
+    },
+    {
+      "id": "iphone-6s",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 6s",
+      "series": "iPhone 6",
+      "year": 2015,
+      "variant": "Archivio Apple",
+      "platform": "iOS",
+      "values": {
+        "score": null,
+        "chip": "A9",
+        "ram": null,
+        "storage": "16, 32, 64, 128 GB",
+        "display": "4.7″ · LCD · 1334 × 750",
+        "battery": "Fino a 11 h video (Apple)",
+        "camera": "12 MP principale"
+      },
+      "ranking": null,
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-6s-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/cf262e41ab066e7d.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP726"
+        }
+      ],
+      "notes": [
+        "Nessun punteggio presente nella classifica AnTuTu iOS V11 verificata. Navigabile per anno."
+      ]
+    },
+    {
+      "id": "iphone-6s-plus",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 6s Plus",
+      "series": "iPhone 6",
+      "year": 2015,
+      "variant": "Archivio Apple",
+      "platform": "iOS",
+      "values": {
+        "score": null,
+        "chip": "A9",
+        "ram": null,
+        "storage": "16, 32, 64, 128 GB",
+        "display": "5.5″ · LCD · 1920 × 1080",
+        "battery": "Fino a 14 h video (Apple)",
+        "camera": "12 MP principale"
+      },
+      "ranking": null,
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-6splus-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/948cad8d05aeebfe.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP727"
+        }
+      ],
+      "notes": [
+        "Nessun punteggio presente nella classifica AnTuTu iOS V11 verificata. Navigabile per anno."
+      ]
+    },
+    {
+      "id": "iphone-6",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 6",
+      "series": "iPhone 6",
+      "year": 2014,
+      "variant": "Archivio Apple",
+      "platform": "iOS",
+      "values": {
+        "score": null,
+        "chip": "A8",
+        "ram": null,
+        "storage": "16, 32, 64, 128 GB",
+        "display": "4.7″ · LCD · 1334 × 750",
+        "battery": "Fino a 11 h video (Apple)",
+        "camera": "8 MP principale"
+      },
+      "ranking": null,
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone6-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/57dbf2451c589848.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP705"
+        }
+      ],
+      "notes": [
+        "Nessun punteggio presente nella classifica AnTuTu iOS V11 verificata. Navigabile per anno."
+      ]
+    },
+    {
+      "id": "iphone-6-plus",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 6 Plus",
+      "series": "iPhone 6",
+      "year": 2014,
+      "variant": "Archivio Apple",
+      "platform": "iOS",
+      "values": {
+        "score": null,
+        "chip": "A8",
+        "ram": null,
+        "storage": "16, 64, 128 GB",
+        "display": "5.5″ · LCD · 1920 × 1080",
+        "battery": "Fino a 14 h video (Apple)",
+        "camera": "8 MP principale"
+      },
+      "ranking": null,
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone6plus-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/be0c5d90e6d0ad09.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP706"
+        }
+      ],
+      "notes": [
+        "Nessun punteggio presente nella classifica AnTuTu iOS V11 verificata. Navigabile per anno."
+      ]
+    },
+    {
+      "id": "iphone-5s",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 5s",
+      "series": "iPhone 5",
+      "year": 2013,
+      "variant": "Archivio Apple",
+      "platform": "iOS",
+      "values": {
+        "score": null,
+        "chip": "A7",
+        "ram": null,
+        "storage": "16, 32, 64 GB",
+        "display": "4″ · LCD · 1136 × 640",
+        "battery": "Fino a 10 h video (Apple)",
+        "camera": "8 MP principale"
+      },
+      "ranking": null,
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone5s-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/35fb150df9e54fc6.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP685"
+        }
+      ],
+      "notes": [
+        "Nessun punteggio presente nella classifica AnTuTu iOS V11 verificata. Navigabile per anno."
+      ]
+    },
+    {
+      "id": "iphone-5c",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 5c",
+      "series": "iPhone 5",
+      "year": 2013,
+      "variant": "Archivio Apple",
+      "platform": "iOS",
+      "values": {
+        "score": null,
+        "chip": "A6",
+        "ram": null,
+        "storage": "8, 16, 32 GB",
+        "display": "4″ · LCD · 1136 × 640",
+        "battery": "Fino a 10 h video (Apple)",
+        "camera": "8 MP principale"
+      },
+      "ranking": null,
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone5c-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/2847705a72b2efb9.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP684"
+        }
+      ],
+      "notes": [
+        "Nessun punteggio presente nella classifica AnTuTu iOS V11 verificata. Navigabile per anno."
+      ]
+    },
+    {
+      "id": "iphone-5",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 5",
+      "series": "iPhone 5",
+      "year": 2012,
+      "variant": "Archivio Apple",
+      "platform": "iOS",
+      "values": {
+        "score": null,
+        "chip": null,
+        "ram": null,
+        "storage": "16, 32, 64 GB",
+        "display": "4″ · LCD · 1136 × 640",
+        "battery": "Fino a 10 h video (Apple)",
+        "camera": "8 MP principale"
+      },
+      "ranking": null,
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone5-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/778d5d206b851b51.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP655"
+        }
+      ],
+      "notes": [
+        "Nessun punteggio presente nella classifica AnTuTu iOS V11 verificata. Navigabile per anno."
+      ]
+    },
+    {
+      "id": "iphone-4s",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 4s",
+      "series": "iPhone 4",
+      "year": 2011,
+      "variant": "Archivio Apple",
+      "platform": "iOS",
+      "values": {
+        "score": null,
+        "chip": null,
+        "ram": null,
+        "storage": "8, 16, 32, 64 GB",
+        "display": "3.5″ · LCD · 960 × 640",
+        "battery": "Fino a 10 h video (Apple)",
+        "camera": "8 MP principale"
+      },
+      "ranking": null,
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone4s-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/b61fef8ff5e6ad48.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP643"
+        }
+      ],
+      "notes": [
+        "Nessun punteggio presente nella classifica AnTuTu iOS V11 verificata. Navigabile per anno."
+      ]
+    },
+    {
+      "id": "iphone-4",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 4",
+      "series": "iPhone 4",
+      "year": 2010,
+      "variant": "Archivio Apple",
+      "platform": "iOS",
+      "values": {
+        "score": null,
+        "chip": null,
+        "ram": null,
+        "storage": "8, 16, 32 GB",
+        "display": "3.5″ · LCD · 960 × 640",
+        "battery": "Fino a 10 h video (Apple)",
+        "camera": "5 MP principale"
+      },
+      "ranking": null,
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone4-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/85b8f1dceb7f83bf.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP587"
+        }
+      ],
+      "notes": [
+        "Nessun punteggio presente nella classifica AnTuTu iOS V11 verificata. Navigabile per anno."
+      ]
+    },
+    {
+      "id": "iphone-3gs",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 3GS",
+      "series": "iPhone 3",
+      "year": 2009,
+      "variant": "Archivio Apple",
+      "platform": "iOS",
+      "values": {
+        "score": null,
+        "chip": null,
+        "ram": null,
+        "storage": "8, 16, 32 GB",
+        "display": "3.5″ · LCD · 480 × 320",
+        "battery": "Fino a 10 h video (Apple)",
+        "camera": "3 MP principale"
+      },
+      "ranking": null,
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone3gs-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/0128315ac8f18ba3.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP565"
+        }
+      ],
+      "notes": [
+        "Nessun punteggio presente nella classifica AnTuTu iOS V11 verificata. Navigabile per anno."
+      ]
+    },
+    {
+      "id": "iphone-3g",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone 3G",
+      "series": "iPhone 3",
+      "year": 2008,
+      "variant": "Archivio Apple",
+      "platform": "iOS",
+      "values": {
+        "score": null,
+        "chip": null,
+        "ram": null,
+        "storage": "8, 16 GB",
+        "display": "3.5″ · LCD · 480 × 320",
+        "battery": "Fino a 7 h video (Apple)",
+        "camera": "2.0 MP principale"
+      },
+      "ranking": null,
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone3g-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/b28f681942681c26.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP495"
+        }
+      ],
+      "notes": [
+        "Nessun punteggio presente nella classifica AnTuTu iOS V11 verificata. Navigabile per anno."
+      ]
+    },
+    {
+      "id": "iphone",
+      "cat": "mobile",
+      "brand": "Apple",
+      "name": "iPhone",
+      "series": "iPhone",
+      "year": 2007,
+      "variant": "Archivio Apple",
+      "platform": "iOS",
+      "values": {
+        "score": null,
+        "chip": null,
+        "ram": null,
+        "storage": "4, 8, 16 GB",
+        "display": "3.5″ · LCD · 480 × 320",
+        "battery": "Fino a 7 h video (Apple)",
+        "camera": "2.0 MP principale"
+      },
+      "ranking": null,
+      "image": {
+        "url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone-original-colors.jpg",
+        "source": "https://support.apple.com/en-us/108044",
+        "credit": "Apple",
+        "kind": "product",
+        "description": "Immagine ufficiale del modello, con eventuali varianti colore",
+        "src": "assets/products/72e3780dddf42c0c.webp"
+      },
+      "sources": [
+        {
+          "label": "Apple · modello e anno",
+          "url": "https://support.apple.com/en-us/108044"
+        },
+        {
+          "label": "Apple · specifiche tecniche",
+          "url": "https://support.apple.com/kb/SP2"
+        }
+      ],
+      "notes": [
+        "Nessun punteggio presente nella classifica AnTuTu iOS V11 verificata. Navigabile per anno."
+      ]
+    },
+    {
+      "id": "redmagic-11-pro",
+      "cat": "mobile",
+      "brand": "REDMAGIC",
+      "name": "REDMAGIC 11 Pro",
+      "sourceName": "Red Magic 11 Pro",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "16 GB + 512 GB · NX809J",
+      "platform": "Android",
+      "values": {
+        "score": 4013168,
+        "chip": "Snapdragon 8 Elite Gen 5",
+        "ram": 16,
+        "storage": 512,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 1158712,
+        "gpuScore": 1488017,
+        "memoryScore": 509137,
+        "uxScore": 857302
+      },
+      "ranking": {
+        "position": 1,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "16 GB + 512 GB",
+        "deviceCode": "NX809J",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://global.redmagic.gg/cdn/shop/files/3colors.png?v=1776831489",
+        "source": "https://global.redmagic.gg/products/redmagic-11-pro",
+        "credit": "REDMAGIC",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/47f9307738f3833c.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "REDMAGIC · pagina ufficiale",
+          "url": "https://global.redmagic.gg/products/redmagic-11-pro"
+        },
+        {
+          "label": "Specifiche del produttore",
+          "url": "https://eu.redmagic.gg/it/pages/redmagic-11-pro-specs"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iqoo-15",
+      "cat": "mobile",
+      "brand": "iQOO",
+      "name": "iQOO 15",
+      "sourceName": "iQOO 15",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "16 GB + 512 GB · I2501",
+      "platform": "Android",
+      "values": {
+        "score": 3758268,
+        "chip": "Snapdragon 8 Elite Gen 5",
+        "ram": 16,
+        "storage": 512,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 1061124,
+        "gpuScore": 1415886,
+        "memoryScore": 418830,
+        "uxScore": 862428
+      },
+      "ranking": {
+        "position": 2,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "16 GB + 512 GB",
+        "deviceCode": "I2501",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1763444435945/cdf65419cc345e4a3996d717c5d1f705.png",
+        "source": "https://www.iqoo.com/in/products/param/iqoo15",
+        "credit": "iQOO",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/d1f5b99d2733c9b3.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "iQOO · pagina ufficiale",
+          "url": "https://www.iqoo.com/in/products/iqoo15"
+        },
+        {
+          "label": "iQOO · foto prodotto ufficiale",
+          "url": "https://www.iqoo.com/in/products/param/iqoo15"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "poco-f8-ultra",
+      "cat": "mobile",
+      "brand": "POCO",
+      "name": "POCO F8 Ultra",
+      "sourceName": "Poco F8 Ultra",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "16 GB + 512 GB · myron",
+      "platform": "Android",
+      "values": {
+        "score": 3651476,
+        "chip": "Snapdragon 8 Elite Gen 5",
+        "ram": 16,
+        "storage": 512,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 1047154,
+        "gpuScore": 1371829,
+        "memoryScore": 485909,
+        "uxScore": 746584
+      },
+      "ranking": {
+        "position": 3,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "16 GB + 512 GB",
+        "deviceCode": "myron",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://i02.appmifile.com/756_operatorx_operatorx_xm/25/11/2025/21816b9f29bd524e341d7f58c37e1b2b.png",
+        "source": "https://www.mi.com/global/product/poco-f8-ultra/",
+        "credit": "POCO",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/eecd2d67dc4c43cb.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "POCO · pagina ufficiale",
+          "url": "https://www.mi.com/global/product/poco-f8-ultra/"
+        },
+        {
+          "label": "Specifiche del produttore",
+          "url": "https://www.mi.com/es/product/poco-f8-ultra/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "redmi-k90-pro-max",
+      "cat": "mobile",
+      "brand": "REDMI",
+      "name": "REDMI K90 Pro Max",
+      "sourceName": "REDMI K90 Pro Max",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · myron",
+      "platform": "Android",
+      "values": {
+        "score": 3622315,
+        "chip": "Snapdragon 8 Elite Gen 5",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 1051611,
+        "gpuScore": 1341812,
+        "memoryScore": 465344,
+        "uxScore": 763548
+      },
+      "ranking": {
+        "position": 4,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "myron",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdn.cnbj1.fds.api.mi-img.com/product-images/new-product-images/redmi-k90-pro-max_55474/images/3074.png",
+        "source": "https://www.mi.com/prod/redmi-k90-pro-max/specs",
+        "credit": "Xiaomi / REDMI",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale dalla scheda tecnica REDMI",
+        "src": "assets/products/236fbd2ffaec105a.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "REDMI · foto prodotto ufficiale",
+          "url": "https://www.mi.com/prod/redmi-k90-pro-max/specs"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "oneplus-15",
+      "cat": "mobile",
+      "brand": "OnePlus",
+      "name": "OnePlus 15",
+      "sourceName": "OnePlus 15",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "16 GB + 512 GB · OP611FL1",
+      "platform": "Android",
+      "values": {
+        "score": 3606149,
+        "chip": "Snapdragon 8 Elite Gen 5",
+        "ram": 16,
+        "storage": 512,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 1067163,
+        "gpuScore": 1330913,
+        "memoryScore": 428021,
+        "uxScore": 780052
+      },
+      "ranking": {
+        "position": 5,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "16 GB + 512 GB",
+        "deviceCode": "OP611FL1",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://www.oneplus.com/content/dam/oneplus/2025/product-station/15/assets/images-kv-phone-b-01-1-92-caa18f.png",
+        "source": "https://www.oneplus.com/global/15",
+        "credit": "OnePlus",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/b845fe3749869526.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "OnePlus · pagina ufficiale",
+          "url": "https://www.oneplus.com/global/15"
+        },
+        {
+          "label": "Specifiche del produttore",
+          "url": "https://www.oneplus.com/it/15/specs"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "xiaomi-17-ultra",
+      "cat": "mobile",
+      "brand": "Xiaomi",
+      "name": "Xiaomi 17 Ultra",
+      "sourceName": "Xiaomi 17 Ultra",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "16 GB + 512 GB · nezha",
+      "platform": "Android",
+      "values": {
+        "score": 3600724,
+        "chip": "Snapdragon 8 Elite Gen 5",
+        "ram": 16,
+        "storage": 512,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 1032276,
+        "gpuScore": 1345109,
+        "memoryScore": 495988,
+        "uxScore": 727351
+      },
+      "ranking": {
+        "position": 6,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "16 GB + 512 GB",
+        "deviceCode": "nezha",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://i02.appmifile.com/645_operatorx_operatorx_xm/14/02/2026/df23386f3a67d3d5fdce72e4e1a18b96.png",
+        "source": "https://www.mi.com/global/product/xiaomi-17-ultra/",
+        "credit": "Xiaomi",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/51ca39e829d43f0a.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "Xiaomi · pagina ufficiale",
+          "url": "https://www.mi.com/global/product/xiaomi-17-ultra/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "galaxy-s26-ultra",
+      "cat": "mobile",
+      "brand": "Samsung",
+      "name": "Galaxy S26 Ultra",
+      "sourceName": "Galaxy S26 Ultra",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · m3q",
+      "platform": "Android",
+      "values": {
+        "score": 3463142,
+        "chip": "Snapdragon 8 Elite Gen 5 for Galaxy",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 1030971,
+        "gpuScore": 1353696,
+        "memoryScore": 389141,
+        "uxScore": 689334
+      },
+      "ranking": {
+        "position": 7,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "m3q",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://image-us.samsung.com/us/smartphones/galaxy-s26-ultra/images/galaxy-s26-ultra-features-colors-black.jpg",
+        "source": "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/",
+        "credit": "Samsung",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/60190b3d3752508d.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "Samsung · pagina ufficiale",
+          "url": "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "vivo-x300-pro",
+      "cat": "mobile",
+      "brand": "vivo",
+      "name": "vivo X300 Pro",
+      "sourceName": "vivo X300 Pro",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "16 GB + 512 GB · V2514",
+      "platform": "Android",
+      "values": {
+        "score": 3326259,
+        "chip": "Dimensity 9500",
+        "ram": 16,
+        "storage": 512,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 988622,
+        "gpuScore": 1298581,
+        "memoryScore": 335239,
+        "uxScore": 703817
+      },
+      "ranking": {
+        "position": 8,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "16 GB + 512 GB",
+        "deviceCode": "V2514",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/product/1770276743814/zip/img/pc/vivo-x300-pro-in-phantom-black-color.png",
+        "source": "https://www.vivo.com/en/products/x300-pro",
+        "credit": "vivo",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/08688714aa4305f1.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "vivo · pagina ufficiale",
+          "url": "https://www.vivo.com/en/products/x300-pro"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "xiaomi-17",
+      "cat": "mobile",
+      "brand": "Xiaomi",
+      "name": "Xiaomi 17",
+      "sourceName": "Mi 17",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 512 GB · pudding",
+      "platform": "Android",
+      "values": {
+        "score": 3248535,
+        "chip": "Snapdragon 8 Elite Gen 5",
+        "ram": 12,
+        "storage": 512,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 921447,
+        "gpuScore": 1191470,
+        "memoryScore": 473607,
+        "uxScore": 662011
+      },
+      "ranking": {
+        "position": 9,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 512 GB",
+        "deviceCode": "pudding",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://i02.appmifile.com/513_operatorx_operatorx_xm/14/02/2026/7e83548bfc090e9eeaa224dc4bdae063.png",
+        "source": "https://www.mi.com/global/product/xiaomi-17/",
+        "credit": "Xiaomi",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/8ca2479da927bf8c.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "Xiaomi · pagina ufficiale",
+          "url": "https://www.mi.com/global/product/xiaomi-17/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "xiaomi-17t-pro",
+      "cat": "mobile",
+      "brand": "Xiaomi",
+      "name": "Xiaomi 17T Pro",
+      "sourceName": "Mi 17T Pro",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 512 GB · warhol",
+      "platform": "Android",
+      "values": {
+        "score": 3182664,
+        "chip": "Dimensity 9500",
+        "ram": 12,
+        "storage": 512,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 911618,
+        "gpuScore": 1228396,
+        "memoryScore": 401602,
+        "uxScore": 641048
+      },
+      "ranking": {
+        "position": 10,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 512 GB",
+        "deviceCode": "warhol",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://i02.appmifile.com/313_operator_sg/15/05/2026/3c3085bee86cffd47a8dd3c47d012c5e.png",
+        "source": "https://www.mi.com/global/product/xiaomi-17t-pro/specs/",
+        "credit": "Xiaomi",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/a1ec470b9f2454a2.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "Xiaomi · pagina ufficiale",
+          "url": "https://www.mi.com/global/product/xiaomi-17t-pro/"
+        },
+        {
+          "label": "Xiaomi · foto prodotto ufficiale",
+          "url": "https://www.mi.com/global/product/xiaomi-17t-pro/specs/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "redmi-k90",
+      "cat": "mobile",
+      "brand": "REDMI",
+      "name": "REDMI K90",
+      "sourceName": "REDMI K90",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · annibale",
+      "platform": "Android",
+      "values": {
+        "score": 3077585,
+        "chip": "Snapdragon 8 Elite",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 878760,
+        "gpuScore": 1140515,
+        "memoryScore": 435236,
+        "uxScore": 623074
+      },
+      "ranking": {
+        "position": 11,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "annibale",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdn.cnbj1.fds.api.mi-img.com/product-images/new-product-images/redmi-k90_70342/images/3329.png",
+        "source": "https://www.mi.com/prod/redmi-k90/specs",
+        "credit": "Xiaomi / REDMI",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale dalla scheda tecnica REDMI",
+        "src": "assets/products/76edec5f227aae45.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "REDMI · foto prodotto ufficiale",
+          "url": "https://www.mi.com/prod/redmi-k90/specs"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "vivo-x300",
+      "cat": "mobile",
+      "brand": "vivo",
+      "name": "vivo X300",
+      "sourceName": "vivo X300",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · PD2509",
+      "platform": "Android",
+      "values": {
+        "score": 3037992,
+        "chip": "Dimensity 9500",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 864875,
+        "gpuScore": 1185719,
+        "memoryScore": 329857,
+        "uxScore": 657541
+      },
+      "ranking": {
+        "position": 12,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "PD2509",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/product/1766374467568/zip/img/wap/vivo-x300-in-phantom-black-color.png",
+        "source": "https://www.vivo.com/en/products/x300",
+        "credit": "vivo",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/fbd069e5e16f9575.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "vivo · pagina ufficiale",
+          "url": "https://www.vivo.com/en/products/x300"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "poco-f8-pro",
+      "cat": "mobile",
+      "brand": "POCO",
+      "name": "POCO F8 Pro",
+      "sourceName": "Poco F8 Pro",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 512 GB · annibale",
+      "platform": "Android",
+      "values": {
+        "score": 3024818,
+        "chip": "Snapdragon 8 Elite",
+        "ram": 12,
+        "storage": 512,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 884351,
+        "gpuScore": 1125566,
+        "memoryScore": 408540,
+        "uxScore": 606361
+      },
+      "ranking": {
+        "position": 13,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 512 GB",
+        "deviceCode": "annibale",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://i02.appmifile.com/860_operatorx_operatorx_xm/25/11/2025/356733a8fd8d4688a01d07cb5df12459.png",
+        "source": "https://www.mi.com/global/product/poco-f8-pro/",
+        "credit": "POCO",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/d976555df43c6bfe.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "POCO · pagina ufficiale",
+          "url": "https://www.mi.com/global/product/poco-f8-pro/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "honor-magic8-pro",
+      "cat": "mobile",
+      "brand": "HONOR",
+      "name": "HONOR Magic8 Pro",
+      "sourceName": "HONOR Magic8 Pro",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 512 GB · HNBKQ",
+      "platform": "Android",
+      "values": {
+        "score": 3023211,
+        "chip": "Snapdragon 8 Elite Gen 5",
+        "ram": 12,
+        "storage": 512,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 606572,
+        "gpuScore": 1426035,
+        "memoryScore": 423956,
+        "uxScore": 566648
+      },
+      "ranking": {
+        "position": 14,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 512 GB",
+        "deviceCode": "HNBKQ",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-magic8-pro/magic8-pro-list-gold.png",
+        "source": "https://www.honor.com/global/phones/honor-magic8-pro/",
+        "credit": "HONOR",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/22d04c4df6b869d2.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "HONOR · pagina ufficiale",
+          "url": "https://www.honor.com/global/phones/honor-magic8-pro/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iqoo-z11-turbo",
+      "cat": "mobile",
+      "brand": "iQOO",
+      "name": "iQOO Z11 Turbo",
+      "sourceName": "iQOO Z11 Turbo",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · PD2536",
+      "platform": "Android",
+      "values": {
+        "score": 2968990,
+        "chip": "Snapdragon 8 Gen 5",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 881331,
+        "gpuScore": 1021835,
+        "memoryScore": 394250,
+        "uxScore": 671574
+      },
+      "ranking": {
+        "position": 15,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "PD2536",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20260109/c60c9200e4f07fdce25b6144b1cce180.png",
+        "source": "https://www.vivo.com.cn/vivo/param/iqooz11turbo",
+        "credit": "iQOO",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/032695d7c1a4eaf9.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "iQOO · foto prodotto ufficiale",
+          "url": "https://www.vivo.com.cn/vivo/param/iqooz11turbo"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "poco-f7-ultra",
+      "cat": "mobile",
+      "brand": "POCO",
+      "name": "POCO F7 Ultra",
+      "sourceName": "Poco F7 Ultra",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "16 GB + 512 GB · miro",
+      "platform": "Android",
+      "values": {
+        "score": 2932885,
+        "chip": "Snapdragon 8 Elite",
+        "ram": 16,
+        "storage": 512,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 848069,
+        "gpuScore": 1066050,
+        "memoryScore": 415854,
+        "uxScore": 602912
+      },
+      "ranking": {
+        "position": 16,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "16 GB + 512 GB",
+        "deviceCode": "miro",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://i02.appmifile.com/465_operator_sg/12/03/2025/31acf858b93dd16ef13a9cc878d926c0.png",
+        "source": "https://www.mi.com/global/product/poco-f7-ultra/specs/",
+        "credit": "POCO",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/1daaa4e4017eb39b.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "POCO · pagina ufficiale",
+          "url": "https://www.mi.com/global/product/poco-f7-ultra/"
+        },
+        {
+          "label": "POCO · foto prodotto ufficiale",
+          "url": "https://www.mi.com/global/product/poco-f7-ultra/specs/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "xiaomi-15",
+      "cat": "mobile",
+      "brand": "Xiaomi",
+      "name": "Xiaomi 15",
+      "sourceName": "Mi 15",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · dada",
+      "platform": "Android",
+      "values": {
+        "score": 2914100,
+        "chip": "Snapdragon 8 Elite",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 874340,
+        "gpuScore": 1069991,
+        "memoryScore": 379667,
+        "uxScore": 590102
+      },
+      "ranking": {
+        "position": 17,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "dada",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://i02.appmifile.com/339_operatorx_operatorx_opx/02/03/2025/73371d9d0ca9843bcab6875541dc2905.png",
+        "source": "https://www.mi.com/global/product/xiaomi-15/",
+        "credit": "Xiaomi",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/9a4fe06632dccea4.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "Xiaomi · pagina ufficiale",
+          "url": "https://www.mi.com/global/product/xiaomi-15/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "galaxy-s26",
+      "cat": "mobile",
+      "brand": "Samsung",
+      "name": "Galaxy S26",
+      "sourceName": "Galaxy S26",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · m1s",
+      "platform": "Android",
+      "values": {
+        "score": 2827538,
+        "chip": "Exynos 2600",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 947776,
+        "gpuScore": 1052625,
+        "memoryScore": 347409,
+        "uxScore": 479728
+      },
+      "ranking": {
+        "position": 18,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "m1s",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://images.samsung.com/it/smartphones/galaxy-s26/buy/05_Color-Selection/M1_Color-Selection/M1_Color-Selection_Black_PC.jpg",
+        "source": "https://www.samsung.com/it/smartphones/galaxy-s/galaxy-s26-black-256gb-sm-s942bzkgeue/buy/",
+        "credit": "Samsung",
+        "kind": "product",
+        "description": "Foto ufficiale Samsung Galaxy S26, colore Black, tre angoli dello stesso modello",
+        "src": "assets/products/89262d421e82fe77.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "Samsung · pagina ufficiale",
+          "url": "https://www.samsung.com/us/smartphones/galaxy-s26/"
+        },
+        {
+          "label": "Samsung · gallery ufficiale Galaxy S26",
+          "url": "https://www.samsung.com/it/smartphones/galaxy-s/galaxy-s26-black-256gb-sm-s942bzkgeue/buy/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iqoo-15r",
+      "cat": "mobile",
+      "brand": "iQOO",
+      "name": "iQOO 15R",
+      "sourceName": "iQOO 15R",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "8 GB + 256 GB · I2508",
+      "platform": "Android",
+      "values": {
+        "score": 2817788,
+        "chip": "Snapdragon 8 Gen 5",
+        "ram": 8,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 862522,
+        "gpuScore": 979386,
+        "memoryScore": 356953,
+        "uxScore": 618927
+      },
+      "ranking": {
+        "position": 19,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "8 GB + 256 GB",
+        "deviceCode": "I2508",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1771325051408/7484b3f1d4d4c9a53a40647cde944eee.jpg",
+        "source": "https://www.iqoo.com/in/products/param/iqoo15r",
+        "credit": "iQOO",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/04f5137f1cb212e1.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "iQOO · pagina ufficiale",
+          "url": "https://www.iqoo.com/in/products/iqoo15r"
+        },
+        {
+          "label": "iQOO · foto prodotto ufficiale",
+          "url": "https://www.iqoo.com/in/products/param/iqoo15r"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "galaxy-z-fold8",
+      "cat": "mobile",
+      "brand": "Samsung",
+      "name": "Galaxy Z Fold8",
+      "sourceName": "Galaxy Z Fold8",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · h8q",
+      "platform": "Android",
+      "values": {
+        "score": 2814251,
+        "chip": "Snapdragon 8 Elite Gen 5 for Galaxy",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 803610,
+        "gpuScore": 1086476,
+        "memoryScore": 325767,
+        "uxScore": 598398
+      },
+      "ranking": {
+        "position": 20,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "h8q",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://images.samsung.com/us/smartphones/galaxy-z-fold8/images/galaxy-z-fold8-features-colors-graphite.jpg",
+        "source": "https://www.samsung.com/us/smartphones/galaxy-z-fold8/",
+        "credit": "Samsung",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/2608e980c9a7baa3.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "Samsung · pagina ufficiale",
+          "url": "https://www.samsung.com/us/smartphones/galaxy-z-fold8/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "oneplus-ace-6t",
+      "cat": "mobile",
+      "brand": "OnePlus",
+      "name": "OnePlus Ace 6T",
+      "sourceName": "OnePlus Ace 6T",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · OP6117L1",
+      "platform": "Android",
+      "values": {
+        "score": 2788201,
+        "chip": "Snapdragon 8 Gen 5",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 877685,
+        "gpuScore": 864300,
+        "memoryScore": 377287,
+        "uxScore": 668929
+      },
+      "ranking": {
+        "position": 21,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "OP6117L1",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://www.oneplus.com/content/dam/oneplus/2025/product-station/macan/assets/images-kv-phone-1-pc-1-9940b7.png.webp",
+        "source": "https://www.oneplus.com/cn/ace-6t",
+        "credit": "OnePlus",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/11372f151eb34287.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "OnePlus · pagina ufficiale",
+          "url": "https://www.oneplus.com/cn/ace-6t"
+        },
+        {
+          "label": "OnePlus · foto prodotto ufficiale",
+          "url": "https://www.oneplus.com/cn/ace-6t"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iqoo-z10-turbo-plus",
+      "cat": "mobile",
+      "brand": "iQOO",
+      "name": "iQOO Z10 Turbo+",
+      "sourceName": "iQOO Z10 Turbo+",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · PD2507",
+      "platform": "Android",
+      "values": {
+        "score": 2786169,
+        "chip": "Dimensity 9400+",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 824662,
+        "gpuScore": 950150,
+        "memoryScore": 377283,
+        "uxScore": 634074
+      },
+      "ranking": {
+        "position": 22,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "PD2507",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20250715/93a5974362940e1abe8b405e998d1109.png",
+        "source": "https://www.vivo.com.cn/vivo/param/iqooz10turboplus",
+        "credit": "iQOO",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/14941ed987a3813e.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "iQOO · foto prodotto ufficiale",
+          "url": "https://www.vivo.com.cn/vivo/param/iqooz10turboplus"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "galaxy-s25-ultra",
+      "cat": "mobile",
+      "brand": "Samsung",
+      "name": "Galaxy S25 Ultra",
+      "sourceName": "Galaxy S25 Ultra",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · pa3q",
+      "platform": "Android",
+      "values": {
+        "score": 2780751,
+        "chip": "Snapdragon 8 Elite for Galaxy",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 891948,
+        "gpuScore": 985658,
+        "memoryScore": 347009,
+        "uxScore": 556136
+      },
+      "ranking": {
+        "position": 23,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "pa3q",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://image-us.samsung.com/us/smartphones/galaxy-s25-ultra/images/galaxy-s25-ultra-features-colors-titanium-jetblack.jpg",
+        "source": "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/",
+        "credit": "Samsung",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/41007c454cb2eadb.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "Samsung · pagina ufficiale",
+          "url": "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "galaxy-s25-plus",
+      "cat": "mobile",
+      "brand": "Samsung",
+      "name": "Galaxy S25+",
+      "sourceName": "Galaxy S25+",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · pa2q",
+      "platform": "Android",
+      "values": {
+        "score": 2763072,
+        "chip": "Snapdragon 8 Elite for Galaxy",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 866625,
+        "gpuScore": 996402,
+        "memoryScore": 347621,
+        "uxScore": 552424
+      },
+      "ranking": {
+        "position": 24,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "pa2q",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://image-us.samsung.com/us/smartphones/galaxy-s25/images/galaxy-s25-features-colors-plus-blueblack.jpg",
+        "source": "https://www.samsung.com/us/smartphones/galaxy-s25/",
+        "credit": "Samsung",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/54964c97ea85aa56.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "Samsung · pagina ufficiale",
+          "url": "https://www.samsung.com/us/smartphones/galaxy-s25/"
+        },
+        {
+          "label": "Samsung · foto prodotto ufficiale",
+          "url": "https://www.samsung.com/us/smartphones/galaxy-s25/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "redmi-turbo-5-max",
+      "cat": "mobile",
+      "brand": "REDMI",
+      "name": "REDMI Turbo 5 Max",
+      "sourceName": "REDMI Turbo 5 Max",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · dash",
+      "platform": "Android",
+      "values": {
+        "score": 2726802,
+        "chip": "Dimensity 9500s",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 809783,
+        "gpuScore": 905149,
+        "memoryScore": 410777,
+        "uxScore": 601093
+      },
+      "ranking": {
+        "position": 25,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "dash",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdn.cnbj1.fds.api.mi-img.com/product-images/new-product-images/redmi-turbo-5-max_72710/images/37.png",
+        "source": "https://www.mi.com/prod/redmi-turbo-5-max/specs",
+        "credit": "Xiaomi / REDMI",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale dalla scheda tecnica REDMI",
+        "src": "assets/products/c1b5d0bd53c16abf.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "REDMI · foto prodotto ufficiale",
+          "url": "https://www.mi.com/prod/redmi-turbo-5-max/specs"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "poco-x8-pro-max",
+      "cat": "mobile",
+      "brand": "POCO",
+      "name": "POCO X8 Pro Max",
+      "sourceName": "Poco X8 Pro Max",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 512 GB · dash",
+      "platform": "Android",
+      "values": {
+        "score": 2604459,
+        "chip": "Dimensity 9500s",
+        "ram": 12,
+        "storage": 512,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 803108,
+        "gpuScore": 859318,
+        "memoryScore": 405204,
+        "uxScore": 536829
+      },
+      "ranking": {
+        "position": 26,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 512 GB",
+        "deviceCode": "dash",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://i02.appmifile.com/185_operatorx_operatorx_xm/12/03/2026/9a9c9c98f9246bc4ff6560bb882e1acd.png",
+        "source": "https://www.mi.com/global/product/poco-x8-pro-max/",
+        "credit": "POCO",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/3cc5bc0543cc08e0.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "POCO · pagina ufficiale",
+          "url": "https://www.mi.com/global/product/poco-x8-pro-max/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "xiaomi-15t-pro",
+      "cat": "mobile",
+      "brand": "Xiaomi",
+      "name": "Xiaomi 15T Pro",
+      "sourceName": "Mi 15T Pro",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 512 GB · klimt",
+      "platform": "Android",
+      "values": {
+        "score": 2583659,
+        "chip": "Dimensity 9400+",
+        "ram": 12,
+        "storage": 512,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 750360,
+        "gpuScore": 892637,
+        "memoryScore": 369201,
+        "uxScore": 571461
+      },
+      "ranking": {
+        "position": 27,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 512 GB",
+        "deviceCode": "klimt",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://i02.appmifile.com/866_operatorx_operatorx_xm/19/09/2025/f25258b1fe293171376412a95b902263.png",
+        "source": "https://www.mi.com/global/product/xiaomi-15t-pro/",
+        "credit": "Xiaomi",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/71b90387002bdfff.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "Xiaomi · pagina ufficiale",
+          "url": "https://www.mi.com/global/product/xiaomi-15t-pro/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "galaxy-s25",
+      "cat": "mobile",
+      "brand": "Samsung",
+      "name": "Galaxy S25",
+      "sourceName": "Galaxy S25",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · pa1q",
+      "platform": "Android",
+      "values": {
+        "score": 2583039,
+        "chip": "Snapdragon 8 Elite for Galaxy",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 790426,
+        "gpuScore": 937333,
+        "memoryScore": 329515,
+        "uxScore": 525765
+      },
+      "ranking": {
+        "position": 28,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "pa1q",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://image-us.samsung.com/us/smartphones/galaxy-s25/images/galaxy-s25-features-colors-blueblack.jpg",
+        "source": "https://www.samsung.com/us/smartphones/galaxy-s25/",
+        "credit": "Samsung",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/09e3d410b4dcd120.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "Samsung · pagina ufficiale",
+          "url": "https://www.samsung.com/us/smartphones/galaxy-s25/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "realme-gt-7",
+      "cat": "mobile",
+      "brand": "realme",
+      "name": "realme GT 7",
+      "sourceName": "realme GT 7",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · RE60ADL1",
+      "platform": "Android",
+      "values": {
+        "score": 2415876,
+        "chip": "Dimensity 9400e",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 726809,
+        "gpuScore": 795971,
+        "memoryScore": 335549,
+        "uxScore": 557547
+      },
+      "ranking": {
+        "position": 29,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "RE60ADL1",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://image01.realme.net/general/20250527/1748334938934bda36264e718493db5360875dae7b1f8.png",
+        "source": "https://www.realme.com/global/realme-gt-7-5g/specs",
+        "credit": "realme",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/8b266bde60ce235b.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "realme · foto prodotto ufficiale",
+          "url": "https://www.realme.com/global/realme-gt-7-5g/specs"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iqoo-neo10-cn",
+      "cat": "mobile",
+      "brand": "iQOO",
+      "name": "iQOO Neo10",
+      "sourceName": "iQOO Neo10",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · PD2425",
+      "platform": "Android",
+      "values": {
+        "score": 2337347,
+        "chip": "Snapdragon 8 Gen 3",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 676909,
+        "gpuScore": 806097,
+        "memoryScore": 327834,
+        "uxScore": 526507
+      },
+      "ranking": {
+        "position": 30,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "PD2425",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20241114/2442aef99cd36acfb46dc0cb3226fdeb.png",
+        "source": "https://www.vivo.com.cn/vivo/param/iqooneo10",
+        "credit": "iQOO",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/49c524eaff5c15ed.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "iQOO · foto prodotto ufficiale",
+          "url": "https://www.vivo.com.cn/vivo/param/iqooneo10"
+        }
+      ],
+      "notes": [
+        "Modello cinese PD2425; distinto dal Neo 10 globale I2405."
+      ]
+    },
+    {
+      "id": "iqoo-z10-turbo-pro",
+      "cat": "mobile",
+      "brand": "iQOO",
+      "name": "iQOO Z10 Turbo Pro",
+      "sourceName": "iQOO Z10 Turbo Pro",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · PD2453",
+      "platform": "Android",
+      "values": {
+        "score": 2294302,
+        "chip": "Snapdragon 8s Gen 4",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 665873,
+        "gpuScore": 785307,
+        "memoryScore": 326587,
+        "uxScore": 516535
+      },
+      "ranking": {
+        "position": 31,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "PD2453",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20250417/f57ede30a06ee577123172de7630c5a3.png",
+        "source": "https://www.vivo.com.cn/vivo/param/iqooz10turbopro",
+        "credit": "iQOO",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/f404855d2ad91357.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "iQOO · foto prodotto ufficiale",
+          "url": "https://www.vivo.com.cn/vivo/param/iqooz10turbopro"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iqoo-neo-10-global",
+      "cat": "mobile",
+      "brand": "iQOO",
+      "name": "iQOO Neo 10",
+      "sourceName": "iQOO Neo 10",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "8 GB + 256 GB · I2405",
+      "platform": "Android",
+      "values": {
+        "score": 2266281,
+        "chip": "Snapdragon 8s Gen 4",
+        "ram": 8,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 662387,
+        "gpuScore": 772376,
+        "memoryScore": 335853,
+        "uxScore": 495665
+      },
+      "ranking": {
+        "position": 32,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "8 GB + 256 GB",
+        "deviceCode": "I2405",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1777539566021/fe6e36b8cc0d842b2259ad5b9ce0bed1.png",
+        "source": "https://www.iqoo.com/in/products/param/neo10",
+        "credit": "iQOO",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/1cce106c6dca987f.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "iQOO · pagina ufficiale",
+          "url": "https://www.iqoo.com/in/products/neo10"
+        },
+        {
+          "label": "iQOO · foto prodotto ufficiale",
+          "url": "https://www.iqoo.com/in/products/param/neo10"
+        }
+      ],
+      "notes": [
+        "Modello globale I2405; distinto dal Neo10 cinese PD2425."
+      ]
+    },
+    {
+      "id": "oppo-k13-turbo-pro-5g",
+      "cat": "mobile",
+      "brand": "OPPO",
+      "name": "OPPO K13 Turbo Pro 5G",
+      "sourceName": "OPPO K13 Turbo Pro 5G",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "8 GB + 256 GB · OP5EE7L1",
+      "platform": "Android",
+      "values": {
+        "score": 2244450,
+        "chip": "Snapdragon 8s Gen 4",
+        "ram": 8,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 678679,
+        "gpuScore": 792456,
+        "memoryScore": 300552,
+        "uxScore": 472763
+      },
+      "ranking": {
+        "position": 33,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "8 GB + 256 GB",
+        "deviceCode": "OP5EE7L1",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/k13-turbo-series-in/specs/k13-turbo-pro/1224-720.png",
+        "source": "https://www.oppo.com/in/smartphones/series-k/k13-turbo-pro/specs/",
+        "credit": "OPPO",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/5b1f2f13ec67592e.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "OPPO · foto prodotto ufficiale",
+          "url": "https://www.oppo.com/in/smartphones/series-k/k13-turbo-pro/specs/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "redmi-turbo-4-pro",
+      "cat": "mobile",
+      "brand": "REDMI",
+      "name": "REDMI Turbo 4 Pro",
+      "sourceName": "REDMI Turbo 4 Pro",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · onyx",
+      "platform": "Android",
+      "values": {
+        "score": 2221665,
+        "chip": "Snapdragon 8s Gen 4",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 630579,
+        "gpuScore": 777938,
+        "memoryScore": 362929,
+        "uxScore": 450219
+      },
+      "ranking": {
+        "position": 34,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "onyx",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdn.cnbj1.fds.api.mi-img.com/product-images/redmiTrubo4Pro/specs/images/409.png",
+        "source": "https://www.mi.com/prod/redmi-turbo-4-pro/specs",
+        "credit": "Xiaomi / REDMI",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale dalla scheda tecnica REDMI",
+        "src": "assets/products/4e87e57bca2744db.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "REDMI · foto prodotto ufficiale",
+          "url": "https://www.mi.com/prod/redmi-turbo-4-pro/specs"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "galaxy-s24-ultra",
+      "cat": "mobile",
+      "brand": "Samsung",
+      "name": "Galaxy S24 Ultra",
+      "sourceName": "Galaxy S24 Ultra",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · e3q",
+      "platform": "Android",
+      "values": {
+        "score": 2201149,
+        "chip": "Snapdragon 8 Gen 3 for Galaxy",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 693351,
+        "gpuScore": 711083,
+        "memoryScore": 316564,
+        "uxScore": 480151
+      },
+      "ranking": {
+        "position": 35,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "e3q",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://images.samsung.com/us/smartphones/galaxy-s24-ultra/images/galaxy-s24-ultra-share-image.jpg",
+        "source": "https://www.samsung.com/us/smartphones/galaxy-s24-ultra/",
+        "credit": "Samsung",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/e09e4f7267b0f07a.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "Samsung · pagina ufficiale",
+          "url": "https://www.samsung.com/us/smartphones/galaxy-s24-ultra/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "poco-f7",
+      "cat": "mobile",
+      "brand": "POCO",
+      "name": "POCO F7",
+      "sourceName": "Poco F7",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 512 GB · onyx",
+      "platform": "Android",
+      "values": {
+        "score": 2199079,
+        "chip": "Snapdragon 8s Gen 4",
+        "ram": 12,
+        "storage": 512,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 615969,
+        "gpuScore": 774434,
+        "memoryScore": 365624,
+        "uxScore": 443052
+      },
+      "ranking": {
+        "position": 36,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 512 GB",
+        "deviceCode": "onyx",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://i02.appmifile.com/912_operatorx_operatorx_xm/19/06/2025/bc2e40437ae6f181bfde7b662c867a57.jpg",
+        "source": "https://www.mi.com/global/product/poco-f7/",
+        "credit": "POCO",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/61e1aa1296fe698d.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "POCO · pagina ufficiale",
+          "url": "https://www.mi.com/global/product/poco-f7/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "xiaomi-14t-pro",
+      "cat": "mobile",
+      "brand": "Xiaomi",
+      "name": "Xiaomi 14T Pro",
+      "sourceName": "Mi 14T Pro",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 512 GB · rothko",
+      "platform": "Android",
+      "values": {
+        "score": 2129644,
+        "chip": "Dimensity 9300+",
+        "ram": 12,
+        "storage": 512,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 649460,
+        "gpuScore": 639811,
+        "memoryScore": 354379,
+        "uxScore": 485994
+      },
+      "ranking": {
+        "position": 37,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 512 GB",
+        "deviceCode": "rothko",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://i02.appmifile.com/675_operatorx_operatorx_opx/26/09/2024/f81bba823d0ac2abe8c07ce09e2eb11f.png",
+        "source": "https://www.mi.com/global/product/xiaomi-14t-pro/",
+        "credit": "Xiaomi",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/24d37cd2587d09bb.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "Xiaomi · pagina ufficiale",
+          "url": "https://www.mi.com/global/product/xiaomi-14t-pro/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "xiaomi-17t",
+      "cat": "mobile",
+      "brand": "Xiaomi",
+      "name": "Xiaomi 17T",
+      "sourceName": "Mi 17T",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · chagall",
+      "platform": "Android",
+      "values": {
+        "score": 2026828,
+        "chip": "Dimensity 8500-Ultra",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 601350,
+        "gpuScore": 621499,
+        "memoryScore": 347671,
+        "uxScore": 456308
+      },
+      "ranking": {
+        "position": 38,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "chagall",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://i02.appmifile.com/736_operator_sg/15/05/2026/0924a5020417dfe742677bbf4939a25a.png",
+        "source": "https://www.mi.com/global/product/xiaomi-17t/specs/",
+        "credit": "Xiaomi",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/6b33d157bcb163d5.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "Xiaomi · pagina ufficiale",
+          "url": "https://www.mi.com/global/product/xiaomi-17t/"
+        },
+        {
+          "label": "Xiaomi · foto prodotto ufficiale",
+          "url": "https://www.mi.com/global/product/xiaomi-17t/specs/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "realme-gt-7t",
+      "cat": "mobile",
+      "brand": "realme",
+      "name": "realme GT 7T",
+      "sourceName": "realme GT 7T",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · RE6090L1",
+      "platform": "Android",
+      "values": {
+        "score": 2018141,
+        "chip": "Dimensity 8400-Max",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 632070,
+        "gpuScore": 635337,
+        "memoryScore": 290269,
+        "uxScore": 460465
+      },
+      "ranking": {
+        "position": 39,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "RE6090L1",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://image01.realme.net/general/20250527/17483333908626eb6e4625dbb47dba676553fee800d7e.png",
+        "source": "https://www.realme.com/global/realme-gt-7t-5g/specs",
+        "credit": "realme",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/6b3101c8df299e43.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "realme · foto prodotto ufficiale",
+          "url": "https://www.realme.com/global/realme-gt-7t-5g/specs"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "galaxy-s25-fe",
+      "cat": "mobile",
+      "brand": "Samsung",
+      "name": "Galaxy S25 FE",
+      "sourceName": "Galaxy S25 FE",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "8 GB + 256 GB · r13s",
+      "platform": "Android",
+      "values": {
+        "score": 2000659,
+        "chip": "Exynos 2400",
+        "ram": 8,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 680656,
+        "gpuScore": 594681,
+        "memoryScore": 303995,
+        "uxScore": 421327
+      },
+      "ranking": {
+        "position": 40,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "8 GB + 256 GB",
+        "deviceCode": "r13s",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://images.samsung.com/is/image/samsung/assets/us/smartphones/galaxy-s25-fe/08252025/Galaxy_S25_FE-MLP-FT12-1-Design_color_Jetblack-pc.jpg?$720_N_JPG$",
+        "source": "https://www.samsung.com/us/smartphones/galaxy-s25-fe/",
+        "credit": "Samsung",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/9f6b2745121e5ca2.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "Samsung · pagina ufficiale",
+          "url": "https://www.samsung.com/us/smartphones/galaxy-s25-fe/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "poco-x8-pro",
+      "cat": "mobile",
+      "brand": "POCO",
+      "name": "POCO X8 Pro",
+      "sourceName": "Poco X8 Pro",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "8 GB + 256 GB · klee",
+      "platform": "Android",
+      "values": {
+        "score": 1977887,
+        "chip": "Dimensity 8500-Ultra",
+        "ram": 8,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 584825,
+        "gpuScore": 634127,
+        "memoryScore": 322126,
+        "uxScore": 436809
+      },
+      "ranking": {
+        "position": 41,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "8 GB + 256 GB",
+        "deviceCode": "klee",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://i02.appmifile.com/679_operatorx_operatorx_xm/13/03/2026/0ffb8c8e38e2f48fa86dcab9f5fc3be9.png",
+        "source": "https://www.mi.com/global/product/poco-x8-pro/",
+        "credit": "POCO",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/da3a1cf15b4a6ad0.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "POCO · pagina ufficiale",
+          "url": "https://www.mi.com/global/product/poco-x8-pro/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "infinix-gt-50-pro",
+      "cat": "mobile",
+      "brand": "Infinix",
+      "name": "Infinix GT 50 Pro",
+      "sourceName": "Infinix GT 50 Pro",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · Infinix-X6891",
+      "platform": "Android",
+      "values": {
+        "score": 1959760,
+        "chip": "Dimensity 8400",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 564680,
+        "gpuScore": 643591,
+        "memoryScore": 345593,
+        "uxScore": 405896
+      },
+      "ranking": {
+        "position": 42,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "Infinix-X6891",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://d3o31au25zfcly.cloudfront.net/newfileadmin/usp/gt/gt50pro/section7/pc/1.webp",
+        "source": "https://www.infinixmobility.com/gt-50-pro",
+        "credit": "Infinix",
+        "kind": "product",
+        "description": "Render studio ufficiale Infinix GT 50 Pro, vista posteriore inclinata, senza testo pubblicitario",
+        "src": "assets/products/d3edb44c847fbcb1.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "Infinix · pagina ufficiale",
+          "url": "https://www.infinixmobility.com/gt-50-pro"
+        },
+        {
+          "label": "Infinix · foto prodotto ufficiale",
+          "url": "https://www.infinixmobility.com/gt-50-pro"
+        },
+        {
+          "label": "Infinix · hero pubblicitario escluso dalla UI per testo incorporato",
+          "url": "https://d3o31au25zfcly.cloudfront.net/newfileadmin/usp/gt/gt50pro/section1/mb/kv_mb.webp"
+        },
+        {
+          "label": "Infinix · render ufficiale senza testo, sezione 7",
+          "url": "https://www.infinixmobility.com/gt-50-pro"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "galaxy-s24-plus",
+      "cat": "mobile",
+      "brand": "Samsung",
+      "name": "Galaxy S24+",
+      "sourceName": "Galaxy S24+",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · e2s",
+      "platform": "Android",
+      "values": {
+        "score": 1876702,
+        "chip": "Exynos 2400",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 626829,
+        "gpuScore": 551752,
+        "memoryScore": 282176,
+        "uxScore": 415945
+      },
+      "ranking": {
+        "position": 43,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "e2s",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://images.samsung.com/us/smartphones/galaxy-s24/images/galaxy-s24-share-image.jpg",
+        "source": "https://www.samsung.com/us/smartphones/galaxy-s24/",
+        "credit": "Samsung",
+        "kind": "family",
+        "description": "Immagine ufficiale della famiglia Galaxy S24/S24+",
+        "src": "assets/products/07f6a75d805278ad.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "Samsung · pagina ufficiale",
+          "url": "https://www.samsung.com/us/smartphones/galaxy-s24/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "poco-x7-pro",
+      "cat": "mobile",
+      "brand": "POCO",
+      "name": "POCO X7 Pro",
+      "sourceName": "Poco X7 Pro",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 512 GB · rodin",
+      "platform": "Android",
+      "values": {
+        "score": 1874182,
+        "chip": "Dimensity 8400-Ultra",
+        "ram": 12,
+        "storage": 512,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 584762,
+        "gpuScore": 555422,
+        "memoryScore": 314429,
+        "uxScore": 419569
+      },
+      "ranking": {
+        "position": 44,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 512 GB",
+        "deviceCode": "rodin",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://i02.appmifile.com/251_operatorx_operatorx_opx/09/01/2025/d7110ed0232cacb6c01be82fc953bd49.png",
+        "source": "https://www.mi.com/global/product/poco-x7-pro/",
+        "credit": "POCO",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/2bc1822fc725a95d.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "POCO · pagina ufficiale",
+          "url": "https://www.mi.com/global/product/poco-x7-pro/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "galaxy-s24-fe",
+      "cat": "mobile",
+      "brand": "Samsung",
+      "name": "Galaxy S24 FE",
+      "sourceName": "Galaxy S24 FE",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "8 GB + 256 GB · r12s",
+      "platform": "Android",
+      "values": {
+        "score": 1849346,
+        "chip": "Exynos 2400",
+        "ram": 8,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 603988,
+        "gpuScore": 549480,
+        "memoryScore": 286140,
+        "uxScore": 409738
+      },
+      "ranking": {
+        "position": 45,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "8 GB + 256 GB",
+        "deviceCode": "r12s",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://images.samsung.com/is/image/samsung/assets/us/smartphones/galaxy-s24-fe/09192024/Galaxy_S24_FE-MLP-FT03-DESIGN-PC.jpg?$1440_N_JPG$",
+        "source": "https://www.samsung.com/us/smartphones/galaxy-s24-fe/",
+        "credit": "Samsung",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/97db897e181ed500.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "Samsung · pagina ufficiale",
+          "url": "https://www.samsung.com/us/smartphones/galaxy-s24-fe/"
+        },
+        {
+          "label": "Samsung · foto prodotto ufficiale",
+          "url": "https://www.samsung.com/us/smartphones/galaxy-s24-fe/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "galaxy-s24",
+      "cat": "mobile",
+      "brand": "Samsung",
+      "name": "Galaxy S24",
+      "sourceName": "Galaxy S24",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "8 GB + 256 GB · e1s",
+      "platform": "Android",
+      "values": {
+        "score": 1820628,
+        "chip": "Exynos 2400",
+        "ram": 8,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 598437,
+        "gpuScore": 557768,
+        "memoryScore": 259369,
+        "uxScore": 405054
+      },
+      "ranking": {
+        "position": 46,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "8 GB + 256 GB",
+        "deviceCode": "e1s",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://images.samsung.com/us/smartphones/galaxy-s24/images/galaxy-s24-share-image.jpg",
+        "source": "https://www.samsung.com/us/smartphones/galaxy-s24/",
+        "credit": "Samsung",
+        "kind": "family",
+        "description": "Immagine ufficiale della famiglia Galaxy S24/S24+",
+        "src": "assets/products/07f6a75d805278ad.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "Samsung · pagina ufficiale",
+          "url": "https://www.samsung.com/us/smartphones/galaxy-s24/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "poco-f6-pro",
+      "cat": "mobile",
+      "brand": "POCO",
+      "name": "POCO F6 Pro",
+      "sourceName": "Poco F6 Pro",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 512 GB · vermeer",
+      "platform": "Android",
+      "values": {
+        "score": 1756020,
+        "chip": "Snapdragon 8 Gen 2",
+        "ram": 12,
+        "storage": 512,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 563974,
+        "gpuScore": 427508,
+        "memoryScore": 311782,
+        "uxScore": 452756
+      },
+      "ranking": {
+        "position": 47,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 512 GB",
+        "deviceCode": "vermeer",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://i02.appmifile.com/633_operatorx_operatorx_opx/24/05/2024/2febbb736455504c9ac0f80ee9feb97a.png",
+        "source": "https://www.mi.com/global/product/poco-f6-pro/",
+        "credit": "POCO",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/2978ff1493df9e68.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "POCO · pagina ufficiale",
+          "url": "https://www.mi.com/global/product/poco-f6-pro/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "poco-f6",
+      "cat": "mobile",
+      "brand": "POCO",
+      "name": "POCO F6",
+      "sourceName": "Poco F6",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 512 GB · peridot",
+      "platform": "Android",
+      "values": {
+        "score": 1704455,
+        "chip": "Snapdragon 8s Gen 3",
+        "ram": 12,
+        "storage": 512,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 515859,
+        "gpuScore": 475618,
+        "memoryScore": 309882,
+        "uxScore": 403096
+      },
+      "ranking": {
+        "position": 48,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 512 GB",
+        "deviceCode": "peridot",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://i02.appmifile.com/660_operatorx_operatorx_opx/24/05/2024/1e6bbc99cfa14f74419fd63b4e573f64.png",
+        "source": "https://www.mi.com/global/product/poco-f6/",
+        "credit": "POCO",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/73aa3c3db2ca5ac9.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "POCO · pagina ufficiale",
+          "url": "https://www.mi.com/global/product/poco-f6/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "galaxy-s23-plus",
+      "cat": "mobile",
+      "brand": "Samsung",
+      "name": "Galaxy S23+",
+      "sourceName": "Galaxy S23+",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "8 GB + 256 GB · dm2q",
+      "platform": "Android",
+      "values": {
+        "score": 1695011,
+        "chip": "Snapdragon 8 Gen 2 for Galaxy",
+        "ram": 8,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 570371,
+        "gpuScore": 418441,
+        "memoryScore": 277364,
+        "uxScore": 428835
+      },
+      "ranking": {
+        "position": 49,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "8 GB + 256 GB",
+        "deviceCode": "dm2q",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://images.samsung.com/is/image/samsung/p6pim/it/2302/gallery/it-galaxy-s23-s916-sm-s916bzkdeue-534970219?$1164_776_PNG$",
+        "source": "https://www.samsung.com/it/smartphones/galaxy-s/galaxy-s23-plus-phantom-black-256gb-sm-s916bzkdeue/buy/",
+        "credit": "Samsung",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale",
+        "src": "assets/products/4c806a4823c4aaa0.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "Samsung · foto prodotto ufficiale",
+          "url": "https://www.samsung.com/it/smartphones/galaxy-s/galaxy-s23-plus-phantom-black-256gb-sm-s916bzkdeue/buy/"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "redmi-turbo-3",
+      "cat": "mobile",
+      "brand": "REDMI",
+      "name": "Redmi Turbo 3",
+      "sourceName": "Redmi Turbo 3",
+      "series": "Android Top 50",
+      "year": null,
+      "variant": "12 GB + 256 GB · peridot",
+      "platform": "Android",
+      "values": {
+        "score": 1689352,
+        "chip": "Snapdragon 8s Gen 3",
+        "ram": 12,
+        "storage": 256,
+        "display": null,
+        "battery": null,
+        "camera": null,
+        "cpuScore": 505440,
+        "gpuScore": 471085,
+        "memoryScore": 308967,
+        "uxScore": 403860
+      },
+      "ranking": {
+        "position": 50,
+        "version": "V11",
+        "period": "2026-08",
+        "source": "https://www.antutu.com/web/ranking",
+        "scope": "Android globale · escluso mercato cinese",
+        "configuration": "12 GB + 256 GB",
+        "deviceCode": "peridot",
+        "statistic": "media dei test validi"
+      },
+      "image": {
+        "url": "https://cdn.cnbj1.fds.api.mi-img.com/product-images/redmi-turbo-3_86020/specs/images/1382.png",
+        "source": "https://www.mi.com/prod/redmi-turbo-3/specs",
+        "credit": "Xiaomi / REDMI",
+        "kind": "product",
+        "description": "Foto prodotto ufficiale dalla scheda tecnica REDMI",
+        "src": "assets/products/0186d5d3bde51401.webp"
+      },
+      "sources": [
+        {
+          "label": "AnTuTu V11 · Android globale · agosto 2026",
+          "url": "https://www.antutu.com/web/ranking"
+        },
+        {
+          "label": "REDMI · foto prodotto ufficiale",
+          "url": "https://www.mi.com/prod/redmi-turbo-3/specs"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "coverage": {
+    "scope": "Tutti i 54 modelli iPhone rilasciati dal 2007 al 10 ottobre 2026 nel repertorio ufficiale Apple; prime 50 righe della classifica globale Android AnTuTu V11 di agosto 2026. Capacità/colore non duplicano iPhone.",
+    "counts": {
+      "total": 104,
+      "iPhone": 54,
+      "AndroidTop50": 50,
+      "iPhoneBenchmarked": 33,
+      "iPhoneWithoutBenchmark": 21,
+      "manufacturerImages": 104,
+      "AndroidImages": 50
+    },
+    "gaps": [
+      "Il ranking Android verificabile è agosto 2026, non ottobre.",
+      "Le specifiche Android non presenti nel ranking restano null fino alla verifica del produttore.",
+      "Punteggi Android e iOS non confrontabili direttamente.",
+      "AnTuTu iOS comprende anche iPad: position mantiene la posizione originaria; phonePosition è la posizione derivata fra soli iPhone.",
+      "iPhone Duo annunciato ma disponibile dal 23 ottobre 2026: escluso perché non ancora rilasciato alla data di verifica.",
+      "Galaxy S24 e S24+ usano la foto ufficiale condivisa della famiglia, etichettata kind=family; tutti gli altri modelli hanno una foto specifica."
+    ],
+    "asOf": "2026-10-10",
+    "benchmarkPeriod": {
+      "Android": "2026-08",
+      "iOS": "2026-09"
+    },
+    "sources": [
+      "https://support.apple.com/en-us/108044",
+      "https://www.antutu.com/web/ranking",
+      "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Apple · repertorio iPhone",
+      "url": "https://support.apple.com/en-us/108044"
+    },
+    {
+      "label": "AnTuTu · classifica globale V11",
+      "url": "https://www.antutu.com/web/ranking"
+    },
+    {
+      "label": "AnTuTu · API pubblica iOS usata dalla pagina ranking",
+      "url": "https://www.antutu.com/web/api/rank/list?top_os=ios&lang=abroad"
+    },
+    {
+      "label": "Apple · iPhone Duo disponibile il 23 ottobre 2026",
+      "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/"
+    }
+  ]
+}

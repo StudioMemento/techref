@@ -1,0 +1,1256 @@
+{
+  "assets/products/7af1cd2a6a27535c.webp": {
+    "source": "https://www.samsung.com/it/monitors/gaming/odyssey-oled-g8-g81sf-27-inch-240hz-oled-uhd-ls27fg810suxen/",
+    "original": "https://images.samsung.com/is/image/samsung/p6pim/it/ls27fg810suxen/gallery/it-odyssey-oled-g8-27g81sf-ls27fg810suxen-545450069?$1164_776_PNG$",
+    "credit": "Samsung Electronics",
+    "kind": "product"
+  },
+  "assets/products/56d1a0f63b4f95db.webp": {
+    "source": "https://www.apple.com/it/studio-display/",
+    "original": "https://www.apple.com/v/studio-display/f/images/overview/hero/static__bntadi3c3hde_large.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/9a1a66b191d48650.webp": {
+    "source": "https://www.apple.com/it/studio-display-xdr/",
+    "original": "https://www.apple.com/v/studio-display-xdr/b/images/overview/welcome/hero_static__b1til0h99tf6_large.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/c3f9eaf89f7a8010.webp": {
+    "source": "https://semiconductor.samsung.com/news-events/news/samsung-introduces-the-ultimate-200-megapixel-image-sensor-for-a-high-resolution-experience-in-flagship-smartphones/",
+    "original": "https://image.semiconductor.samsung.com/image/samsung/p6/semiconductor/newsroom/news/samsung-introduces-the-ultimate-200-megapixel-image-sensor-for-a-high-resolution-experience-in-flagship-smartphones_product%20image.jpg?$ORIGIN_JPG$",
+    "credit": "Samsung Semiconductor",
+    "kind": "product"
+  },
+  "assets/products/a32b40b0b2568bb4.webp": {
+    "source": "https://www.lg.com/be_fr/moniteurs/moniteurs-gaming-ultragear/27gr83q-b/",
+    "original": "https://www.lg.com/content/dam/channel/wcms/be_fr/images/monitor/27gr83q-b_aeu_eebn_nl_c/gallery/large01.jpg",
+    "credit": "LG Electronics",
+    "kind": "product"
+  },
+  "assets/products/67e801d47fe98cc5.webp": {
+    "source": "https://es.msi.com/Monitor/MAG-271QPX-QD-OLED/Gallery",
+    "original": "https://storage-asset.msi.com/global/picture/product/product_17041876054de2be15ab85adddaebf5af010c3eb55.webp",
+    "credit": "MSI",
+    "kind": "product"
+  },
+  "assets/products/8ffd88a0f1e5eedb.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/pulse-rx-550-4g-g5",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11268_01_05_pulse_rx550/11268_01_rx550_pulse_4gb_265x374_02.ashx?v=0f2edd3a609045acb4bcfdd7c41aade5",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/b5ddf9700f57582c.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/pulse-rx-560-4g-g5-14-cu",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11267_00_25_pulse_rx560/11267_00_rx560_pulse_4gbgddr5_800x500_374x265.ashx?v=c111959c85bb40518ab6fc44ef7f3b03",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/e953724422fa9e3a.webp": {
+    "source": "https://www.sapphiretech.com/zh-cn/consumer/pulse-rx-560d-4gb-6_oc_c",
+    "original": "https://cdn.sapphiretech.com.cn/assets/consumer/11272_02_48_PULSE_RX_560D_4GB_6_OC_C/11272_02_RX560D_Pulse_OC_4GBGDDR5_374x265_C.png",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/0223c12ddba9e760.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/pulse-rx-570-8gd5",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11266_78-pulse-rx570-8gd5/11266_78_rx570_pulse_8gbgddr5_dp_hdmi_dvi_c02_ren_374x265_10aug20.ashx?v=8c371a96ea9846169487c7c790ffd7d5",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/0e9a68f8f99e8566.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/pulse-rx-580-8g-g5",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11265_05_06_20_33_pulse_rx580/11265_05_rx580_pulse_8gb_374x265_02.ashx?v=81918aa1ec954eda825d9574490c0e32",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/7b2f37de0b292262.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/pulse-rx-590-8g-g5",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/components/product-images-folder/pulse-dual-x-images/pulse_dualx_374x268.ashx?v=dcf838dda7e5464db99be0ca387a64ba",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/dd7569326c33bfb4.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-5500-xt-8g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11295_01_03_pulse_rx5500xt/rx5500xt_pulse_8gbgddr6_3dp_hdmi_c02_374x265.ashx?v=f4a1465386224d469c7ce642585f2d27",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/8559c1b87e061043.webp": {
+    "source": "https://www.sapphiretech.com/zh-cn/consumer/pulse-rx-560-xt-4g-g5_c",
+    "original": "https://cdn.sapphiretech.com.cn/assets/consumer/pulse-rx-560-xt-4g-g5_c/RX560XT_platinum_4GB_374x265_C02.png",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/c6484ab99f7c343f.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/21294-01-20g-radeon-rx-5700-8g-gddr6",
+    "original": "https://cdn.sapphiretech.global/assets/consumer/Pulse_RX5700_Series/21294_01/21294_01_RX5700_8GBGDDR6_3DP_HDMI_374x265_02.png",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/3e43f3ef1c1f2d4b.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/21293-01-40g-radeon-rx-5700-xt-8g-gddr6",
+    "original": "https://cdn.sapphiretech.global/assets/consumer/Pulse_RX5700_Series/21293_01/21293_01_RX5700XT_8GBGDDR6_3DP_HDMI_C02_374x265.png",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/65ab4bc4494780a7.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-5600-xt-6g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11296_01_rx5600_pulse/11296_01_rx5600xt_pulse_6gbgddr6_3dp_hdmi_c02_374x265.ashx?v=a7b5c39243ca4849b4ee62877af3176b",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/17e7ffe72b4d9993.webp": {
+    "source": "https://www.sapphiretech.com/zh-cn/consumer/pulse-rx-590-gme-8g-g5_c",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11298_05_48_rx_590_gme_pulse_c/rx_590_gme_pluse_375x264.ashx?v=dfd296ffb9084978aa2ba5ac1153eb15",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/142db33ec9ec2923.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/21305-01-20g-radeon-rx-6800-16g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/21305_01_rx6800_mba_16ggddr6/21305_01_rx6800_mba_16ggddr6_c02_374x265.ashx?v=086684b532bc4548ac34d5b728e16036",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/a4724a954e478888.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/21304-01-20g-radeon-rx-6800-xt-16g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/21304_01_rx6800xt_mba_16ggddr6/21304_01_rx6800xt_mba_16ggddr6_c02_374x265.ashx?v=66d87837808946068634bf22d018aaf9",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/bbee8f6839324870.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/21308-01-20g-radeon-rx-6900-xt-16g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/21308_01_rx6900xt_mba_16ggddr6/21308_01_rx6900xt_mba_16ggddr6_c02_374x265.ashx?v=29e992bf05ca40a9a0aec09cbde07113",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/6a144d88434bb31a.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/11310_05_20g-radeon-rx-6600-8g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11310_05_rx6600_mba_8ggddr6/11310_05_rx6600_8gbgddr6_dp_hdmi_c02_374x265.ashx?v=2e67dfc3494f480e8a9a7bad46e41c22",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/b2f9ac81a70403f9.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-6600-xt-8g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11309_03_rx6600xt_pulse_8ggddr6/11309_03_rx6600xt_pulse_3dp_hdmi_c02_374x265.ashx?v=40942974efcb40569acd4223890e4741",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/a34f462308a61953.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/21306-01-20g-radeon-rx-6700-xt-12g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/21306_01_rx6700xt_mba_12ggddr6/21306_01_rx6700xt_mba_3dp_hdmi_c02_374x265.ashx?v=e2436e6cd0bb48e5877ccdd6d5187249",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/b841cc0b2a4fcabe.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-6400-4g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11315_01_rx6400_pulse_4ggddr6/11315_01_rx6400_pulse_4gbgddr6_hdmi_dp_c02_374x265.ashx?v=76e3bcc3f1244aa7bed61f0c34817c16",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/28d9dd5d1c22fb66.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-6500-xt-4g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11314_01_rx6500xt_pulse_4ggddr6/11314_01_rx6500xt_4gbgddr6_c02_374x265.ashx?v=4aaa666d57034f6e9a7f43e47f7442b0",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/be9567b1839e8e24.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-6650-xt-8g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11319_03_rx6650xt_pulse_8ggddr6/11319_03_rx6650xt_pulse_8gbgddr6_hdmi_3dp_c02_374x265.ashx?v=193190f072fc4954adf16d28a1ec23b7",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/bf008ee496052f70.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/11321-03-radeon-rx-6700-10g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11307_05_radeon-rx-6700/sapphire_6700_002_374x265.ashx?v=88ba3c3d0c5841c396134b602f35e52e",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/8dade82ad61d319f.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-6750-xt-12g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11318_03_rx6750xt_pulse_12ggddr6/11318_03_rx6750xt_pulse_12gbgddr6_hdmi_3dp_c02_374x265.ashx?v=99dc480455b241bfac7a9a308dc2163c",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/264193b661b76f92.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/nitro-radeon-rx-6950-xt-16g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11317_02_rx6950xt_nitro_16gddr6/11317_02_rx6950xt_nitro_16gbgddr6_hdmi_3dp_c02_374x265.ashx?v=54a7d9f8d15448c0bcd04f9555803840",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/90ec5a373d074b32.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/21323-01-20g-radeon-rx-7900-xt-20g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/21323_01_rx7900xt_mba_20ggddr6/21323_01_rx7900xt_mba_20ggddr6_full_box_card_amd_374x265.ashx?v=93f548f90a9d4bce935bd27e6adeba1d",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/357a2be754886557.webp": {
+    "source": "https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7900xtx.html",
+    "original": "https://www.amd.com/content/dam/amd/en/images/products/graphics/2648997-amd-radeon-7900xtx.jpg",
+    "credit": "AMD",
+    "kind": "product"
+  },
+  "assets/products/087090e1925f1d97.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-7600-8g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11324_01_rx7600_pulse_8ggddr6/rx7600_pulse_lite_box_card_amd_374x265.ashx?v=e15edf6a8831418c9bf3f16f2432f8a8",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/8c4a193a98f58454.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-7700-xt-12g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11335_04_7700xt_pulse_16gddr6_dual-fan/rx7700xt_pulse_2fan_full_box_card_amd_374x265.ashx?v=4f7f0b0eb8a54d00bc9a00dbf6f6be98",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/e10814ef2effcffd.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/21330-01-20g-radeon-rx-7800-xt-16g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/21330_01_01_7800xt_mba_16gddr6/21330_01_rx7800xt_mba_16ggddr5_full_box_card_amd_374x265.ashx?v=2567cc69095c486a96eba2237a8f658c",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/47481eeb42201170.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-7900-gre-16g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11325_04_rx7900gre_pulse_16ggddr6/rx7900gre_pulse_full_box_card_amd_374x265.ashx?v=8b8a07d049b44cbb9eec5c7a2a032632",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/b6a76db90868d058.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-7600-xt-16g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11339_04_rx7600xt_pulse_16ggddr6/11339_04_rx7600xt_pulse_16gbgddr6_fbc_amd_374x265.ashx?v=1a8a5a3df6b440ed9734595803600325",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/c072922e59ac07ad.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-9060-8g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11351_24_rx9060_pulse_8gbddr6_oc/11351_24_18_sapphire_pulse_rx9060_374x265.ashx?v=a6a8cdc168c54e27bf18575fb5fbef5f",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/f5c04bbab1b7ecf6.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-9060-xt-8g-m-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11350_05_rx9060xt_pulse_8ggddr6_metal/11350_05_rx9060xt_pulse_8gb_photo_374x265.ashx?v=e983c28174234e18ae7b6fe92cbf15c0",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/50034875b8d7857d.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-9070-16g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11349_03_rx9070_pulse_16ggddr6/rx9070_pulse_photo_374x265.ashx?v=7735c1f14a854fe08e0b751d53fb94bd",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/e35ccadea2cb6aaf.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-9070-gre-12g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11354_01_rx9070_gre_pulse_12ggddr6/rx9070gre_pulse_photo_374x265.ashx?v=e66f8d0f9a2b4d8c89bb8aba62b2ad7b",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/8b3447d09304d0e8.webp": {
+    "source": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html",
+    "original": "https://www.amd.com/content/dam/amd/en/images/products/graphics/radeon-rx-9070/2922918-radeon-rx-9070xt-product.jpg",
+    "credit": "AMD",
+    "kind": "product"
+  },
+  "assets/products/b7954ab40b8cf971.webp": {
+    "source": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-9050-8g-gddr6",
+    "original": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11363_01_rx9050_pulse_8gbddr6/rx9050_pulse_box_card_amd_374x265.ashx?v=8539b76e73304ad8adf886319df0dd2d",
+    "credit": "SAPPHIRE Technology",
+    "kind": "family"
+  },
+  "assets/products/938e83765a0882ce.webp": {
+    "source": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/arc/desktop/a-series.html",
+    "original": "https://intelcorp.scene7.com/is/image/intelcorp/intel-arc-7-thumbnail?qlt=80&ts=1781610293289&dpr=off",
+    "credit": "Intel Corporation",
+    "kind": "family"
+  },
+  "assets/products/3cab364b61b39737.webp": {
+    "source": "https://download.intel.com/newsroom/archive/2025/en-us-2024-12-03-intel-launches-arc-bseries-graphics-cards.pdf",
+    "original": "https://download.intel.com/newsroom/2024/client-computing/Intel-Arc-B-Series.zip",
+    "credit": "Intel Corporation",
+    "kind": "product"
+  },
+  "assets/products/a9abef1dd167ef0a.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-gtx-650/specifications/",
+    "original": "https://images.nvidia.com/geforce/sites/default/files-world/styles/thumbnail/public/small_thumbnail/geforce-gtx-650-front-thumb.png?itok=XioTS3rD",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/9a26c7e847b42f43.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-gtx-650ti/specifications/",
+    "original": "https://images.nvidia.com/geforce/sites/default/files-world/styles/thumbnail/public/small_thumbnail/geforce-gtx-650ti-3qtr-thumb_2.png?itok=RgTdgzk3",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/a21e691b66fa5f69.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-gtx-660/specifications/",
+    "original": "https://images.nvidia.com/geforce/sites/default/files-world/styles/thumbnail/public/small_thumbnail/SmallThumbnail-geforce-gtx-660.png?itok=uZ8aHyVF",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/cc27ca05f60b9f88.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-gtx-660ti/specifications/",
+    "original": "https://images.nvidia.com/geforce/sites/default/files-world/styles/thumbnail/public/small_thumbnail/SmallThumbnail-geforce-gtx-660ti.png?itok=91xlsJbF",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/4d9d51d6fdf24049.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-gtx-670/specifications/",
+    "original": "https://images.nvidia.com/geforce/sites/default/files-world/styles/thumbnail/public/small_thumbnail/SmallThumbnail-geforce-gtx-670.png?itok=cyD0nuou",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/49e98bd6a643acd0.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-gtx-680/specifications/",
+    "original": "https://images.nvidia.com/geforce/sites/default/files-world/styles/thumbnail/public/small_thumbnail/geforce-gtx-680-front-thumb.png?itok=Ov0FPbzc",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/267c2567d9eb6f35.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-gtx-690/specifications/",
+    "original": "https://images.nvidia.com/geforce/sites/default/files-world/styles/thumbnail/public/small_thumbnail/SmallThumbnail-geforce-gtx-690.png?itok=W9pcBhhx",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/f3268269e70f85ed.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-gtx-650ti-boost/specifications/",
+    "original": "https://images.nvidia.com/geforce/sites/default/files-world/styles/thumbnail/public/small_thumbnail/geforce-gtx-650ti-boost-thumb.png?itok=qLnOTQQB",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/e568d71fd927c70a.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-gtx-760/specifications/",
+    "original": "https://images.nvidia.com/geforce/sites/default/files-world/styles/thumbnail/public/small_thumbnail/geforce-gtx-760-3qtr-thumb.png?itok=gISxVd7P",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/adb2d60b1401a274.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-gtx-770/specifications/",
+    "original": "https://images.nvidia.com/geforce/sites/default/files-world/styles/thumbnail/public/small_thumbnail/thumbb.png?itok=bPAn9xrB",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/b562cca2d54bc5ec.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-gtx-780/specifications/",
+    "original": "https://images.nvidia.com/geforce/sites/default/files-world/styles/thumbnail/public/small_thumbnail/thumb.png?itok=jgVoxLcz",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/c85d2579bd213485.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-gtx-780-ti/specifications/",
+    "original": "https://images.nvidia.com/geforce/sites/default/files-world/styles/thumbnail/public/small_thumbnail/geforce-gtx-780ti-thumb.png?itok=0CM5sqMw",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/6ac05bbba0559d53.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-gtx-750/specifications/",
+    "original": "https://images.nvidia.com/geforce/sites/default/files-world/styles/thumbnail/public/small_thumbnail/geforce-gtx-750-thumb.png?itok=ycSFQvkP",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/d6b315a4ace7b8c1.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-gtx-750-ti/specifications/",
+    "original": "https://images.nvidia.com/geforce/sites/default/files-world/styles/thumbnail/public/small_thumbnail/geforce-gtx-750-ti-thumb.png?itok=Qk-2uPBx",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/faca7a3dfbb744c4.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/900-series/",
+    "original": "https://www.nvidia.com/content/dam/en-zz/Solutions/GeForce/campaigns/900-series/desktop-970.png",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/5eb57b7b2e41c0ab.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/900-series/",
+    "original": "https://www.nvidia.com/content/dam/en-zz/Solutions/GeForce/campaigns/900-series/desktop-980.png",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/aaa3a17aad278a38.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-gtx-titan-black/specifications/",
+    "original": "https://images.nvidia.com/geforce/sites/default/files-world/styles/thumbnail/public/small_thumbnail/geforce-gtx-titan-black-thumb.png?itok=5k4jX1rN",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/17e6f07a4c3f9b1b.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/900-series/",
+    "original": "https://www.nvidia.com/content/dam/en-zz/Solutions/GeForce/campaigns/900-series/desktop-950.png",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/b76f61fbbb829493.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/900-series/",
+    "original": "https://www.nvidia.com/content/dam/en-zz/Solutions/GeForce/campaigns/900-series/desktop-960.png",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/54b830ee0564b8ff.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/900-series/",
+    "original": "https://www.nvidia.com/content/dam/en-zz/Solutions/GeForce/campaigns/900-series/desktop-980-ti.png",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/5dce696f6664eaa6.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-gtx-titan-x/specifications/",
+    "original": "https://images.nvidia.com/geforce/sites/default/files-world/styles/thumbnail/public/small_thumbnail/geforce-gtx-titanx-thumb.png?itok=_9CzdZcd",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/1507a5acd88e621e.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/news/geforce-gtx-1080-gaming-perfected/",
+    "original": "https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/news/geforce-gtx-1080-gaming-perfected/nvidia-geforce-gtx-1080-3QtrFrontLeft_Thermal-300px.png",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/1d66df212c2b8091.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/news/nvidia-geforce-gtx-1070-ti/",
+    "original": "https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/news/nvidia-geforce-gtx-1070-ti/nvidia-geforce-gtx-1070-ti-technical-photo-front-640px.png",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/af7d0f33b651d94d.webp": {
+    "source": "https://www.nvidia.com/nl-nl/titan/titan-v/",
+    "original": "https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/TITAN/TITANV/nvidia-titan-v-gallery-a-641-u.jpg",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/78dcdea3a0744316.webp": {
+    "source": "https://www.nvidia.com/nl-nl/titan/titan-xp/",
+    "original": "https://www.nvidia.com/content/dam/en-zz/es_em/Solutions/geforce/geforce-titan-xp1/geforce-titan-xp-gallery-a-641-u.jpg",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/975e649021f1c8b2.webp": {
+    "source": "https://www.nvidia.com/en-us/titan/titan-rtx/",
+    "original": "https://www.nvidia.com/content/dam/en-zz/Solutions/titan/titan-rtx/nvidia-titan-rtx-shop-2c50-d.png",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/2d4e529100d5311f.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3090-3090ti/",
+    "original": "https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ampere/rtx-3090/geforce-rtx-3090-product-gallery-full-screen-3840-1.jpg",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/d0d2cb278c2f7438.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3090-3090ti/",
+    "original": "https://images.nvidia.com/aem-dam/Solutions/ampere/3090ti-gallery/geforce-rtx-3090-ti-product-gallery-full-screen-3840-1.jpg",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/6b9e3e62d24d4b22.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4090/",
+    "original": "https://images.nvidia.com/aem-dam/Solutions/geforce/ada/rtx-4090/geforce-rtx-4090-product-gallery-full-screen-3840-1.jpg",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/a76a3fa7b9eb74c3.webp": {
+    "source": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+    "original": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/geforce/graphics-cards/50-series/rtx-5090/_jcr_content/root/responsivegrid/nv_container_975461298/nv_carousel_home/item_1733731197698.coreimg.jpeg/1788439976770/geforce-rtx-5090-gallery-shot-1-ari.jpeg",
+    "credit": "NVIDIA",
+    "kind": "product"
+  },
+  "assets/products/b4e1cb5a51847761.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-18-pro-max-colors.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/a447c5e74abd6d24.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-18-pro-colors.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/8b6fb3200c0ebc29.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-17e/iphone-17e-colors.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/feaffd90d5ed9aaa.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-17-pro-max-colors.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/bddaa4243446641f.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-17-pro-colors.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/781cab3829cf48ba.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-17-colors.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/2a4f2b0474fcde40.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-air-colors.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/632b9158c4491acd.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-16e/iphone-16e-colors.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/0c178501af4a8640.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-16-pro-max-colors.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/88d15adf63c09d41.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-16-pro-colors.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/d7aaf8608af76ac8.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-16-plus-colors.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/5a9bd8dc9b8be344.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-16-colors.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/22ed10c6986c2c52.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/fall-2023-iphone-colors-iphone-15-pro-max.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/e91c699fc07e1ad3.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/fall-2023-iphone-colors-iphone-15-pro.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/c6876c9136398acd.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/fall-2023-iphone-colors-iphone-15-plus.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/57742189fd91b8f6.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/fall-2023-iphone-colors-iphone-15.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/8d397286a0269672.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-14-pro-max-colors.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/0f00a4cb89635d6d.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-14-pro-colors.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/7c91b723b6d73e38.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-14-plus-colors-spring-2023.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/a73b1f8a13f9ff9b.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-14-colors-spring-2023.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/d5114fb70fff1ac8.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-se-3rd-gen-colors.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/26c5d61d34f2e485.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/2022-spring-iphone13-pro-max-colors.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/dcf2510a9e611bee.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/2022-spring-iphone13-pro-colors.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/5769035bf5e83c23.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/2022-spring-iphone13-colors.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/980d1e1d8db13ae6.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/2022-iphone13-mini-colors.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/62930059df436165.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-12-pro-max/iphone12-pro-max-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/df5a109197702dd1.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-12-pro/iphone12-pro-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/b20589fa15261db1.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/2021-iphone12-colors.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/80de743ae2181f79.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/2021-iphone12-mini-colors.png",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/a9556c39fe77e976.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-se/iphone-se-2nd-gen-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/1d6087f961c75132.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/identify-iphone-11pro.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/64701f43a33cda5e.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/identify-iphone-11pro-max.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/fe1ca1e7d755783c.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/identify-iphone-11-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/fec62a49942feb24.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-xs-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/f4a3ba2fde33e4b9.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-xs-max-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/eeb5fa7956e87a80.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-xr/identify-iphone-xr-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/deaa4ea43f23f0d2.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-x-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/2bb8189898192a63.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-8/iphone-8-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/adc752117fdf9f20.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-8-plus/iphone-8plus-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/7df869ba3a19e212.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-7/iphone7-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/6308fc72d1756b49.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-7-plus/iphone7plus-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/8f8de661b5f6866c.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-se/iphone-se-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/cf262e41ab066e7d.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-6s-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/948cad8d05aeebfe.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-6splus-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/57dbf2451c589848.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone6-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/be0c5d90e6d0ad09.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone6plus-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/35fb150df9e54fc6.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone5s-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/2847705a72b2efb9.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone5c-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/778d5d206b851b51.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone5-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/b61fef8ff5e6ad48.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone4s-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/85b8f1dceb7f83bf.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone4-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/0128315ac8f18ba3.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone3gs-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/b28f681942681c26.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone3g-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/72e3780dddf42c0c.webp": {
+    "source": "https://support.apple.com/en-us/108044",
+    "original": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone-original-colors.jpg",
+    "credit": "Apple",
+    "kind": "product"
+  },
+  "assets/products/47f9307738f3833c.webp": {
+    "source": "https://global.redmagic.gg/products/redmagic-11-pro",
+    "original": "https://global.redmagic.gg/cdn/shop/files/3colors.png?v=1776831489",
+    "credit": "REDMAGIC",
+    "kind": "product"
+  },
+  "assets/products/d1f5b99d2733c9b3.webp": {
+    "source": "https://www.iqoo.com/in/products/param/iqoo15",
+    "original": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1763444435945/cdf65419cc345e4a3996d717c5d1f705.png",
+    "credit": "iQOO",
+    "kind": "product"
+  },
+  "assets/products/eecd2d67dc4c43cb.webp": {
+    "source": "https://www.mi.com/global/product/poco-f8-ultra/",
+    "original": "https://i02.appmifile.com/756_operatorx_operatorx_xm/25/11/2025/21816b9f29bd524e341d7f58c37e1b2b.png",
+    "credit": "POCO",
+    "kind": "product"
+  },
+  "assets/products/236fbd2ffaec105a.webp": {
+    "source": "https://www.mi.com/prod/redmi-k90-pro-max/specs",
+    "original": "https://cdn.cnbj1.fds.api.mi-img.com/product-images/new-product-images/redmi-k90-pro-max_55474/images/3074.png",
+    "credit": "Xiaomi / REDMI",
+    "kind": "product"
+  },
+  "assets/products/b845fe3749869526.webp": {
+    "source": "https://www.oneplus.com/global/15",
+    "original": "https://www.oneplus.com/content/dam/oneplus/2025/product-station/15/assets/images-kv-phone-b-01-1-92-caa18f.png",
+    "credit": "OnePlus",
+    "kind": "product"
+  },
+  "assets/products/51ca39e829d43f0a.webp": {
+    "source": "https://www.mi.com/global/product/xiaomi-17-ultra/",
+    "original": "https://i02.appmifile.com/645_operatorx_operatorx_xm/14/02/2026/df23386f3a67d3d5fdce72e4e1a18b96.png",
+    "credit": "Xiaomi",
+    "kind": "product"
+  },
+  "assets/products/60190b3d3752508d.webp": {
+    "source": "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/",
+    "original": "https://image-us.samsung.com/us/smartphones/galaxy-s26-ultra/images/galaxy-s26-ultra-features-colors-black.jpg",
+    "credit": "Samsung",
+    "kind": "product"
+  },
+  "assets/products/08688714aa4305f1.webp": {
+    "source": "https://www.vivo.com/en/products/x300-pro",
+    "original": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/product/1770276743814/zip/img/pc/vivo-x300-pro-in-phantom-black-color.png",
+    "credit": "vivo",
+    "kind": "product"
+  },
+  "assets/products/8ca2479da927bf8c.webp": {
+    "source": "https://www.mi.com/global/product/xiaomi-17/",
+    "original": "https://i02.appmifile.com/513_operatorx_operatorx_xm/14/02/2026/7e83548bfc090e9eeaa224dc4bdae063.png",
+    "credit": "Xiaomi",
+    "kind": "product"
+  },
+  "assets/products/a1ec470b9f2454a2.webp": {
+    "source": "https://www.mi.com/global/product/xiaomi-17t-pro/specs/",
+    "original": "https://i02.appmifile.com/313_operator_sg/15/05/2026/3c3085bee86cffd47a8dd3c47d012c5e.png",
+    "credit": "Xiaomi",
+    "kind": "product"
+  },
+  "assets/products/76edec5f227aae45.webp": {
+    "source": "https://www.mi.com/prod/redmi-k90/specs",
+    "original": "https://cdn.cnbj1.fds.api.mi-img.com/product-images/new-product-images/redmi-k90_70342/images/3329.png",
+    "credit": "Xiaomi / REDMI",
+    "kind": "product"
+  },
+  "assets/products/fbd069e5e16f9575.webp": {
+    "source": "https://www.vivo.com/en/products/x300",
+    "original": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/product/1766374467568/zip/img/wap/vivo-x300-in-phantom-black-color.png",
+    "credit": "vivo",
+    "kind": "product"
+  },
+  "assets/products/d976555df43c6bfe.webp": {
+    "source": "https://www.mi.com/global/product/poco-f8-pro/",
+    "original": "https://i02.appmifile.com/860_operatorx_operatorx_xm/25/11/2025/356733a8fd8d4688a01d07cb5df12459.png",
+    "credit": "POCO",
+    "kind": "product"
+  },
+  "assets/products/22d04c4df6b869d2.webp": {
+    "source": "https://www.honor.com/global/phones/honor-magic8-pro/",
+    "original": "https://www.honor.com/content/dam/honor/common/product-list/product-series/honor-magic8-pro/magic8-pro-list-gold.png",
+    "credit": "HONOR",
+    "kind": "product"
+  },
+  "assets/products/032695d7c1a4eaf9.webp": {
+    "source": "https://www.vivo.com.cn/vivo/param/iqooz11turbo",
+    "original": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20260109/c60c9200e4f07fdce25b6144b1cce180.png",
+    "credit": "iQOO",
+    "kind": "product"
+  },
+  "assets/products/1daaa4e4017eb39b.webp": {
+    "source": "https://www.mi.com/global/product/poco-f7-ultra/specs/",
+    "original": "https://i02.appmifile.com/465_operator_sg/12/03/2025/31acf858b93dd16ef13a9cc878d926c0.png",
+    "credit": "POCO",
+    "kind": "product"
+  },
+  "assets/products/9a4fe06632dccea4.webp": {
+    "source": "https://www.mi.com/global/product/xiaomi-15/",
+    "original": "https://i02.appmifile.com/339_operatorx_operatorx_opx/02/03/2025/73371d9d0ca9843bcab6875541dc2905.png",
+    "credit": "Xiaomi",
+    "kind": "product"
+  },
+  "assets/products/89262d421e82fe77.webp": {
+    "source": "https://www.samsung.com/it/smartphones/galaxy-s/galaxy-s26-black-256gb-sm-s942bzkgeue/buy/",
+    "original": "https://images.samsung.com/it/smartphones/galaxy-s26/buy/05_Color-Selection/M1_Color-Selection/M1_Color-Selection_Black_PC.jpg",
+    "credit": "Samsung",
+    "kind": "product"
+  },
+  "assets/products/04f5137f1cb212e1.webp": {
+    "source": "https://www.iqoo.com/in/products/param/iqoo15r",
+    "original": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1771325051408/7484b3f1d4d4c9a53a40647cde944eee.jpg",
+    "credit": "iQOO",
+    "kind": "product"
+  },
+  "assets/products/2608e980c9a7baa3.webp": {
+    "source": "https://www.samsung.com/us/smartphones/galaxy-z-fold8/",
+    "original": "https://images.samsung.com/us/smartphones/galaxy-z-fold8/images/galaxy-z-fold8-features-colors-graphite.jpg",
+    "credit": "Samsung",
+    "kind": "product"
+  },
+  "assets/products/11372f151eb34287.webp": {
+    "source": "https://www.oneplus.com/cn/ace-6t",
+    "original": "https://www.oneplus.com/content/dam/oneplus/2025/product-station/macan/assets/images-kv-phone-1-pc-1-9940b7.png.webp",
+    "credit": "OnePlus",
+    "kind": "product"
+  },
+  "assets/products/14941ed987a3813e.webp": {
+    "source": "https://www.vivo.com.cn/vivo/param/iqooz10turboplus",
+    "original": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20250715/93a5974362940e1abe8b405e998d1109.png",
+    "credit": "iQOO",
+    "kind": "product"
+  },
+  "assets/products/41007c454cb2eadb.webp": {
+    "source": "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/",
+    "original": "https://image-us.samsung.com/us/smartphones/galaxy-s25-ultra/images/galaxy-s25-ultra-features-colors-titanium-jetblack.jpg",
+    "credit": "Samsung",
+    "kind": "product"
+  },
+  "assets/products/54964c97ea85aa56.webp": {
+    "source": "https://www.samsung.com/us/smartphones/galaxy-s25/",
+    "original": "https://image-us.samsung.com/us/smartphones/galaxy-s25/images/galaxy-s25-features-colors-plus-blueblack.jpg",
+    "credit": "Samsung",
+    "kind": "product"
+  },
+  "assets/products/c1b5d0bd53c16abf.webp": {
+    "source": "https://www.mi.com/prod/redmi-turbo-5-max/specs",
+    "original": "https://cdn.cnbj1.fds.api.mi-img.com/product-images/new-product-images/redmi-turbo-5-max_72710/images/37.png",
+    "credit": "Xiaomi / REDMI",
+    "kind": "product"
+  },
+  "assets/products/3cc5bc0543cc08e0.webp": {
+    "source": "https://www.mi.com/global/product/poco-x8-pro-max/",
+    "original": "https://i02.appmifile.com/185_operatorx_operatorx_xm/12/03/2026/9a9c9c98f9246bc4ff6560bb882e1acd.png",
+    "credit": "POCO",
+    "kind": "product"
+  },
+  "assets/products/71b90387002bdfff.webp": {
+    "source": "https://www.mi.com/global/product/xiaomi-15t-pro/",
+    "original": "https://i02.appmifile.com/866_operatorx_operatorx_xm/19/09/2025/f25258b1fe293171376412a95b902263.png",
+    "credit": "Xiaomi",
+    "kind": "product"
+  },
+  "assets/products/09e3d410b4dcd120.webp": {
+    "source": "https://www.samsung.com/us/smartphones/galaxy-s25/",
+    "original": "https://image-us.samsung.com/us/smartphones/galaxy-s25/images/galaxy-s25-features-colors-blueblack.jpg",
+    "credit": "Samsung",
+    "kind": "product"
+  },
+  "assets/products/8b266bde60ce235b.webp": {
+    "source": "https://www.realme.com/global/realme-gt-7-5g/specs",
+    "original": "https://image01.realme.net/general/20250527/1748334938934bda36264e718493db5360875dae7b1f8.png",
+    "credit": "realme",
+    "kind": "product"
+  },
+  "assets/products/49c524eaff5c15ed.webp": {
+    "source": "https://www.vivo.com.cn/vivo/param/iqooneo10",
+    "original": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20241114/2442aef99cd36acfb46dc0cb3226fdeb.png",
+    "credit": "iQOO",
+    "kind": "product"
+  },
+  "assets/products/f404855d2ad91357.webp": {
+    "source": "https://www.vivo.com.cn/vivo/param/iqooz10turbopro",
+    "original": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20250417/f57ede30a06ee577123172de7630c5a3.png",
+    "credit": "iQOO",
+    "kind": "product"
+  },
+  "assets/products/1cce106c6dca987f.webp": {
+    "source": "https://www.iqoo.com/in/products/param/neo10",
+    "original": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1777539566021/fe6e36b8cc0d842b2259ad5b9ce0bed1.png",
+    "credit": "iQOO",
+    "kind": "product"
+  },
+  "assets/products/5b1f2f13ec67592e.webp": {
+    "source": "https://www.oppo.com/in/smartphones/series-k/k13-turbo-pro/specs/",
+    "original": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/k13-turbo-series-in/specs/k13-turbo-pro/1224-720.png",
+    "credit": "OPPO",
+    "kind": "product"
+  },
+  "assets/products/4e87e57bca2744db.webp": {
+    "source": "https://www.mi.com/prod/redmi-turbo-4-pro/specs",
+    "original": "https://cdn.cnbj1.fds.api.mi-img.com/product-images/redmiTrubo4Pro/specs/images/409.png",
+    "credit": "Xiaomi / REDMI",
+    "kind": "product"
+  },
+  "assets/products/e09e4f7267b0f07a.webp": {
+    "source": "https://www.samsung.com/us/smartphones/galaxy-s24-ultra/",
+    "original": "https://images.samsung.com/us/smartphones/galaxy-s24-ultra/images/galaxy-s24-ultra-share-image.jpg",
+    "credit": "Samsung",
+    "kind": "product"
+  },
+  "assets/products/61e1aa1296fe698d.webp": {
+    "source": "https://www.mi.com/global/product/poco-f7/",
+    "original": "https://i02.appmifile.com/912_operatorx_operatorx_xm/19/06/2025/bc2e40437ae6f181bfde7b662c867a57.jpg",
+    "credit": "POCO",
+    "kind": "product"
+  },
+  "assets/products/24d37cd2587d09bb.webp": {
+    "source": "https://www.mi.com/global/product/xiaomi-14t-pro/",
+    "original": "https://i02.appmifile.com/675_operatorx_operatorx_opx/26/09/2024/f81bba823d0ac2abe8c07ce09e2eb11f.png",
+    "credit": "Xiaomi",
+    "kind": "product"
+  },
+  "assets/products/6b33d157bcb163d5.webp": {
+    "source": "https://www.mi.com/global/product/xiaomi-17t/specs/",
+    "original": "https://i02.appmifile.com/736_operator_sg/15/05/2026/0924a5020417dfe742677bbf4939a25a.png",
+    "credit": "Xiaomi",
+    "kind": "product"
+  },
+  "assets/products/6b3101c8df299e43.webp": {
+    "source": "https://www.realme.com/global/realme-gt-7t-5g/specs",
+    "original": "https://image01.realme.net/general/20250527/17483333908626eb6e4625dbb47dba676553fee800d7e.png",
+    "credit": "realme",
+    "kind": "product"
+  },
+  "assets/products/9f6b2745121e5ca2.webp": {
+    "source": "https://www.samsung.com/us/smartphones/galaxy-s25-fe/",
+    "original": "https://images.samsung.com/is/image/samsung/assets/us/smartphones/galaxy-s25-fe/08252025/Galaxy_S25_FE-MLP-FT12-1-Design_color_Jetblack-pc.jpg?$720_N_JPG$",
+    "credit": "Samsung",
+    "kind": "product"
+  },
+  "assets/products/da3a1cf15b4a6ad0.webp": {
+    "source": "https://www.mi.com/global/product/poco-x8-pro/",
+    "original": "https://i02.appmifile.com/679_operatorx_operatorx_xm/13/03/2026/0ffb8c8e38e2f48fa86dcab9f5fc3be9.png",
+    "credit": "POCO",
+    "kind": "product"
+  },
+  "assets/products/d3edb44c847fbcb1.webp": {
+    "source": "https://www.infinixmobility.com/gt-50-pro",
+    "original": "https://d3o31au25zfcly.cloudfront.net/newfileadmin/usp/gt/gt50pro/section7/pc/1.webp",
+    "credit": "Infinix",
+    "kind": "product"
+  },
+  "assets/products/07f6a75d805278ad.webp": {
+    "source": "https://www.samsung.com/us/smartphones/galaxy-s24/",
+    "original": "https://images.samsung.com/us/smartphones/galaxy-s24/images/galaxy-s24-share-image.jpg",
+    "credit": "Samsung",
+    "kind": "family"
+  },
+  "assets/products/2bc1822fc725a95d.webp": {
+    "source": "https://www.mi.com/global/product/poco-x7-pro/",
+    "original": "https://i02.appmifile.com/251_operatorx_operatorx_opx/09/01/2025/d7110ed0232cacb6c01be82fc953bd49.png",
+    "credit": "POCO",
+    "kind": "product"
+  },
+  "assets/products/97db897e181ed500.webp": {
+    "source": "https://www.samsung.com/us/smartphones/galaxy-s24-fe/",
+    "original": "https://images.samsung.com/is/image/samsung/assets/us/smartphones/galaxy-s24-fe/09192024/Galaxy_S24_FE-MLP-FT03-DESIGN-PC.jpg?$1440_N_JPG$",
+    "credit": "Samsung",
+    "kind": "product"
+  },
+  "assets/products/2978ff1493df9e68.webp": {
+    "source": "https://www.mi.com/global/product/poco-f6-pro/",
+    "original": "https://i02.appmifile.com/633_operatorx_operatorx_opx/24/05/2024/2febbb736455504c9ac0f80ee9feb97a.png",
+    "credit": "POCO",
+    "kind": "product"
+  },
+  "assets/products/73aa3c3db2ca5ac9.webp": {
+    "source": "https://www.mi.com/global/product/poco-f6/",
+    "original": "https://i02.appmifile.com/660_operatorx_operatorx_opx/24/05/2024/1e6bbc99cfa14f74419fd63b4e573f64.png",
+    "credit": "POCO",
+    "kind": "product"
+  },
+  "assets/products/4c806a4823c4aaa0.webp": {
+    "source": "https://www.samsung.com/it/smartphones/galaxy-s/galaxy-s23-plus-phantom-black-256gb-sm-s916bzkdeue/buy/",
+    "original": "https://images.samsung.com/is/image/samsung/p6pim/it/2302/gallery/it-galaxy-s23-s916-sm-s916bzkdeue-534970219?$1164_776_PNG$",
+    "credit": "Samsung",
+    "kind": "product"
+  },
+  "assets/products/0186d5d3bde51401.webp": {
+    "source": "https://www.mi.com/prod/redmi-turbo-3/specs",
+    "original": "https://cdn.cnbj1.fds.api.mi-img.com/product-images/redmi-turbo-3_86020/specs/images/1382.png",
+    "credit": "Xiaomi / REDMI",
+    "kind": "product"
+  },
+  "assets/products/4429f20809d9a03e.webp": {
+    "source": "https://www.playstation.com/en-us/playstation-history/1994-ps-one/",
+    "original": "https://gmedia.playstation.com/is/image/SIEPDC/ps1-console-image-block-01-en-02oct24?wid=1000&fmt=png-alpha",
+    "credit": "Sony Interactive Entertainment",
+    "kind": "product"
+  },
+  "assets/products/6414d80326a9c534.webp": {
+    "source": "https://www.playstation.com/en-us/playstation-history/1994-ps-one/",
+    "original": "https://gmedia.playstation.com/is/image/SIEPDC/ps1-portal-image-block-03-en-02oct24?wid=1000&fmt=png-alpha",
+    "credit": "Sony Interactive Entertainment",
+    "kind": "family"
+  },
+  "assets/products/bf3043faf935f05a.webp": {
+    "source": "https://www.playstation.com/en-us/playstation-history/2000-ps2-psp/",
+    "original": "https://gmedia.playstation.com/is/image/SIEPDC/ps2-console-image-block-01-en-08oct24?wid=1000&fmt=png-alpha",
+    "credit": "Sony Interactive Entertainment",
+    "kind": "product"
+  },
+  "assets/products/d625b2d8d54e2578.webp": {
+    "source": "https://www.playstation.com/en-us/playstation-history/2000-ps2-psp/",
+    "original": "https://gmedia.playstation.com/is/image/SIEPDC/PS2_SLIM-V2?wid=1000&fmt=png-alpha",
+    "credit": "Sony Interactive Entertainment",
+    "kind": "family"
+  },
+  "assets/products/7d4a7d1438f39a9b.webp": {
+    "source": "https://www.playstation.com/en-us/playstation-history/2000-ps2-psp/",
+    "original": "https://gmedia.playstation.com/is/image/SIEPDC/ps2-PSPlarge-image-block-01-en-18nov24?wid=1000&fmt=png-alpha",
+    "credit": "Sony Interactive Entertainment",
+    "kind": "family"
+  },
+  "assets/products/d543c795f3836a7e.webp": {
+    "source": "https://www.playstation.com/en-us/playstation-history/2007-ps3-ps-vita/",
+    "original": "https://gmedia.playstation.com/is/image/SIEPDC/ps3-console-image-block-01-en-18nov24?wid=1000&fmt=png-alpha",
+    "credit": "Sony Interactive Entertainment",
+    "kind": "product"
+  },
+  "assets/products/252e593a35ff9f1a.webp": {
+    "source": "https://www.playstation.com/en-us/playstation-history/2007-ps3-ps-vita/",
+    "original": "https://gmedia.playstation.com/is/image/SIEPDC/ps3-ConsoleSlim-image-block-01-en-09oct24?wid=1000&fmt=png-alpha",
+    "credit": "Sony Interactive Entertainment",
+    "kind": "product"
+  },
+  "assets/products/251e1cf6de18ff91.webp": {
+    "source": "https://www.playstation.com/en-us/playstation-history/2007-ps3-ps-vita/",
+    "original": "https://gmedia.playstation.com/is/image/SIEPDC/ps3-ConsoleSuperSlim-image-block-01-en-09oct24?wid=1000&fmt=png-alpha",
+    "credit": "Sony Interactive Entertainment",
+    "kind": "product"
+  },
+  "assets/products/27dc1f6baf8db9d2.webp": {
+    "source": "https://www.playstation.com/en-us/playstation-history/2007-ps3-ps-vita/",
+    "original": "https://gmedia.playstation.com/is/image/SIEPDC/ps3-PS3Vita-image-block-01-en-09oct24?wid=1000&fmt=png-alpha",
+    "credit": "Sony Interactive Entertainment",
+    "kind": "family"
+  },
+  "assets/products/7d6721ec97957853.webp": {
+    "source": "https://www.playstation.com/en-us/playstation-history/2013-ps4-ps-vr/",
+    "original": "https://gmedia.playstation.com/is/image/SIEPDC/ps4-console-image-block-01-en-09oct24?wid=1000&fmt=png-alpha",
+    "credit": "Sony Interactive Entertainment",
+    "kind": "product"
+  },
+  "assets/products/a2d42d7fde28ab9a.webp": {
+    "source": "https://www.playstation.com/en-us/playstation-history/2013-ps4-ps-vr/",
+    "original": "https://gmedia.playstation.com/is/image/SIEPDC/PS4_SLIM_Laying-down?wid=1000&fmt=png-alpha",
+    "credit": "Sony Interactive Entertainment",
+    "kind": "product"
+  },
+  "assets/products/929f1636cc40ab23.webp": {
+    "source": "https://www.playstation.com/en-us/playstation-history/2013-ps4-ps-vr/",
+    "original": "https://gmedia.playstation.com/is/image/SIEPDC/ps4-pro-product-thumbnail-01-en-14sep21?wid=1000&fmt=png-alpha",
+    "credit": "Sony Interactive Entertainment",
+    "kind": "product"
+  },
+  "assets/products/3f7f25794f98d054.webp": {
+    "source": "https://www.playstation.com/en-us/playstation-history/2020-ps5-ps-vr2/",
+    "original": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-console-slim-image-block-02-en-09may24?wid=1000&fmt=png-alpha",
+    "credit": "Sony Interactive Entertainment",
+    "kind": "product"
+  },
+  "assets/products/aacf0d4e988169ea.webp": {
+    "source": "https://www.playstation.com/en-us/ps5/ps5-pro/",
+    "original": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-pro-overview-homepage-hero-desktop-background-01-en-16aug24?wid=1400&fmt=png",
+    "credit": "Sony Interactive Entertainment",
+    "kind": "product"
+  },
+  "assets/products/1c32ca86ae234043.webp": {
+    "source": "https://www.xbox.com/en-US/consoles/xbox-series-x",
+    "original": "https://cms-assets.xboxservices.com/assets/bc/40/bc40fdf3-85a6-4c36-af92-dca2d36fc7e5.png?n=642227_Hero-Gallery-0_A1_857x676.png",
+    "credit": "Microsoft / Xbox",
+    "kind": "product"
+  },
+  "assets/products/7d192a156ff15228.webp": {
+    "source": "https://www.xbox.com/en-US/consoles/xbox-series-s",
+    "original": "https://cms-assets.xboxservices.com/assets/bf/b0/bfb06f23-4c87-4c58-b4d9-ed25d3a739b9.png?n=389964_Hero-Gallery-0_A1_857x676.png",
+    "credit": "Microsoft / Xbox",
+    "kind": "product"
+  },
+  "assets/products/f2ddb9e0ea3f4519.webp": {
+    "source": "https://www.xbox.com/en-US/consoles/xbox-series-x",
+    "original": "https://cms-assets.xboxservices.com/assets/5c/5b/5c5bf348-d948-4c48-b7cc-55aaf94f2782.png?n=642227_Hero-Gallery-0_B1_857x676.png",
+    "credit": "Microsoft / Xbox",
+    "kind": "product"
+  },
+  "assets/products/9cec84f72c505353.webp": {
+    "source": "https://careers.nintendo.com/our-history/",
+    "original": "https://assets.nintendo.com/image/upload/v1762430050/Careers%20Site/History/NES.png",
+    "credit": "Nintendo",
+    "kind": "family"
+  },
+  "assets/products/cfae32f665152a37.webp": {
+    "source": "https://careers.nintendo.com/our-history/",
+    "original": "https://assets.nintendo.com/image/upload/v1762430050/Careers%20Site/History/SNES.png",
+    "credit": "Nintendo",
+    "kind": "family"
+  },
+  "assets/products/89e598e3ff8e080c.webp": {
+    "source": "https://careers.nintendo.com/our-history/",
+    "original": "https://assets.nintendo.com/image/upload/v1762430050/Careers%20Site/History/game-boy-handheld.png",
+    "credit": "Nintendo",
+    "kind": "family"
+  },
+  "assets/products/b59512271d41e8b5.webp": {
+    "source": "https://careers.nintendo.com/our-history/",
+    "original": "https://assets.nintendo.com/image/upload/v1762430049/Careers%20Site/History/GBC-pokemon.png",
+    "credit": "Nintendo",
+    "kind": "family"
+  },
+  "assets/products/739c508c96609ee7.webp": {
+    "source": "https://careers.nintendo.com/our-history/",
+    "original": "https://assets.nintendo.com/image/upload/v1767820726/Careers%20Site/History/2001_Nintendo_Game_Boy.jpg",
+    "credit": "Nintendo",
+    "kind": "family"
+  },
+  "assets/products/fe43b63b1f5a6460.webp": {
+    "source": "https://careers.nintendo.com/our-history/",
+    "original": "https://assets.nintendo.com/image/upload/v1762430049/Careers%20Site/History/N64.png",
+    "credit": "Nintendo",
+    "kind": "family"
+  },
+  "assets/products/3740e015e4c486ab.webp": {
+    "source": "https://careers.nintendo.com/our-history/",
+    "original": "https://assets.nintendo.com/image/upload/v1767820576/Careers%20Site/History/2004_Nintendo_DS.jpg",
+    "credit": "Nintendo",
+    "kind": "family"
+  },
+  "assets/products/53d5789d3fce2e53.webp": {
+    "source": "https://careers.nintendo.com/our-history/",
+    "original": "https://assets.nintendo.com/image/upload/v1767820248/Careers%20Site/History/2011_Nintendo_3DS.jpg",
+    "credit": "Nintendo",
+    "kind": "family"
+  },
+  "assets/products/aed8c15d90836b65.webp": {
+    "source": "https://careers.nintendo.com/our-history/",
+    "original": "https://assets.nintendo.com/image/upload/v1767820371/Careers%20Site/History/2006_Nintendo_Wii.jpg",
+    "credit": "Nintendo",
+    "kind": "family"
+  },
+  "assets/products/bbf3fcc1fd6b9853.webp": {
+    "source": "https://careers.nintendo.com/our-history/",
+    "original": "https://assets.nintendo.com/image/upload/v1767820927/Careers%20Site/History/2012_Nintendo_Wii_U.jpg",
+    "credit": "Nintendo",
+    "kind": "product"
+  },
+  "assets/products/1f8233c0d431de1a.webp": {
+    "source": "https://careers.nintendo.com/our-history/",
+    "original": "https://assets.nintendo.com/image/upload/v1768344546/Careers%20Site/History/2017_Switch.jpg",
+    "credit": "Nintendo",
+    "kind": "family"
+  },
+  "assets/products/40eb5a8d2412b3fc.webp": {
+    "source": "https://careers.nintendo.com/our-history/",
+    "original": "https://assets.nintendo.com/image/upload/v1767821158/Careers%20Site/History/2019_Nintendo_Switch_Lite.jpg",
+    "credit": "Nintendo",
+    "kind": "product"
+  },
+  "assets/products/896e34aacdcbd5ab.webp": {
+    "source": "https://careers.nintendo.com/our-history/",
+    "original": "https://assets.nintendo.com/image/upload/v1767821158/Careers%20Site/History/2021_Nintendo_Switch_OLED.jpg",
+    "credit": "Nintendo",
+    "kind": "product"
+  },
+  "assets/products/7a685993ebe1e93b.webp": {
+    "source": "https://www.nintendo.com/us/gaming-systems/switch-2/tech-specs/",
+    "original": "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/v1745278135/switch-2/tech-specs/switch-2-front.png",
+    "credit": "Nintendo",
+    "kind": "product"
+  }
+}

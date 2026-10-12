@@ -1,0 +1,896 @@
+{
+  "date": "9 ottobre 2026",
+  "categories": [
+    {
+      "id": "gpu",
+      "name": "GPU",
+      "icon": "gpu",
+      "color": "#bca9f5",
+      "subtitle": "NVIDIA GTX 10–RTX 50 · AMD RX 400–9000",
+      "preview": "TFLOPS · FP32",
+      "type": "Componenti",
+      "fields": [
+        {
+          "key": "tflops",
+          "label": "Potenza FP32",
+          "unit": "TFLOPS",
+          "note": "Picco teorico. Gli FPS dipendono da architettura, gioco e impostazioni."
+        },
+        {
+          "key": "memory",
+          "label": "Memoria video",
+          "unit": "GB",
+          "note": ""
+        },
+        {
+          "key": "memoryType",
+          "label": "Tipo di memoria",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "key": "architecture",
+          "label": "Architettura",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "key": "series",
+          "label": "Serie",
+          "unit": "",
+          "note": ""
+        }
+      ],
+      "sorts": [
+        {
+          "key": "tflops",
+          "label": "TFLOPS · FP32",
+          "dir": "desc"
+        },
+        {
+          "key": "memory",
+          "label": "Memoria · GB",
+          "dir": "desc"
+        }
+      ],
+      "note": "Selezione per generazione. TFLOPS FP32 teorici, non FPS.",
+      "pair": [
+        "rtx-5070-ti",
+        "rx-9070-xt"
+      ]
+    },
+    {
+      "id": "smartphone",
+      "name": "Mobile",
+      "icon": "smartphone",
+      "color": "#b3d895",
+      "subtitle": "Android · iPhone",
+      "preview": "AnTuTu score",
+      "type": "Dispositivi",
+      "fields": [
+        {
+          "key": "antutu",
+          "label": "AnTuTu v11",
+          "unit": "punti",
+          "note": ""
+        },
+        {
+          "key": "chip",
+          "label": "Chip",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "key": "size",
+          "label": "Display",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "key": "hz",
+          "label": "Refresh massimo",
+          "unit": "Hz",
+          "note": ""
+        },
+        {
+          "key": "camera",
+          "label": "Fotocamere posteriori",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "key": "platform",
+          "label": "Sistema",
+          "unit": "",
+          "note": ""
+        }
+      ],
+      "sorts": [
+        {
+          "key": "antutu",
+          "label": "AnTuTu v11",
+          "dir": "desc"
+        }
+      ],
+      "note": "Punteggi medi. Android e iOS usano scale separate.",
+      "pair": [
+        "redmagic-11-pro",
+        "iqoo-15"
+      ]
+    },
+    {
+      "id": "schermi",
+      "name": "Display",
+      "icon": "monitor",
+      "color": "#8dcfd1",
+      "subtitle": "LG UltraGear · Samsung Odyssey · MSI MAG · Apple",
+      "preview": "Pannello · pixel · Hz · ms",
+      "type": "Dispositivi",
+      "fields": [
+        {
+          "key": "hz",
+          "label": "Refresh massimo",
+          "unit": "Hz",
+          "note": ""
+        },
+        {
+          "key": "panel",
+          "label": "Pannello",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "key": "resolution",
+          "label": "Risoluzione",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "key": "ms",
+          "label": "Tempo di risposta",
+          "unit": "ms GtG",
+          "note": "Valore dichiarato dal produttore nelle condizioni indicate. Non è input lag."
+        },
+        {
+          "key": "size",
+          "label": "Diagonale",
+          "unit": "",
+          "note": ""
+        }
+      ],
+      "sorts": [
+        {
+          "key": "hz",
+          "label": "Refresh · Hz",
+          "dir": "desc"
+        },
+        {
+          "key": "pixels",
+          "label": "Risoluzione",
+          "dir": "desc"
+        },
+        {
+          "key": "ms",
+          "label": "Risposta · ms",
+          "dir": "asc"
+        }
+      ],
+      "note": "Ordine per la proprietà scelta. I tempi GtG sono dichiarati dai produttori.",
+      "pair": [
+        "odyssey-g8",
+        "studio-display"
+      ]
+    },
+    {
+      "id": "chip",
+      "name": "Chip mobile",
+      "icon": "cpu",
+      "color": "#8cafe7",
+      "subtitle": "Qualcomm Snapdragon · Apple A",
+      "preview": "CPU · GPU · generazione",
+      "type": "Componenti",
+      "fields": [
+        {
+          "key": "cpu",
+          "label": "CPU",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "key": "graphics",
+          "label": "GPU",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "key": "platform",
+          "label": "Piattaforma",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "key": "device",
+          "label": "Dispositivi",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "key": "year",
+          "label": "Generazione",
+          "unit": "",
+          "note": ""
+        }
+      ],
+      "sorts": [
+        {
+          "key": "year",
+          "label": "Anno di lancio",
+          "dir": "desc"
+        }
+      ],
+      "note": "Ordine per anno di lancio. Non rappresenta una classifica di velocità.",
+      "pair": [
+        "snapdragon-8-elite-gen5",
+        "a19-pro"
+      ]
+    },
+    {
+      "id": "sensori",
+      "name": "Sensori",
+      "icon": "camera",
+      "color": "#e6b391",
+      "subtitle": "Sony LYTIA · Samsung ISOCELL",
+      "preview": "Formato · MP · pixel",
+      "type": "Componenti",
+      "fields": [
+        {
+          "key": "mp",
+          "label": "Risoluzione",
+          "unit": "MP",
+          "note": ""
+        },
+        {
+          "key": "format",
+          "label": "Formato ottico",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "key": "pixel",
+          "label": "Dimensione pixel",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "key": "technology",
+          "label": "Tecnologia",
+          "unit": "",
+          "note": ""
+        }
+      ],
+      "sorts": [
+        {
+          "key": "mp",
+          "label": "Risoluzione · MP",
+          "dir": "desc"
+        }
+      ],
+      "note": "I megapixel descrivono la risoluzione, non la qualità complessiva della foto.",
+      "pair": [
+        "lytia-900",
+        "isocell-hp2"
+      ]
+    },
+    {
+      "id": "console",
+      "name": "Console",
+      "icon": "gamepad",
+      "color": "#d9b1ca",
+      "subtitle": "PlayStation · Xbox",
+      "preview": "SSD · lettore · controller",
+      "type": "Dispositivi",
+      "fields": [
+        {
+          "key": "storage",
+          "label": "SSD",
+          "unit": "TB",
+          "note": ""
+        },
+        {
+          "key": "disc",
+          "label": "Lettore dischi",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "key": "controller",
+          "label": "Controller",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "key": "ecosystem",
+          "label": "Ecosistema",
+          "unit": "",
+          "note": ""
+        }
+      ],
+      "sorts": [
+        {
+          "key": "storage",
+          "label": "SSD · TB",
+          "dir": "desc"
+        }
+      ],
+      "note": "Ordine per capacità SSD. Le prestazioni dipendono dal gioco.",
+      "pair": [
+        "ps5",
+        "xbox-series-x"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "iphone-17-pro-max",
+      "cat": "smartphone",
+      "brand": "Apple",
+      "name": "iPhone 17 Pro Max",
+      "short": "17 Pro Max",
+      "variant": "iOS · Pro",
+      "stats": {
+        "antutu": 2302338,
+        "chip": "Apple A19 Pro",
+        "size": "6,9″",
+        "hz": 120,
+        "camera": "48 + 48 + 48 MP",
+        "platform": "iOS"
+      },
+      "source": "https://support.apple.com/it-it/125091",
+      "note": "AnTuTu v11, media del modello A19 Pro / 12 + 256 GB nel ranking iOS cinese. Scala separata da Android.",
+      "benchmarkSource": "https://www.antutu.com/ranking/ios",
+      "benchmarkScope": "iOS · Cina · rilevato 09.10.2026"
+    },
+    {
+      "id": "redmagic-11-pro",
+      "cat": "smartphone",
+      "brand": "REDMAGIC",
+      "name": "REDMAGIC 11 Pro",
+      "short": "11 Pro",
+      "variant": "Android · Gaming",
+      "stats": {
+        "antutu": 4013168,
+        "chip": "Snapdragon 8 Elite Gen 5",
+        "size": "6,85″",
+        "hz": 144,
+        "camera": "50 + 50 + 2 MP",
+        "platform": "Android"
+      },
+      "source": "https://eu.redmagic.gg/it/pages/redmagic-11-pro-specs",
+      "note": "AnTuTu v11: media mensile globale, mercato cinese escluso. La selezione include le posizioni 1, 2, 3 e 5.",
+      "rank": 1,
+      "benchmarkSource": "https://www.antutu.com/web/ranking",
+      "benchmarkScope": "Android · Global · agosto 2026"
+    },
+    {
+      "id": "poco-f8-ultra",
+      "cat": "smartphone",
+      "brand": "POCO",
+      "name": "POCO F8 Ultra",
+      "short": "F8 Ultra",
+      "variant": "Android · Versatile",
+      "stats": {
+        "antutu": 3651476,
+        "chip": "Snapdragon 8 Elite Gen 5",
+        "size": "6,9″",
+        "hz": 120,
+        "camera": "50 + 50 + 50 MP",
+        "platform": "Android"
+      },
+      "source": "https://www.mi.com/es/product/poco-f8-ultra/",
+      "note": "AnTuTu v11: media mensile globale, mercato cinese escluso. La selezione include le posizioni 1, 2, 3 e 5.",
+      "rank": 3,
+      "benchmarkSource": "https://www.antutu.com/web/ranking",
+      "benchmarkScope": "Android · Global · agosto 2026"
+    },
+    {
+      "id": "iqoo-15",
+      "cat": "smartphone",
+      "brand": "iQOO",
+      "name": "iQOO 15",
+      "short": "iQOO 15",
+      "variant": "Android · Display",
+      "stats": {
+        "antutu": 3758268,
+        "chip": "Snapdragon 8 Elite Gen 5",
+        "size": "6,85″",
+        "hz": 144,
+        "camera": "50 + 50 + 50 MP",
+        "platform": "Android"
+      },
+      "source": "https://www.iqoo.com/in/products/param/iqoo15",
+      "note": "AnTuTu v11: media mensile globale, mercato cinese escluso. La selezione include le posizioni 1, 2, 3 e 5.",
+      "rank": 2,
+      "benchmarkSource": "https://www.antutu.com/web/ranking",
+      "benchmarkScope": "Android · Global · agosto 2026"
+    },
+    {
+      "id": "oneplus-15",
+      "cat": "smartphone",
+      "brand": "OnePlus",
+      "name": "OnePlus 15",
+      "short": "OnePlus 15",
+      "variant": "Android · Movimento",
+      "stats": {
+        "antutu": 3606149,
+        "chip": "Snapdragon 8 Elite Gen 5",
+        "size": "6,78″",
+        "hz": 165,
+        "camera": "50 + 50 + 50 MP",
+        "platform": "Android"
+      },
+      "source": "https://www.oneplus.com/it/15/specs",
+      "note": "AnTuTu v11: media mensile globale, mercato cinese escluso. La selezione include le posizioni 1, 2, 3 e 5.",
+      "rank": 5,
+      "benchmarkSource": "https://www.antutu.com/web/ranking",
+      "benchmarkScope": "Android · Global · agosto 2026"
+    },
+    {
+      "id": "odyssey-g8",
+      "cat": "schermi",
+      "brand": "Samsung",
+      "name": "Odyssey OLED G8",
+      "short": "OLED G8",
+      "variant": "G81SF · 27″",
+      "stats": {
+        "hz": 240,
+        "panel": "OLED",
+        "resolution": "3840 × 2160",
+        "ms": 0.03,
+        "size": "27″",
+        "pixels": 8294400
+      },
+      "source": "https://www.samsung.com/it/monitors/gaming/odyssey-oled-g8-g81sf-27-inch-240hz-oled-uhd-ls27fg810suxen/",
+      "note": ""
+    },
+    {
+      "id": "studio-display",
+      "cat": "schermi",
+      "brand": "Apple",
+      "name": "Studio Display",
+      "short": "Studio Display",
+      "variant": "2026 · 27″",
+      "stats": {
+        "hz": 60,
+        "panel": "LCD · Retina",
+        "resolution": "5120 × 2880",
+        "ms": null,
+        "size": "27″",
+        "pixels": 14745600
+      },
+      "source": "https://support.apple.com/it-it/126324",
+      "note": "Tempo di risposta GtG non dichiarato nella scheda Apple."
+    },
+    {
+      "id": "studio-display-xdr",
+      "cat": "schermi",
+      "brand": "Apple",
+      "name": "Studio Display XDR",
+      "short": "Studio XDR",
+      "variant": "2026 · 27″",
+      "stats": {
+        "hz": 120,
+        "panel": "LCD · mini-LED",
+        "resolution": "5120 × 2880",
+        "ms": null,
+        "size": "27″",
+        "pixels": 14745600
+      },
+      "source": "https://www.apple.com/it/studio-display-xdr/specs/",
+      "note": "Tempo di risposta GtG non dichiarato nella scheda Apple."
+    },
+    {
+      "id": "snapdragon-8-elite-gen5",
+      "cat": "chip",
+      "brand": "Qualcomm",
+      "name": "Snapdragon 8 Elite Gen 5",
+      "short": "8 Elite Gen 5",
+      "variant": "Piattaforma mobile",
+      "stats": {
+        "cpu": "Qualcomm Oryon · 3ª generazione",
+        "graphics": "Qualcomm Adreno",
+        "platform": "Android",
+        "device": "REDMAGIC 11 Pro · iQOO 15 · POCO F8 Ultra",
+        "year": 2025
+      },
+      "source": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-8-elite-gen-5",
+      "note": ""
+    },
+    {
+      "id": "a19-pro",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A19 Pro",
+      "short": "A19 Pro",
+      "variant": "Configurazione iPhone 17 Pro Max",
+      "stats": {
+        "cpu": "6 core · 2 performance + 4 efficiency",
+        "graphics": "GPU Apple · 6 core",
+        "platform": "iOS",
+        "device": "iPhone 17 Pro Max",
+        "year": 2025
+      },
+      "source": "https://support.apple.com/it-it/125091",
+      "note": ""
+    },
+    {
+      "id": "a18-pro",
+      "cat": "chip",
+      "brand": "Apple",
+      "name": "A18 Pro",
+      "short": "A18 Pro",
+      "variant": "Configurazione iPhone 16 Pro",
+      "stats": {
+        "cpu": "6 core · 2 performance + 4 efficiency",
+        "graphics": "GPU Apple · 6 core",
+        "platform": "iOS",
+        "device": "iPhone 16 Pro · iPhone 16 Pro Max",
+        "year": 2024
+      },
+      "source": "https://support.apple.com/it-it/121031",
+      "note": ""
+    },
+    {
+      "id": "lytia-900",
+      "cat": "sensori",
+      "brand": "Sony",
+      "name": "LYTIA 900",
+      "short": "LYTIA 900",
+      "variant": "Sensore mobile",
+      "stats": {
+        "mp": 50,
+        "format": "1/0,98″",
+        "pixel": "1,6 μm",
+        "technology": "LYTIA · CMOS stacked"
+      },
+      "source": "https://www.sony-semicon.com/en/products/is/mobile/lineup.html",
+      "note": ""
+    },
+    {
+      "id": "lytia-808",
+      "cat": "sensori",
+      "brand": "Sony",
+      "name": "LYTIA 808",
+      "short": "LYTIA 808",
+      "variant": "Sensore mobile",
+      "stats": {
+        "mp": 50,
+        "format": "1/1,4″",
+        "pixel": "1,12 μm",
+        "technology": "LYTIA · 2-Layer Pixel"
+      },
+      "source": "https://www.sony-semicon.com/en/products/is/mobile/lineup.html",
+      "note": ""
+    },
+    {
+      "id": "isocell-hp2",
+      "cat": "sensori",
+      "brand": "Samsung",
+      "name": "ISOCELL HP2",
+      "short": "ISOCELL HP2",
+      "variant": "Sensore mobile",
+      "stats": {
+        "mp": 200,
+        "format": "1/1,3″",
+        "pixel": "0,6 μm",
+        "technology": "ISOCELL · Tetra²pixel"
+      },
+      "source": "https://semiconductor.samsung.com/image-sensor/mobile-image-sensor/isocell-hp2/",
+      "note": ""
+    },
+    {
+      "id": "ps5",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PlayStation 5",
+      "short": "PS5",
+      "variant": "Modello con lettore · 1 TB",
+      "stats": {
+        "storage": 1,
+        "disc": "Blu-ray UHD incluso",
+        "controller": "DualSense",
+        "ecosystem": "PlayStation"
+      },
+      "source": "https://www.playstation.com/it-it/consoles/ps5/shop-all/",
+      "note": ""
+    },
+    {
+      "id": "ps5-pro",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PlayStation 5 Pro",
+      "short": "PS5 Pro",
+      "variant": "2 TB · Lettore separato",
+      "stats": {
+        "storage": 2,
+        "disc": "Accessorio separato",
+        "controller": "DualSense",
+        "ecosystem": "PlayStation"
+      },
+      "source": "https://www.playstation.com/it-ch/ps5/ps5-pro/",
+      "note": ""
+    },
+    {
+      "id": "xbox-series-x",
+      "cat": "console",
+      "brand": "Microsoft",
+      "name": "Xbox Series X",
+      "short": "Series X",
+      "variant": "Carbon Black · 1 TB",
+      "stats": {
+        "storage": 1,
+        "disc": "Blu-ray UHD incluso",
+        "controller": "Xbox Wireless Controller",
+        "ecosystem": "Xbox"
+      },
+      "source": "https://www.xbox.com/it-IT/consoles/xbox-series-x",
+      "note": ""
+    },
+    {
+      "id": "ultragear-27gr83q",
+      "cat": "schermi",
+      "brand": "LG",
+      "name": "UltraGear 27GR83Q-B",
+      "short": "UltraGear 27GR83Q",
+      "variant": "27GR83Q-B · 27″",
+      "stats": {
+        "hz": 240,
+        "panel": "IPS",
+        "resolution": "2560 × 1440",
+        "ms": 1,
+        "size": "27″",
+        "pixels": 3686400
+      },
+      "source": "https://www.lg.com/us/monitors/lg-27gr83q-b-ultragear-monitor",
+      "note": "1 ms GtG dichiarato. Il risultato dipende dalla modalità del monitor."
+    },
+    {
+      "id": "mag-271qpx",
+      "cat": "schermi",
+      "brand": "MSI",
+      "name": "MAG 271QPX QD-OLED",
+      "short": "MAG 271QPX",
+      "variant": "271QPX · 26,5″",
+      "stats": {
+        "hz": 360,
+        "panel": "QD-OLED",
+        "resolution": "2560 × 1440",
+        "ms": 0.03,
+        "size": "26,5″",
+        "pixels": 3686400
+      },
+      "source": "https://it.msi.com/Monitor/MAG-271QPX-QD-OLED/Specification",
+      "note": "Modello 360 Hz. La variante E2 ha specifiche differenti."
+    },
+    {
+      "id": "gtx-1080-ti",
+      "cat": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce GTX 1080 Ti",
+      "short": "GTX 1080 Ti",
+      "variant": "Founders Edition",
+      "stats": {
+        "tflops": 11.3,
+        "memory": 11,
+        "memoryType": "GDDR5X",
+        "architecture": "Pascal",
+        "series": "GTX 10"
+      },
+      "source": "https://www.nvidia.com/en-us/geforce/news/geforce-garage-an-ultimate-rgb-elite-performance-build-powered-by-gtx-1080-ti/",
+      "note": "FP32 calcolati: 3.584 CUDA core × 2 × 1,582 GHz ≈ 11,3 TFLOPS."
+    },
+    {
+      "id": "gtx-1660-ti",
+      "cat": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce GTX 1660 Ti",
+      "short": "GTX 1660 Ti",
+      "variant": "Reference",
+      "stats": {
+        "tflops": 5.4,
+        "memory": 6,
+        "memoryType": "GDDR6",
+        "architecture": "Turing",
+        "series": "GTX 16"
+      },
+      "source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+      "note": "FP32 calcolati: 1.536 CUDA core × 2 × 1,770 GHz ≈ 5,4 TFLOPS."
+    },
+    {
+      "id": "rtx-2080-ti",
+      "cat": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 2080 Ti",
+      "short": "RTX 2080 Ti",
+      "variant": "Founders Edition",
+      "stats": {
+        "tflops": 14.2,
+        "memory": 11,
+        "memoryType": "GDDR6",
+        "architecture": "Turing",
+        "series": "RTX 20"
+      },
+      "source": "https://developer.nvidia.com/blog/nvidia-turing-architecture-in-depth/",
+      "note": "Valore FP32 della Founders Edition. Il modello reference usa frequenze differenti."
+    },
+    {
+      "id": "rtx-3080",
+      "cat": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 3080",
+      "short": "RTX 3080",
+      "variant": "10 GB · Founders Edition",
+      "stats": {
+        "tflops": 29.8,
+        "memory": 10,
+        "memoryType": "GDDR6X",
+        "architecture": "Ampere",
+        "series": "RTX 30"
+      },
+      "source": "https://www.nvidia.com/content/PDF/nvidia-ampere-ga-102-gpu-architecture-whitepaper-v2.1.pdf",
+      "note": ""
+    },
+    {
+      "id": "rtx-4080",
+      "cat": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 4080",
+      "short": "RTX 4080",
+      "variant": "16 GB · Reference",
+      "stats": {
+        "tflops": 49,
+        "memory": 16,
+        "memoryType": "GDDR6X",
+        "architecture": "Ada Lovelace",
+        "series": "RTX 40"
+      },
+      "source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+      "note": "49 Shader TFLOPS: valore arrotondato dichiarato da NVIDIA."
+    },
+    {
+      "id": "rtx-5070-ti",
+      "cat": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 5070 Ti",
+      "short": "RTX 5070 Ti",
+      "variant": "Reference",
+      "stats": {
+        "tflops": 43.9,
+        "memory": 16,
+        "memoryType": "GDDR7",
+        "architecture": "Blackwell",
+        "series": "RTX 50"
+      },
+      "source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+      "note": "FP32 calcolati: 8.960 CUDA core × 2 × 2,45 GHz ≈ 43,9 TFLOPS."
+    },
+    {
+      "id": "rtx-5090",
+      "cat": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 5090",
+      "short": "RTX 5090",
+      "variant": "Founders Edition",
+      "stats": {
+        "tflops": 104.8,
+        "memory": 32,
+        "memoryType": "GDDR7",
+        "architecture": "Blackwell",
+        "series": "RTX 50"
+      },
+      "source": "https://images.nvidia.com/aem-dam/Solutions/geforce/blackwell/nvidia-rtx-blackwell-gpu-architecture.pdf",
+      "note": ""
+    },
+    {
+      "id": "rx-480",
+      "cat": "gpu",
+      "brand": "AMD",
+      "name": "Radeon RX 480",
+      "short": "RX 480",
+      "variant": "4 GB · Reference",
+      "stats": {
+        "tflops": 5.8,
+        "memory": 4,
+        "memoryType": "GDDR5",
+        "architecture": "GCN · Polaris",
+        "series": "RX 400"
+      },
+      "source": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-400-series/radeon-rx-480.html",
+      "note": ""
+    },
+    {
+      "id": "rx-580",
+      "cat": "gpu",
+      "brand": "AMD",
+      "name": "Radeon RX 580",
+      "short": "RX 580",
+      "variant": "8 GB · Reference",
+      "stats": {
+        "tflops": 6.2,
+        "memory": 8,
+        "memoryType": "GDDR5",
+        "architecture": "GCN · Polaris",
+        "series": "RX 500"
+      },
+      "source": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-500-series/radeon-rx-580.html",
+      "note": ""
+    },
+    {
+      "id": "rx-5700-xt",
+      "cat": "gpu",
+      "brand": "AMD",
+      "name": "Radeon RX 5700 XT",
+      "short": "RX 5700 XT",
+      "variant": "Reference",
+      "stats": {
+        "tflops": 9.75,
+        "memory": 8,
+        "memoryType": "GDDR6",
+        "architecture": "RDNA",
+        "series": "RX 5000"
+      },
+      "source": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-5000-series/amd-radeon-rx-5700-xt.html",
+      "note": ""
+    },
+    {
+      "id": "rx-6800-xt",
+      "cat": "gpu",
+      "brand": "AMD",
+      "name": "Radeon RX 6800 XT",
+      "short": "RX 6800 XT",
+      "variant": "Reference",
+      "stats": {
+        "tflops": 20.74,
+        "memory": 16,
+        "memoryType": "GDDR6",
+        "architecture": "RDNA 2",
+        "series": "RX 6000"
+      },
+      "source": "https://www.amd.com/en/products/graphics/desktops/radeon/6000-series/amd-radeon-rx-6800-xt.html",
+      "note": ""
+    },
+    {
+      "id": "rx-7900-xtx",
+      "cat": "gpu",
+      "brand": "AMD",
+      "name": "Radeon RX 7900 XTX",
+      "short": "RX 7900 XTX",
+      "variant": "Reference",
+      "stats": {
+        "tflops": 61.4,
+        "memory": 24,
+        "memoryType": "GDDR6",
+        "architecture": "RDNA 3",
+        "series": "RX 7000"
+      },
+      "source": "https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7900xtx.html",
+      "note": ""
+    },
+    {
+      "id": "rx-9070-xt",
+      "cat": "gpu",
+      "brand": "AMD",
+      "name": "Radeon RX 9070 XT",
+      "short": "RX 9070 XT",
+      "variant": "Reference",
+      "stats": {
+        "tflops": 48.7,
+        "memory": 16,
+        "memoryType": "GDDR6",
+        "architecture": "RDNA 4",
+        "series": "RX 9000"
+      },
+      "source": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html",
+      "note": ""
+    }
+  ]
+}

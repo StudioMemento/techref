@@ -1,0 +1,2228 @@
+{
+  "prices": {
+    "amd-radeon-rx-550-2-gb-gddr5-640-sp": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-550-4-gb-gddr5-640-sp": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-hd-5450-1-gb": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-hd-5550-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-hd-5570-1-gb": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-hd-5670-1-gb-gddr5": {
+      "amount": 119,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2010-01-14",
+      "source": {
+        "label": "TechSpot • listino nel resoconto originale del lancio",
+        "url": "https://www.techspot.com/news/37585-radeon-hd-5670-brings-directx-11-to-budget-segment.html"
+      },
+      "note": "Il resoconto di lancio distingue 512 MB a 99 USD e 1 GB GDDR5 a 119 USD. Qui è usato esclusivamente il prezzo della variante 1 GB."
+    },
+    "amd-radeon-hd-5830-1-gb": {
+      "amount": 239,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2010-02",
+      "source": {
+        "label": "Legit Reviews • listino nel resoconto originale del lancio",
+        "url": "https://www.legitreviews.com/ati-radeon-hd-5830-1gb-dx11-video-card-review_1228"
+      },
+      "note": "Prezzo del lancio della configurazione 1 GB nella recensione originale. Data con precisione al mese per distinguere annuncio e successiva disponibilità."
+    },
+    "amd-radeon-hd-6850-1-gb": {
+      "amount": 179,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2010-10-22",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/190/amd-aims-to-deliver-perfect-graphics-cards-for-gamers-with-new-amd-radeontm-hd-6800-series"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-hd-6870-1-gb": {
+      "amount": 239,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2010-10-22",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/190/amd-aims-to-deliver-perfect-graphics-cards-for-gamers-with-new-amd-radeontm-hd-6800-series"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-hd-6950-2-gb": {
+      "amount": 299,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2010-12-15",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/308/amd-launches-its-most-advanced-enthusiast-gpu-ever-amd-radeontm-hd-6900-series-graphics"
+      },
+      "note": "SEP USA di ingresso della serie HD 6900 al debutto: HD 6950 2 GB. La HD 6970 non eredita questo prezzo."
+    },
+    "amd-radeon-hd-6970-2-gb": {
+      "amount": 369,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2010-12-15",
+      "source": {
+        "label": "TechSpot • listino nel resoconto originale del lancio",
+        "url": "https://www.techspot.com/review/348-amd-radeon-6970/page14.html"
+      },
+      "note": "MSRP USA dichiarato nella recensione originale del lancio, non prezzo di strada successivo. Prezzo del modello base; le personalizzazioni possono costare di più."
+    },
+    "amd-radeon-hd-6350-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-hd-6450-1-gb": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-hd-6570-1-gb-gddr5": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "La fonte del debutto attribuisce 79 USD a 512 MB GDDR5 o 1 GB DDR3; non trasferito alla configurazione catalogata 1 GB GDDR5."
+    },
+    "amd-radeon-hd-6670-1-gb": {
+      "amount": 99,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2011-04-19",
+      "source": {
+        "label": "HotHardware • listino nel resoconto originale del lancio",
+        "url": "https://hothardware.com/reviews/amd-radeon-hd-6670-and-6570-mainstream-gpus"
+      },
+      "note": "La recensione del lancio attribuisce 99 USD alla versione 1 GB GDDR5. Non esteso ai modelli DDR3."
+    },
+    "amd-radeon-hd-6750-1-gb": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-hd-6770-1-gb": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-hd-6790-riferimento": {
+      "amount": 149,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2011-04-05",
+      "source": {
+        "label": "bit-tech • listino nel resoconto originale del lancio",
+        "url": "https://bit-tech.net/reviews/tech/graphics/amd-radeon-hd-6790-1gb-review/1/"
+      },
+      "note": "Listino USA esplicitamente indicato al netto delle tasse per la scheda di riferimento 1 GB."
+    },
+    "amd-radeon-hd-6930-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-hd-6990-riferimento": {
+      "amount": 699,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2011-03-08",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/342/amd-extends-graphics-performance-lead-launches-worlds-fastest-graphics-card-again"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-hd-7350-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "Fonte di lancio • distribuzione OEM / bundle",
+        "url": "https://www.anandtech.com/show/5291/amd-quietly-releases-the-oemonly-radeon-hd-7670-turks-rides-again"
+      },
+      "note": "Modello OEM della prima serie HD 7000, documentato nel resoconto originale di AnandTech. Nessun MSRP della sola scheda. La fonte storica può reindirizzare al forum dopo la chiusura del sito."
+    },
+    "amd-radeon-hd-7450-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "Fonte di lancio • distribuzione OEM / bundle",
+        "url": "https://www.anandtech.com/show/5291/amd-quietly-releases-the-oemonly-radeon-hd-7670-turks-rides-again"
+      },
+      "note": "Modello OEM della prima serie HD 7000, documentato nel resoconto originale di AnandTech. Nessun MSRP della sola scheda. La fonte storica può reindirizzare al forum dopo la chiusura del sito."
+    },
+    "amd-radeon-hd-7470-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "Fonte di lancio • distribuzione OEM / bundle",
+        "url": "https://www.anandtech.com/show/5291/amd-quietly-releases-the-oemonly-radeon-hd-7670-turks-rides-again"
+      },
+      "note": "Modello OEM della prima serie HD 7000, documentato nel resoconto originale di AnandTech. Nessun MSRP della sola scheda. La fonte storica può reindirizzare al forum dopo la chiusura del sito."
+    },
+    "amd-radeon-hd-7510-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-hd-7570-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "Fonte di lancio • distribuzione OEM / bundle",
+        "url": "https://www.anandtech.com/show/5291/amd-quietly-releases-the-oemonly-radeon-hd-7670-turks-rides-again"
+      },
+      "note": "Modello OEM della prima serie HD 7000, documentato nel resoconto originale di AnandTech. Nessun MSRP della sola scheda. La fonte storica può reindirizzare al forum dopo la chiusura del sito."
+    },
+    "amd-radeon-hd-7670-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "Fonte di lancio • distribuzione OEM / bundle",
+        "url": "https://www.anandtech.com/show/5291/amd-quietly-releases-the-oemonly-radeon-hd-7670-turks-rides-again"
+      },
+      "note": "Modello OEM della prima serie HD 7000, documentato nel resoconto originale di AnandTech. Nessun MSRP della sola scheda. La fonte storica può reindirizzare al forum dopo la chiusura del sito."
+    },
+    "amd-radeon-hd-7750-1-gb": {
+      "amount": 109,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2012-02-15",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/254/amd-radeontm-breaks-ghz-barrier"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-hd-7770-ghz-edition-1-gb": {
+      "amount": 159,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2012-02-15",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/254/amd-radeontm-breaks-ghz-barrier"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-hd-7850-2-gb": {
+      "amount": 249,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2012-03-19",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/401/amd-radeontm-hd-7800-series-graphics-sets-pace-for-graphics-industry"
+      },
+      "note": "SEP USA di ingresso della serie HD 7800: HD 7850 2 GB. Il prezzo non viene applicato alla HD 7870."
+    },
+    "amd-radeon-hd-7870-ghz-edition-2-gb": {
+      "amount": 349,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2012-03-19",
+      "source": {
+        "label": "Tom’s Hardware • listino nel resoconto originale del lancio",
+        "url": "https://www.tomshardware.com/reviews/radeon-hd-7870-review-benchmark,3148.html"
+      },
+      "note": "MSRP del modello 2 GB annunciato il 5 marzo; disponibilità indicata dal produttore a partire dal 19 marzo 2012."
+    },
+    "amd-radeon-hd-7870-xt-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-hd-7950-3-gb-gddr5": {
+      "amount": 449,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2012-01-31",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/276/amd-radeontm-hd-7950-graphics-added-to-arsenal-of-next-generation-graphics"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-hd-7970-3-gb": {
+      "amount": 549,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2012-01-09",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/201/amd-launches-worlds-fastest-single-gpu-graphics-card----the-amd-radeontm-hd-7970"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-hd-7970-ghz-edition-3-gb": {
+      "amount": 499,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2012-06-22",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/393/amd-takes-graphics-crown-with-amd-radeontm-hd-7970-ghz-edition"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-hd-7730-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-hd-7790-riferimento": {
+      "amount": 149,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2013-03-22",
+      "source": {
+        "label": "Legit Reviews • listino nel resoconto originale del lancio",
+        "url": "https://www.legitreviews.com/amd-radeon-hd-7790-video-card-review-w-gigabyte-sapphire_2157"
+      },
+      "note": "MSRP di lancio della configurazione di riferimento 1 GB. Data dell’annuncio; nessun sovrapprezzo per versioni OC incluso."
+    },
+    "amd-radeon-hd-7990-riferimento": {
+      "amount": 999,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2013-04-24",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/151/amd-unleashes-the-worlds-fastest-graphics-card"
+      },
+      "note": "MSRP USA annunciato il 24 aprile 2013; disponibilità prevista due settimane dopo. La memoria multi-GPU non equivale a un pool unico."
+    },
+    "amd-radeon-hd-8350-oem-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "Fonte di lancio • distribuzione OEM / bundle",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/82/amd-delivers-enhanced-gaming-and-improved-application-performance-with-latest-mobile-and-desktop-graphics-technology"
+      },
+      "note": "Famiglia desktop HD 8000 annunciata da AMD come disponibile esclusivamente tramite OEM. Non assegnato un listino standalone USA."
+    },
+    "amd-radeon-hd-8470-oem-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "Fonte di lancio • distribuzione OEM / bundle",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/82/amd-delivers-enhanced-gaming-and-improved-application-performance-with-latest-mobile-and-desktop-graphics-technology"
+      },
+      "note": "Famiglia desktop HD 8000 annunciata da AMD come disponibile esclusivamente tramite OEM. Non assegnato un listino standalone USA."
+    },
+    "amd-radeon-hd-8490-oem-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "Fonte di lancio • distribuzione OEM / bundle",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/82/amd-delivers-enhanced-gaming-and-improved-application-performance-with-latest-mobile-and-desktop-graphics-technology"
+      },
+      "note": "Famiglia desktop HD 8000 annunciata da AMD come disponibile esclusivamente tramite OEM. Non assegnato un listino standalone USA."
+    },
+    "amd-radeon-hd-8570-oem-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "Fonte di lancio • distribuzione OEM / bundle",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/82/amd-delivers-enhanced-gaming-and-improved-application-performance-with-latest-mobile-and-desktop-graphics-technology"
+      },
+      "note": "Famiglia desktop HD 8000 annunciata da AMD come disponibile esclusivamente tramite OEM. Non assegnato un listino standalone USA."
+    },
+    "amd-radeon-hd-8670-oem-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "Fonte di lancio • distribuzione OEM / bundle",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/82/amd-delivers-enhanced-gaming-and-improved-application-performance-with-latest-mobile-and-desktop-graphics-technology"
+      },
+      "note": "Famiglia desktop HD 8000 annunciata da AMD come disponibile esclusivamente tramite OEM. Non assegnato un listino standalone USA."
+    },
+    "amd-radeon-hd-8760-oem-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "Fonte di lancio • distribuzione OEM / bundle",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/82/amd-delivers-enhanced-gaming-and-improved-application-performance-with-latest-mobile-and-desktop-graphics-technology"
+      },
+      "note": "Famiglia desktop HD 8000 annunciata da AMD come disponibile esclusivamente tramite OEM. Non assegnato un listino standalone USA."
+    },
+    "amd-radeon-hd-8870-oem-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "Fonte di lancio • distribuzione OEM / bundle",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/82/amd-delivers-enhanced-gaming-and-improved-application-performance-with-latest-mobile-and-desktop-graphics-technology"
+      },
+      "note": "Famiglia desktop HD 8000 annunciata da AMD come disponibile esclusivamente tramite OEM. Non assegnato un listino standalone USA."
+    },
+    "amd-radeon-hd-8950-oem-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "Fonte di lancio • distribuzione OEM / bundle",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/82/amd-delivers-enhanced-gaming-and-improved-application-performance-with-latest-mobile-and-desktop-graphics-technology"
+      },
+      "note": "Famiglia desktop HD 8000 annunciata da AMD come disponibile esclusivamente tramite OEM. Non assegnato un listino standalone USA."
+    },
+    "amd-radeon-hd-8970-oem-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "Fonte di lancio • distribuzione OEM / bundle",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/82/amd-delivers-enhanced-gaming-and-improved-application-performance-with-latest-mobile-and-desktop-graphics-technology"
+      },
+      "note": "Famiglia desktop HD 8000 annunciata da AMD come disponibile esclusivamente tramite OEM. Non assegnato un listino standalone USA."
+    },
+    "amd-radeon-hd-8990-oem-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-r7-240-2-gb": {
+      "amount": 69,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2013-10-11",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/457/amd-releases-r7-series-graphics-cards-with-amd-radeon-r7-240-amd-radeon-r7-250-and-amd-radeon-r7-260x-gpus"
+      },
+      "note": "SEP minimo della configurazione di lancio: 1 GB GDDR5 oppure 2 GB DDR3, come da tabella AMD. Memoria del catalogo: 2 GB."
+    },
+    "amd-radeon-r7-250-2-gb": {
+      "amount": 89,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2013-10-11",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/457/amd-releases-r7-series-graphics-cards-with-amd-radeon-r7-240-amd-radeon-r7-250-and-amd-radeon-r7-260x-gpus"
+      },
+      "note": "SEP minimo della configurazione di lancio: 1 GB GDDR5 oppure 2 GB DDR3, come da tabella AMD. Memoria del catalogo: 2 GB."
+    },
+    "amd-radeon-r7-260-2-gb": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Il listino della configurazione di lancio 1 GB non è trasferito alla variante catalogata 2 GB."
+    },
+    "amd-radeon-r7-260x-4-gb": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Il comunicato AMD del debutto quota 139 USD per 2 GB GDDR5, non per i 4 GB presenti in questa scheda."
+    },
+    "amd-radeon-r9-270-2-gb": {
+      "amount": 179,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2013-11-13",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/463/amd-radeon-r9-270-graphics-card-packs-a-1080p-gaming-punch"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-r9-270x-2-gb": {
+      "amount": 199,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2013-10-08",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/458/amd-unleashes-r9-series-graphics-cards-with-amd-radeon-r9-270x-and-amd-radeon-r9-280x"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-r9-280x-3-gb": {
+      "amount": 299,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2013-10-08",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/458/amd-unleashes-r9-series-graphics-cards-with-amd-radeon-r9-270x-and-amd-radeon-r9-280x"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-r9-290-riferimento": {
+      "amount": 399,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2013-11-05",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/467/amd-radeontm-r9-290-graphics-card-delivers-stunning-ultrahd-performance-for-just-399"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-r9-290x-4-gb": {
+      "amount": 549,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2013-10-24",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/452/amd-radeon-r9-290x-graphics-card-pioneers-a-new-era-in-gaming-experience"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-r5-220-oem-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-r5-230-4-gb": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-r5-235-4-gb": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-r5-235x-oem-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-r5-240-oem-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-r7-250x-2-gb": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Il listino della configurazione di lancio 1 GB non è trasferito alla variante catalogata 2 GB."
+    },
+    "amd-radeon-r7-265-4-gb": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Il prezzo iniziale della versione 2 GB non è attribuito alla variante 4 GB del catalogo."
+    },
+    "amd-radeon-r9-280-3-gb": {
+      "amount": 279,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2014-03-04",
+      "source": {
+        "label": "TechRadar • listino nel resoconto originale del lancio",
+        "url": "https://www.techradar.com/news/computing-components/graphics-cards/amd-reveals-radeon-r9-280-graphics-car-for-gaming-beyond-1080p-1230638"
+      },
+      "note": "MSRP USA annunciato da AMD, 279 USD. Non è il prezzo gonfiato dai rivenditori durante la domanda per mining."
+    },
+    "amd-radeon-r9-285-riferimento": {
+      "amount": 249,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2014-09-02",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/565/amd-launches-amd-radeontm-r9-285-graphics-never-settle-space-edition-game-bundle"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-r9-295x2-8-gb": {
+      "amount": 1499,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2014-04-08",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/514/amd-launches-worlds-fastest-graphics-card"
+      },
+      "note": "MSRP USA annunciato l’8 aprile 2014, con disponibilità prevista nello stesso mese. Non è un successivo prezzo scontato."
+    },
+    "amd-radeon-r5-330-oem-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-r5-340-oem-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-r7-340-oem-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-r7-350-oem-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-r7-360-2-gb-gddr5": {
+      "amount": 109,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2015-06-18",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/619/amd-ushers-in-a-new-era-of-pc-gaming-with-radeontm-r9-and-r7-300-series-graphics-line-up-including-worlds-first-graphics-family-with-revolutionary-hbm-technology"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-r7-370-4-gb-gddr5": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Il comunicato di lancio indica 149 USD di ingresso della famiglia; il sovrapprezzo esatto per 4 GB non è verificato."
+    },
+    "amd-radeon-r9-370-oem-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-r9-370x-oem-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-r9-380-4-gb-gddr5": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Il comunicato di lancio indica 199 USD di ingresso della famiglia; non attribuito alla variante 4 GB del catalogo."
+    },
+    "amd-radeon-r9-380x-4-gb-gddr5": {
+      "amount": 229,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2015-11-19",
+      "source": {
+        "label": "bit-tech • listino nel resoconto originale del lancio",
+        "url": "https://www.bit-tech.net/reviews/tech/graphics/amd-radeon-r9-380x-review/1/"
+      },
+      "note": "MSRP USA del modello base 4 GB, tasse escluse; non il prezzo delle versioni STRIX OC da 259 USD."
+    },
+    "amd-radeon-r9-390-8-gb-gddr5": {
+      "amount": 329,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2015-06-18",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/619/amd-ushers-in-a-new-era-of-pc-gaming-with-radeontm-r9-and-r7-300-series-graphics-line-up-including-worlds-first-graphics-family-with-revolutionary-hbm-technology"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-r9-390x-8-gb-gddr5": {
+      "amount": 429,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2015-06-18",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/619/amd-ushers-in-a-new-era-of-pc-gaming-with-radeontm-r9-and-r7-300-series-graphics-line-up-including-worlds-first-graphics-family-with-revolutionary-hbm-technology"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-r9-fury-4-gb-high-bandwidth-memory-hbm": {
+      "amount": 549,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2015-07-14",
+      "source": {
+        "label": "HotHardware • listino nel resoconto originale del lancio",
+        "url": "https://hothardware.com/reviews/amd-radeon-r9-fury-review"
+      },
+      "note": "Prezzo del modello base di lancio; le personalizzazioni OC Sapphire/ASUS possono avere sovrapprezzi."
+    },
+    "amd-radeon-r9-fury-x-4-gb-high-bandwidth-memory-hbm": {
+      "amount": 649,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2015-06-24",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/619/amd-ushers-in-a-new-era-of-pc-gaming-with-radeontm-r9-and-r7-300-series-graphics-line-up-including-worlds-first-graphics-family-with-revolutionary-hbm-technology"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-r9-nano-4-gb-high-bandwidth-memory-hbm": {
+      "amount": 649,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2015-09",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/630/amd-radeontm-r9-nano-worlds-smallest-and-most-power-efficient-enthusiast-graphics-card-brings-4k-gaming-to-the-living-room"
+      },
+      "note": "SEP USA annunciato da AMD; disponibilità indicata per la settimana del 7 settembre 2015. Non è il ribasso successivo a 499 USD."
+    },
+    "amd-radeon-rx-460-2-gb-gddr5": {
+      "amount": 109,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2016-08-08",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/707/introducing-radeontm-rx-460-graphics-disruptive-technology-for-all-esports-gamers-around-the-world"
+      },
+      "note": "SEP minimo della configurazione 2 GB al debutto. Non applicato alla variante 4 GB."
+    },
+    "amd-radeon-rx-460-4-gb-gddr5": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-470-4-gb-gddr5": {
+      "amount": 179,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2016-08-04",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/706/the-radeon-rebellion-storms-ahead-with-the-gamer-optimized-radeontm-rx-470-gpu"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-470d-cina": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-480-4-gb-gddr5": {
+      "amount": 199,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2016-06-29",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/695/amd-launches-the-radeon-rebellion-with-the-radeontm-rx-480-graphics-card-available-now"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-480-8-gb-gddr5": {
+      "amount": 239,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2016-06-29",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/695/amd-launches-the-radeon-rebellion-with-the-radeontm-rx-480-graphics-card-available-now"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-550-2-gb-gddr5": {
+      "amount": 79,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2017-04-20",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/763/radeontm-rx-500-series-the-most-compelling-graphics-card-upgrade-yet"
+      },
+      "note": "Configurazione originale 2 GB / 512 SP. Non applicabile alle varianti 640 SP né alla 4 GB."
+    },
+    "amd-radeon-rx-550-4-gb-gddr5": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-560-2-gb-gddr5-1024-sp": {
+      "amount": 99,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2017-05",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/763/radeontm-rx-500-series-the-most-compelling-graphics-card-upgrade-yet"
+      },
+      "note": "Configurazione originale 2 GB / 1024 SP. Non applicabile alle varianti 896 SP né alla 4 GB."
+    },
+    "amd-radeon-rx-560-2-gb-gddr5-896-sp": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-560-4-gb-gddr5-1024-sp": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-560-4-gb-gddr5-896-sp": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-560-oem-4-gb-gddr5": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-560d-4-gb-gddr5": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-570-4-gb-gddr5": {
+      "amount": 169,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2017-04-18",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/763/radeontm-rx-500-series-the-most-compelling-graphics-card-upgrade-yet"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-570-8-gb-gddr5": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-570-oem-8-gb-gddr5": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-580-4-gb-gddr5": {
+      "amount": 199,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2017-04-18",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/763/radeontm-rx-500-series-the-most-compelling-graphics-card-upgrade-yet"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-580-8-gb-gddr5": {
+      "amount": 229,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2017-04-18",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/763/radeontm-rx-500-series-the-most-compelling-graphics-card-upgrade-yet"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-vega-56-8-gb-hbm2": {
+      "amount": 399,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2017-08-28",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/787/radeon-rx-vega-graphics-cards-and-radeon-packs-next-generation-enthusiast-gaming-available-now"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-vega-64-8-gb-hbm2": {
+      "amount": 499,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2017-08-14",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/787/radeon-rx-vega-graphics-cards-and-radeon-packs-next-generation-enthusiast-gaming-available-now"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-vega-64-liquid-cooled-8-gb-hbm2": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "Fonte di lancio • distribuzione OEM / bundle",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/787/radeon-rx-vega-graphics-cards-and-radeon-packs-next-generation-enthusiast-gaming-available-now"
+      },
+      "note": "Al lancio AMD indicava 699 USD per Radeon Aqua Pack, che comprendeva la GPU e vantaggi bundle. Non attribuito come listino della sola scheda."
+    },
+    "amd-radeon-rx-570x-8-gb-gddr5": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "Fonte di lancio • distribuzione OEM / bundle",
+        "url": "https://www.pcworld.com/article/401798/amd-radeon-rx-500x-series-graphics-gpu.html"
+      },
+      "note": "AMD descrisse direttamente a PCWorld la serie RX 500X come aggiornamento di denominazione per piattaforme OEM 2018. Non eredita il MSRP della variante RX 500 retail."
+    },
+    "amd-radeon-rx-580-oem-8-gb-gddr5": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-580-2048sp-8-gb-gddr5": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-580x-8-gb-gddr5": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "Fonte di lancio • distribuzione OEM / bundle",
+        "url": "https://www.pcworld.com/article/401798/amd-radeon-rx-500x-series-graphics-gpu.html"
+      },
+      "note": "AMD descrisse direttamente a PCWorld la serie RX 500X come aggiornamento di denominazione per piattaforme OEM 2018. Non eredita il MSRP della variante RX 500 retail."
+    },
+    "amd-radeon-rx-590-8-gb-gddr5": {
+      "amount": 279,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2018-11-15",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/864/new-amd-radeon-rx-590-graphics-cards-deliver-leading-edge-smooth-hd-gaming-experience-for-latest-games"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-5500-4-gb-gddr6": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-5500-xt-4-gb-gddr6": {
+      "amount": 169,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2019-12-12",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/921/amd-unveils-the-amd-radeon-rx-5500-xt-graphics-card-incredible-1080p-performance-breath-taking-visuals-and-powerful-software-features"
+      },
+      "note": "SEP di ingresso al lancio per 4 GB; non applicato automaticamente alla versione 8 GB."
+    },
+    "amd-radeon-rx-5500-xt-8-gb-gddr6": {
+      "amount": 199,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2019-12-12",
+      "source": {
+        "label": "The FPS Review • listino nel resoconto originale del lancio",
+        "url": "https://www.thefpsreview.com/2019/12/12/sapphire-pulse-radeon-rx-5500-xt-4g-oc-review/"
+      },
+      "note": "La recensione originale distingue esplicitamente MSRP 169 USD per 4 GB e 199 USD per 8 GB; non è il sovrapprezzo Sapphire Pulse."
+    },
+    "amd-radeon-rx-560-xt-4-gb-gddr5": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-560-xt-8-gb-gddr5": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-5700-8-gb-gddr6": {
+      "amount": 349,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2019-07-07",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/899/amd-unleashes-ultimate-pc-gaming-platform-with-worldwide-availability-of-amd-radeon-rx-5700-series-graphics-cards-and-amd-ryzen-3000-series-desktop-processors"
+      },
+      "note": "Prezzo effettivo del debutto retail, corretto da AMD prima del lancio: non il precedente annuncio da 379 USD."
+    },
+    "amd-radeon-rx-5700-xt-8-gb-gddr6": {
+      "amount": 399,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2019-07-07",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/899/amd-unleashes-ultimate-pc-gaming-platform-with-worldwide-availability-of-amd-radeon-rx-5700-series-graphics-cards-and-amd-ryzen-3000-series-desktop-processors"
+      },
+      "note": "Prezzo effettivo del debutto retail, corretto da AMD prima del lancio: non il precedente annuncio da 449 USD."
+    },
+    "amd-radeon-rx-5700-xt-50th-anniversary-8-gb-gddr6": {
+      "amount": 449,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2019-07-07",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/899/amd-unleashes-ultimate-pc-gaming-platform-with-worldwide-availability-of-amd-radeon-rx-5700-series-graphics-cards-and-amd-ryzen-3000-series-desktop-processors"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-vii-16-gb-hbm2": {
+      "amount": 699,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2019-02-07",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/871/amd-unveils-worlds-first-7nm-gaming-gpu-delivering-exceptional-performanceand-incredible-experiences-for-gamers-creators-and-enthusiasts"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-5300-3-gb-gddr6": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-5600-6-gb-gddr6": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "Fonte di lancio • distribuzione OEM / bundle",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/925/amd-unveils-four-new-desktop-and-mobile-gpus-including-amd-radeon-rx-5600-series-ultimate-1080p-gaming-breath-taking-visuals-and-game-changing-software-features"
+      },
+      "note": "AMD annunciò RX 5600 senza XT per sistemi preassemblati; nessun listino della scheda standalone nel comunicato."
+    },
+    "amd-radeon-rx-5600-xt-6-gb-gddr6": {
+      "amount": 279,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2020-01-21",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/925/amd-unveils-four-new-desktop-and-mobile-gpus-including-amd-radeon-rx-5600-series-ultimate-1080p-gaming-breath-taking-visuals-and-game-changing-software-features"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-590-gme-8-gb-gddr5": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-6800-16-gb-gddr6": {
+      "amount": 579,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2020-11-18",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/978/amd-unveils-next-generation-pc-gaming-with-amd-radeon-rx-6000-series-bringing-leadership-4k-resolution-performance-to-aaa-gaming"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-6800-xt-16-gb-gddr6": {
+      "amount": 649,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2020-11-18",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/978/amd-unveils-next-generation-pc-gaming-with-amd-radeon-rx-6000-series-bringing-leadership-4k-resolution-performance-to-aaa-gaming"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-6900-xt-16-gb-gddr6": {
+      "amount": 999,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2020-12-08",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/978/amd-unveils-next-generation-pc-gaming-with-amd-radeon-rx-6000-series-bringing-leadership-4k-resolution-performance-to-aaa-gaming"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-6600-8-gb-gddr6": {
+      "amount": 329,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2021-10-13",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://www.amd.com/en/newsroom/press-releases/2021-10-13-amd-radeon-rx-6600-graphics-card-delivers-incredib.html"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-6600-xt-8-gb-gddr6": {
+      "amount": 379,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2021-08-11",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://www.amd.com/en/newsroom/press-releases/2021-7-29-amd-radeon-rx-6600-xt-graphics-card-sets-new-stand.html"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-6700-xt-12-gb-gddr6": {
+      "amount": 479,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2021-03-18",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://www.amd.com/en/newsroom/press-releases/2021-3-3-amd-unveils-amd-radeon-rx-6700-xt-graphics-card-d.html"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-6400-4-gb-gddr6": {
+      "amount": 159,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2022-04",
+      "source": {
+        "label": "Phoronix • listino nel resoconto originale del lancio",
+        "url": "https://www.phoronix.com/review/amd-radeon-rx6400"
+      },
+      "note": "Prezzo del debutto retail USA ad aprile 2022. Non assegnato all’annuncio OEM di gennaio, privo di MSRP standalone."
+    },
+    "amd-radeon-rx-6500-xt-4-gb-gddr6": {
+      "amount": 199,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2022-01-19",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1038/amd-unveils-new-power-efficient-high-performance-mobile-graphics-for-premium-and-thin-and-light-laptops-and-new-desktop-graphics-cards"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-6500-xt-8-gb-gddr6": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "La variante 8 GB è successiva: non eredita il prezzo di lancio della 4 GB."
+    },
+    "amd-radeon-rx-6650-xt-8-gb-gddr6": {
+      "amount": 399,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2022-05-10",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1064/amd-announces-three-new-radeon-rx-6000-series-graphics-cards-and-first-games-adding-support-for-amd-fidelityfx-super-resolution-2-0"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-6700-10-gb-gddr6": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-6750-xt-12-gb-gddr6": {
+      "amount": 549,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2022-05-10",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1064/amd-announces-three-new-radeon-rx-6000-series-graphics-cards-and-first-games-adding-support-for-amd-fidelityfx-super-resolution-2-0"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-6950-xt-16-gb-gddr6": {
+      "amount": 1099,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2022-05-10",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1064/amd-announces-three-new-radeon-rx-6000-series-graphics-cards-and-first-games-adding-support-for-amd-fidelityfx-super-resolution-2-0"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-7900-xt-20-gb-gddr6": {
+      "amount": 899,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2022-12-13",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1099/amd-unveils-worlds-most-advanced-gaming-graphics-cards-built-on-groundbreaking-amd-rdna-3-architecture-with-chiplet-design"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-7900-xtx-24-gb-gddr6": {
+      "amount": 999,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2022-12-13",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1099/amd-unveils-worlds-most-advanced-gaming-graphics-cards-built-on-groundbreaking-amd-rdna-3-architecture-with-chiplet-design"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-6750-gre-10-gb-gddr6": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-6750-gre-12-gb-gddr6": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-7600-8-gb-gddr6": {
+      "amount": 269,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2023-05-25",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1133/amd-introduces-amd-radeon-rx-7600-graphics-card-for-superb-next-gen-1080p-gaming"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-7700-xt-12-gb-gddr6": {
+      "amount": 449,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2023-09-06",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://www.amd.com/en/newsroom/press-releases/2023-8-25-new-amd-radeon-rx-7800-xt-and-radeon-rx-7700-xt-gr.html"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-7800-xt-16-gb-gddr6": {
+      "amount": 499,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2023-09-06",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://www.amd.com/en/newsroom/press-releases/2023-8-25-new-amd-radeon-rx-7800-xt-and-radeon-rx-7700-xt-gr.html"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-7900-gre-16-gb-gddr6": {
+      "amount": 549,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2024-02-27",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://www.amd.com/content/dam/amd/en/documents/products/graphics/radeon/amd-radeon-rx-9000-series-keynote.pdf"
+      },
+      "note": "Listino del debutto globale/USA, esplicitamente riportato come prezzo di lancio nelle slide ufficiali AMD RX 9000. Non è il precedente prezzo del debutto cinese."
+    },
+    "amd-radeon-rx-7600-xt-16-gb-gddr6": {
+      "amount": 329,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2024-01-24",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1176/amd-unveils-amd-radeon-rx-7600-xt-graphics-card-incredible-gaming-at-1080p-and-beyond-for-under-350"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-7400-8-gb-gddr6": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-7650-gre-8-gb-gddr6": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-7700-16-gb-gddr6": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-9060-8-gb-gddr6": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-9060-xt-16-gb-gddr6": {
+      "amount": 349,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2025-05-20",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1253/amd-introduces-new-radeon-graphics-cards-and-ryzen-threadripper-processors-at-computex-2025"
+      },
+      "note": "SEP ufficiale annunciato al COMPUTEX 2025. La data è quella dell’annuncio del listino."
+    },
+    "amd-radeon-rx-9060-xt-8-gb-gddr6": {
+      "amount": 299,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2025-05-20",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1253/amd-introduces-new-radeon-graphics-cards-and-ryzen-threadripper-processors-at-computex-2025"
+      },
+      "note": "SEP ufficiale annunciato al COMPUTEX 2025. La data è quella dell’annuncio del listino."
+    },
+    "amd-radeon-rx-9060-xt-lp-16-gb-gddr6": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-9070-16-gb-gddr6": {
+      "amount": 549,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2025-03-06",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1238/amd-unveils-next-generation-amd-rdna-4-architecture-with-the-launch-of-amd-radeon-rx-9000-series-graphics-cards"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-9070-gre-12-gb-gddr6": {
+      "amount": 549,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2026-06-02",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://www.amd.com/en/blogs/2026/amd-computex-2026-10-years-of-am4-am5-support-through.html"
+      },
+      "note": "Listino del debutto globale/USA del 2026. Non è una conversione in dollari del precedente listino cinese del 2025."
+    },
+    "amd-radeon-rx-9070-xt-16-gb-gddr6": {
+      "amount": 599,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2025-03-06",
+      "source": {
+        "label": "AMD • prezzo di lancio (SEP/MSRP)",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1238/amd-unveils-next-generation-amd-rdna-4-architecture-with-the-launch-of-amd-radeon-rx-9000-series-graphics-cards"
+      },
+      "note": "Prezzo consigliato USA al lancio, tasse escluse. Le versioni personalizzate possono avere prezzi diversi."
+    },
+    "amd-radeon-rx-9050-4-gb-gddr6": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    },
+    "amd-radeon-rx-9050-8-gb-gddr6": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+    }
+  },
+  "coverage": {
+    "brand": "AMD",
+    "records": 155,
+    "counts": {
+      "unverified": 60,
+      "verified": 77,
+      "no-standalone-msrp": 18
+    },
+    "verifiedSourceBreakdown": {
+      "manufacturer": 65,
+      "originalLaunchReporting": 12
+    },
+    "allProductsHaveStatus": true,
+    "priceCoverageComplete": false,
+    "checkedAt": "2026-10-10",
+    "market": "US",
+    "currency": "USD",
+    "basis": "Original launch MSRP/SEP for the exact variant; taxes excluded; not current street prices.",
+    "dateMeaning": "Retail debut when documented; announcement date/month where explicitly noted. YYYY-MM denotes month precision.",
+    "limitations": [
+      "No USD conversion from Chinese regional prices.",
+      "No inheritance between different VRAM/SP configurations.",
+      "No ratio should be calculated unless the underlying product performance metric is independently verified.",
+      "Original launch reporting is labelled as such; it is not presented as a manufacturer press release.",
+      "Unverified does not mean a price never existed."
+    ],
+    "gaps": [
+      {
+        "id": "amd-radeon-rx-550-2-gb-gddr5-640-sp",
+        "name": "Radeon RX 550",
+        "variant": "2 GB GDDR5 · 640 SP",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-550-4-gb-gddr5-640-sp",
+        "name": "Radeon RX 550",
+        "variant": "4 GB GDDR5 · 640 SP",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-hd-5450-1-gb",
+        "name": "Radeon HD 5450",
+        "variant": "1 GB",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-hd-5550-riferimento",
+        "name": "Radeon HD 5550",
+        "variant": "Riferimento",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-hd-5570-1-gb",
+        "name": "Radeon HD 5570",
+        "variant": "1 GB",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-hd-6350-riferimento",
+        "name": "Radeon HD 6350",
+        "variant": "Riferimento",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-hd-6450-1-gb",
+        "name": "Radeon HD 6450",
+        "variant": "1 GB",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-hd-6570-1-gb-gddr5",
+        "name": "Radeon HD 6570",
+        "variant": "1 GB GDDR5",
+        "reason": "La fonte del debutto attribuisce 79 USD a 512 MB GDDR5 o 1 GB DDR3; non trasferito alla configurazione catalogata 1 GB GDDR5."
+      },
+      {
+        "id": "amd-radeon-hd-6750-1-gb",
+        "name": "Radeon HD 6750",
+        "variant": "1 GB",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-hd-6770-1-gb",
+        "name": "Radeon HD 6770",
+        "variant": "1 GB",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-hd-6930-riferimento",
+        "name": "Radeon HD 6930",
+        "variant": "Riferimento",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-hd-7510-riferimento",
+        "name": "Radeon HD 7510",
+        "variant": "Riferimento",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-hd-7870-xt-riferimento",
+        "name": "Radeon HD 7870 XT",
+        "variant": "Riferimento",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-hd-7730-riferimento",
+        "name": "Radeon HD 7730",
+        "variant": "Riferimento",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-hd-8990-oem-riferimento",
+        "name": "Radeon HD 8990",
+        "variant": "OEM / riferimento",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-r7-260-2-gb",
+        "name": "Radeon R7 260",
+        "variant": "2 GB",
+        "reason": "Il listino della configurazione di lancio 1 GB non è trasferito alla variante catalogata 2 GB."
+      },
+      {
+        "id": "amd-radeon-r7-260x-4-gb",
+        "name": "Radeon R7 260X",
+        "variant": "4 GB",
+        "reason": "Il comunicato AMD del debutto quota 139 USD per 2 GB GDDR5, non per i 4 GB presenti in questa scheda."
+      },
+      {
+        "id": "amd-radeon-r5-220-oem-riferimento",
+        "name": "Radeon R5 220",
+        "variant": "OEM / riferimento",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-r5-230-4-gb",
+        "name": "Radeon R5 230",
+        "variant": "4 GB",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-r5-235-4-gb",
+        "name": "Radeon R5 235",
+        "variant": "4 GB",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-r5-235x-oem-riferimento",
+        "name": "Radeon R5 235X",
+        "variant": "OEM / riferimento",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-r5-240-oem-riferimento",
+        "name": "Radeon R5 240",
+        "variant": "OEM / riferimento",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-r7-250x-2-gb",
+        "name": "Radeon R7 250X",
+        "variant": "2 GB",
+        "reason": "Il listino della configurazione di lancio 1 GB non è trasferito alla variante catalogata 2 GB."
+      },
+      {
+        "id": "amd-radeon-r7-265-4-gb",
+        "name": "Radeon R7 265",
+        "variant": "4 GB",
+        "reason": "Il prezzo iniziale della versione 2 GB non è attribuito alla variante 4 GB del catalogo."
+      },
+      {
+        "id": "amd-radeon-r5-330-oem-riferimento",
+        "name": "Radeon R5 330",
+        "variant": "OEM / riferimento",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-r5-340-oem-riferimento",
+        "name": "Radeon R5 340",
+        "variant": "OEM / riferimento",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-r7-340-oem-riferimento",
+        "name": "Radeon R7 340",
+        "variant": "OEM / riferimento",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-r7-350-oem-riferimento",
+        "name": "Radeon R7 350",
+        "variant": "OEM / riferimento",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-r7-370-4-gb-gddr5",
+        "name": "Radeon R7 370",
+        "variant": "4 GB GDDR5",
+        "reason": "Il comunicato di lancio indica 149 USD di ingresso della famiglia; il sovrapprezzo esatto per 4 GB non è verificato."
+      },
+      {
+        "id": "amd-radeon-r9-370-oem-riferimento",
+        "name": "Radeon R9 370",
+        "variant": "OEM / riferimento",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-r9-370x-oem-riferimento",
+        "name": "Radeon R9 370X",
+        "variant": "OEM / riferimento",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-r9-380-4-gb-gddr5",
+        "name": "Radeon R9 380",
+        "variant": "4 GB GDDR5",
+        "reason": "Il comunicato di lancio indica 199 USD di ingresso della famiglia; non attribuito alla variante 4 GB del catalogo."
+      },
+      {
+        "id": "amd-radeon-rx-460-4-gb-gddr5",
+        "name": "Radeon RX 460",
+        "variant": "4 GB GDDR5",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-470d-cina",
+        "name": "Radeon RX 470D",
+        "variant": "Cina",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-550-4-gb-gddr5",
+        "name": "Radeon RX 550",
+        "variant": "4 GB GDDR5",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-560-2-gb-gddr5-896-sp",
+        "name": "Radeon RX 560",
+        "variant": "2 GB GDDR5 · 896 SP",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-560-4-gb-gddr5-1024-sp",
+        "name": "Radeon RX 560",
+        "variant": "4 GB GDDR5 · 1024 SP",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-560-4-gb-gddr5-896-sp",
+        "name": "Radeon RX 560",
+        "variant": "4 GB GDDR5 · 896 SP",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-560-oem-4-gb-gddr5",
+        "name": "Radeon RX 560 (OEM)",
+        "variant": "4 GB GDDR5",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-560d-4-gb-gddr5",
+        "name": "Radeon RX 560D",
+        "variant": "4 GB GDDR5",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-570-8-gb-gddr5",
+        "name": "Radeon RX 570",
+        "variant": "8 GB GDDR5",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-570-oem-8-gb-gddr5",
+        "name": "Radeon RX 570 (OEM)",
+        "variant": "8 GB GDDR5",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-580-oem-8-gb-gddr5",
+        "name": "Radeon RX 580 (OEM)",
+        "variant": "8 GB GDDR5",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-580-2048sp-8-gb-gddr5",
+        "name": "Radeon RX 580 2048SP",
+        "variant": "8 GB GDDR5",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-5500-4-gb-gddr6",
+        "name": "Radeon RX 5500",
+        "variant": "4 GB GDDR6",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-560-xt-4-gb-gddr5",
+        "name": "Radeon RX 560 XT",
+        "variant": "4 GB GDDR5",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-560-xt-8-gb-gddr5",
+        "name": "Radeon RX 560 XT",
+        "variant": "8 GB GDDR5",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-5300-3-gb-gddr6",
+        "name": "Radeon RX 5300",
+        "variant": "3 GB GDDR6",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-590-gme-8-gb-gddr5",
+        "name": "Radeon RX 590 GME",
+        "variant": "8 GB GDDR5",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-6500-xt-8-gb-gddr6",
+        "name": "Radeon RX 6500 XT",
+        "variant": "8 GB GDDR6",
+        "reason": "La variante 8 GB è successiva: non eredita il prezzo di lancio della 4 GB."
+      },
+      {
+        "id": "amd-radeon-rx-6700-10-gb-gddr6",
+        "name": "Radeon RX 6700",
+        "variant": "10 GB GDDR6",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-6750-gre-10-gb-gddr6",
+        "name": "Radeon RX 6750 GRE",
+        "variant": "10 GB GDDR6",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-6750-gre-12-gb-gddr6",
+        "name": "Radeon RX 6750 GRE",
+        "variant": "12 GB GDDR6",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-7400-8-gb-gddr6",
+        "name": "Radeon RX 7400",
+        "variant": "8 GB GDDR6",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-7650-gre-8-gb-gddr6",
+        "name": "Radeon RX 7650 GRE",
+        "variant": "8 GB GDDR6",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-7700-16-gb-gddr6",
+        "name": "Radeon RX 7700",
+        "variant": "16 GB GDDR6",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-9060-8-gb-gddr6",
+        "name": "Radeon RX 9060",
+        "variant": "8 GB GDDR6",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-9060-xt-lp-16-gb-gddr6",
+        "name": "Radeon RX 9060 XT LP",
+        "variant": "16 GB GDDR6",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-9050-4-gb-gddr6",
+        "name": "Radeon RX 9050",
+        "variant": "4 GB GDDR6",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      },
+      {
+        "id": "amd-radeon-rx-9050-8-gb-gddr6",
+        "name": "Radeon RX 9050",
+        "variant": "8 GB GDDR6",
+        "reason": "Listino USA di lancio della configurazione esatta non verificato; nessuna stima o prezzo attuale sostituito."
+      }
+    ]
+  }
+}

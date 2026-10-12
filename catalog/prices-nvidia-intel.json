@@ -1,0 +1,2434 @@
+{
+  "schemaVersion": 1,
+  "researchedAt": "2026-10-10",
+  "scope": "All 152 NVIDIA and 8 Intel product IDs already in catalog/gpu.json. No new products.",
+  "priceDefinition": "Nominal original US launch MSRP / manufacturer-announced starting retail price; excludes sales tax. Not street price, not current price, not inflation-adjusted.",
+  "dateDefinition": "date is the publication date of the announcement establishing the launch price, not necessarily first retail availability. Null if not established.",
+  "method": "Primary manufacturer announcements, official localized manufacturer blogs explicitly quoting USD, corporate press releases syndicated by GlobeNewswire or explicitly labeled Direct Release, NVIDIA-published GTC presentation, and Microsoft official launch partner announcement. VRAM/Founders/OEM variants are kept separate. An amount is null when the exact variant lacks adequate evidence.",
+  "coverage": {
+    "total": 160,
+    "statusCounts": {
+      "unverified": 60,
+      "verified": 91,
+      "no-standalone-msrp": 9
+    },
+    "byBrand": {
+      "NVIDIA": {
+        "unverified": 58,
+        "verified": 85,
+        "no-standalone-msrp": 9
+      },
+      "Intel": {
+        "unverified": 2,
+        "verified": 6
+      }
+    }
+  },
+  "limitations": [
+    "Incomplete price coverage is intentional; unverified values must display unavailable and be excluded from ratios.",
+    "Historic starting prices do not represent current used/new purchase prices or realistic availability.",
+    "GTX 1070/1080 use base partner MSRP; RTX 2070/2080/2080 Ti explicitly labeled Founders Edition use the higher Founders MSRP.",
+    "Arc A770 16 GB uses Intel Limited Edition MSRP, not a claim about all partner boards.",
+    "TFLOPS per dollar expresses theoretical FP32 throughput per historical launch dollar, not gaming FPS or purchasing value across architectures.",
+    "Some announcement links are localized archives; all recorded amounts are explicitly dollar/USD amounts, never converted from regional currencies."
+  ],
+  "prices": {
+    "intel-arc-a310-4-gb-gddr6": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "intel-arc-a380-6-gb-gddr6": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Il lancio iniziale era per il mercato cinese; prezzi USD in articoli successivi non sono usati come prova del listino di lancio USA."
+    },
+    "intel-arc-a750-8-gb-gddr6": {
+      "amount": 289,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2022-09-29",
+      "source": {
+        "label": "Intel • Arc A7 Series performance per dollar",
+        "url": "https://game.intel.com/stories/intel-arc-graphics-a7series-perf-per-dollar/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "intel-arc-a770-16-gb-gddr6": {
+      "amount": 349,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2022-09-29",
+      "source": {
+        "label": "Intel • Arc A7 Series performance per dollar",
+        "url": "https://game.intel.com/stories/intel-arc-graphics-a7series-perf-per-dollar/"
+      },
+      "note": "Prezzo di lancio della Intel Arc A770 Limited Edition da 16 GB. Non applicabile indistintamente a tutte le schede personalizzate."
+    },
+    "intel-arc-a770-8-gb-gddr6": {
+      "amount": 329,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2022-09-29",
+      "source": {
+        "label": "Intel • Arc A7 Series performance per dollar",
+        "url": "https://game.intel.com/stories/intel-arc-graphics-a7series-perf-per-dollar/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "intel-arc-a580-8-gb-gddr6": {
+      "amount": 179,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2023-10-10",
+      "source": {
+        "label": "Intel • annuncio Arc A580",
+        "url": "https://newsroom.intel.com/client-computing/intel-arc-a580-graphics-available-worldwide"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "intel-arc-b580-12-gb-gddr6": {
+      "amount": 249,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2024-12-03",
+      "source": {
+        "label": "Intel • annuncio Arc B-Series",
+        "url": "https://www.intel.com/content/www/us/en/newsroom/news/intel-launches-arc-b-series-graphics-cards.html"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "intel-arc-b570-10-gb-gddr6": {
+      "amount": 219,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2024-12-03",
+      "source": {
+        "label": "Intel • annuncio Arc B-Series",
+        "url": "https://www.intel.com/content/www/us/en/newsroom/news/intel-launches-arc-b-series-graphics-cards.html"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gt-1030-4-gb-ddr4": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-315-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-405-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-320-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-330-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-340-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-415-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-420-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-430-1-gb-ddr3": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-430-2-gb-ddr3": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-440-0-5-gb-gddr5": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gts-450-1-gb-gddr5": {
+      "amount": 129,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2010-09-13",
+      "source": {
+        "label": "NVIDIA • comunicato di lancio via GlobeNewswire",
+        "url": "https://www.globenewswire.com/news-release/2010/09/13/1149873/0/en/New-NVIDIA-GeForce-GTS-450-Delivers-DX11-Done-Right-to-Even-More-PC-Gamers.html"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-460-1-gb-gddr5": {
+      "amount": 229,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2010-07-12",
+      "source": {
+        "label": "NVIDIA • comunicato di lancio via GlobeNewswire",
+        "url": "https://www.globenewswire.com/de/news-release/2010/07/12/1149855/0/en/dx11-done-right-nvidia-delivers-monster-tessellation-performance-to-the-199-sweet-spot-for-gamers.html"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-460-768-mb-gddr5": {
+      "amount": 199,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2010-07-12",
+      "source": {
+        "label": "NVIDIA • comunicato di lancio via GlobeNewswire",
+        "url": "https://www.globenewswire.com/de/news-release/2010/07/12/1149855/0/en/dx11-done-right-nvidia-delivers-monster-tessellation-performance-to-the-199-sweet-spot-for-gamers.html"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-460-se-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gtx-460-se-v2-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gtx-460-v2-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gtx-465-riferimento": {
+      "amount": 279,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2010-05-31",
+      "source": {
+        "label": "NVIDIA • comunicato di lancio via GlobeNewswire",
+        "url": "https://www.globenewswire.com/news-release/2010/05/31/1149851/0/en/NVIDIA-Continues-the-Fermi-Revolution-With-GeForce-GTX-465.html"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-470-riferimento": {
+      "amount": 349,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2010-03-26",
+      "source": {
+        "label": "Microsoft Windows • annuncio partner DirectX 11",
+        "url": "https://blogs.windows.com/windowsexperience/2010/03/26/nvidias-first-directx-11-capable-gpus-coming-to-market/"
+      },
+      "note": "Prezzo retail stimato al lancio, in USD, comunicato sul blog ufficiale Microsoft per il lancio delle GPU DirectX 11 NVIDIA."
+    },
+    "nvidia-geforce-gtx-480-1-5-gb-gddr5": {
+      "amount": 499,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2010-03-26",
+      "source": {
+        "label": "Microsoft Windows • annuncio partner DirectX 11",
+        "url": "https://blogs.windows.com/windowsexperience/2010/03/26/nvidias-first-directx-11-capable-gpus-coming-to-market/"
+      },
+      "note": "Prezzo retail stimato al lancio, in USD, comunicato sul blog ufficiale Microsoft per il lancio delle GPU DirectX 11 NVIDIA."
+    },
+    "nvidia-geforce-gtx-580-1-5-gb-gddr5": {
+      "amount": 499,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2010-11-09",
+      "source": {
+        "label": "NVIDIA • comunicato di lancio via GlobeNewswire",
+        "url": "https://www.globenewswire.com/en/news-release/2010/11/09/1149884/0/en/NVIDIA-Delivers-World-s-Fastest-DX11-GPU-Again.html"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-580-3-gb-gddr5": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "La variante da 3 GB è distinta dalla versione di lancio da 1,5 GB ($499). Nessun MSRP USA unico della variante da 3 GB verificato."
+    },
+    "nvidia-geforce-510-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-520-1-gb-ddr3": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-520-oem-oem": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "NVIDIA • elenco ufficiale prodotti",
+        "url": "https://www.nvidia.com/it-it/geforce/technologies/dx12-modals/"
+      },
+      "note": "Variante OEM destinata a sistemi preassemblati: nessun listino retail USA separato verificato. Il prezzo del sistema completo non è attribuito alla GPU."
+    },
+    "nvidia-geforce-gt-530-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-545-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gtx-550-ti-1-gb-gddr5": {
+      "amount": 149,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2011-03-15",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/geforce-gtx-550-ti-and-3d-vision-redefine-pc-gaming-at-149-each"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-555-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gtx-560-1-gb-gddr5": {
+      "amount": 199,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2011-05-17",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-introduces-new-geforce-gtx-560-gpu-and-faster-geforce-r275-drivers"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-560-ti-1-gb-gddr5": {
+      "amount": 249,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2011-01-25",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/the-new-nvidia-geforce-gtx-560-ti-gpu-pwns-the-gamer-s-sweet-spot"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-560-ti-1280-mb-gddr5-448-core": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": {
+        "label": "GIGABYTE • annuncio GTX 560 Ti 448 Cores",
+        "url": "https://www.gigabyte.com/press/news/1073"
+      },
+      "note": "Il comunicato GIGABYTE del 29 novembre 2011, pubblicato il 30, conferma la variante 448 core ma non il listino USA. $289 riportato da fonti secondarie non è incluso come prezzo primario verificato; non ereditato il listino della precedente 384 core."
+    },
+    "nvidia-geforce-gtx-560-ti-oem-oem": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "NVIDIA • elenco ufficiale prodotti",
+        "url": "https://www.nvidia.com/it-it/geforce/technologies/dx12-modals/"
+      },
+      "note": "Variante OEM destinata a sistemi preassemblati: nessun listino retail USA separato verificato. Il prezzo del sistema completo non è attribuito alla GPU."
+    },
+    "nvidia-geforce-gtx-570-1-25-gb-gddr5": {
+      "amount": 349.99,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2010-12-07",
+      "source": {
+        "label": "PNY • annuncio GTX 570 reference 1280 MB",
+        "url": "https://blog.pny.com/blogpnycom/bid/52138/PNY-Announces-XLR8-GeForce-GTX-570-Graphics-Card?hs_amp=true"
+      },
+      "note": "MSRP di lancio ufficiale della scheda partner PNY XLR8 con specifiche reference (1280 MB, 732 MHz, 480 core), $349,99. Non presentato come MSRP NVIDIA universale; incluso come listino del produttore della scheda reference."
+    },
+    "nvidia-geforce-gtx-590-3-gb-gddr5": {
+      "amount": 699,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2011-03-24",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-geforce-gtx-590-is-world-s-fastest-graphics-card"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-605-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-610-1-gb-ddr3-48-cuda": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-620-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-620-oem-oem": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "NVIDIA • elenco ufficiale prodotti",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-gtx-660/buy-gpu/"
+      },
+      "note": "Variante OEM destinata a sistemi preassemblati: nessun listino retail USA separato verificato. Il prezzo del sistema completo non è attribuito alla GPU."
+    },
+    "nvidia-geforce-gt-625-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-630-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-630-oem-oem": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "NVIDIA • elenco ufficiale prodotti",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-gtx-660/buy-gpu/"
+      },
+      "note": "Variante OEM destinata a sistemi preassemblati: nessun listino retail USA separato verificato. Il prezzo del sistema completo non è attribuito alla GPU."
+    },
+    "nvidia-geforce-gt-635-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-640-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-640-oem-oem": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "NVIDIA • elenco ufficiale prodotti",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-gtx-660/buy-gpu/"
+      },
+      "note": "Variante OEM destinata a sistemi preassemblati: nessun listino retail USA separato verificato. Il prezzo del sistema completo non è attribuito alla GPU."
+    },
+    "nvidia-geforce-gt-645-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gtx-560-se-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gtx-645-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gtx-650-1-gb-gddr5": {
+      "amount": 109,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2012-09-13",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-brings-power-of-geforce-gtx-to-gamers-everywhere-with-two-new-kepler-based-gpus"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-650-ti-1-gb-gddr5": {
+      "amount": 149,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2012-10-09",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-introduces-turbocharged-geforce-gtx-650-ti-in-time-for-fall-s-hottest-games-6622750"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-660-2-gb-gddr5": {
+      "amount": 229,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2012-09-13",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-brings-power-of-geforce-gtx-to-gamers-everywhere-with-two-new-kepler-based-gpus"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-660-oem-oem": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "NVIDIA • elenco ufficiale prodotti",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-gtx-660/buy-gpu/"
+      },
+      "note": "Variante OEM destinata a sistemi preassemblati: nessun listino retail USA separato verificato. Il prezzo del sistema completo non è attribuito alla GPU."
+    },
+    "nvidia-geforce-gtx-660-ti-2-gb-gddr5": {
+      "amount": 299,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2012-08-16",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-unveils-new-weapon-of-choice-for-gamers-the-nvidia-geforce-gtx-660-ti-gpu"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-670-2-gb-gddr5": {
+      "amount": 399,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2012-05-10",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-kepler-juggernaut-rolls-on-with-launch-of-geforce-gtx-670-6622792"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-680-2-gb-gddr5": {
+      "amount": 499,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2012-03-22",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-launches-first-geforce-gpus-based-on-next-generation-kepler-architecture"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-690-4-gb-gddr5": {
+      "amount": 999,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2012-04-28",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-unveils-geforce-gtx-690-dual-graphics-card-combines-world-s-fastest-gaming-performance-with-sleek-sexy-design"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gt-705-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gtx-650-ti-boost-2-gb-gddr5": {
+      "amount": 169,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2013-03-26",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-shakes-up-sub-200-graphics-market-with-new-geforce-gtx-650-ti-boost-gpu"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-760-2-gb-gddr5": {
+      "amount": 249,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2013-06-25",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/new-nvidia-geforce-gtx-760-gpu-delivers-amazing-gaming-performance-for-only-249"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-760-192-bit-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gtx-760-ti-oem-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "NVIDIA • dispositivi supportati",
+        "url": "https://download.nvidia.com/XFree86/Linux-x86_64/550.135/README/supportedchips.html"
+      },
+      "note": "Variante OEM destinata a sistemi preassemblati: nessun listino retail USA separato verificato. Il prezzo del sistema completo non è attribuito alla GPU."
+    },
+    "nvidia-geforce-gtx-770-2-gb-gddr5": {
+      "amount": 399,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2013-05-30",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-extends-pc-gaming-leadership-with-new-geforce-gtx-770-gpu"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-780-3-gb-gddr5": {
+      "amount": 649,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2013-05-23",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/new-nvidia-geforce-gtx-780-gpu-leads-the-industry-with-the-fastest-frame-rates-and-super-smooth-animation-for-next-generation-gaming"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-780-ti-3-gb-gddr5": {
+      "amount": 699,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2013-11-07",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-unveils-geforce-gtx-780-ti-the-best-gaming-gpu-on-the-planet-6622622"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-titan-riferimento": {
+      "amount": 999,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2013-02-19",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-introduces-geforce-gtx-titan-dna-of-the-world-s-fastest-supercomputer-powered-by-world-s-fastest-gpu"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gt-710-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-720-2-gb-ddr3-192-cuda": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-730-1-gb-ddr3-96-cuda": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-730-1-gb-gddr5-384-cuda": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-730-2-gb-ddr3-384-cuda": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-740-1-gb-gddr5-384-cuda": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gt-740-2-gb-ddr3-384-cuda": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gtx-745-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gtx-750-1-gb-gddr5": {
+      "amount": 119,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2014-02-18",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-leads-performance-per-watt-revolution-with-maxwell-graphics-architecture"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-750-ti-2-gb-gddr5": {
+      "amount": 149,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2014-02-18",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-leads-performance-per-watt-revolution-with-maxwell-graphics-architecture"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-970-4-gb-gddr5": {
+      "amount": 329,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2014-09-18",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-unveils-full-power-of-maxwell-gpu-architecture-with-breakthroughs-in-performance-graphics-efficiency-6622538"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-980-4-gb-gddr5": {
+      "amount": 549,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2014-09-18",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-unveils-full-power-of-maxwell-gpu-architecture-with-breakthroughs-in-performance-graphics-efficiency-6622538"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-titan-black-6-gb-gddr5": {
+      "amount": 999,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2014-02-18",
+      "source": {
+        "label": "NVIDIA • annuncio TITAN Black",
+        "url": "https://blogs.nvidia.com.tw/blog/bet-on-black-titan-black/"
+      },
+      "note": "La fonte ufficiale localizzata specifica US$999; nessuna conversione valutaria."
+    },
+    "nvidia-geforce-gtx-titan-z-riferimento": {
+      "amount": 2999,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2014-03-25",
+      "source": {
+        "label": "NVIDIA • keynote GTC 2014, slide 25",
+        "url": "https://pt.slideshare.net/slideshow/gpu-technology-conference-2014-keynote-presentation/32731087"
+      },
+      "note": "Prezzo annunciato direttamente da NVIDIA durante il keynote GTC 2014: $2999. Slide 25 del materiale pubblicato dall’account NVIDIA su SlideShare. Data di annuncio del prezzo, precedente alla disponibilità retail di maggio 2014."
+    },
+    "nvidia-geforce-gtx-950-2-gb-gddr5": {
+      "amount": 159,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2015-08-20",
+      "source": {
+        "label": "NVIDIA • annuncio GeForce GTX 950",
+        "url": "https://blogs.nvidia.co.jp/blog/gtx-950/"
+      },
+      "note": "L’annuncio ufficiale giapponese dichiara il prezzo mondiale in dollari USA ($159); nessuna conversione valutaria."
+    },
+    "nvidia-geforce-gtx-950-oem-oem": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "NVIDIA • elenco ufficiale prodotti",
+        "url": "https://www.nvidia.com/it-it/geforce/technologies/4k/"
+      },
+      "note": "Variante OEM destinata a sistemi preassemblati: nessun listino retail USA separato verificato. Il prezzo del sistema completo non è attribuito alla GPU."
+    },
+    "nvidia-geforce-gtx-960-2-gb-gddr5": {
+      "amount": 199,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2015-01-22",
+      "source": {
+        "label": "NVIDIA • annuncio GTX 960",
+        "url": "https://blogs.nvidia.co.jp/blog/maxwell-sweetspot-gtx-960/"
+      },
+      "note": "La fonte ufficiale giapponese specifica 199 dollari USA (米ドル); nessuna conversione valutaria."
+    },
+    "nvidia-geforce-gtx-980-ti-6-gb-gddr5": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": {
+        "label": "NVIDIA • annuncio GTX 980 Ti",
+        "url": "https://blogs.nvidia.co.jp/blog/nvidia-geforce-gtx-980-ti/"
+      },
+      "note": "Annuncio NVIDIA del 31 maggio 2015 recuperato, ma senza listino USA nel testo accessibile. La vecchia pagina GeForce con i dettagli di lancio non è più recuperabile; $649 riportato da fonti secondarie non è incluso come prezzo primario verificato."
+    },
+    "nvidia-geforce-gtx-titan-x-12-gb-gddr5": {
+      "amount": 999,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2015-03-17",
+      "source": {
+        "label": "NVIDIA • annuncio TITAN X / DIGITS DevBox",
+        "url": "https://blogs.nvidia.co.jp/2015/03/17/digits-devbox/"
+      },
+      "note": "Prezzo in dollari della TITAN X Maxwell del 2015; non della successiva TITAN X Pascal."
+    },
+    "nvidia-geforce-gtx-1050-2-gb-gddr5": {
+      "amount": 109,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2016-10-19",
+      "source": {
+        "label": "NVIDIA • annuncio GeForce GTX 1050 / 1050 Ti",
+        "url": "https://blogs.nvidia.co.jp/blog/geforce-gtx-1050-and-1050-ti/"
+      },
+      "note": "Annuncio ufficiale giapponese con prezzi internazionali in dollari ($109 / $139), nessuna conversione da yen."
+    },
+    "nvidia-geforce-gtx-1050-ti-4-gb-gddr5": {
+      "amount": 139,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2016-10-19",
+      "source": {
+        "label": "NVIDIA • annuncio GeForce GTX 1050 / 1050 Ti",
+        "url": "https://blogs.nvidia.co.jp/blog/geforce-gtx-1050-and-1050-ti/"
+      },
+      "note": "Annuncio ufficiale giapponese con prezzi internazionali in dollari ($109 / $139), nessuna conversione da yen."
+    },
+    "nvidia-geforce-gtx-1060-3-gb-gddr5": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": {
+        "label": "PNY • scheda GTX 1060 3 GB",
+        "url": "https://www.pny.com/previous-generation-geforce/id-137/geforce_gtx_1060_3gb"
+      },
+      "note": "La scheda ufficiale PNY conferma la variante da 3 GB ma non il listino di lancio. Le comunicazioni NVIDIA recuperabili di luglio 2016 riguardano la 6 GB; $199 riportato da fonti secondarie per la 3 GB non è incluso come prezzo primario verificato."
+    },
+    "nvidia-geforce-gtx-1060-6-gb-gddr5": {
+      "amount": 249,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2016-07-07",
+      "source": {
+        "label": "NVIDIA • annuncio GeForce GTX 1060",
+        "url": "https://nvidianews.nvidia.com/news/a-quantum-leap-for-every-gamer%3A-nvidia-unveils-the-geforce-gtx-1060"
+      },
+      "note": "MSRP base delle schede partner da 6 GB, non il prezzo premium della Founders Edition."
+    },
+    "nvidia-geforce-gtx-1070-8-gb-gddr5": {
+      "amount": 379,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2016-05-06",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/a-quantum-leap-in-gaming%3A-nvidia-introduces-geforce-gtx-1080"
+      },
+      "note": "MSRP base annunciato per schede partner. Le Founders Edition avevano prezzi distinti ($699 per GTX 1080, $449 per GTX 1070); il record non è etichettato Founders Edition."
+    },
+    "nvidia-geforce-gtx-1080-8-gb-gddr5x": {
+      "amount": 599,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2016-05-06",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/a-quantum-leap-in-gaming%3A-nvidia-introduces-geforce-gtx-1080"
+      },
+      "note": "MSRP base annunciato per schede partner. Le Founders Edition avevano prezzi distinti ($699 per GTX 1080, $449 per GTX 1070); il record non è etichettato Founders Edition."
+    },
+    "nvidia-titan-x-pascal-riferimento": {
+      "amount": 1200,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2016-07-21",
+      "source": {
+        "label": "NVIDIA • annuncio TITAN X Pascal",
+        "url": "https://blogs.nvidia.com.tw/blog/titan-x/"
+      },
+      "note": "Prezzo USA di acquisto diretto da NVIDIA per TITAN X Pascal, distinto dalla TITAN X Maxwell del 2015. La fonte indica esplicitamente disponibilità in Nord America/Europa a US$1200."
+    },
+    "nvidia-geforce-gt-1030-2-gb-gddr5": {
+      "amount": 69,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2017-05-26",
+      "source": {
+        "label": "NVIDIA • comunicato ripubblicato come Direct Release da Jagat Review",
+        "url": "https://www.jagatreview.com/2017/05/direct-release-vidia-memperkenalkan-geforce-gt-1030-untuk-grafik-pc-lebih-cemerlang/"
+      },
+      "note": "Il comunicato NVIDIA dichiara disponibilità mondiale da US$69 e specifica 2 GB GDDR5. È un prezzo iniziale annunciato dal produttore, non il listino di una singola scheda custom. La stessa comunicazione in inglese è ripubblicata da Tech ARP il 17 maggio 2017. Nessuna conversione da rupie; non esteso alla successiva variante DDR4."
+    },
+    "nvidia-geforce-gtx-1060-5-gb-gddr5": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Variante destinata a mercati regionali; nessun listino di lancio USA verificato. Nessuna conversione da CNY e nessun prezzo ereditato dalla variante internazionale."
+    },
+    "nvidia-geforce-gtx-1070-ti-8-gb-gddr5": {
+      "amount": 449,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2017-10-26",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/nvidia-geforce-gtx-1070-ti/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-1080-ti-11-gb-gddr5x": {
+      "amount": 699,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2017-02-28",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-introduces-the-beastly-geforce-gtx-1080-ti-fastest-gaming-gpu-ever"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-titan-v-12-gb-hbm2": {
+      "amount": 2999,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2017-12-07",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-titan-v-transforms-the-pc-into-ai-supercomputer"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-titan-xp-12-gb-gddr5x": {
+      "amount": 1200,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2017-04-07",
+      "source": {
+        "label": "NVIDIA • annuncio TITAN Xp",
+        "url": "https://blogs.nvidia.co.jp/blog/titan-xp/"
+      },
+      "note": "Annuncio ufficiale giapponese con prezzo USA di acquisto diretto da NVIDIA; la fonte precisa che la disponibilità giapponese era ancora da annunciare."
+    },
+    "nvidia-geforce-gt-1030-2-gb-ddr4": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-gtx-1050-3-gb-gddr5": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-rtx-2070-8-gb-gddr6-founders-edition": {
+      "amount": 599,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2018-08-20",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/10-years-in-the-making-nvidia-brings-real-time-ray-tracing-to-gamers-with-geforce-rtx"
+      },
+      "note": "MSRP della specifica Founders Edition, superiore al prezzo iniziale annunciato per le schede partner."
+    },
+    "nvidia-geforce-rtx-2080-8-gb-gddr6-founders-edition": {
+      "amount": 799,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2018-08-20",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/10-years-in-the-making-nvidia-brings-real-time-ray-tracing-to-gamers-with-geforce-rtx"
+      },
+      "note": "MSRP della specifica Founders Edition, superiore al prezzo iniziale annunciato per le schede partner."
+    },
+    "nvidia-geforce-rtx-2080-ti-11-gb-gddr6-founders-edition": {
+      "amount": 1199,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2018-08-20",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/10-years-in-the-making-nvidia-brings-real-time-ray-tracing-to-gamers-with-geforce-rtx"
+      },
+      "note": "MSRP della specifica Founders Edition, superiore al prezzo iniziale annunciato per le schede partner."
+    },
+    "nvidia-titan-rtx-24-gb-gddr6": {
+      "amount": 2499,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2018-12-03",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-reveals-the-titan-of-turing-titan-rtx-6747548"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-1650-4-gb-gddr5": {
+      "amount": 149,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2019-04-23",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-supercharges-record-80-gaming-laptop-models-with-turing-powered-gtx-16-series-gpus"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-1650-super-4-gb-gddr6": {
+      "amount": 159,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2019-10-29",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/nvidia-geforce-gtx-1660-super-1650-super/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-1660-6-gb-gddr5": {
+      "amount": 219,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2019-03-14",
+      "source": {
+        "label": "NVIDIA • annuncio GeForce GTX 1660",
+        "url": "https://www.nvidia.com/en-us/geforce/news/nvidia-geforce-gtx-1660/"
+      },
+      "note": "Prezzo di lancio USA della versione GDDR5 da 6 GB."
+    },
+    "nvidia-geforce-gtx-1660-super-6-gb-gddr6": {
+      "amount": 229,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2019-10-29",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/nvidia-geforce-gtx-1660-super-1650-super/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-1660-ti-6-gb-gddr6": {
+      "amount": 279,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2019-02-22",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/new-geforce-gtx-1660-ti-delivers-great-performance-leap-for-every-gamer-starting-at-279"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-2060-6-gb-gddr6": {
+      "amount": 349,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2019-01-06",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-geforce-rtx-2060-is-here-next-gen-gaming-takes-off"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-2060-super-8-gb-gddr6": {
+      "amount": 399,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2019-07-02",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/geforce-rtx-20-series-super-gpus/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-2070-super-8-gb-gddr6": {
+      "amount": 499,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2019-07-02",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/geforce-rtx-20-series-super-gpus/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-2080-super-8-gb-gddr6": {
+      "amount": 699,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2019-07-02",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/geforce-rtx-20-series-super-gpus/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-1650-4-gb-gddr6": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-rtx-3070-8-gb-gddr6": {
+      "amount": 499,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2020-09-01",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/introducing-rtx-30-series-graphics-cards/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-3080-10-gb-gddr6x": {
+      "amount": 699,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2020-09-01",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/introducing-rtx-30-series-graphics-cards/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-3090-24-gb-gddr6x": {
+      "amount": 1499,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2020-09-01",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/introducing-rtx-30-series-graphics-cards/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gt-1010-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-rtx-2060-12-gb-gddr6": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-rtx-3060-12-gb-gddr6": {
+      "amount": 329,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2021-01-12",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-introduces-geforce-rtx-3060-next-generation-of-the-worlds-most-popular-gpu/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-3060-ti-8-gb-gddr6": {
+      "amount": 399,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2020-12-01",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-debuts-geforce-rtx-3060-family-for-the-holidays"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-3070-ti-8-gb-gddr6x": {
+      "amount": 599,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2021-06-01",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/rtx-3080-ti-3070-ti-graphics-cards/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-3080-ti-12-gb-gddr6x": {
+      "amount": 1199,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2021-06-01",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/rtx-3080-ti-3070-ti-graphics-cards/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-gtx-1630-4-gb-gddr6": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-rtx-3050-8-gb-gddr6": {
+      "amount": 249,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2022-01-04",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/geforce-rtx-3050-graphics-cards/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-3050-oem-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "no-standalone-msrp",
+      "date": null,
+      "source": {
+        "label": "NVIDIA • dispositivi supportati",
+        "url": "https://download.nvidia.com/XFree86/Linux-x86_64/550.135/README/supportedchips.html"
+      },
+      "note": "Variante OEM destinata a sistemi preassemblati: nessun listino retail USA separato verificato. Il prezzo del sistema completo non è attribuito alla GPU."
+    },
+    "nvidia-geforce-rtx-3060-8-gb-gddr6": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-rtx-3060-ti-8-gb-gddr6x": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-rtx-3080-12-gb-gddr6x": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-rtx-3090-ti-24-gb-gddr6x": {
+      "amount": 1999,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2022-03-29",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/geforce-rtx-3090-ti-out-now/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-4080-16-gb-gddr6x": {
+      "amount": 1199,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2022-09-20",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/rtx-40-series-graphics-cards-announcements/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-4090-24-gb-gddr6x": {
+      "amount": 1599,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2022-09-20",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/rtx-40-series-graphics-cards-announcements/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-4060-8-gb-gddr6": {
+      "amount": 299,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2023-05-18",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/geforce-rtx-4060-4060ti/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-4060-ti-16-gb-gddr6": {
+      "amount": 499,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2023-05-18",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/geforce-rtx-4060-4060ti/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-4060-ti-8-gb-gddr6": {
+      "amount": 399,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2023-05-18",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/geforce-rtx-4060-4060ti/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-4070-12-gb-gddr6x": {
+      "amount": 599,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2023-04-12",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-geforce-rtx-4070-brings-power-of-ada-lovelace-architecture-and-dlss-3-to-millions-more-gamers-and-creators-starting-at-599"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-4070-ti-12-gb-gddr6x": {
+      "amount": 799,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2023-01-03",
+      "source": {
+        "label": "NVIDIA • annuncio GeForce RTX 4070 Ti",
+        "url": "https://www.nvidia.com/en-gb/geforce/news/geforce-rtx-4070-ti/"
+      },
+      "note": "La fonte ufficiale indica $799 USA, pur essendo servita sotto il percorso en-gb."
+    },
+    "nvidia-geforce-rtx-4090-d-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Variante destinata a mercati regionali; nessun listino di lancio USA verificato. Nessuna conversione da CNY e nessun prezzo ereditato dalla variante internazionale."
+    },
+    "nvidia-geforce-rtx-3050-6-gb-gddr6": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": {
+        "label": "NVIDIA • annuncio RTX 3050 6 GB",
+        "url": "https://www.nvidia.com/en-us/geforce/news/rtx-3050-6gb-out-now/"
+      },
+      "note": "L’annuncio ufficiale NVIDIA del 2 febbraio 2024 e il comunicato GIGABYTE confermano la variante da 6 GB ma non indicano un prezzo USA. $169 riportato da fonti secondarie non è incluso come prezzo primario verificato; non ereditato il listino della 8 GB."
+    },
+    "nvidia-geforce-rtx-4070-12-gb-gddr6": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    "nvidia-geforce-rtx-4070-super-12-gb-gddr6x": {
+      "amount": 599,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2024-01-08",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/geforce-rtx-40-super-series"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-4070-ti-super-16-gb-gddr6x": {
+      "amount": 799,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2024-01-08",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/geforce-rtx-40-super-series"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-4080-super-16-gb-gddr6x": {
+      "amount": 999,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2024-01-08",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://nvidianews.nvidia.com/news/geforce-rtx-40-super-series"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-5050-8-gb-gddr6": {
+      "amount": 249,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2025-06-24",
+      "source": {
+        "label": "NVIDIA • annuncio GeForce RTX 5050",
+        "url": "https://www.nvidia.com/en-us/geforce/news/rtx-5050-desktop-gpu-and-laptops/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-5060-8-gb-gddr7": {
+      "amount": 299,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2025-04-15",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/rtx-5060-desktop-family-laptop-5060-coming-soon/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-5060-ti-16-gb-gddr7": {
+      "amount": 429,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2025-04-15",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/rtx-5060-desktop-family-laptop-5060-coming-soon/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-5060-ti-8-gb-gddr7": {
+      "amount": 379,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2025-04-15",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/rtx-5060-desktop-family-laptop-5060-coming-soon/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-5070-12-gb-gddr7": {
+      "amount": 549,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2025-01-06",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/rtx-50-series-graphics-cards-gpu-laptop-announcements/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-5070-ti-16-gb-gddr7": {
+      "amount": 749,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2025-01-06",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/rtx-50-series-graphics-cards-gpu-laptop-announcements/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-5080-16-gb-gddr7": {
+      "amount": 999,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2025-01-06",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/rtx-50-series-graphics-cards-gpu-laptop-announcements/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-5090-32-gb-gddr7": {
+      "amount": 1999,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "verified",
+      "date": "2025-01-06",
+      "source": {
+        "label": "NVIDIA • annuncio di lancio",
+        "url": "https://www.nvidia.com/en-us/geforce/news/rtx-50-series-graphics-cards-gpu-laptop-announcements/"
+      },
+      "note": "Prezzo base di lancio USA annunciato dal produttore; non prezzo attuale, senza adeguamento per inflazione."
+    },
+    "nvidia-geforce-rtx-5090-d-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Variante destinata a mercati regionali; nessun listino di lancio USA verificato. Nessuna conversione da CNY e nessun prezzo ereditato dalla variante internazionale."
+    },
+    "nvidia-geforce-rtx-5090-d-v2-riferimento": {
+      "amount": null,
+      "currency": "USD",
+      "market": "US",
+      "basis": "launch-msrp",
+      "status": "unverified",
+      "date": null,
+      "source": null,
+      "note": "Variante destinata a mercati regionali; nessun listino di lancio USA verificato. Nessuna conversione da CNY e nessun prezzo ereditato dalla variante internazionale."
+    }
+  },
+  "gaps": [
+    {
+      "id": "intel-arc-a310-4-gb-gddr6",
+      "name": "Arc A310",
+      "variant": "4 GB GDDR6",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "intel-arc-a380-6-gb-gddr6",
+      "name": "Arc A380",
+      "variant": "6 GB GDDR6",
+      "status": "unverified",
+      "reason": "Il lancio iniziale era per il mercato cinese; prezzi USD in articoli successivi non sono usati come prova del listino di lancio USA."
+    },
+    {
+      "id": "nvidia-geforce-gt-1030-4-gb-ddr4",
+      "name": "GeForce GT 1030",
+      "variant": "4 GB DDR4",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-315-riferimento",
+      "name": "GeForce 315",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-405-riferimento",
+      "name": "GeForce 405",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-320-riferimento",
+      "name": "GeForce GT 320",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-330-riferimento",
+      "name": "GeForce GT 330",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-340-riferimento",
+      "name": "GeForce GT 340",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-415-riferimento",
+      "name": "GeForce GT 415",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-420-riferimento",
+      "name": "GeForce GT 420",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-430-1-gb-ddr3",
+      "name": "GeForce GT 430",
+      "variant": "1 GB DDR3",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-430-2-gb-ddr3",
+      "name": "GeForce GT 430",
+      "variant": "2 GB DDR3",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-440-0-5-gb-gddr5",
+      "name": "GeForce GT 440",
+      "variant": "0.5 GB GDDR5",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gtx-460-se-riferimento",
+      "name": "GeForce GTX 460 SE",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gtx-460-se-v2-riferimento",
+      "name": "GeForce GTX 460 SE v2",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gtx-460-v2-riferimento",
+      "name": "GeForce GTX 460 v2",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gtx-580-3-gb-gddr5",
+      "name": "GeForce GTX 580",
+      "variant": "3 GB GDDR5",
+      "status": "unverified",
+      "reason": "La variante da 3 GB è distinta dalla versione di lancio da 1,5 GB ($499). Nessun MSRP USA unico della variante da 3 GB verificato."
+    },
+    {
+      "id": "nvidia-geforce-510-riferimento",
+      "name": "GeForce 510",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-520-1-gb-ddr3",
+      "name": "GeForce GT 520",
+      "variant": "1 GB DDR3",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-520-oem-oem",
+      "name": "GeForce GT 520 (OEM)",
+      "variant": "OEM",
+      "status": "no-standalone-msrp",
+      "reason": "Variante OEM destinata a sistemi preassemblati: nessun listino retail USA separato verificato. Il prezzo del sistema completo non è attribuito alla GPU."
+    },
+    {
+      "id": "nvidia-geforce-gt-530-riferimento",
+      "name": "GeForce GT 530",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-545-riferimento",
+      "name": "GeForce GT 545",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gtx-555-riferimento",
+      "name": "GeForce GTX 555",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gtx-560-ti-1280-mb-gddr5-448-core",
+      "name": "GeForce GTX 560 Ti",
+      "variant": "1280 MB GDDR5 · 448 core",
+      "status": "unverified",
+      "reason": "Il comunicato GIGABYTE del 29 novembre 2011, pubblicato il 30, conferma la variante 448 core ma non il listino USA. $289 riportato da fonti secondarie non è incluso come prezzo primario verificato; non ereditato il listino della precedente 384 core."
+    },
+    {
+      "id": "nvidia-geforce-gtx-560-ti-oem-oem",
+      "name": "GeForce GTX 560 Ti (OEM)",
+      "variant": "OEM",
+      "status": "no-standalone-msrp",
+      "reason": "Variante OEM destinata a sistemi preassemblati: nessun listino retail USA separato verificato. Il prezzo del sistema completo non è attribuito alla GPU."
+    },
+    {
+      "id": "nvidia-geforce-605-riferimento",
+      "name": "GeForce 605",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-610-1-gb-ddr3-48-cuda",
+      "name": "GeForce GT 610",
+      "variant": "1 GB DDR3 · 48 CUDA",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-620-riferimento",
+      "name": "GeForce GT 620",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-620-oem-oem",
+      "name": "GeForce GT 620 (OEM)",
+      "variant": "OEM",
+      "status": "no-standalone-msrp",
+      "reason": "Variante OEM destinata a sistemi preassemblati: nessun listino retail USA separato verificato. Il prezzo del sistema completo non è attribuito alla GPU."
+    },
+    {
+      "id": "nvidia-geforce-gt-625-riferimento",
+      "name": "GeForce GT 625",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-630-riferimento",
+      "name": "GeForce GT 630",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-630-oem-oem",
+      "name": "GeForce GT 630 (OEM)",
+      "variant": "OEM",
+      "status": "no-standalone-msrp",
+      "reason": "Variante OEM destinata a sistemi preassemblati: nessun listino retail USA separato verificato. Il prezzo del sistema completo non è attribuito alla GPU."
+    },
+    {
+      "id": "nvidia-geforce-gt-635-riferimento",
+      "name": "GeForce GT 635",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-640-riferimento",
+      "name": "GeForce GT 640",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-640-oem-oem",
+      "name": "GeForce GT 640 (OEM)",
+      "variant": "OEM",
+      "status": "no-standalone-msrp",
+      "reason": "Variante OEM destinata a sistemi preassemblati: nessun listino retail USA separato verificato. Il prezzo del sistema completo non è attribuito alla GPU."
+    },
+    {
+      "id": "nvidia-geforce-gt-645-riferimento",
+      "name": "GeForce GT 645",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gtx-560-se-riferimento",
+      "name": "GeForce GTX 560 SE",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gtx-645-riferimento",
+      "name": "GeForce GTX 645",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gtx-660-oem-oem",
+      "name": "GeForce GTX 660 (OEM)",
+      "variant": "OEM",
+      "status": "no-standalone-msrp",
+      "reason": "Variante OEM destinata a sistemi preassemblati: nessun listino retail USA separato verificato. Il prezzo del sistema completo non è attribuito alla GPU."
+    },
+    {
+      "id": "nvidia-geforce-gt-705-riferimento",
+      "name": "GeForce GT 705",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gtx-760-192-bit-riferimento",
+      "name": "GeForce GTX 760 (192-bit)",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gtx-760-ti-oem-riferimento",
+      "name": "GeForce GTX 760 Ti OEM",
+      "variant": "Riferimento",
+      "status": "no-standalone-msrp",
+      "reason": "Variante OEM destinata a sistemi preassemblati: nessun listino retail USA separato verificato. Il prezzo del sistema completo non è attribuito alla GPU."
+    },
+    {
+      "id": "nvidia-geforce-gt-710-riferimento",
+      "name": "GeForce GT 710",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-720-2-gb-ddr3-192-cuda",
+      "name": "GeForce GT 720",
+      "variant": "2 GB DDR3 · 192 CUDA",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-730-1-gb-ddr3-96-cuda",
+      "name": "GeForce GT 730",
+      "variant": "1 GB DDR3 · 96 CUDA",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-730-1-gb-gddr5-384-cuda",
+      "name": "GeForce GT 730",
+      "variant": "1 GB GDDR5 · 384 CUDA",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-730-2-gb-ddr3-384-cuda",
+      "name": "GeForce GT 730",
+      "variant": "2 GB DDR3 · 384 CUDA",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-740-1-gb-gddr5-384-cuda",
+      "name": "GeForce GT 740",
+      "variant": "1 GB GDDR5 · 384 CUDA",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-740-2-gb-ddr3-384-cuda",
+      "name": "GeForce GT 740",
+      "variant": "2 GB DDR3 · 384 CUDA",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gtx-745-riferimento",
+      "name": "GeForce GTX 745",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gtx-950-oem-oem",
+      "name": "GeForce GTX 950 (OEM)",
+      "variant": "OEM",
+      "status": "no-standalone-msrp",
+      "reason": "Variante OEM destinata a sistemi preassemblati: nessun listino retail USA separato verificato. Il prezzo del sistema completo non è attribuito alla GPU."
+    },
+    {
+      "id": "nvidia-geforce-gtx-980-ti-6-gb-gddr5",
+      "name": "GeForce GTX 980 Ti",
+      "variant": "6 GB GDDR5",
+      "status": "unverified",
+      "reason": "Annuncio NVIDIA del 31 maggio 2015 recuperato, ma senza listino USA nel testo accessibile. La vecchia pagina GeForce con i dettagli di lancio non è più recuperabile; $649 riportato da fonti secondarie non è incluso come prezzo primario verificato."
+    },
+    {
+      "id": "nvidia-geforce-gtx-1060-3-gb-gddr5",
+      "name": "GeForce GTX 1060",
+      "variant": "3 GB GDDR5",
+      "status": "unverified",
+      "reason": "La scheda ufficiale PNY conferma la variante da 3 GB ma non il listino di lancio. Le comunicazioni NVIDIA recuperabili di luglio 2016 riguardano la 6 GB; $199 riportato da fonti secondarie per la 3 GB non è incluso come prezzo primario verificato."
+    },
+    {
+      "id": "nvidia-geforce-gtx-1060-5-gb-gddr5",
+      "name": "GeForce GTX 1060",
+      "variant": "5 GB GDDR5",
+      "status": "unverified",
+      "reason": "Variante destinata a mercati regionali; nessun listino di lancio USA verificato. Nessuna conversione da CNY e nessun prezzo ereditato dalla variante internazionale."
+    },
+    {
+      "id": "nvidia-geforce-gt-1030-2-gb-ddr4",
+      "name": "GeForce GT 1030",
+      "variant": "2 GB DDR4",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gtx-1050-3-gb-gddr5",
+      "name": "GeForce GTX 1050",
+      "variant": "3 GB GDDR5",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gtx-1650-4-gb-gddr6",
+      "name": "GeForce GTX 1650",
+      "variant": "4 GB GDDR6",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gt-1010-riferimento",
+      "name": "GeForce GT 1010",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-rtx-2060-12-gb-gddr6",
+      "name": "GeForce RTX 2060",
+      "variant": "12 GB GDDR6",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-gtx-1630-4-gb-gddr6",
+      "name": "GeForce GTX 1630",
+      "variant": "4 GB GDDR6",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-rtx-3050-oem-riferimento",
+      "name": "GeForce RTX 3050 OEM",
+      "variant": "Riferimento",
+      "status": "no-standalone-msrp",
+      "reason": "Variante OEM destinata a sistemi preassemblati: nessun listino retail USA separato verificato. Il prezzo del sistema completo non è attribuito alla GPU."
+    },
+    {
+      "id": "nvidia-geforce-rtx-3060-8-gb-gddr6",
+      "name": "GeForce RTX 3060",
+      "variant": "8 GB GDDR6",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-rtx-3060-ti-8-gb-gddr6x",
+      "name": "GeForce RTX 3060 Ti",
+      "variant": "8 GB GDDR6X",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-rtx-3080-12-gb-gddr6x",
+      "name": "GeForce RTX 3080",
+      "variant": "12 GB GDDR6X",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-rtx-4090-d-riferimento",
+      "name": "GeForce RTX 4090 D",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Variante destinata a mercati regionali; nessun listino di lancio USA verificato. Nessuna conversione da CNY e nessun prezzo ereditato dalla variante internazionale."
+    },
+    {
+      "id": "nvidia-geforce-rtx-3050-6-gb-gddr6",
+      "name": "GeForce RTX 3050",
+      "variant": "6 GB GDDR6",
+      "status": "unverified",
+      "reason": "L’annuncio ufficiale NVIDIA del 2 febbraio 2024 e il comunicato GIGABYTE confermano la variante da 6 GB ma non indicano un prezzo USA. $169 riportato da fonti secondarie non è incluso come prezzo primario verificato; non ereditato il listino della 8 GB."
+    },
+    {
+      "id": "nvidia-geforce-rtx-4070-12-gb-gddr6",
+      "name": "GeForce RTX 4070",
+      "variant": "12 GB GDDR6",
+      "status": "unverified",
+      "reason": "Listino di lancio USA della variante esatta non verificato in una fonte primaria. Nessun prezzo ereditato da altre varianti."
+    },
+    {
+      "id": "nvidia-geforce-rtx-5090-d-riferimento",
+      "name": "GeForce RTX 5090 D",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Variante destinata a mercati regionali; nessun listino di lancio USA verificato. Nessuna conversione da CNY e nessun prezzo ereditato dalla variante internazionale."
+    },
+    {
+      "id": "nvidia-geforce-rtx-5090-d-v2-riferimento",
+      "name": "GeForce RTX 5090 D v2",
+      "variant": "Riferimento",
+      "status": "unverified",
+      "reason": "Variante destinata a mercati regionali; nessun listino di lancio USA verificato. Nessuna conversione da CNY e nessun prezzo ereditato dalla variante internazionale."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "version": 5,
+  "generatedAt": "2026-10-10",
+  "assets": [
+    {
+      "id": "gpu",
+      "prompt": "Use case: stylized-concept. Asset type: refined TechRef technology category placeholder for an ultra minimal white-on-black interface. Generate one single landscape 3:2 image, not a layout, no text. Scene: a mathematically pure absolute black #000000 void, with absolutely black uniform outer edges and corners. No gray background, no blue tint, no colored haze, no floor, no reflected ground, no horizon. Composition: one quiet abstract object centered a little above the image center, fully contained in the middle 50–60% of the canvas, large uninterrupted black negative space on all sides, especially lower left reserved for overlaid UI. Materials: shapeless softened dark graphite and smoked glass with subtle soft edges, almost absorbed by the void. Lighting: only extremely controlled thin silver-white rim glints describe the silhouette and a few surface contours; 92% of the image should remain near black. Four or five tiny dim suspended silver particles very close to the object only. Mood: silent, premium, futuristic, sophisticated. This is a low-key editorial 3D render, sculptural and abstract, not a real branded product photograph. No dramatic beams, no clouds, no rainbow, no amber, no glowing pools, no decorative frame, no grid, no circuitry lines across the background, no watermarks, no labels or logos. Subject: a floating horizontal softened graphite slab suggesting a graphics card, seen in gentle three-quarter perspective. Its surface is an abstract fluid shell with two shallow radial concave forms barely suggested by silver contours, no literal fan blades, no ports, no PCB. The central form is long and light, an elegant dark silhouette, not a chunky glossy gaming object.",
+      "originalPath": "/workspace/scratch/ff935eba21d9/generated_images/exec-d4188b63-ee52-44b7-a054-e73ec74cbc30.png",
+      "optimizedPath": "/workspace/scratch/ff935eba21d9/research-v5/visuals/gpu.webp",
+      "mode": "built-in imagegen",
+      "use": "category placeholder",
+      "transparent": false,
+      "originalDimensions": [
+        1536,
+        1024
+      ],
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 10650,
+      "outerEdgeMean": 0.0498,
+      "outerEdgeMax": 1,
+      "visualInspection": "Pass: quiet silver/graphite form, no text/logo, dark negative space, category recognisable",
+      "integratedPath": "dist/assets/void/gpu.webp"
+    },
+    {
+      "id": "mobile",
+      "prompt": "Use case: stylized-concept. Asset type: refined TechRef technology category placeholder for an ultra minimal white-on-black interface. Generate one single landscape 3:2 image, not a layout, no text. Scene: a mathematically pure absolute black #000000 void, with absolutely black uniform outer edges and corners. No gray background, no blue tint, no colored haze, no floor, no reflected ground, no horizon. Composition: one quiet abstract object centered a little above the image center, fully contained in the middle 50–60% of the canvas, large uninterrupted black negative space on all sides, especially lower left reserved for overlaid UI. Materials: shapeless softened dark graphite and smoked glass with subtle soft edges, almost absorbed by the void. Lighting: only extremely controlled thin silver-white rim glints describe the silhouette and a few surface contours; 92% of the image should remain near black. Four or five tiny dim suspended silver particles very close to the object only. Mood: silent, premium, futuristic, sophisticated. This is a low-key editorial 3D render, sculptural and abstract, not a real branded product photograph. No dramatic beams, no clouds, no rainbow, no amber, no glowing pools, no decorative frame, no grid, no circuitry lines across the background, no watermarks, no labels or logos. Subject: a floating upright tall narrow rounded smoked-glass form suggesting a smartphone, tilted only slightly in three-quarter view. No screen content, no camera bumps or buttons, no branding. A smooth shapeless graphite body with a thin silvery edge fading into black and one whisper of a soft glass reflection. It is an abstract monolithic silhouette, quietly suspended.",
+      "originalPath": "/workspace/scratch/ff935eba21d9/generated_images/exec-fad30f58-082e-4fda-8fae-3a5c78173011.png",
+      "optimizedPath": "/workspace/scratch/ff935eba21d9/research-v5/visuals/mobile.webp",
+      "mode": "built-in imagegen",
+      "use": "category placeholder",
+      "transparent": false,
+      "originalDimensions": [
+        1536,
+        1024
+      ],
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 5398,
+      "outerEdgeMean": 0.0415,
+      "outerEdgeMax": 1,
+      "visualInspection": "Pass: quiet silver/graphite form, no text/logo, dark negative space, category recognisable",
+      "integratedPath": "dist/assets/void/smartphone.webp"
+    },
+    {
+      "id": "schermi",
+      "prompt": "Use case: stylized-concept. Asset type: refined TechRef technology category placeholder for an ultra minimal white-on-black interface. Generate one single landscape 3:2 image, not a layout, no text. Scene: a mathematically pure absolute black #000000 void, with absolutely black uniform outer edges and corners. No gray background, no blue tint, no colored haze, no floor, no reflected ground, no horizon. Composition: one quiet abstract object centered a little above the image center, fully contained in the middle 50–60% of the canvas, large uninterrupted black negative space on all sides, especially lower left reserved for overlaid UI. Materials: shapeless softened dark graphite and smoked glass with subtle soft edges, almost absorbed by the void. Lighting: only extremely controlled thin silver-white rim glints describe the silhouette and a few surface contours; 92% of the image should remain near black. Four or five tiny dim suspended silver particles very close to the object only. Mood: silent, premium, futuristic, sophisticated. This is a low-key editorial 3D render, sculptural and abstract, not a real branded product photograph. No dramatic beams, no clouds, no rainbow, no amber, no glowing pools, no decorative frame, no grid, no circuitry lines across the background, no watermarks, no labels or logos. Subject: a floating wide thin softened glass plane suggesting a display, gentle three-quarter perspective with a very subtle curved upper contour. No stand, no visible screen content, no bezel detail, no literal product. A single abstract black graphite lamina with a hairline silver rim and a subdued curved internal reflection that fades entirely into black.",
+      "originalPath": "/workspace/scratch/ff935eba21d9/generated_images/exec-ed261a3b-a0f5-42dc-a57f-88fa0dc58561.png",
+      "optimizedPath": "/workspace/scratch/ff935eba21d9/research-v5/visuals/schermi.webp",
+      "mode": "built-in imagegen",
+      "use": "category placeholder",
+      "transparent": false,
+      "originalDimensions": [
+        1536,
+        1024
+      ],
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 9118,
+      "outerEdgeMean": 0.0426,
+      "outerEdgeMax": 1,
+      "visualInspection": "Pass: quiet silver/graphite form, no text/logo, dark negative space, category recognisable",
+      "integratedPath": "dist/assets/void/schermi.webp"
+    },
+    {
+      "id": "chip",
+      "prompt": "Use case: stylized-concept. Asset type: refined TechRef technology category placeholder for an ultra minimal white-on-black interface. Generate one single landscape 3:2 image, not a layout, no text. Scene: a mathematically pure absolute black #000000 void, with absolutely black uniform outer edges and corners. No gray background, no blue tint, no colored haze, no floor, no reflected ground, no horizon. Composition: one quiet abstract object centered a little above the image center, fully contained in the middle 50–60% of the canvas, large uninterrupted black negative space on all sides, especially lower left reserved for overlaid UI. Materials: shapeless softened dark graphite and smoked glass with subtle soft edges, almost absorbed by the void. Lighting: only extremely controlled thin silver-white rim glints describe the silhouette and a few surface contours; 92% of the image should remain near black. Four or five tiny dim suspended silver particles very close to the object only. Mood: silent, premium, futuristic, sophisticated. This is a low-key editorial 3D render, sculptural and abstract, not a real branded product photograph. No dramatic beams, no clouds, no rainbow, no amber, no glowing pools, no decorative frame, no grid, no circuitry lines across the background, no watermarks, no labels or logos. Subject: one compact floating flattened square crystal-die form suggesting a mobile processor, gentle isometric three-quarter perspective. Rounded soft graphite square with a tiny smoked-glass upper layer. Only a few short softly glowing silvery edge hints, no pin grid, no text, no circuitry map. Abstract, understated, very dark and sculptural.",
+      "originalPath": "/workspace/scratch/ff935eba21d9/generated_images/exec-a0d84b4d-bbc7-4e35-b13c-9a87561db338.png",
+      "optimizedPath": "/workspace/scratch/ff935eba21d9/research-v5/visuals/chip.webp",
+      "mode": "built-in imagegen",
+      "use": "category placeholder",
+      "transparent": false,
+      "originalDimensions": [
+        1536,
+        1024
+      ],
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 6718,
+      "outerEdgeMean": 0.0371,
+      "outerEdgeMax": 1,
+      "visualInspection": "Pass: quiet silver/graphite form, no text/logo, dark negative space, category recognisable",
+      "integratedPath": "dist/assets/void/chip.webp"
+    },
+    {
+      "id": "sensori",
+      "prompt": "Use case: stylized-concept. Asset type: refined TechRef technology category placeholder for an ultra minimal white-on-black interface. Generate one single landscape 3:2 image, not a layout, no text. Scene: a mathematically pure absolute black #000000 void, with absolutely black uniform outer edges and corners. No gray background, no blue tint, no colored haze, no floor, no reflected ground, no horizon. Composition: one quiet abstract object centered a little above the image center, fully contained in the middle 50–60% of the canvas, large uninterrupted black negative space on all sides, especially lower left reserved for overlaid UI. Materials: shapeless softened dark graphite and smoked glass with subtle soft edges, almost absorbed by the void. Lighting: only extremely controlled thin silver-white rim glints describe the silhouette and a few surface contours; 92% of the image should remain near black. Four or five tiny dim suspended silver particles very close to the object only. Mood: silent, premium, futuristic, sophisticated. This is a low-key editorial 3D render, sculptural and abstract, not a real branded product photograph. No dramatic beams, no clouds, no rainbow, no amber, no glowing pools, no decorative frame, no grid, no circuitry lines across the background, no watermarks, no labels or logos. Subject: a floating abstract dark optical form suggesting a camera sensor and lens, one softly rounded squarish backing dissolving into a deep concentric glass iris. Seen in restrained three-quarter perspective. Two or three thin concentric silver rim fragments hint at optics, not a bright neon tunnel. Black glass center, no colored lens coating, no camera body or lettering.",
+      "originalPath": "/workspace/scratch/ff935eba21d9/generated_images/exec-14baeb30-8056-411c-b316-ccedf9f1b8bf.png",
+      "optimizedPath": "/workspace/scratch/ff935eba21d9/research-v5/visuals/sensori.webp",
+      "mode": "built-in imagegen",
+      "use": "category placeholder",
+      "transparent": false,
+      "originalDimensions": [
+        1536,
+        1024
+      ],
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 12732,
+      "outerEdgeMean": 0.0449,
+      "outerEdgeMax": 1,
+      "visualInspection": "Pass: quiet silver/graphite form, no text/logo, dark negative space, category recognisable",
+      "integratedPath": "dist/assets/void/sensori.webp"
+    },
+    {
+      "id": "console",
+      "prompt": "Use case: stylized-concept. Asset type: refined TechRef technology category placeholder for an ultra minimal white-on-black interface. Generate one single landscape 3:2 image, not a layout, no text. Scene: a mathematically pure absolute black #000000 void, with absolutely black uniform outer edges and corners. No gray background, no blue tint, no colored haze, no floor, no reflected ground, no horizon. Composition: one quiet abstract object centered a little above the image center, fully contained in the middle 50–60% of the canvas, large uninterrupted black negative space on all sides, especially lower left reserved for overlaid UI. Materials: shapeless softened dark graphite and smoked glass with subtle soft edges, almost absorbed by the void. Lighting: only extremely controlled thin silver-white rim glints describe the silhouette and a few surface contours; 92% of the image should remain near black. Four or five tiny dim suspended silver particles very close to the object only. Mood: silent, premium, futuristic, sophisticated. This is a low-key editorial 3D render, sculptural and abstract, not a real branded product photograph. No dramatic beams, no clouds, no rainbow, no amber, no glowing pools, no decorative frame, no grid, no circuitry lines across the background, no watermarks, no labels or logos. Subject: a quiet abstract upright graphite monolith suggesting a game console, two softened flowing planes lightly offset as a single sculptural form. A restrained small oblong companion silhouette at the base suggests play without literal controller buttons. Very simple and anonymous, no recognisable brand design, only faint silver rim light on a few contours.",
+      "originalPath": "/workspace/scratch/ff935eba21d9/generated_images/exec-63c9a870-8b3a-470d-a745-64b771e7d26c.png",
+      "optimizedPath": "/workspace/scratch/ff935eba21d9/research-v5/visuals/console.webp",
+      "mode": "built-in imagegen",
+      "use": "category placeholder",
+      "transparent": false,
+      "originalDimensions": [
+        1536,
+        1024
+      ],
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 6626,
+      "outerEdgeMean": 0.0426,
+      "outerEdgeMax": 1,
+      "visualInspection": "Pass: quiet silver/graphite form, no text/logo, dark negative space, category recognisable",
+      "integratedPath": "dist/assets/void/console.webp"
+    }
+  ]
+}

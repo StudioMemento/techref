@@ -1,0 +1,3962 @@
+{
+  "products": [
+    {
+      "id": "ps1",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PlayStation",
+      "family": "ps1",
+      "series": "PlayStation",
+      "year": 1994,
+      "variant": "SCPH-1000 e revisioni",
+      "values": {
+        "tflops": null,
+        "cpu": "R3000 · 32 bit",
+        "gpu": "GPU custom · rendering 3D",
+        "memory": null,
+        "storage": "CD-ROM · Memory Card",
+        "resolution": "Uscita analogica"
+      },
+      "wiki": {
+        "intro": "Il debutto di PlayStation.",
+        "highlights": [
+          "CD-ROM",
+          "Grafica poligonale"
+        ],
+        "compatibility": "Dischi PlayStation della regione compatibile."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://www.playstation.com/en-us/playstation-history/1994-ps-one/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://gmedia.playstation.com/is/image/SIEPDC/ps1-console-image-block-01-en-02oct24?wid=1000&fmt=png-alpha",
+        "source": "https://www.playstation.com/en-us/playstation-history/1994-ps-one/",
+        "credit": "Sony Interactive Entertainment",
+        "kind": "product",
+        "alt": "An image of the original PlayStation console.",
+        "label": "Immagine ufficiale del modello",
+        "src": "assets/products/4429f20809d9a03e.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "psone",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PS one",
+      "family": "ps1",
+      "series": "PlayStation",
+      "year": 2000,
+      "variant": "SCPH-100",
+      "values": {
+        "tflops": null,
+        "cpu": "R3000 · 32 bit",
+        "gpu": "GPU custom",
+        "memory": null,
+        "storage": "CD-ROM · Memory Card",
+        "resolution": "Uscita analogica"
+      },
+      "wiki": {
+        "intro": "PlayStation in formato compatto.",
+        "highlights": [
+          "Scocca più piccola",
+          "Display LCD opzionale"
+        ],
+        "compatibility": "Catalogo PlayStation; schermo Combo Pack opzionale."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://www.playstation.com/en-us/playstation-history/1994-ps-one/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://gmedia.playstation.com/is/image/SIEPDC/ps1-portal-image-block-03-en-02oct24?wid=1000&fmt=png-alpha",
+        "source": "https://www.playstation.com/en-us/playstation-history/1994-ps-one/",
+        "credit": "Sony Interactive Entertainment",
+        "kind": "family",
+        "alt": "PS one ‘Combo Pack’ showing a PS One console with attachable screen",
+        "label": "Immagine ufficiale PS one Combo Pack con schermo opzionale",
+        "src": "assets/products/6414d80326a9c534.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "playstation-classic",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PlayStation Classic",
+      "family": "ps1",
+      "series": "PlayStation",
+      "year": 2018,
+      "variant": "Mini console",
+      "values": {
+        "tflops": null,
+        "cpu": "SoC di emulazione · non dichiarato nella fonte",
+        "gpu": "Non dichiarata",
+        "memory": null,
+        "storage": "20 giochi preinstallati",
+        "resolution": "HDMI"
+      },
+      "wiki": {
+        "intro": "Riedizione mini con giochi integrati.",
+        "highlights": [
+          "Due controller",
+          "Nessun disco"
+        ],
+        "compatibility": "Solo selezione di giochi preinstallati; non legge CD PlayStation."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://www.playstation.com/en-us/playstation-history/1994-ps-one/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": null,
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "ps2",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PlayStation 2",
+      "family": "ps2",
+      "series": "PlayStation 2",
+      "year": 2000,
+      "variant": "SCPH-10000 / serie originale",
+      "values": {
+        "tflops": null,
+        "cpu": "Emotion Engine",
+        "gpu": "Graphics Synthesizer",
+        "memory": null,
+        "storage": "DVD / CD · Memory Card",
+        "resolution": "Uscita analogica"
+      },
+      "wiki": {
+        "intro": "Giochi e film su DVD.",
+        "highlights": [
+          "Emotion Engine",
+          "Espansione rete"
+        ],
+        "compatibility": "Giochi PS2 e gran parte del catalogo PS1."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://www.playstation.com/en-us/playstation-history/2000-ps2-psp/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://gmedia.playstation.com/is/image/SIEPDC/ps2-console-image-block-01-en-08oct24?wid=1000&fmt=png-alpha",
+        "source": "https://www.playstation.com/en-us/playstation-history/2000-ps2-psp/",
+        "credit": "Sony Interactive Entertainment",
+        "kind": "product",
+        "alt": "An image of a PlayStation 2 console.",
+        "label": "Immagine ufficiale del modello",
+        "src": "assets/products/bf3043faf935f05a.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "ps2-slim",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PlayStation 2 Slim",
+      "family": "ps2",
+      "series": "PlayStation 2",
+      "year": 2004,
+      "variant": "SCPH-70000",
+      "values": {
+        "tflops": null,
+        "cpu": "Emotion Engine",
+        "gpu": "Graphics Synthesizer",
+        "memory": null,
+        "storage": "DVD / CD · Memory Card",
+        "resolution": "Uscita analogica"
+      },
+      "wiki": {
+        "intro": "PS2 compatta con Ethernet integrata.",
+        "highlights": [
+          "Caricamento disco superiore",
+          "Ethernet"
+        ],
+        "compatibility": "Catalogo PS2 e PS1; alcune eccezioni dipendono dal modello."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://www.playstation.com/en-us/playstation-history/2000-ps2-psp/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://gmedia.playstation.com/is/image/SIEPDC/PS2_SLIM-V2?wid=1000&fmt=png-alpha",
+        "source": "https://www.playstation.com/en-us/playstation-history/2000-ps2-psp/",
+        "credit": "Sony Interactive Entertainment",
+        "kind": "product",
+        "alt": "A PS2 Slim console on a stand.",
+        "label": "Immagine ufficiale del modello",
+        "src": "assets/products/d625b2d8d54e2578.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "ps2-slim-90000",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PlayStation 2 Slim 90000",
+      "family": "ps2",
+      "series": "PlayStation 2",
+      "year": 2007,
+      "variant": "SCPH-90000",
+      "values": {
+        "tflops": null,
+        "cpu": "Emotion Engine",
+        "gpu": "Graphics Synthesizer",
+        "memory": null,
+        "storage": "DVD / CD · Memory Card",
+        "resolution": "Uscita analogica"
+      },
+      "wiki": {
+        "intro": "Ultima grande revisione compatta.",
+        "highlights": [
+          "Ulteriore riduzione di peso"
+        ],
+        "compatibility": "Catalogo PS2 e PS1, con eccezioni."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://www.playstation.com/en-us/playstation-history/2000-ps2-psp/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://gmedia.playstation.com/is/image/SIEPDC/PS2_SLIM-V2?wid=1000&fmt=png-alpha",
+        "source": "https://www.playstation.com/en-us/playstation-history/2000-ps2-psp/",
+        "credit": "Sony Interactive Entertainment",
+        "kind": "family",
+        "alt": "A PS2 Slim console on a stand.",
+        "label": "Immagine ufficiale della famiglia; la revisione mostrata può differire",
+        "src": "assets/products/d625b2d8d54e2578.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "psp-1000",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PSP-1000",
+      "family": "psp",
+      "series": "PlayStation Portable",
+      "year": 2004,
+      "variant": "Originale",
+      "values": {
+        "tflops": null,
+        "cpu": "PSP CPU · fino a 333 MHz",
+        "gpu": "Motore grafico PSP",
+        "memory": null,
+        "storage": "UMD · Memory Stick PRO Duo",
+        "resolution": "480 × 272"
+      },
+      "wiki": {
+        "intro": "Il primo portatile PlayStation.",
+        "highlights": [
+          "Formato originale"
+        ],
+        "compatibility": "Giochi PSP su UMD e titoli digitali compatibili."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://sonyinteractive.com/en/our-company/expanded-company-timeline/"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://www.playstation.com/en-us/playstation-history/2000-ps2-psp/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://gmedia.playstation.com/is/image/SIEPDC/ps2-PSPlarge-image-block-01-en-18nov24?wid=1000&fmt=png-alpha",
+        "source": "https://www.playstation.com/en-us/playstation-history/2000-ps2-psp/",
+        "credit": "Sony Interactive Entertainment",
+        "kind": "family",
+        "alt": "Image of a PlayStation Portable console.",
+        "label": "Immagine ufficiale della famiglia; la revisione mostrata può differire",
+        "src": "assets/products/7d4a7d1438f39a9b.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "psp-2000",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PSP-2000",
+      "family": "psp",
+      "series": "PlayStation Portable",
+      "year": 2007,
+      "variant": "Slim & Lite",
+      "values": {
+        "tflops": null,
+        "cpu": "PSP CPU · fino a 333 MHz",
+        "gpu": "Motore grafico PSP",
+        "memory": null,
+        "storage": "UMD · Memory Stick PRO Duo",
+        "resolution": "480 × 272"
+      },
+      "wiki": {
+        "intro": "PSP più sottile e leggera.",
+        "highlights": [
+          "Uscita video"
+        ],
+        "compatibility": "Giochi PSP su UMD e titoli digitali compatibili."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://sonyinteractive.com/en/our-company/expanded-company-timeline/"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://www.playstation.com/en-us/playstation-history/2000-ps2-psp/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://gmedia.playstation.com/is/image/SIEPDC/ps2-PSPlarge-image-block-01-en-18nov24?wid=1000&fmt=png-alpha",
+        "source": "https://www.playstation.com/en-us/playstation-history/2000-ps2-psp/",
+        "credit": "Sony Interactive Entertainment",
+        "kind": "family",
+        "alt": "Image of a PlayStation Portable console.",
+        "label": "Immagine ufficiale della famiglia; la revisione mostrata può differire",
+        "src": "assets/products/7d4a7d1438f39a9b.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "psp-3000",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PSP-3000",
+      "family": "psp",
+      "series": "PlayStation Portable",
+      "year": 2008,
+      "variant": "LCD migliorato",
+      "values": {
+        "tflops": null,
+        "cpu": "PSP CPU · fino a 333 MHz",
+        "gpu": "Motore grafico PSP",
+        "memory": null,
+        "storage": "UMD · Memory Stick PRO Duo",
+        "resolution": "480 × 272"
+      },
+      "wiki": {
+        "intro": "Display aggiornato e microfono.",
+        "highlights": [
+          "Microfono integrato"
+        ],
+        "compatibility": "Giochi PSP su UMD e titoli digitali compatibili."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://sonyinteractive.com/en/press-releases/2008/sony-computer-entertainment-japan-to-introduce-new-psp-playstationportable-with-advanced-high-contrast-lcd-this-october-in-japan/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://gmedia.playstation.com/is/image/SIEPDC/ps2-PSPlarge-image-block-01-en-18nov24?wid=1000&fmt=png-alpha",
+        "source": "https://www.playstation.com/en-us/playstation-history/2000-ps2-psp/",
+        "credit": "Sony Interactive Entertainment",
+        "kind": "family",
+        "alt": "Image of a PlayStation Portable console.",
+        "label": "Immagine ufficiale della famiglia; la revisione mostrata può differire",
+        "src": "assets/products/7d4a7d1438f39a9b.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "psp-go",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PSP go",
+      "family": "psp",
+      "series": "PlayStation Portable",
+      "year": 2009,
+      "variant": "N1000 · digitale",
+      "values": {
+        "tflops": null,
+        "cpu": "PSP CPU · fino a 333 MHz",
+        "gpu": "Motore grafico PSP",
+        "memory": null,
+        "storage": "16 GB · Memory Stick Micro",
+        "resolution": "480 × 272"
+      },
+      "wiki": {
+        "intro": "Formato scorrevole senza lettore UMD.",
+        "highlights": [
+          "16 GB interni"
+        ],
+        "compatibility": "PSP go non legge UMD."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://sonyinteractive.com/en/our-company/expanded-company-timeline/"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://www.playstation.com/en-us/playstation-history/2000-ps2-psp/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://gmedia.playstation.com/is/image/SIEPDC/ps2-PSPlarge-image-block-01-en-18nov24?wid=1000&fmt=png-alpha",
+        "source": "https://www.playstation.com/en-us/playstation-history/2000-ps2-psp/",
+        "credit": "Sony Interactive Entertainment",
+        "kind": "family",
+        "alt": "Image of a PlayStation Portable console.",
+        "label": "Immagine ufficiale della famiglia; la revisione mostrata può differire",
+        "src": "assets/products/7d4a7d1438f39a9b.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "psp-street",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PSP Street",
+      "family": "psp",
+      "series": "PlayStation Portable",
+      "year": 2011,
+      "variant": "E1000",
+      "values": {
+        "tflops": null,
+        "cpu": "PSP CPU · fino a 333 MHz",
+        "gpu": "Motore grafico PSP",
+        "memory": null,
+        "storage": "UMD · Memory Stick PRO Duo",
+        "resolution": "480 × 272"
+      },
+      "wiki": {
+        "intro": "La variante essenziale senza Wi-Fi.",
+        "highlights": [
+          "Giochi su UMD"
+        ],
+        "compatibility": "PSP; Wi-Fi assente."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://sonyinteractive.com/en/press-releases/sony-computer-entertainment-europe-announces-new-model-of-psp-playstationportable-at-an-attractive-price-point-of-9999-rrp/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://gmedia.playstation.com/is/image/SIEPDC/ps2-PSPlarge-image-block-01-en-18nov24?wid=1000&fmt=png-alpha",
+        "source": "https://www.playstation.com/en-us/playstation-history/2000-ps2-psp/",
+        "credit": "Sony Interactive Entertainment",
+        "kind": "family",
+        "alt": "Image of a PlayStation Portable console.",
+        "label": "Immagine ufficiale della famiglia; la revisione mostrata può differire",
+        "src": "assets/products/7d4a7d1438f39a9b.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "ps3",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PlayStation 3",
+      "family": "ps3",
+      "series": "PlayStation 3",
+      "year": 2006,
+      "variant": "Modello originale",
+      "values": {
+        "tflops": null,
+        "cpu": "Cell Broadband Engine",
+        "gpu": "NVIDIA RSX",
+        "memory": "256 MB XDR + 256 MB GDDR3",
+        "storage": "HDD · Blu-ray / DVD / CD",
+        "resolution": "Fino a 1080p"
+      },
+      "wiki": {
+        "intro": "Cell e Blu-ray entrano nel salotto.",
+        "highlights": [
+          "Blu-ray",
+          "HDMI"
+        ],
+        "compatibility": "PS3 e PS1; compatibilità PS2 limitata ad alcune prime revisioni."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://www.playstation.com/en-us/playstation-history/2007-ps3-ps-vita/"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://sonyinteractive.com/en/press-releases/2012/new-smaller-and-lighter-playstation3-to-hit-the-worldwide-market/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://gmedia.playstation.com/is/image/SIEPDC/ps3-console-image-block-01-en-18nov24?wid=1000&fmt=png-alpha",
+        "source": "https://www.playstation.com/en-us/playstation-history/2007-ps3-ps-vita/",
+        "credit": "Sony Interactive Entertainment",
+        "kind": "product",
+        "alt": "An image of the original PlayStation 3 console.",
+        "label": "Immagine ufficiale del modello",
+        "src": "assets/products/d543c795f3836a7e.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "ps3-slim",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PlayStation 3 Slim",
+      "family": "ps3",
+      "series": "PlayStation 3",
+      "year": 2009,
+      "variant": "CECH-2000 e successivi",
+      "values": {
+        "tflops": null,
+        "cpu": "Cell Broadband Engine",
+        "gpu": "NVIDIA RSX",
+        "memory": "256 MB XDR + 256 MB GDDR3",
+        "storage": "HDD 120–320 GB · Blu-ray",
+        "resolution": "Fino a 1080p"
+      },
+      "wiki": {
+        "intro": "Revisione più compatta ed efficiente.",
+        "highlights": [
+          "Blu-ray",
+          "HDMI"
+        ],
+        "compatibility": "PS3 e PS1; nessuna lettura nativa dei giochi PS2."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://www.playstation.com/en-us/playstation-history/2007-ps3-ps-vita/"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://sonyinteractive.com/en/press-releases/2012/new-smaller-and-lighter-playstation3-to-hit-the-worldwide-market/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://gmedia.playstation.com/is/image/SIEPDC/ps3-ConsoleSlim-image-block-01-en-09oct24?wid=1000&fmt=png-alpha",
+        "source": "https://www.playstation.com/en-us/playstation-history/2007-ps3-ps-vita/",
+        "credit": "Sony Interactive Entertainment",
+        "kind": "product",
+        "alt": "An image of the PS3 Slim.",
+        "label": "Immagine ufficiale del modello",
+        "src": "assets/products/252e593a35ff9f1a.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "ps3-super-slim",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PlayStation 3 Super Slim",
+      "family": "ps3",
+      "series": "PlayStation 3",
+      "year": 2012,
+      "variant": "CECH-4000",
+      "values": {
+        "tflops": null,
+        "cpu": "Cell Broadband Engine",
+        "gpu": "NVIDIA RSX",
+        "memory": "256 MB XDR + 256 MB GDDR3",
+        "storage": "12 GB flash / HDD fino a 500 GB · Blu-ray",
+        "resolution": "Fino a 1080p"
+      },
+      "wiki": {
+        "intro": "Nuovo vano disco scorrevole.",
+        "highlights": [
+          "Blu-ray",
+          "HDMI"
+        ],
+        "compatibility": "PS3 e PS1; nessuna lettura nativa dei giochi PS2."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://www.playstation.com/en-us/playstation-history/2007-ps3-ps-vita/"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://sonyinteractive.com/en/press-releases/2012/new-smaller-and-lighter-playstation3-to-hit-the-worldwide-market/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://gmedia.playstation.com/is/image/SIEPDC/ps3-ConsoleSuperSlim-image-block-01-en-09oct24?wid=1000&fmt=png-alpha",
+        "source": "https://www.playstation.com/en-us/playstation-history/2007-ps3-ps-vita/",
+        "credit": "Sony Interactive Entertainment",
+        "kind": "product",
+        "alt": "An image of the PS3 Super Slim.",
+        "label": "Immagine ufficiale del modello",
+        "src": "assets/products/251e1cf6de18ff91.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "ps-vita-1000",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PlayStation Vita",
+      "family": "psvita",
+      "series": "PlayStation Vita",
+      "year": 2011,
+      "variant": "PCH-1000 · Wi-Fi / 3G",
+      "values": {
+        "tflops": null,
+        "cpu": "ARM Cortex-A9 · 4 core",
+        "gpu": "PowerVR SGX543MP4+ · 4 core",
+        "memory": "512 MB RAM + 128 MB VRAM",
+        "storage": "PS Vita Card · Memory Card dedicata",
+        "resolution": "960 × 544 · OLED 5″"
+      },
+      "wiki": {
+        "intro": "Portatile con due stick e pannello OLED.",
+        "highlights": [
+          "Touch anteriore e posteriore"
+        ],
+        "compatibility": "Vita, PSP e PS1 digitali compatibili; PS TV non esegue tutti i giochi Vita."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://sonyinteractive.com/en/press-releases/playstationvita-available-in-japan-on-december-17-2011/"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://sonyinteractive.com/en/our-company/expanded-company-timeline/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://gmedia.playstation.com/is/image/SIEPDC/ps3-PS3Vita-image-block-01-en-09oct24?wid=1000&fmt=png-alpha",
+        "source": "https://www.playstation.com/en-us/playstation-history/2007-ps3-ps-vita/",
+        "credit": "Sony Interactive Entertainment",
+        "kind": "product",
+        "alt": "An image of a PS Vita console.",
+        "label": "Immagine ufficiale del modello",
+        "src": "assets/products/27dc1f6baf8db9d2.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "ps-vita-2000",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PlayStation Vita Slim",
+      "family": "psvita",
+      "series": "PlayStation Vita",
+      "year": 2013,
+      "variant": "PCH-2000 · Wi-Fi",
+      "values": {
+        "tflops": null,
+        "cpu": "ARM Cortex-A9 · 4 core",
+        "gpu": "PowerVR SGX543MP4+ · 4 core",
+        "memory": "512 MB RAM + 128 MB VRAM",
+        "storage": "1 GB interno · Memory Card dedicata",
+        "resolution": "960 × 544 · LCD 5″"
+      },
+      "wiki": {
+        "intro": "Vita più sottile con memoria interna.",
+        "highlights": [
+          "Touch anteriore e posteriore"
+        ],
+        "compatibility": "Vita, PSP e PS1 digitali compatibili; PS TV non esegue tutti i giochi Vita."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://sonyinteractive.com/en/press-releases/sony-computer-entertainment-to-introduce--new-slimmer-and-lighter-playstationvita-wi-fi-model--with-internal-memory-card/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://gmedia.playstation.com/is/image/SIEPDC/ps3-PS3Vita-image-block-01-en-09oct24?wid=1000&fmt=png-alpha",
+        "source": "https://www.playstation.com/en-us/playstation-history/2007-ps3-ps-vita/",
+        "credit": "Sony Interactive Entertainment",
+        "kind": "family",
+        "alt": "An image of a PS Vita console.",
+        "label": "Immagine ufficiale della famiglia; la revisione mostrata può differire",
+        "src": "assets/products/27dc1f6baf8db9d2.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "ps-tv",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PlayStation TV",
+      "family": "psvita",
+      "series": "PlayStation Vita",
+      "year": 2013,
+      "variant": "PS Vita TV / VTE-1000",
+      "values": {
+        "tflops": null,
+        "cpu": "ARM Cortex-A9 · 4 core",
+        "gpu": "PowerVR SGX543MP4+ · 4 core",
+        "memory": "512 MB RAM + 128 MB VRAM",
+        "storage": "1 GB interno · PS Vita Card",
+        "resolution": "HDMI · fino a 1080i"
+      },
+      "wiki": {
+        "intro": "La libreria Vita compatibile sul televisore.",
+        "highlights": [
+          "Controller esterno"
+        ],
+        "compatibility": "Vita, PSP e PS1 digitali compatibili; PS TV non esegue tutti i giochi Vita."
+      },
+      "sources": [
+        {
+          "label": "Fonte ufficiale del modello",
+          "url": "https://sonyinteractive.com/en/press-releases/2013/sony-computer-entertainment-introduces-playstationvita-tv/"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://sonyinteractive.com/en/press-releases/playstationvita-available-in-japan-on-december-17-2011/"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://sonyinteractive.com/en/our-company/expanded-company-timeline/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": null,
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "ps4",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PlayStation 4",
+      "family": "ps4",
+      "series": "PlayStation 4",
+      "year": 2013,
+      "variant": "Originale",
+      "values": {
+        "tflops": 1.84,
+        "cpu": "AMD Jaguar · 8 core",
+        "gpu": "AMD Radeon custom",
+        "memory": "8 GB GDDR5",
+        "storage": "500 GB / 1 TB HDD",
+        "resolution": "Fino a 1080p"
+      },
+      "wiki": {
+        "intro": "La generazione PlayStation x86.",
+        "highlights": [
+          "Blu-ray",
+          "HDR"
+        ],
+        "compatibility": "Giochi PS4; dischi PS1/PS2/PS3 non compatibili."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://www.playstation.com/en-us/ps4/tech-specs/"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://www.playstation.com/en-us/playstation-history/2013-ps4-ps-vr/"
+        }
+      ],
+      "notes": "TFLOPS GPU teorici dichiarati; architettura, software e risoluzione influenzano le prestazioni reali.",
+      "image": {
+        "url": "https://gmedia.playstation.com/is/image/SIEPDC/ps4-console-image-block-01-en-09oct24?wid=1000&fmt=png-alpha",
+        "source": "https://www.playstation.com/en-us/playstation-history/2013-ps4-ps-vr/",
+        "credit": "Sony Interactive Entertainment",
+        "kind": "product",
+        "alt": "An image of a PlayStation 4 console.",
+        "label": "Immagine ufficiale del modello",
+        "src": "assets/products/7d6721ec97957853.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "ps4-slim",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PlayStation 4 Slim",
+      "family": "ps4",
+      "series": "PlayStation 4",
+      "year": 2016,
+      "variant": "CUH-2000",
+      "values": {
+        "tflops": 1.84,
+        "cpu": "AMD Jaguar · 8 core",
+        "gpu": "AMD Radeon custom",
+        "memory": "8 GB GDDR5",
+        "storage": "500 GB / 1 TB HDD",
+        "resolution": "Fino a 1080p"
+      },
+      "wiki": {
+        "intro": "Stesse prestazioni in una scocca ridotta.",
+        "highlights": [
+          "Blu-ray",
+          "HDR"
+        ],
+        "compatibility": "Giochi PS4; dischi PS1/PS2/PS3 non compatibili."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://www.playstation.com/en-us/ps4/tech-specs/"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://www.playstation.com/en-us/playstation-history/2013-ps4-ps-vr/"
+        }
+      ],
+      "notes": "TFLOPS GPU teorici dichiarati; architettura, software e risoluzione influenzano le prestazioni reali.",
+      "image": {
+        "url": "https://gmedia.playstation.com/is/image/SIEPDC/PS4_SLIM_Laying-down?wid=1000&fmt=png-alpha",
+        "source": "https://www.playstation.com/en-us/playstation-history/2013-ps4-ps-vr/",
+        "credit": "Sony Interactive Entertainment",
+        "kind": "product",
+        "alt": "An image of a PS4 Slim console.",
+        "label": "Immagine ufficiale del modello",
+        "src": "assets/products/a2d42d7fde28ab9a.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "ps4-pro",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PlayStation 4 Pro",
+      "family": "ps4",
+      "series": "PlayStation 4",
+      "year": 2016,
+      "variant": "CUH-7000",
+      "values": {
+        "tflops": 4.2,
+        "cpu": "AMD Jaguar · 8 core",
+        "gpu": "AMD Radeon custom",
+        "memory": "8 GB GDDR5",
+        "storage": "1 TB HDD",
+        "resolution": "Fino a 4K"
+      },
+      "wiki": {
+        "intro": "GPU potenziata per giochi migliorati.",
+        "highlights": [
+          "Blu-ray",
+          "HDR"
+        ],
+        "compatibility": "Giochi PS4; dischi PS1/PS2/PS3 non compatibili."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://www.playstation.com/en-us/ps4/tech-specs/"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://www.playstation.com/en-us/playstation-history/2013-ps4-ps-vr/"
+        }
+      ],
+      "notes": "TFLOPS GPU teorici dichiarati; architettura, software e risoluzione influenzano le prestazioni reali.",
+      "image": {
+        "url": "https://gmedia.playstation.com/is/image/SIEPDC/ps4-pro-product-thumbnail-01-en-14sep21?wid=1000&fmt=png-alpha",
+        "source": "https://www.playstation.com/en-us/playstation-history/2013-ps4-ps-vr/",
+        "credit": "Sony Interactive Entertainment",
+        "kind": "product",
+        "alt": "A PlayStation 4 Pro console and DualShock 4 controller.",
+        "label": "Immagine ufficiale del modello",
+        "src": "assets/products/929f1636cc40ab23.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "ps5",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PlayStation 5",
+      "family": "ps5",
+      "series": "PlayStation 5",
+      "year": 2020,
+      "variant": "CFI-1000 · disco",
+      "values": {
+        "tflops": 10.3,
+        "cpu": "AMD Zen 2 · 8 core / 16 thread",
+        "gpu": "AMD RDNA 2 custom",
+        "memory": "16 GB GDDR6",
+        "storage": "825 GB SSD · UHD Blu-ray",
+        "resolution": "Fino a 4K / 120 Hz nei giochi compatibili"
+      },
+      "wiki": {
+        "intro": "SSD e DualSense segnano la nuova generazione.",
+        "highlights": [
+          "Ray tracing",
+          "SSD"
+        ],
+        "compatibility": "PS5 e maggioranza dei giochi PS4. I dischi richiedono il lettore."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://blog.it.playstation.com/2020/11/09/ps5-le-domande-frequenti-aggiornate/"
+        }
+      ],
+      "notes": "TFLOPS GPU teorici dichiarati; architettura, software e risoluzione influenzano le prestazioni reali.",
+      "image": null,
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "ps5-digital",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PlayStation 5 Digital Edition",
+      "family": "ps5",
+      "series": "PlayStation 5",
+      "year": 2020,
+      "variant": "CFI-1000 · digitale",
+      "values": {
+        "tflops": 10.3,
+        "cpu": "AMD Zen 2 · 8 core / 16 thread",
+        "gpu": "AMD RDNA 2 custom",
+        "memory": "16 GB GDDR6",
+        "storage": "825 GB SSD",
+        "resolution": "Fino a 4K / 120 Hz nei giochi compatibili"
+      },
+      "wiki": {
+        "intro": "Il modello originale senza lettore.",
+        "highlights": [
+          "Ray tracing",
+          "SSD"
+        ],
+        "compatibility": "PS5 e maggioranza dei giochi PS4. I dischi richiedono il lettore."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://blog.it.playstation.com/2020/11/09/ps5-le-domande-frequenti-aggiornate/"
+        }
+      ],
+      "notes": "TFLOPS GPU teorici dichiarati; architettura, software e risoluzione influenzano le prestazioni reali.",
+      "image": null,
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "ps5-slim",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PlayStation 5 Slim",
+      "family": "ps5",
+      "series": "PlayStation 5",
+      "year": 2023,
+      "variant": "CFI-2000 · disco",
+      "values": {
+        "tflops": 10.3,
+        "cpu": "AMD Zen 2 · 8 core / 16 thread",
+        "gpu": "AMD RDNA 2 custom",
+        "memory": "16 GB GDDR6",
+        "storage": "1 TB SSD · UHD Blu-ray",
+        "resolution": "Fino a 4K / 120 Hz nei giochi compatibili"
+      },
+      "wiki": {
+        "intro": "Chassis ridotto e lettore rimovibile.",
+        "highlights": [
+          "Ray tracing",
+          "SSD"
+        ],
+        "compatibility": "PS5 e maggioranza dei giochi PS4. I dischi richiedono il lettore."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://blog.it.playstation.com/2023/10/10/un-nuovo-design-per-la-console-ps5-per-le-prossime-festivita/"
+        }
+      ],
+      "notes": "TFLOPS GPU teorici dichiarati; architettura, software e risoluzione influenzano le prestazioni reali.",
+      "image": {
+        "url": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-console-slim-image-block-02-en-09may24?wid=1000&fmt=png-alpha",
+        "source": "https://www.playstation.com/en-us/playstation-history/2020-ps5-ps-vr2/",
+        "credit": "Sony Interactive Entertainment",
+        "kind": "family",
+        "alt": "An image of a PS5 console.",
+        "label": "Immagine ufficiale PS5 Slim Digital; il modello con lettore differisce",
+        "src": "assets/products/3f7f25794f98d054.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "ps5-slim-digital",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PlayStation 5 Slim Digital",
+      "family": "ps5",
+      "series": "PlayStation 5",
+      "year": 2023,
+      "variant": "CFI-2000 · digitale",
+      "values": {
+        "tflops": 10.3,
+        "cpu": "AMD Zen 2 · 8 core / 16 thread",
+        "gpu": "AMD RDNA 2 custom",
+        "memory": "16 GB GDDR6",
+        "storage": "1 TB SSD",
+        "resolution": "Fino a 4K / 120 Hz nei giochi compatibili"
+      },
+      "wiki": {
+        "intro": "Lettore disco acquistabile separatamente.",
+        "highlights": [
+          "Ray tracing",
+          "SSD"
+        ],
+        "compatibility": "PS5 e maggioranza dei giochi PS4. I dischi richiedono il lettore."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://blog.it.playstation.com/2023/10/10/un-nuovo-design-per-la-console-ps5-per-le-prossime-festivita/"
+        }
+      ],
+      "notes": "TFLOPS GPU teorici dichiarati; architettura, software e risoluzione influenzano le prestazioni reali.",
+      "image": {
+        "url": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-console-slim-image-block-02-en-09may24?wid=1000&fmt=png-alpha",
+        "source": "https://www.playstation.com/en-us/playstation-history/2020-ps5-ps-vr2/",
+        "credit": "Sony Interactive Entertainment",
+        "kind": "product",
+        "alt": "An image of a PS5 console.",
+        "label": "Immagine ufficiale del modello",
+        "src": "assets/products/3f7f25794f98d054.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "ps5-pro",
+      "cat": "console",
+      "brand": "Sony",
+      "name": "PlayStation 5 Pro",
+      "family": "ps5",
+      "series": "PlayStation 5",
+      "year": 2024,
+      "variant": "CFI-7000",
+      "values": {
+        "tflops": 16.7,
+        "cpu": "AMD Zen 2 · 8 core / 16 thread",
+        "gpu": "AMD Radeon RDNA custom",
+        "memory": "16 GB GDDR6 + 2 GB DDR5",
+        "storage": "2 TB SSD · lettore opzionale",
+        "resolution": "4K / 120 Hz nei giochi compatibili"
+      },
+      "wiki": {
+        "intro": "GPU potenziata con ricostruzione PSSR.",
+        "highlights": [
+          "PSSR",
+          "Ray tracing migliorato"
+        ],
+        "compatibility": "PS5 e maggioranza dei giochi PS4; lettore separato per i dischi."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://www.playstation.com/it-it/ps5/ps5-pro/"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · PlayStation",
+          "url": "https://www.playstation.com/content/dam/global_pdc/it/corporate/support/manuals/ps5-docs/7100/CFI-71XX_PS5_Safety_Guide_Web%24it.pdf"
+        }
+      ],
+      "notes": "TFLOPS GPU teorici dichiarati; architettura, software e risoluzione influenzano le prestazioni reali.",
+      "image": {
+        "url": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-pro-overview-homepage-hero-desktop-background-01-en-16aug24?wid=1400&fmt=png",
+        "source": "https://www.playstation.com/en-us/ps5/ps5-pro/",
+        "credit": "Sony Interactive Entertainment",
+        "kind": "product",
+        "label": "Render promozionale ufficiale PS5 Pro con sfondo",
+        "style": "promotional-background",
+        "src": "assets/products/aacf0d4e988169ea.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "xbox-original",
+      "cat": "console",
+      "brand": "Microsoft",
+      "name": "Xbox",
+      "family": "xbox",
+      "series": "Xbox",
+      "year": 2001,
+      "variant": "Originale",
+      "values": {
+        "tflops": null,
+        "cpu": "Intel x86 custom",
+        "gpu": "NVIDIA custom",
+        "memory": null,
+        "storage": "HDD integrato · DVD",
+        "resolution": "Uscita analogica"
+      },
+      "wiki": {
+        "intro": "La prima Xbox.",
+        "highlights": [
+          "Disco rigido",
+          "Ethernet"
+        ],
+        "compatibility": "Giochi Xbox originali."
+      },
+      "sources": [
+        {
+          "label": "Fonte ufficiale del modello",
+          "url": "https://www.nvidia.com/it-it/about-nvidia/corporate-timeline/"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Microsoft",
+          "url": "https://ukstories.microsoft.com/features/xbox-360-launched/"
+        },
+        {
+          "label": "Processore Intel per Xbox",
+          "url": "https://www.intel.com/pressroom/archive/releases/2001/20010321tech.htm"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": null,
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "xbox-360",
+      "cat": "console",
+      "brand": "Microsoft",
+      "name": "Xbox 360",
+      "family": "xbox360",
+      "series": "Xbox 360",
+      "year": 2005,
+      "variant": "Originale",
+      "values": {
+        "tflops": null,
+        "cpu": "IBM PowerPC · 3 core · 3,2 GHz",
+        "gpu": "ATI custom",
+        "memory": "512 MB GDDR3 + 10 MB eDRAM",
+        "storage": "DVD · HDD / memoria secondo modello",
+        "resolution": "HD; uscite secondo revisione"
+      },
+      "wiki": {
+        "intro": "Console HD con memoria unificata.",
+        "highlights": [
+          "Xbox Live",
+          "Controller wireless"
+        ],
+        "compatibility": "Giochi Xbox 360 e selezione Xbox originali; retrocompatibilità richiede HDD appropriato."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Microsoft",
+          "url": "https://ukstories.microsoft.com/features/xbox-360-launched/"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Microsoft",
+          "url": "https://ukstories.microsoft.com/features/xbox-360-launched/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": null,
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "xbox-360-elite",
+      "cat": "console",
+      "brand": "Microsoft",
+      "name": "Xbox 360 Elite",
+      "family": "xbox360",
+      "series": "Xbox 360",
+      "year": 2007,
+      "variant": "HDMI",
+      "values": {
+        "tflops": null,
+        "cpu": "IBM PowerPC · 3 core · 3,2 GHz",
+        "gpu": "ATI custom",
+        "memory": "512 MB GDDR3 + 10 MB eDRAM",
+        "storage": "DVD · HDD / memoria secondo modello",
+        "resolution": "HD; uscite secondo revisione"
+      },
+      "wiki": {
+        "intro": "La revisione con uscita HDMI.",
+        "highlights": [
+          "Xbox Live",
+          "Controller wireless"
+        ],
+        "compatibility": "Giochi Xbox 360 e selezione Xbox originali; retrocompatibilità richiede HDD appropriato."
+      },
+      "sources": [
+        {
+          "label": "Fonte ufficiale del modello",
+          "url": "https://news.microsoft.com/source/2007/03/27/microsoft-unveils-xbox-360-elite/"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Microsoft",
+          "url": "https://ukstories.microsoft.com/features/xbox-360-launched/"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Microsoft",
+          "url": "https://ukstories.microsoft.com/features/xbox-360-launched/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": null,
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "xbox-360-s",
+      "cat": "console",
+      "brand": "Microsoft",
+      "name": "Xbox 360 S",
+      "family": "xbox360",
+      "series": "Xbox 360",
+      "year": 2010,
+      "variant": "Slim",
+      "values": {
+        "tflops": null,
+        "cpu": "IBM PowerPC · 3 core · 3,2 GHz",
+        "gpu": "ATI custom",
+        "memory": "512 MB GDDR3 + 10 MB eDRAM",
+        "storage": "DVD · HDD / memoria secondo modello",
+        "resolution": "HD; uscite secondo revisione"
+      },
+      "wiki": {
+        "intro": "Wi-Fi integrato e chassis riprogettato.",
+        "highlights": [
+          "Xbox Live",
+          "Controller wireless"
+        ],
+        "compatibility": "Giochi Xbox 360 e selezione Xbox originali; retrocompatibilità richiede HDD appropriato."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Microsoft",
+          "url": "https://ukstories.microsoft.com/features/xbox-360-launched/"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Microsoft",
+          "url": "https://news.xbox.com/en-us/2010/07/23/xbox-360-limited-edition-halo-reach-bundle/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": null,
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "xbox-360-e",
+      "cat": "console",
+      "brand": "Microsoft",
+      "name": "Xbox 360 E",
+      "family": "xbox360",
+      "series": "Xbox 360",
+      "year": 2013,
+      "variant": "E",
+      "values": {
+        "tflops": null,
+        "cpu": "IBM PowerPC · 3 core · 3,2 GHz",
+        "gpu": "ATI custom",
+        "memory": "512 MB GDDR3 + 10 MB eDRAM",
+        "storage": "DVD · HDD / memoria secondo modello",
+        "resolution": "HD; uscite secondo revisione"
+      },
+      "wiki": {
+        "intro": "Ultimo redesign della generazione 360.",
+        "highlights": [
+          "Xbox Live",
+          "Controller wireless"
+        ],
+        "compatibility": "Giochi Xbox 360 e selezione Xbox originali; retrocompatibilità richiede HDD appropriato."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Microsoft",
+          "url": "https://ukstories.microsoft.com/features/xbox-360-launched/"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Microsoft",
+          "url": "https://news.microsoft.com/source/2013/06/10/microsoft-invites-everyone-to-join-the-fun-with-a-brand-new-xbox-360/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": null,
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "xbox-one",
+      "cat": "console",
+      "brand": "Microsoft",
+      "name": "Xbox One",
+      "family": "xboxone",
+      "series": "Xbox One",
+      "year": 2013,
+      "variant": "Console con lettore",
+      "values": {
+        "tflops": 1.3,
+        "cpu": "AMD Jaguar · 8 core · 1,75 GHz",
+        "gpu": "12 CU · 853 MHz",
+        "memory": "8 GB DDR3 + 32 MB ESRAM",
+        "storage": "HDD 500 GB / 1 TB · Blu-ray",
+        "resolution": "Fino a 1080p"
+      },
+      "wiki": {
+        "intro": "La piattaforma Xbox One originale.",
+        "highlights": [
+          "Catalogo Xbox One"
+        ],
+        "compatibility": "Xbox One e selezione Xbox 360 / Xbox; il modello All-Digital non legge dischi."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Microsoft",
+          "url": "https://news.xbox.com/wp-content/uploads/sites/2/Xbox_One_Spec_Sheet.pdf"
+        }
+      ],
+      "notes": "TFLOPS GPU teorici dichiarati; architettura, software e risoluzione influenzano le prestazioni reali.",
+      "image": null,
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "xbox-one-s",
+      "cat": "console",
+      "brand": "Microsoft",
+      "name": "Xbox One S",
+      "family": "xboxone",
+      "series": "Xbox One",
+      "year": 2016,
+      "variant": "Console con lettore",
+      "values": {
+        "tflops": 1.4,
+        "cpu": "AMD Jaguar · 8 core · 1,75 GHz",
+        "gpu": "12 CU · 914 MHz",
+        "memory": "8 GB DDR3 + 32 MB ESRAM",
+        "storage": "HDD 500 GB / 1 TB / 2 TB · UHD Blu-ray",
+        "resolution": "Uscita 4K · giochi spesso in upscale"
+      },
+      "wiki": {
+        "intro": "Revisione compatta con HDR e video 4K.",
+        "highlights": [
+          "Catalogo Xbox One"
+        ],
+        "compatibility": "Xbox One e selezione Xbox 360 / Xbox; il modello All-Digital non legge dischi."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Microsoft",
+          "url": "https://news.xbox.com/wp-content/uploads/sites/2/Xbox_One_Spec_Sheet.pdf"
+        }
+      ],
+      "notes": "TFLOPS GPU teorici dichiarati; architettura, software e risoluzione influenzano le prestazioni reali.",
+      "image": null,
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "xbox-one-x",
+      "cat": "console",
+      "brand": "Microsoft",
+      "name": "Xbox One X",
+      "family": "xboxone",
+      "series": "Xbox One",
+      "year": 2017,
+      "variant": "Console con lettore",
+      "values": {
+        "tflops": 6.0,
+        "cpu": "CPU custom · 8 core · 2,3 GHz",
+        "gpu": "40 CU · 1,172 GHz",
+        "memory": "12 GB GDDR5",
+        "storage": "HDD 1 TB · UHD Blu-ray",
+        "resolution": "Fino a 4K"
+      },
+      "wiki": {
+        "intro": "Versione ad alte prestazioni di Xbox One.",
+        "highlights": [
+          "Catalogo Xbox One"
+        ],
+        "compatibility": "Xbox One e selezione Xbox 360 / Xbox; il modello All-Digital non legge dischi."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Microsoft",
+          "url": "https://news.xbox.com/wp-content/uploads/sites/2/Xbox_One_Spec_Sheet.pdf"
+        }
+      ],
+      "notes": "TFLOPS GPU teorici dichiarati; architettura, software e risoluzione influenzano le prestazioni reali.",
+      "image": null,
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "xbox-one-s-digital",
+      "cat": "console",
+      "brand": "Microsoft",
+      "name": "Xbox One S All-Digital",
+      "family": "xboxone",
+      "series": "Xbox One",
+      "year": 2019,
+      "variant": "All-Digital",
+      "values": {
+        "tflops": 1.4,
+        "cpu": "AMD Jaguar · 8 core · 1,75 GHz",
+        "gpu": "12 CU · 914 MHz",
+        "memory": "8 GB DDR3 + 32 MB ESRAM",
+        "storage": "HDD 1 TB · nessun lettore",
+        "resolution": "Uscita 4K · giochi spesso in upscale"
+      },
+      "wiki": {
+        "intro": "Xbox One S dedicata al digitale.",
+        "highlights": [
+          "Catalogo Xbox One"
+        ],
+        "compatibility": "Xbox One e selezione Xbox 360 / Xbox; il modello All-Digital non legge dischi."
+      },
+      "sources": [
+        {
+          "label": "Fonte ufficiale del modello",
+          "url": "https://news.xbox.com/en-us/2019/04/16/xbox-one-s-all-digital-edition/"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Microsoft",
+          "url": "https://news.xbox.com/wp-content/uploads/sites/2/Xbox_One_Spec_Sheet.pdf"
+        }
+      ],
+      "notes": "TFLOPS GPU teorici dichiarati; architettura, software e risoluzione influenzano le prestazioni reali.",
+      "image": null,
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "xbox-series-x",
+      "cat": "console",
+      "brand": "Microsoft",
+      "name": "Xbox Series X",
+      "family": "xboxseries",
+      "series": "Xbox Series",
+      "year": 2020,
+      "variant": "1 TB · con lettore",
+      "values": {
+        "tflops": 12.0,
+        "cpu": "AMD Zen 2 · 8 core / 16 thread",
+        "gpu": "AMD RDNA 2 · 52 CU",
+        "memory": "16 GB GDDR6",
+        "storage": "1 TB SSD · UHD Blu-ray",
+        "resolution": "Obiettivo 4K · fino a 120 fps"
+      },
+      "wiki": {
+        "intro": "La variante più potente della famiglia.",
+        "highlights": [
+          "Quick Resume",
+          "Ray tracing"
+        ],
+        "compatibility": "Xbox Series, Xbox One e selezione Xbox 360 / Xbox; esclusi giochi Kinect."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Microsoft",
+          "url": "https://www.xbox.com/en-US/consoles/xbox-series-x"
+        }
+      ],
+      "notes": "TFLOPS GPU teorici dichiarati; architettura, software e risoluzione influenzano le prestazioni reali.",
+      "image": {
+        "url": "https://cms-assets.xboxservices.com/assets/bc/40/bc40fdf3-85a6-4c36-af92-dca2d36fc7e5.png?n=642227_Hero-Gallery-0_A1_857x676.png",
+        "source": "https://www.xbox.com/en-US/consoles/xbox-series-x",
+        "credit": "Microsoft / Xbox",
+        "kind": "product",
+        "alt": "XBOX Series X – 1TB Carbon Black with XBOX Wireless Controller – Carbon Black",
+        "label": "Immagine ufficiale del modello",
+        "src": "assets/products/1c32ca86ae234043.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "xbox-series-s",
+      "cat": "console",
+      "brand": "Microsoft",
+      "name": "Xbox Series S",
+      "family": "xboxseries",
+      "series": "Xbox Series",
+      "year": 2020,
+      "variant": "512 GB / 1 TB · digitale",
+      "values": {
+        "tflops": 4.0,
+        "cpu": "AMD Zen 2 · 8 core / 16 thread",
+        "gpu": "AMD RDNA 2 · 20 CU",
+        "memory": "10 GB GDDR6",
+        "storage": "512 GB / 1 TB SSD",
+        "resolution": "Obiettivo 1440p · fino a 120 fps"
+      },
+      "wiki": {
+        "intro": "La console digitale compatta.",
+        "highlights": [
+          "Quick Resume",
+          "Ray tracing"
+        ],
+        "compatibility": "Catalogo digitale compatibile Xbox Series e retrocompatibilità selezionata. Nessun lettore."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Microsoft",
+          "url": "https://www.xbox.com/en-US/consoles/xbox-series-s"
+        }
+      ],
+      "notes": "TFLOPS GPU teorici dichiarati; architettura, software e risoluzione influenzano le prestazioni reali.",
+      "image": {
+        "url": "https://cms-assets.xboxservices.com/assets/bf/b0/bfb06f23-4c87-4c58-b4d9-ed25d3a739b9.png?n=389964_Hero-Gallery-0_A1_857x676.png",
+        "source": "https://www.xbox.com/en-US/consoles/xbox-series-s",
+        "credit": "Microsoft / Xbox",
+        "kind": "product",
+        "alt": "Right angle view of the XBOX Series S – 512GB Robot White with XBOX Wireless Controller – Robot White",
+        "label": "Immagine ufficiale del modello",
+        "src": "assets/products/7d192a156ff15228.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "xbox-series-x-digital",
+      "cat": "console",
+      "brand": "Microsoft",
+      "name": "Xbox Series X Digital",
+      "family": "xboxseries",
+      "series": "Xbox Series",
+      "year": 2024,
+      "variant": "1 TB · Robot White",
+      "values": {
+        "tflops": 12.0,
+        "cpu": "AMD Zen 2 · 8 core / 16 thread",
+        "gpu": "AMD RDNA 2 · 52 CU",
+        "memory": "16 GB GDDR6",
+        "storage": "1 TB SSD · nessun lettore",
+        "resolution": "Obiettivo 4K · fino a 120 fps"
+      },
+      "wiki": {
+        "intro": "Prestazioni Series X senza dischi.",
+        "highlights": [
+          "Quick Resume",
+          "Digitale"
+        ],
+        "compatibility": "Catalogo digitale compatibile; nessun disco."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Microsoft",
+          "url": "https://www.xbox.com/en-US/consoles/xbox-series-x"
+        }
+      ],
+      "notes": "TFLOPS GPU teorici dichiarati; architettura, software e risoluzione influenzano le prestazioni reali.",
+      "image": {
+        "url": "https://cms-assets.xboxservices.com/assets/5c/5b/5c5bf348-d948-4c48-b7cc-55aaf94f2782.png?n=642227_Hero-Gallery-0_B1_857x676.png",
+        "source": "https://www.xbox.com/en-US/consoles/xbox-series-x",
+        "credit": "Microsoft / Xbox",
+        "kind": "product",
+        "alt": "XBOX Series X – 1TB All-Digital Robot White with XBOX Wireless Controller – Robot White",
+        "label": "Immagine ufficiale del modello",
+        "src": "assets/products/f2ddb9e0ea3f4519.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "famicom",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Famicom",
+      "family": "nes",
+      "series": "Famicom / NES",
+      "year": 1983,
+      "variant": "Giappone",
+      "values": {
+        "tflops": null,
+        "cpu": "8 bit",
+        "gpu": "Grafica 2D a tile e sprite",
+        "memory": null,
+        "storage": "Cartucce",
+        "resolution": "Uscita analogica"
+      },
+      "wiki": {
+        "intro": "L’originale giapponese a cartucce.",
+        "highlights": [
+          "Catalogo regionale"
+        ],
+        "compatibility": "Cartucce della rispettiva regione; Famicom e NES usano connettori differenti."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1762430050/Careers%20Site/History/NES.png",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1762430050/Careers%20Site/History/NES.png",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/9cec84f72c505353.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "nes",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Nintendo Entertainment System",
+      "family": "nes",
+      "series": "Famicom / NES",
+      "year": 1985,
+      "variant": "NES · occidentale",
+      "values": {
+        "tflops": null,
+        "cpu": "8 bit",
+        "gpu": "Grafica 2D a tile e sprite",
+        "memory": null,
+        "storage": "Cartucce",
+        "resolution": "Uscita analogica"
+      },
+      "wiki": {
+        "intro": "Il design occidentale della famiglia Famicom.",
+        "highlights": [
+          "Catalogo regionale"
+        ],
+        "compatibility": "Cartucce della rispettiva regione; Famicom e NES usano connettori differenti."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1762430050/Careers%20Site/History/NES.png",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1762430050/Careers%20Site/History/NES.png",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/9cec84f72c505353.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "nes-top-loader",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "NES Top Loader / AV Famicom",
+      "family": "nes",
+      "series": "Famicom / NES",
+      "year": 1993,
+      "variant": "NES-101 / HVC-101 · 1993",
+      "values": {
+        "tflops": null,
+        "cpu": "8 bit",
+        "gpu": "Grafica 2D a tile e sprite",
+        "memory": null,
+        "storage": "Cartucce",
+        "resolution": "Uscita analogica"
+      },
+      "wiki": {
+        "intro": "Revisione compatta a caricamento superiore.",
+        "highlights": [
+          "Catalogo regionale"
+        ],
+        "compatibility": "Cartucce della rispettiva regione; Famicom e NES usano connettori differenti."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware. Data della revisione storica da completare con documentazione primaria puntuale.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1762430050/Careers%20Site/History/NES.png",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1762430050/Careers%20Site/History/NES.png",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/9cec84f72c505353.webp"
+      },
+      "verification": "hardware documented; first release year awaiting primary confirmation"
+    },
+    {
+      "id": "nes-classic",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "NES Classic Mini",
+      "family": "nes",
+      "series": "Famicom / NES",
+      "year": 2016,
+      "variant": "Riedizione mini",
+      "values": {
+        "tflops": null,
+        "cpu": "SoC di emulazione",
+        "gpu": "Emulazione NES",
+        "memory": null,
+        "storage": "30 giochi preinstallati",
+        "resolution": "HDMI"
+      },
+      "wiki": {
+        "intro": "NES mini con giochi integrati.",
+        "highlights": [
+          "Salvataggi sospesi"
+        ],
+        "compatibility": "Non legge cartucce NES."
+      },
+      "sources": [
+        {
+          "label": "Fonte ufficiale del modello",
+          "url": "https://www.nintendo.co.jp/ir/pdf/2016/161027e.pdf"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://careers.nintendo.com/our-history/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": null,
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "super-famicom",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Super Famicom",
+      "family": "snes",
+      "series": "Super Famicom / SNES",
+      "year": 1990,
+      "variant": "Giappone",
+      "values": {
+        "tflops": null,
+        "cpu": "16 bit",
+        "gpu": "Grafica 2D custom",
+        "memory": null,
+        "storage": "Cartucce",
+        "resolution": "Uscita analogica"
+      },
+      "wiki": {
+        "intro": "La famiglia Nintendo a 16 bit.",
+        "highlights": [
+          "Cartucce",
+          "Controller a sei tasti"
+        ],
+        "compatibility": "Giochi SNES / Super Famicom della regione compatibile."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1762430050/Careers%20Site/History/SNES.png",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1762430050/Careers%20Site/History/SNES.png",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/cfae32f665152a37.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "snes",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Super Nintendo",
+      "family": "snes",
+      "series": "Super Famicom / SNES",
+      "year": 1991,
+      "variant": "SNES · USA 1991 / Europa 1992",
+      "values": {
+        "tflops": null,
+        "cpu": "16 bit",
+        "gpu": "Grafica 2D custom",
+        "memory": null,
+        "storage": "Cartucce",
+        "resolution": "Uscita analogica"
+      },
+      "wiki": {
+        "intro": "La famiglia Nintendo a 16 bit.",
+        "highlights": [
+          "Cartucce",
+          "Controller a sei tasti"
+        ],
+        "compatibility": "Giochi SNES / Super Famicom della regione compatibile."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1762430050/Careers%20Site/History/SNES.png",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1762430050/Careers%20Site/History/SNES.png",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/cfae32f665152a37.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "snes-jr",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Super NES New-Style / Super Famicom Jr.",
+      "family": "snes",
+      "series": "Super Famicom / SNES",
+      "year": 1997,
+      "variant": "SNS-101 · USA 1997 / SHVC-101 · Giappone 1998",
+      "values": {
+        "tflops": null,
+        "cpu": "16 bit",
+        "gpu": "Grafica 2D custom",
+        "memory": null,
+        "storage": "Cartucce",
+        "resolution": "Uscita analogica"
+      },
+      "wiki": {
+        "intro": "La famiglia Nintendo a 16 bit.",
+        "highlights": [
+          "Cartucce",
+          "Controller a sei tasti"
+        ],
+        "compatibility": "Giochi SNES / Super Famicom della regione compatibile."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware. Data della revisione storica da completare con documentazione primaria puntuale.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1762430050/Careers%20Site/History/SNES.png",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1762430050/Careers%20Site/History/SNES.png",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/cfae32f665152a37.webp"
+      },
+      "verification": "hardware documented; first release year awaiting primary confirmation"
+    },
+    {
+      "id": "snes-classic",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Super Nintendo Classic Mini",
+      "family": "snes",
+      "series": "Super Famicom / SNES",
+      "year": 2017,
+      "variant": "Riedizione mini",
+      "values": {
+        "tflops": null,
+        "cpu": "SoC di emulazione",
+        "gpu": "Emulazione SNES",
+        "memory": null,
+        "storage": "21 giochi preinstallati",
+        "resolution": "HDMI"
+      },
+      "wiki": {
+        "intro": "SNES mini con giochi integrati.",
+        "highlights": [
+          "Star Fox 2",
+          "Due controller"
+        ],
+        "compatibility": "Non legge cartucce SNES."
+      },
+      "sources": [
+        {
+          "label": "Fonte ufficiale del modello",
+          "url": "https://www.nintendo.com/it-it/Notizie/2017/settembre/Il-Nintendo-Classic-Mini-Super-Nintendo-Entertainment-System-e-ora-disponibile-1286072.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://careers.nintendo.com/our-history/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": null,
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "gameboy",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Game Boy",
+      "family": "gb",
+      "series": "Game Boy",
+      "year": 1989,
+      "variant": "DMG-01",
+      "values": {
+        "tflops": null,
+        "cpu": "8 bit · 4,19 MHz",
+        "gpu": "Grafica 2D",
+        "memory": "8 KB RAM",
+        "storage": "Cartucce",
+        "resolution": "160 × 144"
+      },
+      "wiki": {
+        "intro": "L’originale portatile monocromatico.",
+        "highlights": [
+          "Schermo monocromatico"
+        ],
+        "compatibility": "Game Boy; Color esegue anche i giochi esclusivi GBC."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Support/Legacy-system/Technical-data-619585.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1762430050/Careers%20Site/History/game-boy-handheld.png",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1762430050/Careers%20Site/History/game-boy-handheld.png",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/89e598e3ff8e080c.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "gameboy-pocket",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Game Boy Pocket",
+      "family": "gb",
+      "series": "Game Boy",
+      "year": 1996,
+      "variant": "MGB-001",
+      "values": {
+        "tflops": null,
+        "cpu": "8 bit · 4,19 MHz",
+        "gpu": "Grafica 2D",
+        "memory": "8 KB RAM",
+        "storage": "Cartucce",
+        "resolution": "160 × 144"
+      },
+      "wiki": {
+        "intro": "Scocca più piccola e leggera.",
+        "highlights": [
+          "Schermo monocromatico"
+        ],
+        "compatibility": "Game Boy; Color esegue anche i giochi esclusivi GBC."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Support/Legacy-system/Technical-data-619585.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1762430050/Careers%20Site/History/game-boy-handheld.png",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1762430050/Careers%20Site/History/game-boy-handheld.png",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/89e598e3ff8e080c.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "gameboy-light",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Game Boy Light",
+      "family": "gb",
+      "series": "Game Boy",
+      "year": 1998,
+      "variant": "MGB-101 · Giappone",
+      "values": {
+        "tflops": null,
+        "cpu": "8 bit",
+        "gpu": "Grafica 2D",
+        "memory": null,
+        "storage": "Cartucce",
+        "resolution": "160 × 144"
+      },
+      "wiki": {
+        "intro": "Game Boy con illuminazione integrata.",
+        "highlights": [
+          "Schermo monocromatico"
+        ],
+        "compatibility": "Game Boy; Color esegue anche i giochi esclusivi GBC."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.co.jp/n02/dmg/hardware/light/index.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1762430050/Careers%20Site/History/game-boy-handheld.png",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1762430050/Careers%20Site/History/game-boy-handheld.png",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/89e598e3ff8e080c.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "gameboy-color",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Game Boy Color",
+      "family": "gb",
+      "series": "Game Boy",
+      "year": 1998,
+      "variant": "CGB-001",
+      "values": {
+        "tflops": null,
+        "cpu": "8 bit · 8 MHz",
+        "gpu": "Grafica 2D",
+        "memory": "32 KB RAM",
+        "storage": "Cartucce",
+        "resolution": "160 × 144"
+      },
+      "wiki": {
+        "intro": "Il passaggio al colore.",
+        "highlights": [
+          "Schermo a colori"
+        ],
+        "compatibility": "Game Boy; Color esegue anche i giochi esclusivi GBC."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Support/Legacy-system/Technical-data-619585.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1762430049/Careers%20Site/History/GBC-pokemon.png",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1762430049/Careers%20Site/History/GBC-pokemon.png",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/b59512271d41e8b5.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "gba",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Game Boy Advance",
+      "family": "gba",
+      "series": "Game Boy Advance",
+      "year": 2001,
+      "variant": "AGB-001",
+      "values": {
+        "tflops": null,
+        "cpu": "CPU 32 bit",
+        "gpu": "Grafica 2D custom",
+        "memory": null,
+        "storage": "Cartucce",
+        "resolution": "240 × 160"
+      },
+      "wiki": {
+        "intro": "Portatile 32 bit con formato orizzontale.",
+        "highlights": [
+          "Portatile a cartucce"
+        ],
+        "compatibility": "GBA e quasi tutti i giochi Game Boy / Color."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Support/Legacy-system/Technical-data-619479.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1767820726/Careers%20Site/History/2001_Nintendo_Game_Boy.jpg",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1767820726/Careers%20Site/History/2001_Nintendo_Game_Boy.jpg",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/739c508c96609ee7.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "gba-sp",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Game Boy Advance SP",
+      "family": "gba",
+      "series": "Game Boy Advance",
+      "year": 2003,
+      "variant": "AGS-001",
+      "values": {
+        "tflops": null,
+        "cpu": "CPU 32 bit",
+        "gpu": "Grafica 2D custom",
+        "memory": null,
+        "storage": "Cartucce",
+        "resolution": "240 × 160"
+      },
+      "wiki": {
+        "intro": "Design richiudibile e schermo illuminato.",
+        "highlights": [
+          "Portatile a cartucce"
+        ],
+        "compatibility": "GBA e quasi tutti i giochi Game Boy / Color."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Support/Legacy-system/Technical-data-619375.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1767820726/Careers%20Site/History/2001_Nintendo_Game_Boy.jpg",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1767820726/Careers%20Site/History/2001_Nintendo_Game_Boy.jpg",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/739c508c96609ee7.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "gba-sp-backlit",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Game Boy Advance SP Backlit",
+      "family": "gba",
+      "series": "Game Boy Advance",
+      "year": 2005,
+      "variant": "AGS-101",
+      "values": {
+        "tflops": null,
+        "cpu": "CPU 32 bit",
+        "gpu": "Grafica 2D custom",
+        "memory": null,
+        "storage": "Cartucce",
+        "resolution": "240 × 160"
+      },
+      "wiki": {
+        "intro": "Revisione con display retroilluminato.",
+        "highlights": [
+          "Portatile a cartucce"
+        ],
+        "compatibility": "GBA e quasi tutti i giochi Game Boy / Color."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Support/Legacy-system/Technical-data-619375.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware. Data della revisione storica da completare con documentazione primaria puntuale.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1767820726/Careers%20Site/History/2001_Nintendo_Game_Boy.jpg",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1767820726/Careers%20Site/History/2001_Nintendo_Game_Boy.jpg",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/739c508c96609ee7.webp"
+      },
+      "verification": "hardware documented; first release year awaiting primary confirmation"
+    },
+    {
+      "id": "gameboy-micro",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Game Boy Micro",
+      "family": "gba",
+      "series": "Game Boy Advance",
+      "year": 2005,
+      "variant": "OXY-001",
+      "values": {
+        "tflops": null,
+        "cpu": "CPU 32 bit",
+        "gpu": "Grafica 2D custom",
+        "memory": null,
+        "storage": "Cartucce",
+        "resolution": "240 × 160"
+      },
+      "wiki": {
+        "intro": "Il formato più piccolo della famiglia.",
+        "highlights": [
+          "Portatile a cartucce"
+        ],
+        "compatibility": "Solo giochi Game Boy Advance; esclusi Game Boy e Color."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Support/Legacy-system/Technical-data-619479.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1767820726/Careers%20Site/History/2001_Nintendo_Game_Boy.jpg",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1767820726/Careers%20Site/History/2001_Nintendo_Game_Boy.jpg",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/739c508c96609ee7.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "virtual-boy",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Virtual Boy",
+      "family": "virtualboy",
+      "series": "Virtual Boy",
+      "year": 1995,
+      "variant": "VB",
+      "values": {
+        "tflops": null,
+        "cpu": "32 bit",
+        "gpu": "Grafica stereoscopica",
+        "memory": null,
+        "storage": "Cartucce",
+        "resolution": "Display stereoscopico rosso / nero"
+      },
+      "wiki": {
+        "intro": "Esperimento stereoscopico Nintendo.",
+        "highlights": [
+          "Visore da tavolo"
+        ],
+        "compatibility": "Catalogo Virtual Boy dedicato."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": null,
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "nintendo-64",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Nintendo 64",
+      "family": "n64",
+      "series": "Nintendo 64",
+      "year": 1996,
+      "variant": "NUS-001",
+      "values": {
+        "tflops": null,
+        "cpu": "MIPS 64 bit RISC",
+        "gpu": "Reality Coprocessor",
+        "memory": null,
+        "storage": "Cartucce · Controller Pak",
+        "resolution": "Uscita analogica"
+      },
+      "wiki": {
+        "intro": "La generazione Nintendo in 3D.",
+        "highlights": [
+          "Stick analogico",
+          "Quattro controller"
+        ],
+        "compatibility": "Catalogo Nintendo 64; alcuni titoli richiedono Expansion Pak."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.co.jp/n01/n64/hardware/index.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1762430049/Careers%20Site/History/N64.png",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1762430049/Careers%20Site/History/N64.png",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/fe43b63b1f5a6460.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "gamecube",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Nintendo GameCube",
+      "family": "gc",
+      "series": "Nintendo GameCube",
+      "year": 2001,
+      "variant": "DOL-001",
+      "values": {
+        "tflops": null,
+        "cpu": "IBM PowerPC Gekko · 485 MHz",
+        "gpu": "ATI / Nintendo Flipper",
+        "memory": "24 MB 1T-SRAM + 16 MB DRAM",
+        "storage": "GameCube Disc · Memory Card",
+        "resolution": "Uscita analogica; digitale AV su DOL-001"
+      },
+      "wiki": {
+        "intro": "Dischi ottici e quattro porte controller.",
+        "highlights": [
+          "Dischi 8 cm"
+        ],
+        "compatibility": "Giochi GameCube; Game Boy tramite accessorio Game Boy Player."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-GameCube/Technical-Details/Technical-Details-627134.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": null,
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "gamecube-101",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Nintendo GameCube DOL-101",
+      "family": "gc",
+      "series": "Nintendo GameCube",
+      "year": 2004,
+      "variant": "DOL-101",
+      "values": {
+        "tflops": null,
+        "cpu": "IBM PowerPC Gekko · 485 MHz",
+        "gpu": "ATI / Nintendo Flipper",
+        "memory": "24 MB 1T-SRAM + 16 MB DRAM",
+        "storage": "GameCube Disc · Memory Card",
+        "resolution": "Uscita analogica; digitale AV su DOL-001"
+      },
+      "wiki": {
+        "intro": "Revisione senza uscita digitale AV.",
+        "highlights": [
+          "Dischi 8 cm"
+        ],
+        "compatibility": "Giochi GameCube; Game Boy tramite accessorio Game Boy Player."
+      },
+      "sources": [
+        {
+          "label": "Fonte ufficiale del modello",
+          "url": "https://csassets.nintendo.com/noaext/image/private/t_KA_PDF/gcn101_manual_english?_a=DATC1RAAZAA0"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-GameCube/Technical-Details/Technical-Details-627134.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware. Data della revisione storica da completare con documentazione primaria puntuale.",
+      "image": null,
+      "verification": "hardware documented; first release year awaiting primary confirmation"
+    },
+    {
+      "id": "nintendo-ds",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Nintendo DS",
+      "family": "ds",
+      "series": "Nintendo DS",
+      "year": 2004,
+      "variant": "NTR-001",
+      "values": {
+        "tflops": null,
+        "cpu": "ARM9 + ARM7",
+        "gpu": "Grafica 2D / 3D custom",
+        "memory": null,
+        "storage": "DS Card · SD su DSi",
+        "resolution": "256 × 192 per schermo"
+      },
+      "wiki": {
+        "intro": "Due schermi, quello inferiore touch.",
+        "highlights": [
+          "Touchscreen"
+        ],
+        "compatibility": "DS e GBA; non Game Boy / Color."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/it-it/Assistenza/Console-precedenti/Informazioni-sul-prodotto-619794.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1767820576/Careers%20Site/History/2004_Nintendo_DS.jpg",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1767820576/Careers%20Site/History/2004_Nintendo_DS.jpg",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/3740e015e4c486ab.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "nintendo-ds-lite",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Nintendo DS Lite",
+      "family": "ds",
+      "series": "Nintendo DS",
+      "year": 2006,
+      "variant": "USG-001",
+      "values": {
+        "tflops": null,
+        "cpu": "ARM9 + ARM7",
+        "gpu": "Grafica 2D / 3D custom",
+        "memory": null,
+        "storage": "DS Card · SD su DSi",
+        "resolution": "256 × 192 per schermo"
+      },
+      "wiki": {
+        "intro": "Schermi più luminosi e design compatto.",
+        "highlights": [
+          "Touchscreen"
+        ],
+        "compatibility": "DS e GBA; non Game Boy / Color."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Support/Legacy-system/Product-Information-242119.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1767820576/Careers%20Site/History/2004_Nintendo_DS.jpg",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1767820576/Careers%20Site/History/2004_Nintendo_DS.jpg",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/3740e015e4c486ab.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "nintendo-dsi",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Nintendo DSi",
+      "family": "ds",
+      "series": "Nintendo DS",
+      "year": 2008,
+      "variant": "TWL-001",
+      "values": {
+        "tflops": null,
+        "cpu": "ARM9 + ARM7",
+        "gpu": "Grafica 2D / 3D custom",
+        "memory": null,
+        "storage": "DS Card · SD su DSi",
+        "resolution": "256 × 192 per schermo"
+      },
+      "wiki": {
+        "intro": "Fotocamere e contenuti digitali.",
+        "highlights": [
+          "Touchscreen"
+        ],
+        "compatibility": "DS / DSi; slot GBA rimosso."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/it-it/Assistenza/Console-precedenti/Informazioni-sul-prodotto-619794.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1767820576/Careers%20Site/History/2004_Nintendo_DS.jpg",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1767820576/Careers%20Site/History/2004_Nintendo_DS.jpg",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/3740e015e4c486ab.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "nintendo-dsi-xl",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Nintendo DSi XL",
+      "family": "ds",
+      "series": "Nintendo DS",
+      "year": 2009,
+      "variant": "UTL-001 · DSi LL in Giappone",
+      "values": {
+        "tflops": null,
+        "cpu": "ARM9 + ARM7",
+        "gpu": "Grafica 2D / 3D custom",
+        "memory": null,
+        "storage": "DS Card · SD su DSi",
+        "resolution": "256 × 192 per schermo"
+      },
+      "wiki": {
+        "intro": "Schermi più grandi per la famiglia DSi.",
+        "highlights": [
+          "Touchscreen"
+        ],
+        "compatibility": "DS / DSi; nessuno slot GBA."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/it-it/Assistenza/Console-precedenti/Informazioni-sul-prodotto-619794.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1767820576/Careers%20Site/History/2004_Nintendo_DS.jpg",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1767820576/Careers%20Site/History/2004_Nintendo_DS.jpg",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/3740e015e4c486ab.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "nintendo-3ds",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Nintendo 3DS",
+      "family": "3ds",
+      "series": "Nintendo 3DS",
+      "year": 2011,
+      "variant": "CTR-001",
+      "values": {
+        "tflops": null,
+        "cpu": "CPU Nintendo 3DS",
+        "gpu": "Grafica 3D custom",
+        "memory": null,
+        "storage": "3DS Card · SD / microSD",
+        "resolution": "Schermo superiore 3D + touch inferiore"
+      },
+      "wiki": {
+        "intro": "3D stereoscopico senza occhiali.",
+        "highlights": [
+          "Compatibilità DS"
+        ],
+        "compatibility": "3DS e gran parte dei giochi DS; titoli esclusivi New richiedono una console New."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-3DS-Family/Nintendo-3DS-Family-94560.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1767820248/Careers%20Site/History/2011_Nintendo_3DS.jpg",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1767820248/Careers%20Site/History/2011_Nintendo_3DS.jpg",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/53d5789d3fce2e53.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "nintendo-3ds-xl",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Nintendo 3DS XL",
+      "family": "3ds",
+      "series": "Nintendo 3DS",
+      "year": 2012,
+      "variant": "SPR-001",
+      "values": {
+        "tflops": null,
+        "cpu": "CPU Nintendo 3DS",
+        "gpu": "Grafica 3D custom",
+        "memory": null,
+        "storage": "3DS Card · SD / microSD",
+        "resolution": "Schermo superiore 3D + touch inferiore"
+      },
+      "wiki": {
+        "intro": "Schermi più grandi.",
+        "highlights": [
+          "Compatibilità DS"
+        ],
+        "compatibility": "3DS e gran parte dei giochi DS; titoli esclusivi New richiedono una console New."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-3DS-Family/Nintendo-3DS-Family-94560.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1767820248/Careers%20Site/History/2011_Nintendo_3DS.jpg",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1767820248/Careers%20Site/History/2011_Nintendo_3DS.jpg",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/53d5789d3fce2e53.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "nintendo-2ds",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Nintendo 2DS",
+      "family": "3ds",
+      "series": "Nintendo 3DS",
+      "year": 2013,
+      "variant": "FTR-001",
+      "values": {
+        "tflops": null,
+        "cpu": "CPU Nintendo 3DS",
+        "gpu": "Grafica 3D custom",
+        "memory": null,
+        "storage": "3DS Card · SD / microSD",
+        "resolution": "Due schermi 2D"
+      },
+      "wiki": {
+        "intro": "Giochi 3DS in 2D, scocca unica.",
+        "highlights": [
+          "Compatibilità DS"
+        ],
+        "compatibility": "3DS e gran parte dei giochi DS; titoli esclusivi New richiedono una console New."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-3DS-Family/Nintendo-3DS-Family-94560.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1767820248/Careers%20Site/History/2011_Nintendo_3DS.jpg",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1767820248/Careers%20Site/History/2011_Nintendo_3DS.jpg",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/53d5789d3fce2e53.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "new-nintendo-3ds",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "New Nintendo 3DS",
+      "family": "3ds",
+      "series": "Nintendo 3DS",
+      "year": 2014,
+      "variant": "KTR-001",
+      "values": {
+        "tflops": null,
+        "cpu": "CPU potenziata della serie New",
+        "gpu": "Grafica 3D custom",
+        "memory": null,
+        "storage": "3DS Card · SD / microSD",
+        "resolution": "Schermo superiore 3D + touch inferiore"
+      },
+      "wiki": {
+        "intro": "CPU potenziata, C Stick e NFC.",
+        "highlights": [
+          "C Stick e NFC"
+        ],
+        "compatibility": "3DS e gran parte dei giochi DS; titoli esclusivi New richiedono una console New."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/it-ch/Console-e-accessori/Famiglia-Nintendo-3DS/New-Nintendo-3DS/New-Nintendo-3DS-947717.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1767820248/Careers%20Site/History/2011_Nintendo_3DS.jpg",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1767820248/Careers%20Site/History/2011_Nintendo_3DS.jpg",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/53d5789d3fce2e53.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "new-nintendo-3ds-xl",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "New Nintendo 3DS XL",
+      "family": "3ds",
+      "series": "Nintendo 3DS",
+      "year": 2014,
+      "variant": "RED-001",
+      "values": {
+        "tflops": null,
+        "cpu": "CPU potenziata della serie New",
+        "gpu": "Grafica 3D custom",
+        "memory": null,
+        "storage": "3DS Card · SD / microSD",
+        "resolution": "Schermo superiore 3D + touch inferiore"
+      },
+      "wiki": {
+        "intro": "La variante New con display grandi.",
+        "highlights": [
+          "C Stick e NFC"
+        ],
+        "compatibility": "3DS e gran parte dei giochi DS; titoli esclusivi New richiedono una console New."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/it-ch/Console-e-accessori/Famiglia-Nintendo-3DS/New-Nintendo-3DS/New-Nintendo-3DS-947717.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1767820248/Careers%20Site/History/2011_Nintendo_3DS.jpg",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1767820248/Careers%20Site/History/2011_Nintendo_3DS.jpg",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/53d5789d3fce2e53.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "new-nintendo-2ds-xl",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "New Nintendo 2DS XL",
+      "family": "3ds",
+      "series": "Nintendo 3DS",
+      "year": 2017,
+      "variant": "JAN-001",
+      "values": {
+        "tflops": null,
+        "cpu": "CPU potenziata della serie New",
+        "gpu": "Grafica 3D custom",
+        "memory": null,
+        "storage": "3DS Card · SD / microSD",
+        "resolution": "Due schermi 2D"
+      },
+      "wiki": {
+        "intro": "Hardware New con schermo 2D.",
+        "highlights": [
+          "C Stick e NFC"
+        ],
+        "compatibility": "3DS e gran parte dei giochi DS; titoli esclusivi New richiedono una console New."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/News/2017/April/Nintendo-to-launch-New-Nintendo-2DS-XL-portable-system-on-July-28th-1218256.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1767820248/Careers%20Site/History/2011_Nintendo_3DS.jpg",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1767820248/Careers%20Site/History/2011_Nintendo_3DS.jpg",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/53d5789d3fce2e53.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "wii",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Wii",
+      "family": "wii",
+      "series": "Wii",
+      "year": 2006,
+      "variant": "RVL-001",
+      "values": {
+        "tflops": null,
+        "cpu": "IBM custom",
+        "gpu": "ATI custom",
+        "memory": null,
+        "storage": "Wii Disc · flash interna",
+        "resolution": "Uscita analogica"
+      },
+      "wiki": {
+        "intro": "Wii Remote porta il movimento nel gioco.",
+        "highlights": [
+          "Wii Remote"
+        ],
+        "compatibility": "Wii e GameCube con dischi e accessori compatibili."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1767820371/Careers%20Site/History/2006_Nintendo_Wii.jpg",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1767820371/Careers%20Site/History/2006_Nintendo_Wii.jpg",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/aed8c15d90836b65.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "wii-family",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Wii Family Edition",
+      "family": "wii",
+      "series": "Wii",
+      "year": 2011,
+      "variant": "RVL-101",
+      "values": {
+        "tflops": null,
+        "cpu": "IBM custom",
+        "gpu": "ATI custom",
+        "memory": null,
+        "storage": "Wii Disc · flash interna",
+        "resolution": "Uscita analogica"
+      },
+      "wiki": {
+        "intro": "Revisione orizzontale senza porte GameCube.",
+        "highlights": [
+          "Wii Remote"
+        ],
+        "compatibility": "Giochi Wii; esclusi GameCube."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/News/2011/Nintendo-launches-Wii-Family-Edition-on-4th-November-and-Wii-Fit-Plus-bundle-on-2nd-December-252719.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1767820371/Careers%20Site/History/2006_Nintendo_Wii.jpg",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1767820371/Careers%20Site/History/2006_Nintendo_Wii.jpg",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/aed8c15d90836b65.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "wii-mini",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Wii mini",
+      "family": "wii",
+      "series": "Wii",
+      "year": 2012,
+      "variant": "RVL-201",
+      "values": {
+        "tflops": null,
+        "cpu": "IBM custom",
+        "gpu": "ATI custom",
+        "memory": null,
+        "storage": "Wii Disc · flash interna",
+        "resolution": "Uscita analogica"
+      },
+      "wiki": {
+        "intro": "Variante essenziale con vano disco superiore.",
+        "highlights": [
+          "Wii Remote"
+        ],
+        "compatibility": "Giochi Wii su disco; senza rete, slot SD o GameCube."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/it-it/Wii/Wii-mini/La-console/Wii-mini-726559.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1767820371/Careers%20Site/History/2006_Nintendo_Wii.jpg",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1767820371/Careers%20Site/History/2006_Nintendo_Wii.jpg",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/aed8c15d90836b65.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "wii-u",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Wii U",
+      "family": "wiiu",
+      "series": "Wii U",
+      "year": 2012,
+      "variant": "Basic / Premium",
+      "values": {
+        "tflops": null,
+        "cpu": "IBM Power multicore",
+        "gpu": "AMD Radeon custom",
+        "memory": null,
+        "storage": "8 GB / 32 GB flash · Wii U Disc",
+        "resolution": "Fino a 1080p"
+      },
+      "wiki": {
+        "intro": "Gioco HD con schermo sul GamePad.",
+        "highlights": [
+          "Off-TV Play"
+        ],
+        "compatibility": "Giochi Wii U e Wii; non dischi GameCube."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.co.jp/hardware/wiiu/specs/index.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1767820927/Careers%20Site/History/2012_Nintendo_Wii_U.jpg",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "product",
+        "alt": "http://assets.nintendo.com/image/upload/v1767820927/Careers%20Site/History/2012_Nintendo_Wii_U.jpg",
+        "label": "Immagine ufficiale del modello",
+        "src": "assets/products/bbf3fcc1fd6b9853.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "switch",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Nintendo Switch",
+      "family": "switch",
+      "series": "Nintendo Switch",
+      "year": 2017,
+      "variant": "HAC-001",
+      "values": {
+        "tflops": null,
+        "cpu": "NVIDIA Tegra custom",
+        "gpu": "NVIDIA custom",
+        "memory": null,
+        "storage": "32 GB · Game Card / microSD",
+        "resolution": "720p portatile · fino a 1080p TV"
+      },
+      "wiki": {
+        "intro": "TV, tavolo e portatile.",
+        "highlights": [
+          "Ibrida"
+        ],
+        "compatibility": "Giochi Nintendo Switch."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-Switch-Family/Nintendo-Switch/Nintendo-Switch-1148779.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://careers.nintendo.com/our-history/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1768344546/Careers%20Site/History/2017_Switch.jpg",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1768344546/Careers%20Site/History/2017_Switch.jpg",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/1f8233c0d431de1a.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "switch-revised",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Nintendo Switch 2019",
+      "family": "switch",
+      "series": "Nintendo Switch",
+      "year": 2019,
+      "variant": "HAC-001(-01)",
+      "values": {
+        "tflops": null,
+        "cpu": "NVIDIA Tegra custom",
+        "gpu": "NVIDIA custom",
+        "memory": null,
+        "storage": "32 GB · Game Card / microSD",
+        "resolution": "720p portatile · fino a 1080p TV"
+      },
+      "wiki": {
+        "intro": "Revisione con maggiore autonomia.",
+        "highlights": [
+          "Ibrida"
+        ],
+        "compatibility": "Giochi Nintendo Switch."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-Switch-Family/Nintendo-Switch/Nintendo-Switch-1148779.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://careers.nintendo.com/our-history/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1768344546/Careers%20Site/History/2017_Switch.jpg",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "family",
+        "alt": "http://assets.nintendo.com/image/upload/v1768344546/Careers%20Site/History/2017_Switch.jpg",
+        "label": "Immagine ufficiale di archivio della famiglia; può includere altri prodotti",
+        "style": "archive-composition",
+        "src": "assets/products/1f8233c0d431de1a.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "switch-lite",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Nintendo Switch Lite",
+      "family": "switch",
+      "series": "Nintendo Switch",
+      "year": 2019,
+      "variant": "HDH-001",
+      "values": {
+        "tflops": null,
+        "cpu": "NVIDIA Tegra custom",
+        "gpu": "NVIDIA custom",
+        "memory": null,
+        "storage": "32 GB · Game Card / microSD",
+        "resolution": "720p · nessuna uscita TV"
+      },
+      "wiki": {
+        "intro": "La versione solo portatile.",
+        "highlights": [
+          "Solo portatile"
+        ],
+        "compatibility": "Giochi Switch compatibili con modalità portatile; alcuni richiedono controller esterni."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-Switch-Family/Nintendo-Switch/Nintendo-Switch-1148779.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://careers.nintendo.com/our-history/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1767821158/Careers%20Site/History/2019_Nintendo_Switch_Lite.jpg",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "product",
+        "alt": "http://assets.nintendo.com/image/upload/v1767821158/Careers%20Site/History/2019_Nintendo_Switch_Lite.jpg",
+        "label": "Immagine ufficiale del modello",
+        "src": "assets/products/40eb5a8d2412b3fc.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "switch-oled",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Nintendo Switch OLED",
+      "family": "switch",
+      "series": "Nintendo Switch",
+      "year": 2021,
+      "variant": "HEG-001",
+      "values": {
+        "tflops": null,
+        "cpu": "NVIDIA Tegra custom",
+        "gpu": "NVIDIA custom",
+        "memory": null,
+        "storage": "64 GB · Game Card / microSD",
+        "resolution": "OLED 7″ · 720p / TV 1080p"
+      },
+      "wiki": {
+        "intro": "OLED, stand largo e dock con LAN.",
+        "highlights": [
+          "Ibrida"
+        ],
+        "compatibility": "Giochi Nintendo Switch."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-Switch-Family/Nintendo-Switch/Nintendo-Switch-1148779.html"
+        },
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://careers.nintendo.com/our-history/"
+        }
+      ],
+      "notes": "TFLOPS non confrontabili o non dichiarati per questo hardware.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/v1767821158/Careers%20Site/History/2021_Nintendo_Switch_OLED.jpg",
+        "source": "https://careers.nintendo.com/our-history/",
+        "credit": "Nintendo",
+        "kind": "product",
+        "alt": "http://assets.nintendo.com/image/upload/v1767821158/Careers%20Site/History/2021_Nintendo_Switch_OLED.jpg",
+        "label": "Immagine ufficiale del modello",
+        "src": "assets/products/896e34aacdcbd5ab.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    },
+    {
+      "id": "switch-2",
+      "cat": "console",
+      "brand": "Nintendo",
+      "name": "Nintendo Switch 2",
+      "family": "switch2",
+      "series": "Nintendo Switch 2",
+      "year": 2025,
+      "variant": "BEE-001",
+      "values": {
+        "tflops": null,
+        "cpu": "Processore NVIDIA custom",
+        "gpu": "Processore grafico NVIDIA custom",
+        "memory": null,
+        "storage": "256 GB UFS · microSD Express",
+        "resolution": "1080p 120 Hz portatile · fino a 4K 60 TV"
+      },
+      "wiki": {
+        "intro": "La nuova generazione ibrida.",
+        "highlights": [
+          "Joy-Con 2 magnetici",
+          "Modalità mouse"
+        ],
+        "compatibility": "Giochi Switch 2 e molti giochi Switch, con eccezioni indicate da Nintendo."
+      },
+      "sources": [
+        {
+          "label": "Specifiche e storia ufficiali · Nintendo",
+          "url": "https://www.nintendo.com/us/gaming-systems/switch-2/tech-specs/"
+        }
+      ],
+      "notes": "Nintendo non dichiara TFLOPS, core CPU/GPU o RAM nella scheda pubblica; non vengono dedotti.",
+      "image": {
+        "url": "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/v1745278135/switch-2/tech-specs/switch-2-front.png",
+        "source": "https://www.nintendo.com/us/gaming-systems/switch-2/tech-specs/",
+        "credit": "Nintendo",
+        "kind": "product",
+        "label": "Render ufficiale della console; dettaglio senza Joy-Con",
+        "src": "assets/products/7a685993ebe1e93b.webp"
+      },
+      "verification": "manufacturer-source-backed; unpublished fields omitted"
+    }
+  ],
+  "families": [
+    {
+      "id": "ps1",
+      "name": "PlayStation",
+      "brand": "Sony",
+      "intro": "La generazione CD e grafica 3D di PlayStation.",
+      "history": [
+        {
+          "year": 1994,
+          "text": "PlayStation — Il debutto di PlayStation."
+        },
+        {
+          "year": 2000,
+          "text": "PS one — PlayStation in formato compatto."
+        },
+        {
+          "year": 2018,
+          "text": "PlayStation Classic — Riedizione mini con giochi integrati."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://www.playstation.com/en-us/playstation-history/1994-ps-one/"
+        }
+      ]
+    },
+    {
+      "id": "ps2",
+      "name": "PlayStation 2",
+      "brand": "Sony",
+      "intro": "DVD, Emotion Engine e retrocompatibilità PlayStation.",
+      "history": [
+        {
+          "year": 2000,
+          "text": "PlayStation 2 — Giochi e film su DVD."
+        },
+        {
+          "year": 2004,
+          "text": "PlayStation 2 Slim — PS2 compatta con Ethernet integrata."
+        },
+        {
+          "year": 2007,
+          "text": "PlayStation 2 Slim 90000 — Ultima grande revisione compatta."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://www.playstation.com/en-us/playstation-history/2000-ps2-psp/"
+        }
+      ]
+    },
+    {
+      "id": "psp",
+      "name": "PlayStation Portable",
+      "brand": "Sony",
+      "intro": "Giochi e multimedia portatili, tra UMD e download.",
+      "history": [
+        {
+          "year": 2004,
+          "text": "PSP-1000 — Il primo portatile PlayStation."
+        },
+        {
+          "year": 2007,
+          "text": "PSP-2000 — PSP più sottile e leggera."
+        },
+        {
+          "year": 2008,
+          "text": "PSP-3000 — Display aggiornato e microfono."
+        },
+        {
+          "year": 2009,
+          "text": "PSP go — Formato scorrevole senza lettore UMD."
+        },
+        {
+          "year": 2011,
+          "text": "PSP Street — La variante essenziale senza Wi-Fi."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://www.playstation.com/en-us/playstation-history/2000-ps2-psp/"
+        }
+      ]
+    },
+    {
+      "id": "ps3",
+      "name": "PlayStation 3",
+      "brand": "Sony",
+      "intro": "Cell, Blu-ray e PlayStation Network.",
+      "history": [
+        {
+          "year": 2006,
+          "text": "PlayStation 3 — Cell e Blu-ray entrano nel salotto."
+        },
+        {
+          "year": 2009,
+          "text": "PlayStation 3 Slim — Revisione più compatta ed efficiente."
+        },
+        {
+          "year": 2012,
+          "text": "PlayStation 3 Super Slim — Nuovo vano disco scorrevole."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://www.playstation.com/en-us/playstation-history/2007-ps3-ps-vita/"
+        }
+      ]
+    },
+    {
+      "id": "psvita",
+      "name": "PlayStation Vita",
+      "brand": "Sony",
+      "intro": "Doppio stick, touch e giochi portatili.",
+      "history": [
+        {
+          "year": 2011,
+          "text": "PlayStation Vita — Portatile con due stick e pannello OLED."
+        },
+        {
+          "year": 2013,
+          "text": "PlayStation Vita Slim — Vita più sottile con memoria interna."
+        },
+        {
+          "year": 2013,
+          "text": "PlayStation TV — La libreria Vita compatibile sul televisore."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://sonyinteractive.com/en/press-releases/playstationvita-available-in-japan-on-december-17-2011/"
+        }
+      ]
+    },
+    {
+      "id": "ps4",
+      "name": "PlayStation 4",
+      "brand": "Sony",
+      "intro": "Architettura x86 e memoria GDDR5 condivisa.",
+      "history": [
+        {
+          "year": 2013,
+          "text": "PlayStation 4 — La generazione PlayStation x86."
+        },
+        {
+          "year": 2016,
+          "text": "PlayStation 4 Slim — Stesse prestazioni in una scocca ridotta."
+        },
+        {
+          "year": 2016,
+          "text": "PlayStation 4 Pro — GPU potenziata per giochi migliorati."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://www.playstation.com/en-us/ps4/tech-specs/"
+        }
+      ]
+    },
+    {
+      "id": "ps5",
+      "name": "PlayStation 5",
+      "brand": "Sony",
+      "intro": "SSD, ray tracing e controller DualSense.",
+      "history": [
+        {
+          "year": 2020,
+          "text": "PlayStation 5 — SSD e DualSense segnano la nuova generazione."
+        },
+        {
+          "year": 2020,
+          "text": "PlayStation 5 Digital Edition — Il modello originale senza lettore."
+        },
+        {
+          "year": 2023,
+          "text": "PlayStation 5 Slim — Chassis ridotto e lettore rimovibile."
+        },
+        {
+          "year": 2023,
+          "text": "PlayStation 5 Slim Digital — Lettore disco acquistabile separatamente."
+        },
+        {
+          "year": 2024,
+          "text": "PlayStation 5 Pro — GPU potenziata con ricostruzione PSSR."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://blog.it.playstation.com/2020/11/09/ps5-le-domande-frequenti-aggiornate/"
+        }
+      ]
+    },
+    {
+      "id": "xbox",
+      "name": "Xbox",
+      "brand": "Microsoft",
+      "intro": "La prima console Microsoft con disco rigido integrato.",
+      "history": [
+        {
+          "year": 2001,
+          "text": "Xbox — La prima Xbox."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://ukstories.microsoft.com/features/xbox-360-launched/"
+        }
+      ]
+    },
+    {
+      "id": "xbox360",
+      "name": "Xbox 360",
+      "brand": "Microsoft",
+      "intro": "Generazione HD e Xbox Live.",
+      "history": [
+        {
+          "year": 2005,
+          "text": "Xbox 360 — Console HD con memoria unificata."
+        },
+        {
+          "year": 2007,
+          "text": "Xbox 360 Elite — La revisione con uscita HDMI."
+        },
+        {
+          "year": 2010,
+          "text": "Xbox 360 S — Wi-Fi integrato e chassis riprogettato."
+        },
+        {
+          "year": 2013,
+          "text": "Xbox 360 E — Ultimo redesign della generazione 360."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://ukstories.microsoft.com/features/xbox-360-launched/"
+        }
+      ]
+    },
+    {
+      "id": "xboxone",
+      "name": "Xbox One",
+      "brand": "Microsoft",
+      "intro": "Dalla console multimediale al gioco 4K.",
+      "history": [
+        {
+          "year": 2013,
+          "text": "Xbox One — La piattaforma Xbox One originale."
+        },
+        {
+          "year": 2016,
+          "text": "Xbox One S — Revisione compatta con HDR e video 4K."
+        },
+        {
+          "year": 2017,
+          "text": "Xbox One X — Versione ad alte prestazioni di Xbox One."
+        },
+        {
+          "year": 2019,
+          "text": "Xbox One S All-Digital — Xbox One S dedicata al digitale."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://news.xbox.com/wp-content/uploads/sites/2/Xbox_One_Spec_Sheet.pdf"
+        }
+      ]
+    },
+    {
+      "id": "xboxseries",
+      "name": "Xbox Series",
+      "brand": "Microsoft",
+      "intro": "SSD e architettura Zen 2 / RDNA 2.",
+      "history": [
+        {
+          "year": 2020,
+          "text": "Xbox Series X — La variante più potente della famiglia."
+        },
+        {
+          "year": 2020,
+          "text": "Xbox Series S — La console digitale compatta."
+        },
+        {
+          "year": 2024,
+          "text": "Xbox Series X Digital — Prestazioni Series X senza dischi."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://www.xbox.com/en-US/consoles/xbox-series-x"
+        }
+      ]
+    },
+    {
+      "id": "nes",
+      "name": "Famicom / NES",
+      "brand": "Nintendo",
+      "intro": "Cartucce e giochi 2D della generazione 8 bit.",
+      "history": [
+        {
+          "year": 1983,
+          "text": "Famicom — L’originale giapponese a cartucce."
+        },
+        {
+          "year": 1985,
+          "text": "Nintendo Entertainment System — Il design occidentale della famiglia Famicom."
+        },
+        {
+          "year": 1993,
+          "text": "NES Top Loader / AV Famicom — Revisione compatta a caricamento superiore."
+        },
+        {
+          "year": 2016,
+          "text": "NES Classic Mini — NES mini con giochi integrati."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ]
+    },
+    {
+      "id": "snes",
+      "name": "Super Famicom / SNES",
+      "brand": "Nintendo",
+      "intro": "La generazione 16 bit Nintendo.",
+      "history": [
+        {
+          "year": 1990,
+          "text": "Super Famicom — La famiglia Nintendo a 16 bit."
+        },
+        {
+          "year": 1991,
+          "text": "Super Nintendo — La famiglia Nintendo a 16 bit."
+        },
+        {
+          "year": 1997,
+          "text": "Super NES New-Style / Super Famicom Jr. — La famiglia Nintendo a 16 bit."
+        },
+        {
+          "year": 2017,
+          "text": "Super Nintendo Classic Mini — SNES mini con giochi integrati."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ]
+    },
+    {
+      "id": "gb",
+      "name": "Game Boy",
+      "brand": "Nintendo",
+      "intro": "Portatili a cartucce, dal monocromatico al colore.",
+      "history": [
+        {
+          "year": 1989,
+          "text": "Game Boy — L’originale portatile monocromatico."
+        },
+        {
+          "year": 1996,
+          "text": "Game Boy Pocket — Scocca più piccola e leggera."
+        },
+        {
+          "year": 1998,
+          "text": "Game Boy Light — Game Boy con illuminazione integrata."
+        },
+        {
+          "year": 1998,
+          "text": "Game Boy Color — Il passaggio al colore."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://www.nintendo.com/en-gb/Support/Legacy-system/Technical-data-619585.html"
+        }
+      ]
+    },
+    {
+      "id": "gba",
+      "name": "Game Boy Advance",
+      "brand": "Nintendo",
+      "intro": "La famiglia portatile a 32 bit.",
+      "history": [
+        {
+          "year": 2001,
+          "text": "Game Boy Advance — Portatile 32 bit con formato orizzontale."
+        },
+        {
+          "year": 2003,
+          "text": "Game Boy Advance SP — Design richiudibile e schermo illuminato."
+        },
+        {
+          "year": 2005,
+          "text": "Game Boy Advance SP Backlit — Revisione con display retroilluminato."
+        },
+        {
+          "year": 2005,
+          "text": "Game Boy Micro — Il formato più piccolo della famiglia."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://www.nintendo.com/en-gb/Support/Legacy-system/Technical-data-619479.html"
+        }
+      ]
+    },
+    {
+      "id": "n64",
+      "name": "Nintendo 64",
+      "brand": "Nintendo",
+      "intro": "Mondi 3D, cartucce e controller analogico.",
+      "history": [
+        {
+          "year": 1996,
+          "text": "Nintendo 64 — La generazione Nintendo in 3D."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://www.nintendo.co.jp/n01/n64/hardware/index.html"
+        }
+      ]
+    },
+    {
+      "id": "virtualboy",
+      "name": "Virtual Boy",
+      "brand": "Nintendo",
+      "intro": "Esperimento stereoscopico da tavolo.",
+      "history": [
+        {
+          "year": 1995,
+          "text": "Virtual Boy — Esperimento stereoscopico Nintendo."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ]
+    },
+    {
+      "id": "gc",
+      "name": "Nintendo GameCube",
+      "brand": "Nintendo",
+      "intro": "Gekko, Flipper e dischi ottici compatti.",
+      "history": [
+        {
+          "year": 2001,
+          "text": "Nintendo GameCube — Dischi ottici e quattro porte controller."
+        },
+        {
+          "year": 2004,
+          "text": "Nintendo GameCube DOL-101 — Revisione senza uscita digitale AV."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-GameCube/Technical-Details/Technical-Details-627134.html"
+        }
+      ]
+    },
+    {
+      "id": "ds",
+      "name": "Nintendo DS",
+      "brand": "Nintendo",
+      "intro": "Due schermi, touch e multiplayer wireless.",
+      "history": [
+        {
+          "year": 2004,
+          "text": "Nintendo DS — Due schermi, quello inferiore touch."
+        },
+        {
+          "year": 2006,
+          "text": "Nintendo DS Lite — Schermi più luminosi e design compatto."
+        },
+        {
+          "year": 2008,
+          "text": "Nintendo DSi — Fotocamere e contenuti digitali."
+        },
+        {
+          "year": 2009,
+          "text": "Nintendo DSi XL — Schermi più grandi per la famiglia DSi."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://www.nintendo.com/it-it/Assistenza/Console-precedenti/Informazioni-sul-prodotto-619794.html"
+        }
+      ]
+    },
+    {
+      "id": "3ds",
+      "name": "Nintendo 3DS",
+      "brand": "Nintendo",
+      "intro": "Doppio schermo con varianti 3D e 2D.",
+      "history": [
+        {
+          "year": 2011,
+          "text": "Nintendo 3DS — 3D stereoscopico senza occhiali."
+        },
+        {
+          "year": 2012,
+          "text": "Nintendo 3DS XL — Schermi più grandi."
+        },
+        {
+          "year": 2013,
+          "text": "Nintendo 2DS — Giochi 3DS in 2D, scocca unica."
+        },
+        {
+          "year": 2014,
+          "text": "New Nintendo 3DS — CPU potenziata, C Stick e NFC."
+        },
+        {
+          "year": 2014,
+          "text": "New Nintendo 3DS XL — La variante New con display grandi."
+        },
+        {
+          "year": 2017,
+          "text": "New Nintendo 2DS XL — Hardware New con schermo 2D."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-3DS-Family/Nintendo-3DS-Family-94560.html"
+        }
+      ]
+    },
+    {
+      "id": "wii",
+      "name": "Wii",
+      "brand": "Nintendo",
+      "intro": "Gioco basato sul movimento del Wii Remote.",
+      "history": [
+        {
+          "year": 2006,
+          "text": "Wii — Wii Remote porta il movimento nel gioco."
+        },
+        {
+          "year": 2011,
+          "text": "Wii Family Edition — Revisione orizzontale senza porte GameCube."
+        },
+        {
+          "year": 2012,
+          "text": "Wii mini — Variante essenziale con vano disco superiore."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+        }
+      ]
+    },
+    {
+      "id": "wiiu",
+      "name": "Wii U",
+      "brand": "Nintendo",
+      "intro": "Gioco HD e secondo schermo sul GamePad.",
+      "history": [
+        {
+          "year": 2012,
+          "text": "Wii U — Gioco HD con schermo sul GamePad."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://www.nintendo.co.jp/hardware/wiiu/specs/index.html"
+        }
+      ]
+    },
+    {
+      "id": "switch",
+      "name": "Nintendo Switch",
+      "brand": "Nintendo",
+      "intro": "Una libreria condivisa fra TV e portabilità.",
+      "history": [
+        {
+          "year": 2017,
+          "text": "Nintendo Switch — TV, tavolo e portatile."
+        },
+        {
+          "year": 2019,
+          "text": "Nintendo Switch 2019 — Revisione con maggiore autonomia."
+        },
+        {
+          "year": 2019,
+          "text": "Nintendo Switch Lite — La versione solo portatile."
+        },
+        {
+          "year": 2021,
+          "text": "Nintendo Switch OLED — OLED, stand largo e dock con LAN."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-Switch-Family/Nintendo-Switch/Nintendo-Switch-1148779.html"
+        }
+      ]
+    },
+    {
+      "id": "switch2",
+      "name": "Nintendo Switch 2",
+      "brand": "Nintendo",
+      "intro": "Ibrida con Joy-Con 2 e display 1080p.",
+      "history": [
+        {
+          "year": 2025,
+          "text": "Nintendo Switch 2 — La nuova generazione ibrida."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Storia e specifiche ufficiali",
+          "url": "https://www.nintendo.com/us/gaming-systems/switch-2/tech-specs/"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "scope": "Console e portatili Sony PlayStation, Microsoft Xbox e Nintendo, con principali revisioni commerciali hardware. Anno = primo rilascio mondiale della variante; per modelli regionali aggregati è indicata la regione.",
+    "asOf": "2026-10-10",
+    "gaps": [
+      "Escluse varianti solo cromatiche, bundle, tagli memoria senza altre modifiche, revisioni interne PCB/SoC non rinominate, prototipi e console non ancora rilasciate.",
+      "Non comprende espansioni (Famicom Disk System, 64DD), PocketStation, PSX DVR, PS Portal, VR, arcade, Game & Watch, Pokémon mini e hardware terzi/Sega.",
+      "I dati tecnici non presenti nelle fonti pubbliche consultate restano null o descrittivi. TFLOPS antichi o teorici non pubblicati non vengono ricostruiti.",
+      "Data di prima commercializzazione da completare con fonte primaria puntuale per NES Top Loader/AV Famicom, SNES New-Style/Jr., GBA SP AGS-101 e GameCube DOL-101. Le schede sono segnalate nel campo verification.",
+      "Non tutte le immagini storiche esatte sono disponibili; il riuso è marcato come family."
+    ],
+    "metricPolicy": "TFLOPS solo per console moderne con dato ufficiale. Ordinamento storico consigliato per famiglia e anno; TFLOPS non misurano da soli la qualità.",
+    "count": 76,
+    "familyCount": 24,
+    "imagesDownloaded": 32,
+    "primaryYearPendingIds": [
+      "nes-top-loader",
+      "snes-jr",
+      "gba-sp-backlit",
+      "gamecube-101"
+    ]
+  }
+}

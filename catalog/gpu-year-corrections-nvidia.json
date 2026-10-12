@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "researchedAt": "2026-10-10",
+  "scope": "Only two confirmed year corrections in the existing GPU catalog. No app/source edited.",
+  "corrections": [
+    {
+      "id": "nvidia-geforce-gtx-570-1-25-gb-gddr5",
+      "field": "year",
+      "from": 2011,
+      "to": 2010,
+      "announcementDate": "2010-12-07",
+      "releaseDate": "2010-12-07",
+      "source": {
+        "label": "NVIDIA • comunicato GeForce GTX 570 via GlobeNewswire",
+        "url": "https://www.globenewswire.com/de/news-release/2010/12/07/1149896/0/en/NVIDIA-GeForce-GTX-570-GPU-Gives-Gamers-Explosive-Performance-and-Quiet-Gaming.html"
+      },
+      "note": "Comunicato NVIDIA del 7 dicembre 2010: disponibilità immediata dichiarata. Il 2011 del catalogo è da correggere."
+    },
+    {
+      "id": "nvidia-geforce-rtx-3060-ti-8-gb-gddr6",
+      "field": "year",
+      "from": 2021,
+      "to": 2020,
+      "announcementDate": "2020-12-01",
+      "releaseDate": "2020-12-02",
+      "source": {
+        "label": "NVIDIA • annuncio GeForce RTX 3060 Ti",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-debuts-geforce-rtx-3060-family-for-the-holidays"
+      },
+      "note": "Comunicato del 1 dicembre 2020, disponibilità dal 2 dicembre 2020. Riguarda la versione originale GDDR6, non il successivo aggiornamento GDDR6X."
+    }
+  ]
+}

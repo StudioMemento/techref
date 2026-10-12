@@ -1,0 +1,96 @@
+{
+  "version": 3,
+  "date": "2026-10-12",
+  "assets": [
+    {
+      "id": "gpu",
+      "prompt": "Use case: stylized-concept. Asset type: standalone PNG illustration for the TechRef category interface. Landscape 1536x1024 composition. An ultra minimal, refined monochrome point-cloud sculpture in a completely PURE BLACK #000000 infinite void. The subject is made entirely of tiny white and silver light particles and very fine filament traces, with translucent gaps and crisp softly luminous contours. Controlled white bloom only, no colored light. Sophisticated scientific/editorial 3D aesthetic, calm and precisely formed, not explosive. Subject takes about 62% of image width and 58% of height, centered, generous absolutely black empty margins on all four sides; sparse particles very close to subject, completely fade before image edges. Background must be perfectly flat pure black, no gray haze, no gradients, no room, no floor, no reflection, no stars spread across frame. No text, no logo, no brand, no UI, no border, no watermark. Generic conceptual category illustration, NOT a depiction of a named commercial model.\nSubject: a wide low horizontal graphics accelerator sculpture in three-quarter perspective, just a slim elongated rounded slab with two delicate circular vortex-fan openings indicated by precise particles. Architectural and abstract, recognizable as the GPU category. A few tiny particles elegantly dissolve at the far right edge.",
+      "path": "/workspace/scratch/ff935eba21d9/generated_images/exec-f7b4c284-b814-4fd1-882b-ad1382fea330.png",
+      "integratedPath": "dist/assets/particles/gpu.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 1479091,
+      "outerEdgeMean": 0.07105305989583334,
+      "outerEdgeMax": 1,
+      "mode": "built-in imagegen",
+      "use": "decorative category illustration, not product-specific"
+    },
+    {
+      "id": "smartphone",
+      "prompt": "Use case: stylized-concept. Asset type: standalone PNG illustration for the TechRef category interface. Landscape 1536x1024 composition. An ultra minimal, refined monochrome point-cloud sculpture in a completely PURE BLACK #000000 infinite void. The subject is made entirely of tiny white and silver light particles and very fine filament traces, with translucent gaps and crisp softly luminous contours. Controlled white bloom only, no colored light. Sophisticated scientific/editorial 3D aesthetic, calm and precisely formed, not explosive. Subject takes about 62% of image width and 58% of height, centered, generous absolutely black empty margins on all four sides; sparse particles very close to subject, completely fade before image edges. Background must be perfectly flat pure black, no gray haze, no gradients, no room, no floor, no reflection, no stars spread across frame. No text, no logo, no brand, no UI, no border, no watermark. Generic conceptual category illustration, NOT a depiction of a named commercial model.\nSubject: one slim tall phone-like rounded rectangular monolith in three-quarter perspective, slightly tilted, with a dark empty interior screen encircled by precise luminous particle contours. Small concentrated particles gently dissipate from the lower right edge. No camera branding or buttons or text.",
+      "path": "/workspace/scratch/ff935eba21d9/generated_images/exec-ce2e2d06-bfb4-4dd0-aea3-e9df6cbe2920.png",
+      "integratedPath": "dist/assets/particles/smartphone.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 832789,
+      "outerEdgeMean": 0.057633463541666666,
+      "outerEdgeMax": 1,
+      "mode": "built-in imagegen",
+      "use": "decorative category illustration, not product-specific"
+    },
+    {
+      "id": "schermi",
+      "prompt": "Use case: stylized-concept. Asset type: standalone PNG illustration for the TechRef category interface. Landscape 1536x1024 composition. An ultra minimal, refined monochrome point-cloud sculpture in a completely PURE BLACK #000000 infinite void. The subject is made entirely of tiny white and silver light particles and very fine filament traces, with translucent gaps and crisp softly luminous contours. Controlled white bloom only, no colored light. Sophisticated scientific/editorial 3D aesthetic, calm and precisely formed, not explosive. Subject takes about 62% of image width and 58% of height, centered, generous absolutely black empty margins on all four sides; sparse particles very close to subject, completely fade before image edges. Background must be perfectly flat pure black, no gray haze, no gradients, no room, no floor, no reflection, no stars spread across frame. No text, no logo, no brand, no UI, no border, no watermark. Generic conceptual category illustration, NOT a depiction of a named commercial model.\nSubject: a very thin wide landscape display plane, in elegant three-quarter perspective, formed by a fine rectangular cloud of white light particles, a subtle fluid ribbon of particles crossing its interior. No stand, no desk. Clearly wider than tall, minimal and abstract.",
+      "path": "/workspace/scratch/ff935eba21d9/generated_images/exec-7683bd8c-f2f4-4d81-8a51-cba02388f20b.png",
+      "integratedPath": "dist/assets/particles/schermi.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 1242439,
+      "outerEdgeMean": 0.06494954427083334,
+      "outerEdgeMax": 1,
+      "mode": "built-in imagegen",
+      "use": "decorative category illustration, not product-specific"
+    },
+    {
+      "id": "chip",
+      "prompt": "Use case: stylized-concept. Asset type: standalone PNG illustration for the TechRef category interface. Landscape 1536x1024 composition. An ultra minimal, refined monochrome point-cloud sculpture in a completely PURE BLACK #000000 infinite void. The subject is made entirely of tiny white and silver light particles and very fine filament traces, with translucent gaps and crisp softly luminous contours. Controlled white bloom only, no colored light. Sophisticated scientific/editorial 3D aesthetic, calm and precisely formed, not explosive. Subject takes about 62% of image width and 58% of height, centered, generous absolutely black empty margins on all four sides; sparse particles very close to subject, completely fade before image edges. Background must be perfectly flat pure black, no gray haze, no gradients, no room, no floor, no reflection, no stars spread across frame. No text, no logo, no brand, no UI, no border, no watermark. Generic conceptual category illustration, NOT a depiction of a named commercial model.\nSubject: a single square microprocessor-like sculpture in three-quarter isometric perspective, floating steadily, made of micro-particles. Fine short paths and tiny terminals radiate from four sides in a highly orderly pattern. Dark center with delicate pinprick lights, subtle concentrated particle halo, no lettering or circuit labels.",
+      "path": "/workspace/scratch/ff935eba21d9/generated_images/exec-b2855dec-7b98-4bab-aa2a-82e30bf7e0de.png",
+      "integratedPath": "dist/assets/particles/chip.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 1328682,
+      "outerEdgeMean": 0.055037434895833334,
+      "outerEdgeMax": 1,
+      "mode": "built-in imagegen",
+      "use": "decorative category illustration, not product-specific"
+    },
+    {
+      "id": "sensori",
+      "prompt": "Use case: stylized-concept. Asset type: standalone PNG illustration for the TechRef category interface. Landscape 1536x1024 composition. An ultra minimal, refined monochrome point-cloud sculpture in a completely PURE BLACK #000000 infinite void. The subject is made entirely of tiny white and silver light particles and very fine filament traces, with translucent gaps and crisp softly luminous contours. Controlled white bloom only, no colored light. Sophisticated scientific/editorial 3D aesthetic, calm and precisely formed, not explosive. Subject takes about 62% of image width and 58% of height, centered, generous absolutely black empty margins on all four sides; sparse particles very close to subject, completely fade before image edges. Background must be perfectly flat pure black, no gray haze, no gradients, no room, no floor, no reflection, no stars spread across frame. No text, no logo, no brand, no UI, no border, no watermark. Generic conceptual category illustration, NOT a depiction of a named commercial model.\nSubject: a camera imaging sensor represented as a square wafer behind one delicate circular concentric optical ring, both built from fine silver-white particle points. A dark central aperture, restrained spherical depth, subtle pinpoint rim lights. Front three-quarter viewpoint, not a complete camera, no lens brand.",
+      "path": "/workspace/scratch/ff935eba21d9/generated_images/exec-3619e7ea-c677-48db-9558-2ae535f551cf.png",
+      "integratedPath": "dist/assets/particles/sensori.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 1408721,
+      "outerEdgeMean": 0.06371256510416666,
+      "outerEdgeMax": 1,
+      "mode": "built-in imagegen",
+      "use": "decorative category illustration, not product-specific"
+    },
+    {
+      "id": "console",
+      "prompt": "Use case: stylized-concept. Asset type: standalone PNG illustration for the TechRef category interface. Landscape 1536x1024 composition. An ultra minimal, refined monochrome point-cloud sculpture in a completely PURE BLACK #000000 infinite void. The subject is made entirely of tiny white and silver light particles and very fine filament traces, with translucent gaps and crisp softly luminous contours. Controlled white bloom only, no colored light. Sophisticated scientific/editorial 3D aesthetic, calm and precisely formed, not explosive. Subject takes about 62% of image width and 58% of height, centered, generous absolutely black empty margins on all four sides; sparse particles very close to subject, completely fade before image edges. Background must be perfectly flat pure black, no gray haze, no gradients, no room, no floor, no reflection, no stars spread across frame. No text, no logo, no brand, no UI, no border, no watermark. Generic conceptual category illustration, NOT a depiction of a named commercial model.\nSubject: a minimal tall console-like sculptural monolith accompanied by one small abstract game controller silhouette, both formed entirely from white micro-particles and delicate filaments. Calm three-quarter perspective, simple geometric volumes, dark hollows, generic form with no resemblance to a specific branded console.",
+      "path": "/workspace/scratch/ff935eba21d9/generated_images/exec-29582e9f-72b9-4cb5-b6f7-0c32efab6ad2.png",
+      "integratedPath": "dist/assets/particles/console.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 1321188,
+      "outerEdgeMean": 0.072314453125,
+      "outerEdgeMax": 1,
+      "mode": "built-in imagegen",
+      "use": "decorative category illustration, not product-specific"
+    }
+  ]
+}
