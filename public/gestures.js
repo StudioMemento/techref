@@ -6,7 +6,8 @@
     if (Math.max(x, y) < 10) return null;
     if (x > y * 1.2) return 'property';
     if (y > x * 1.2) return 'device';
-    return Math.max(x, y) > 24 ? (x >= y ? 'property' : 'device') : null;
+    // Ambiguous diagonals do not choose a destination on the user's behalf.
+    return null;
   };
   function evaluate(distance, extent, velocity = 0) {
     const threshold = Math.max(44, Math.min(90, extent * 0.17));

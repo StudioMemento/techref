@@ -1,2 +1,9 @@
 <!doctype html>
-<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#000"><meta name="description" content="Tre GPU, una caratteristica alla volta. TechRef."><title>TechRef — GPU</title><link rel="stylesheet" href="style.css?v=3"></head><body><div id="app"></div><dialog id="detail" aria-labelledby="detail-title"></dialog><div id="announce" class="sr" aria-live="polite"></div><script src="data.js"></script><script src="../gestures.js?v=8"></script><script src="app.js?v=3"></script></body></html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TechRef — GPU</title><meta name="theme-color" content="#000000"><style>body{background:#000;color:#fff;font:16px system-ui;padding:40px}a{color:inherit}</style></head><body><p><a href="../#/categoria/gpu">Apri le GPU in TechRef</a></p><script>
+// Preserve the old Focus URLs, including links opened in another tab.
+const [view,id,topic]=location.hash.replace(/^#\//,'').split('/');
+const topics={panoramica:'overview',memoria:'memory',calcolo:'performance',energia:'energy',prezzo:'value'};
+const known=['nvidia-geforce-rtx-5090-32-gb-gddr7','nvidia-geforce-rtx-4090-24-gb-gddr6x','nvidia-geforce-rtx-3090-24-gb-gddr6x'];
+const route=view==='gpu'&&known.includes(id)?'prodotto/'+id+'/'+(topics[decodeURIComponent(topic||'')]||'overview'):'categoria/gpu';
+location.replace('../#/'+route);
+</script></body></html>

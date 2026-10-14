@@ -1,151 +1,1418 @@
 (() => {
-'use strict';
-const D=window.TECHREF, E=window.TechRefExperience, cats=D.categories, products=D.products;
-const $=s=>document.querySelector(s), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const C=id=>cats.find(c=>c.id===id), P=id=>products.find(p=>p.id===(D.aliases?.[id]||id)), all=id=>products.filter(p=>p.cat===id);
-const state={prefs:{},selected:{},menu:false,onlyDiff:false,lastCat:'gpu',route:null,motion:'',explored:false,dialogMode:'',searchCat:null,wheelUntil:0,catalogFocus:{},axisIndex:0,listScroll:{},gestureCleanup:null};
-const paths={gpu:'M3 6h18v12H3zM3 18v3M7 18v3M11 18v3M8 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6M16 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6',smartphone:'M8 2h8a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2M11 18h2',monitor:'M4 3h16a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2M12 18v4M8 22h8',cpu:'M7 7h10v10H7zM3 7h4M3 12h4M3 17h4M17 7h4M17 12h4M17 17h4M7 3v4M12 3v4M17 3v4M7 17v4M12 17v4M17 17v4',camera:'M3 7h4l2-4h6l2 4h4v14H3zM12 10a4 4 0 1 0 0 8 4 4 0 0 0 0-8',gamepad:'M6 7h12a3 3 0 0 1 3 2l2 10a2 2 0 0 1-3 2l-4-4H8l-4 4a2 2 0 0 1-3-2L3 9a3 3 0 0 1 3-2M7 9v6M4 12h6M16 11h.01M19 14h.01',grid:'M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h7v7h-7z',search:'M10 3a7 7 0 1 0 0 14 7 7 0 0 0 0-14M15 15l6 6',compare:'M8 3v18M16 3v18M3 7h5M3 17h5M16 7h5M16 17h5',info:'M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20M12 11v6M12 7h.01',close:'M6 6l12 12M6 18 18 6',plus:'M12 5v14M5 12h14',check:'m5 12 4 4 10-10',menu:'M3 6h18M3 12h18M3 18h18',up:'m6 15 6-6 6 6',down:'m6 9 6 6 6-6',left:'m15 6-6 6 6 6',right:'m9 6 6 6-6 6',arrow:'M5 12h14m-5-5 5 5-5 5',link:'M14 3h7v7M10 14 21 3M21 14v7H3V3h7'};
-const icon=(name,size=20)=>`<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${paths[name]||paths.info}"/></svg>`;
-const href=(path,label,cls='',extra='')=>`<a class="${cls}" href="${path==='focus'?'./focus/#/catalogo':'#/'+path}" ${extra}>${label}</a>`;
-const btn=(act,label,cls='',extra='')=>`<button type="button" class="${cls}" data-action="${act}" ${extra}>${label}</button>`;
-const selected=cat=>state.selected[cat]||[];
-const prefs=c=>state.prefs[c.id]||(state.prefs[c.id]={brand:'Tutti',series:'Tutte',platform:'Android',family:'Tutte',query:'',limit:40,sort:c.sorts[0].key});
-const order=c=>c.sorts.find(s=>s.key===prefs(c).sort)||c.sorts[0];
-const field=(c,key)=>c.fields.find(f=>f.key===key)||{key,label:key,unit:''};
-const value=(p,key)=>{let v=p.stats[key];if(v===null||v===undefined)return 'N/D';return typeof v==='number'?(key==='year'?String(v)+(p.yearUnverified?'†':''):v.toLocaleString('it-IT',{maximumFractionDigits:2})):v;};
-const fmt=(p,key)=>{if(key==='pixels')return value(p,'resolution');let v=value(p,key),unit=field(C(p.cat),key).unit;return v+(unit&&v!=='N/D'?' '+unit:'');};
-function ordered(c,filtered=true){const f=prefs(c),s=order(c);return all(c.id).filter(p=>!filtered||((f.brand==='Tutti'||p.brand===f.brand)&&(f.series==='Tutte'||p.stats.series===f.series)&&(f.family==='Tutte'||p.family===f.family)&&(c.id!=='smartphone'||p.stats.platform===f.platform)&&(!f.query||searchText(p).includes(f.query.toLowerCase())))).sort((a,b)=>{const x=a.stats[s.key],y=b.stats[s.key];if(x==null&&y==null)return (b.stats.year||0)-(a.stats.year||0)||a.name.localeCompare(b.name,'it');if(x==null)return 1;if(y==null)return -1;return (s.dir==='asc'?x-y:y-x)||a.name.localeCompare(b.name,'it');});}
-function ensureVisible(p){const f=prefs(C(p.cat));if(f.brand!=='Tutti'&&f.brand!==p.brand)f.brand='Tutti';if(f.series!=='Tutte'&&f.series!==p.stats.series)f.series='Tutte';if(f.family!=='Tutte'&&f.family!==p.family)f.family='Tutte';if(f.query&&!searchText(p).includes(f.query.toLowerCase()))f.query='';if(p.cat==='smartphone')f.platform=p.stats.platform;}
-const topics=c=>E.topics(c);
-const productPath=(p,key)=>'prodotto/'+p.id+'/'+(key||'overview');
-paths.more='M4 12h.01M12 12h.01M20 12h.01';
-paths.filter='M4 7h16M4 17h16M8 4v6M16 14v6';
-const go=path=>{const next='#/'+path;if(location.hash===next)render();else location.hash=next;};
-function parse(){let [view='atlante',id,key]=location.hash.replace(/^#\/?/,'').split('/').filter(Boolean);if(view==='percorsi')view='metodo';const r={view,id,key};if(view==='categoria'||view==='confronto'){r.cat=C(id)?.id;if(view==='categoria'&&!r.cat)r.view='missing';if(r.cat&&view==='confronto')r.key=E.normalize(C(r.cat),key);}if(view==='prodotto'){const p=P(id);if(!p)r.view='missing';else{r.id=p.id;r.cat=p.cat;const aliases={display:p.cat==='schermi'?'screen':'screen',motion:'motion',power:p.cat==='gpu'?'energy':'performance',use:'overview'};r.key=E.normalize(C(p.cat),aliases[key]||key);}}if(!['atlante','categoria','prodotto','confronto','metodo','missing'].includes(r.view))r.view='missing';return r;}
-function shell(content){
- const r=state.route,count=Object.values(state.selected).reduce((a,b)=>a+b.length,0),isProduct=r.view==='prodotto';
- const back=isProduct?href('categoria/'+r.cat,icon('left',18)+C(r.cat).name,'back-category'):r.view==='atlante'?'':href('atlante',icon('left',18)+'Categorie','back-category');
- return `<div class="workspace ${isProduct?'is-viewer':''}"><header class="topbar">${href('atlante','tech<span>ref</span>','logo','aria-label="TechRef, categorie"')}<nav class="top-location" aria-label="Navigazione">${back}</nav><div class="top-actions">${btn('search',icon('search',20),'icon-button','aria-label="Cerca prodotti" title="Cerca"')}${count&&!isProduct?href('confronto/'+state.lastCat,icon('compare',20)+`<small>${count}</small>`,'selection-indicator',`aria-label="Apri confronto, ${count} selezionati"`):''}${btn('options',icon('more',22),'icon-button','aria-label="Altre opzioni" title="Opzioni"')}</div></header><main id="main" tabindex="-1" class="${isProduct?'viewer-main':''}">${content}</main>${isProduct?'':`<footer>${btn('help','Come navigare','text-button')}${href('metodo','Fonti e metriche','text-button')}</footer>`}</div>`;
-}
-function crumb(c,p){return `<nav class="breadcrumbs" aria-label="Percorso">${href('atlante','Categorie')}<span>/</span>${p?href('categoria/'+c.id,c.name):`<span>${c.name}</span>`}</nav>`;}
-function atlas(){return `<div class="page-heading home-heading"><h1>Categorie</h1></div><section class="category-grid visual-categories" aria-label="Categorie" data-axis-surface="atlas">${cats.map((c,i)=>href(c.id==='gpu'?'focus':'categoria/'+c.id,`<div class="category-art"><img src="${categoryImage(c.id)}" alt="" loading="${i<3?'eager':'lazy'}" decoding="async" width="1536" height="1024" draggable="false"></div><div class="category-copy"><h2>${c.name}</h2></div><span class="category-enter" aria-hidden="true">${icon('right',20)}</span>`,'category-card',`data-axis-item="${i}"`)).join('')}</section>`;}
-function controls(c){const f=prefs(c),brands=['Tutti',...new Set(all(c.id).map(p=>p.brand))],series=[...new Set(all(c.id).filter(p=>f.brand==='Tutti'||p.brand===f.brand).map(p=>p.stats.series).filter(Boolean))];return `<div class="catalog-controls"><div class="filter-group">${c.id==='smartphone'?`<div class="segmented" aria-label="Piattaforma">${['Android','iOS'].map(v=>btn('platform',v,f.platform===v?'active':'',`data-value="${v}" aria-pressed="${f.platform===v}"`)).join('')}</div>`:''}<label class="select-wrap"><span>Marca</span><select id="brand-filter">${brands.map(v=>`<option value="${esc(v)}" ${f.brand===v?'selected':''}>${esc(v)}</option>`).join('')}</select></label>${series.length?`<label class="select-wrap"><span>Serie</span><select id="series-filter"><option value="Tutte">Tutte le serie</option>${series.map(v=>`<option value="${esc(v)}" ${f.series===v?'selected':''}>${esc(v)}</option>`).join('')}</select></label>`:''}${c.id==='console'?`<label class="select-wrap"><span>Famiglia</span><select id="family-filter"><option value="Tutte">Tutte le famiglie</option>${familyNames().map(v=>`<option value="${esc(v)}" ${f.family===v?'selected':''}>${esc(v)}</option>`).join('')}</select></label>`:''}</div><label class="sort-control"><span>Ordine</span><select id="sort-order">${c.sorts.map(s=>`<option value="${s.key}" ${s.key===f.sort?'selected':''}>${s.label} ${s.dir==='asc'?'↑':'↓'}</option>`).join('')}</select></label></div>`;}
-function metricSub(c,p){if(c.id==='gpu')return [p.stats.architecture,p.stats.memory!=null?fmt(p,'memory'):'',p.stats.memoryType].filter(Boolean).join(' · ');if(c.id==='smartphone')return [p.stats.chip,p.stats.year,p.rank?'#'+p.rank+' AnTuTu':''].filter(Boolean).join(' · ');if(c.id==='schermi')return [p.stats.panel,p.stats.resolution,fmt(p,'ms')].filter(Boolean).join(' · ');if(c.id==='chip')return [p.stats.cpuCores!=null?p.stats.cpuCores+' core CPU':p.stats.cpu,p.stats.graphics].filter(Boolean).join(' · ');return [p.family||p.brand,p.variant].filter(Boolean).join(' · ');}
-function selectButton(p,compact=false){const yes=selected(p.cat).includes(p.id);return btn('select',icon(yes?'check':'plus',17)+(compact?'':`<span>${yes?'Aggiunto':'Confronta'}</span>`),'select-button '+(yes?'selected':'')+(compact?' compact':''),`data-id="${p.id}" aria-pressed="${yes}" aria-label="${yes?'Rimuovi':'Aggiungi'} ${esc(p.name)} ${yes?'dal':'al'} confronto" title="${yes?'Rimuovi dal':'Aggiungi al'} confronto"`);}
-function category(c){const list=ordered(c),s=order(c),f=prefs(c),scope=[f.brand!=='Tutti'?f.brand:'',f.series!=='Tutte'?f.series:''].filter(Boolean).join(' · '),ci=cats.indexOf(c);const nav=dir=>href('categoria/'+cats[(ci+dir+cats.length)%cats.length].id,icon(dir<0?'left':'right',17),'icon-button',`aria-label="Categoria ${dir<0?'precedente':'successiva'}"`);return `${crumb(c)}<div class="page-heading"><h1>${c.name}<span class="heading-count">${all(c.id).length}</span></h1><div class="category-axis">${nav(-1)}${nav(1)}${btn('filters',icon('filter',18)+'<span>Filtri</span>','filter-button',`data-cat="${c.id}" aria-label="Filtri"`)}</div></div>${c.id==='console'?familyStrip():''}<div class="catalog-caption"><div>${c.id==='smartphone'?`<div class="platform-switch">${['Android','iOS'].map(v=>btn('platform',v==='iOS'?'iPhone':v,f.platform===v?'active':'',`data-value="${v}" aria-pressed="${f.platform===v}"`)).join('')}</div>`:`<span>${esc(scope||'Prodotti')}</span>`}</div>${btn('filters',s.label+' '+icon(s.dir==='asc'?'up':'down',13),'text-button',`data-cat="${c.id}" aria-label="Modifica ordine per ${s.label}"`)}</div><label class="catalog-search">${icon('search',17)}<input id="catalog-search" type="search" placeholder="Cerca in ${c.name}…" value="${esc(f.query)}" autocomplete="off" aria-label="Cerca in ${c.name}"><span>${list.length}</span></label><section class="product-list type-catalog" data-axis-surface="catalog" aria-label="${c.name}, ordine ${s.label}">${list.length?list.slice(0,f.limit).map((p,i)=>`<article class="product-row ${state.catalogFocus[c.id]===p.id?'axis-selected':''}" data-row-id="${p.id}">${href(productPath(p),`<span class="row-rank">${p.stats[s.key]==null?'—':String(i+1).padStart(2,'0')}</span><div class="row-name"><span class="eyebrow">${esc(p.brand)}</span><h2>${esc(p.cat==='gpu'?p.short:p.name)}</h2></div><div class="row-metric"><strong>${esc(value(p,s.key==='pixels'?'resolution':s.key))}</strong><small>${field(c,s.key).unit||s.label}</small></div><span class="row-preview" aria-hidden="true"><img src="${esc(imageFor(p))}" alt="" loading="lazy" width="480" height="320" draggable="false"></span>`,'product-open',`data-row-open="${p.id}"`)}<div class="row-chipline">${E.chips(p,c.id==='gpu'?['memory','launchPrice']:c.id==='chip'?['cpuCores','graphics']:c.id==='smartphone'?['chip','year']:c.id==='schermi'?['panel','resolution']:c.id==='sensori'?['format','pixel']:['family','year'])}</div>${selectButton(p,true)}</article>`).join(''):`<div class="empty"><h2>Nessun prodotto</h2>${btn('reset-filters','Azzera filtri','button')}</div>`}</section>${list.length>f.limit?`<div class="load-more">${btn('more-products',`Mostra altri ${Math.min(40,list.length-f.limit)}`,'text-button')}</div>`:''}<p class="dataset-note">${esc(c.id==='smartphone'?(f.platform==='Android'?D.benchmarkLabel:'Lineup iPhone · punteggi iOS separati'):c.id==='gpu'?'Desktop · FP32 teorici · listino USA al lancio':c.id==='chip'?'Indice NanoReview · benchmark e fonti nelle schede':c.id==='console'?'Revisioni hardware · anno del primo lancio':c.note)}</p>${tray(c.id)}`;}
-function tray(cat){const list=selected(cat);return list.length?`<aside class="compare-tray" aria-label="Selezione confronto"><span>${list.length}/3 selezionati</span>${href('confronto/'+cat,'Confronta','text-button')}${btn('clear',icon('close',17),'icon-button',`data-cat="${cat}" aria-label="Svuota selezione"`)}</aside>`:'';}
-function glance(p,c){const keys={gpu:['memory','architecture','cores','year'],smartphone:['chip','size','hz','year'],schermi:['panel','resolution','hz','ms'],chip:['cpuCores','graphics','process','year'],sensori:['format','pixel','technology'],console:['cpu','gpu','storage','year']}[c.id];return `<dl class="glance">${keys.filter(k=>p.stats[k]!=null).map(k=>`<div><dd>${esc(fmt(p,k))}</dd><dt>${k==='memory'?'Memoria · '+(p.stats.memoryType||''):field(c,k).label}</dt></div>`).join('')}</dl>`;}
-function sectionLabel(c,key){const names={gpu:{overview:'Sintesi',performance:'Potenza',memory:'Memoria',energy:'Consumi',value:'Prezzo'},smartphone:{overview:'Sintesi',performance:'Test',screen:'Display',memory:'Memoria',identity:'Modello'},chip:{overview:'Sintesi',performance:'Test',cpu:'CPU',graphics:'GPU',platform:'Sistema'},schermi:{overview:'Sintesi',screen:'Immagine',motion:'Fluidità'},sensori:{overview:'Sintesi',detail:'Dettaglio',light:'Luce',technology:'Tecnologia'},console:{overview:'Sintesi',performance:'Hardware',experience:'Uso',wiki:'Storia'}};return names[c.id]?.[key]||key;}
-function destination(axis,dir){const r=state.route;if(r.view!=='prodotto')return null;const c=C(r.cat),list=axis==='device'?ordered(c):topics(c),i=axis==='device'?list.findIndex(p=>p.id===r.id):list.findIndex(t=>t.key===r.key),next=list[i+dir];return next?(axis==='device'?productPath(next,r.key):productPath(P(r.id),next.key)):null;}
-function readerGraphic(p,key){
- if(key==='overview')return `<div class="reader-art"><img src="${esc(heroImage(p))}" alt="" width="1536" height="1024" draggable="false"><small>Illustrazione di categoria</small></div>`;
- if(key==='wiki')return `<div class="reader-intro">${esc(p.wiki?.intro||'Scopri la storia di questa famiglia di console.')}</div>`;
- const visual=E.visual(p,key);
- if(!visual||visual.includes('visual-empty'))return '';
- return `<div class="reader-graphic" aria-label="${esc(sectionLabel(C(p.cat),key))}: spiegazione visiva"><div class="graphic-preview">${visual.replace(/<details class="source-disclosure">[\s\S]*?<\/details>/g,'')}</div></div>`;
-}
-function explorer(p,c,r){
- const list=ordered(c),idx=list.indexOf(p),ts=topics(c),section=ts.find(t=>t.key===r.key)||ts[0],pos=ts.indexOf(section),overview=r.key==='overview',key=E.primary(p,r.key),f=E.field(p,key),missing=p.stats[key]==null||p.stats[key]==='',v=missing?'Non disponibile':value(p,key);
- const graphic=readerGraphic(p,r.key),facts=section.keys.filter(k=>k!==key&&!(graphic&&r.key==='cpu'&&k==='clusters')).slice(0,3);
- const labels={tflops:'TFLOPS · potenza teorica',nanoScore:'Punti NanoReview · su 100',launchPrice:'USD · listino al lancio',valuePer100:'TFLOPS per 100 USD',antutu:'Punti AnTuTu 11',cpuCores:'Core CPU',graphics:'Processore grafico',hz:'Hz · aggiornamenti al secondo',resolution:'Risoluzione in pixel',power:'W · potenza dichiarata'};
- const metricLabel=labels[key]||(f.unit&&f.unit!=='punti'?f.unit+' · '+f.label:f.label);
- const brief=E.brief(p,key);
- const step=dir=>{const other=list[idx+dir],label=dir<0?'Precedente':'Successivo';return other?href(productPath(other,r.key),`${icon(dir<0?'up':'down',18)}<span class="step-label"><strong>${esc(other.cat==='gpu'?other.short:other.name)}</strong></span>`,'product-step '+(dir<0?'previous':'next'),`data-step="${dir}" aria-label="Prodotto ${label.toLowerCase()}: ${esc(other.name)}" title="${esc(other.name)}"`):`<span class="product-step is-edge ${dir<0?'previous':'next'}">${icon(dir<0?'up':'down',16)}<small class="sr-only">${dir<0?'Inizio elenco':'Fine elenco'}</small></span>`;};
- const arrow=dir=>{const target=destination('property',dir),other=ts[pos+dir],label=other?sectionLabel(c,other.key):'';return target?href(target,icon(dir<0?'left':'right',20),'section-arrow',`aria-label="Sezione ${dir<0?'precedente':'successiva'}: ${label}"`):`<button class="section-arrow" disabled aria-label="${dir<0?'Prima':'Ultima'} sezione">${icon(dir<0?'left':'right',20)}</button>`;};
- return `<section class="product-reader ${overview?'is-overview':'is-detail'}" data-swipe="true" data-axis-surface="product" aria-label="${esc(p.name)}" aria-describedby="gesture-legend">
-  <header class="reader-heading"><div><span class="eyebrow">${esc(p.brand)}${p.stats.year?' · '+esc(value(p,'year')):''}</span><h1>${esc(p.cat==='gpu'?p.short:p.name)}</h1><p class="variant">${esc(p.variant)}</p></div>${href('categoria/'+c.id,`<strong>${idx+1}<span> / ${list.length}</span></strong><small>Elenco ${esc(c.name)}</small>`,'reader-position',`aria-label="Prodotto ${idx+1} di ${list.length}. Torna all’elenco ${esc(c.name)}"`)}</header>
-  <div class="reader-surface">${step(-1)}<div class="reader-window"><div class="reader-card ${state.motion} ${graphic?'has-graphic':''}">
-   <div class="reader-value"><span class="reader-section">${esc(sectionLabel(c,r.key))}</span>${btn('info',`<strong class="${v.length>17?'is-text':v.length>9?'is-long':''}">${esc(v)}</strong><span>${esc(metricLabel)} ${icon('info',13)}</span>`,'reader-metric',`data-id="${p.id}" data-key="${key}" aria-haspopup="dialog" aria-label="${esc(f.label)}: ${esc(E.fmt(p,key))}. Spiegazione"`)}${!overview&&brief?`<p class="reader-meaning">${esc(brief)}</p>`:''}</div>
-   ${graphic}<div class="reader-facts">${E.chips(p,facts)}</div>
-  </div></div>${step(1)}<div class="swipe-cue cue-left" aria-hidden="true">${icon('left',28)}</div><div class="swipe-cue cue-right" aria-hidden="true">${icon('right',28)}</div></div>
-  <footer class="reader-footer"><div class="reader-controls"><div class="reader-current-row">${btn('properties',esc(sectionLabel(c,r.key))+' '+icon('down',13),'reader-current',`aria-haspopup="dialog" aria-label="${esc(sectionLabel(c,r.key))}. Scegli sezione"`)}</div><nav class="reader-sections" aria-label="Sezioni del prodotto">${arrow(-1)}<div class="section-tabs">${ts.map(t=>href(productPath(p,t.key),'<span class="sr-only">'+sectionLabel(c,t.key)+'</span>','section-tab '+(t.key===r.key?'active':''),`data-reader-tab="${t.key}" title="${esc(sectionLabel(c,t.key))}" aria-label="${esc(sectionLabel(c,t.key))}" ${t.key===r.key?'aria-current="page"':''}`)).join('')}</div>${arrow(1)}</nav></div><div class="reader-actions">${btn('section-details',icon('plus',17)+'<span class="sr-only">Dettagli</span>','icon-button',`data-id="${p.id}" data-key="${r.key}" title="Dettagli" aria-label="Apri tutti i dettagli: ${esc(sectionLabel(c,r.key))}" aria-haspopup="dialog"`)}</div><p id="gesture-legend" class="sr-only">Su e giù: cambia prodotto. Destra e sinistra: cambia sezione. Usa frecce, tastiera o swipe.</p></footer>
- </section>`;
-}
-function sectionDetails(id,key){
- const p=P(id);if(!p)return;const c=C(p.cat),t=topics(c).find(x=>x.key===key)||topics(c)[0],visual=key==='overview'?'':E.visual(p,key);
- openDialog(`<span class="eyebrow">${esc(p.short||p.name)}</span><h2 id="dialog-title">${esc(sectionLabel(c,t.key))}</h2>${E.chips(p,t.keys)}${visual&&!visual.includes('visual-empty')?`<div class="section-detail-visual">${visual}</div>`:''}${p.cat==='console'?btn('wiki','Leggi la mini wiki '+icon('arrow',15),'button',`data-id="${p.id}"`):''}<div class="source-links">${btn('sources','Fonti e specifiche','text-button',`data-id="${p.id}"`)}</div>`,'section-dialog');
- state.dialogMode='section';
-}
+  "use strict";
+  const D = window.TECHREF,
+    E = window.TechRefExperience,
+    cats = D.categories,
+    products = D.products;
+  const $ = (s) => document.querySelector(s),
+    esc = (s) =>
+      String(s ?? "").replace(
+        /[&<>"']/g,
+        (c) =>
+          ({
+            "&": "&amp;",
+            "<": "&lt;",
+            ">": "&gt;",
+            '"': "&quot;",
+            "'": "&#39;",
+          })[c],
+      );
+  const C = (id) => cats.find((c) => c.id === id),
+    P = (id) => products.find((p) => p.id === (D.aliases?.[id] || id)),
+    all = (id) => products.filter((p) => p.cat === id);
+  const state = {
+    prefs: {},
+    selected: {},
+    menu: false,
+    onlyDiff: false,
+    lastCat: "gpu",
+    route: null,
+    motion: "",
+    explored: false,
+    dialogMode: "",
+    searchCat: null,
+    wheelUntil: 0,
+    catalogFocus: {},
+    axisIndex: 0,
+    listScroll: {},
+    gestureCleanup: null,
+  };
+  const paths = {
+    gpu: "M3 6h18v12H3zM3 18v3M7 18v3M11 18v3M8 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6M16 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6",
+    smartphone:
+      "M8 2h8a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2M11 18h2",
+    monitor:
+      "M4 3h16a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2M12 18v4M8 22h8",
+    cpu: "M7 7h10v10H7zM3 7h4M3 12h4M3 17h4M17 7h4M17 12h4M17 17h4M7 3v4M12 3v4M17 3v4M7 17v4M12 17v4M17 17v4",
+    camera: "M3 7h4l2-4h6l2 4h4v14H3zM12 10a4 4 0 1 0 0 8 4 4 0 0 0 0-8",
+    gamepad:
+      "M6 7h12a3 3 0 0 1 3 2l2 10a2 2 0 0 1-3 2l-4-4H8l-4 4a2 2 0 0 1-3-2L3 9a3 3 0 0 1 3-2M7 9v6M4 12h6M16 11h.01M19 14h.01",
+    grid: "M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h7v7h-7z",
+    search: "M10 3a7 7 0 1 0 0 14 7 7 0 0 0 0-14M15 15l6 6",
+    compare: "M8 3v18M16 3v18M3 7h5M3 17h5M16 7h5M16 17h5",
+    info: "M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20M12 11v6M12 7h.01",
+    close: "M6 6l12 12M6 18 18 6",
+    plus: "M12 5v14M5 12h14",
+    check: "m5 12 4 4 10-10",
+    menu: "M3 6h18M3 12h18M3 18h18",
+    up: "m6 15 6-6 6 6",
+    down: "m6 9 6 6 6-6",
+    left: "m15 6-6 6 6 6",
+    right: "m9 6 6 6-6 6",
+    arrow: "M5 12h14m-5-5 5 5-5 5",
+    link: "M14 3h7v7M10 14 21 3M21 14v7H3V3h7",
+  };
+  const icon = (name, size = 20) =>
+    `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${paths[name] || paths.info}"/></svg>`;
+  const href = (path, label, cls = "", extra = "") =>
+    `<a class="${cls}" href="${path === "focus" ? "./focus/#/catalogo" : "#/" + path}" ${extra}>${label}</a>`;
+  const btn = (act, label, cls = "", extra = "") =>
+    `<button type="button" class="${cls}" data-action="${act}" ${extra}>${label}</button>`;
+  const selected = (cat) => state.selected[cat] || [];
+  const prefs = (c) =>
+    state.prefs[c.id] ||
+    (state.prefs[c.id] = {
+      brand: "Tutti",
+      series: "Tutte",
+      platform: "Android",
+      family: "Tutte",
+      query: "",
+      limit: 40,
+      scope: c.reference ? "selection" : "all",
+      sort: c.sorts[0].key,
+    });
+  const order = (c) =>
+    c.sorts.find((s) => s.key === prefs(c).sort) || c.sorts[0];
+  const field = (c, key) =>
+    c.fields.find((f) => f.key === key) || { key, label: key, unit: "" };
+  const value = (p, key) => {
+    let v = p.stats[key];
+    if (v === null || v === undefined) return "N/D";
+    return typeof v === "number"
+      ? key === "year"
+        ? String(v) + (p.yearUnverified ? "†" : "")
+        : v.toLocaleString("it-IT", { maximumFractionDigits: 2 })
+      : v;
+  };
+  const fmt = (p, key) => {
+    if (key === "pixels") return value(p, "resolution");
+    let v = value(p, key),
+      unit = field(C(p.cat), key).unit;
+    return v + (unit && v !== "N/D" ? " " + unit : "");
+  };
+  function ordered(c, filtered = true) {
+    const f = prefs(c),
+      s = order(c);
+    return all(c.id)
+      .filter(
+        (p) =>
+          !filtered ||
+          ((f.scope !== "selection" || p.selection === "catalog-120") &&
+            (f.brand === "Tutti" || p.brand === f.brand) &&
+            (f.series === "Tutte" || p.stats.series === f.series) &&
+            (f.family === "Tutte" || p.family === f.family) &&
+            (c.id !== "smartphone" || p.stats.platform === f.platform) &&
+            (!f.query || searchText(p).includes(f.query.toLowerCase()))),
+      )
+      .sort((a, b) => {
+        const x = a.stats[s.key],
+          y = b.stats[s.key];
+        if (typeof x !== "number" && typeof y !== "number")
+          return (
+            (a.selectionPosition || 999) - (b.selectionPosition || 999) ||
+            a.name.localeCompare(b.name, "it")
+          );
+        if (typeof x !== "number") return 1;
+        if (typeof y !== "number") return -1;
+        return (
+          (s.dir === "asc" ? x - y : y - x) ||
+          a.name.localeCompare(b.name, "it")
+        );
+      });
+  }
+  function ensureVisible(p) {
+    const f = prefs(C(p.cat));
+    if (!p.selection) f.scope = "all";
+    if (f.brand !== "Tutti" && f.brand !== p.brand) f.brand = "Tutti";
+    if (f.series !== "Tutte" && f.series !== p.stats.series) f.series = "Tutte";
+    if (f.family !== "Tutte" && f.family !== p.family) f.family = "Tutte";
+    if (f.query && !searchText(p).includes(f.query.toLowerCase())) f.query = "";
+    if (p.cat === "smartphone") f.platform = p.stats.platform;
+  }
+  const topics = (c, p) =>
+    E.topics(
+      c,
+      p ||
+        (state.route?.view === "prodotto" && state.route.cat === c.id
+          ? P(state.route.id)
+          : null),
+    );
+  function contextParams(c, p) {
+    const f = prefs(c),
+      q = new URLSearchParams();
+    q.set("set", p && !p.selection ? "all" : f.scope);
+    q.set("order", f.sort);
+    if (c.id === "smartphone")
+      q.set("platform", p?.stats.platform || f.platform);
+    if (f.query) q.set("q", f.query);
+    if (f.brand !== "Tutti") q.set("brand", f.brand);
+    if (f.series !== "Tutte") q.set("series", f.series);
+    if (f.family !== "Tutte") q.set("family", f.family);
+    return "?" + q;
+  }
+  const productPath = (p, key) =>
+    "prodotto/" +
+    p.id +
+    "/" +
+    E.normalize(C(p.cat), key || "overview", p) +
+    contextParams(C(p.cat), p);
+  const categoryPath = (id) => "categoria/" + id + contextParams(C(id));
+  paths.more = "M4 12h.01M12 12h.01M20 12h.01";
+  paths.filter = "M4 7h16M4 17h16M8 4v6M16 14v6";
+  const go = (path) => {
+    const next = "#/" + path;
+    if (location.hash === next) render();
+    else location.hash = next;
+  };
+  function parse() {
+    const [raw, search = ""] = location.hash.replace(/^#\/?/, "").split("?");
+    let [view = "atlante", id, key] = raw.split("/").filter(Boolean);
+    if (view === "percorsi") view = "metodo";
+    const r = { view, id, key };
+    if (view === "categoria" || view === "confronto") {
+      r.cat = C(id)?.id;
+      if (view === "categoria" && !r.cat) r.view = "missing";
+      if (r.cat && view === "confronto") r.key = E.normalize(C(r.cat), key);
+    }
+    if (view === "prodotto") {
+      const p = P(id);
+      if (!p) r.view = "missing";
+      else {
+        r.id = p.id;
+        r.cat = p.cat;
+        const aliases = {
+          display: "screen",
+          motion: "motion",
+          power: p.cat === "gpu" ? "energy" : "performance",
+          use: "overview",
+        };
+        r.key = E.normalize(C(p.cat), aliases[key] || key, p);
+      }
+    }
+    if (r.cat && search) {
+      const q = new URLSearchParams(search),
+        c = C(r.cat),
+        f = prefs(c);
+      f.scope =
+        q.get("set") === "all" ? "all" : c.reference ? "selection" : "all";
+      if (c.sorts.some((s) => s.key === q.get("order")))
+        f.sort = q.get("order");
+      if (["iOS", "Android"].includes(q.get("platform")))
+        f.platform = q.get("platform");
+      f.query = q.get("q") || "";
+      f.brand = q.get("brand") || "Tutti";
+      f.series = q.get("series") || "Tutte";
+      f.family = q.get("family") || "Tutte";
+    }
+    if (
+      ![
+        "atlante",
+        "categoria",
+        "prodotto",
+        "confronto",
+        "metodo",
+        "missing",
+      ].includes(r.view)
+    )
+      r.view = "missing";
+    return r;
+  }
+  function shell(content) {
+    const r = state.route,
+      count = Object.values(state.selected).reduce((a, b) => a + b.length, 0),
+      isProduct = r.view === "prodotto";
+    const back = isProduct
+      ? href(
+          categoryPath(r.cat),
+          icon("left", 18) + C(r.cat).name,
+          "back-category",
+        )
+      : r.view === "atlante"
+        ? ""
+        : href("atlante", icon("left", 18) + "Categorie", "back-category");
+    return `<div class="workspace ${isProduct ? "is-viewer" : ""}"><header class="topbar">${href("atlante", "tech<span>ref</span>", "logo", 'aria-label="TechRef, categorie"')}<nav class="top-location" aria-label="Navigazione">${back}</nav><div class="top-actions">${btn("search", icon("search", 20), "icon-button", 'aria-label="Cerca prodotti" title="Cerca"')}${count && !isProduct ? href("confronto/" + state.lastCat, icon("compare", 20) + `<small>${count}</small>`, "selection-indicator", `aria-label="Apri confronto, ${count} selezionati"`) : ""}${btn("options", icon("more", 22), "icon-button", 'aria-label="Altre opzioni" title="Opzioni"')}</div></header><main id="main" tabindex="-1" class="${isProduct ? "viewer-main" : ""}">${content}</main>${isProduct ? "" : `<footer>${btn("help", "Come navigare", "text-button")}${href("metodo", "Fonti e metriche", "text-button")}</footer>`}</div>`;
+  }
+  function crumb(c, p) {
+    return `<nav class="breadcrumbs" aria-label="Percorso">${href("atlante", "Categorie")}<span>/</span>${p ? href(categoryPath(c.id), c.name) : `<span>${c.name}</span>`}</nav>`;
+  }
+  function atlas() {
+    return `<div class="page-heading home-heading"><h1>Categorie</h1></div><section class="category-grid visual-categories" aria-label="Categorie" data-axis-surface="atlas">${cats.map((c, i) => href(categoryPath(c.id), `<div class="category-art"><img src="${categoryImage(c.id)}" alt="" loading="${i < 3 ? "eager" : "lazy"}" decoding="async" width="1536" height="1024" draggable="false"></div><div class="category-copy"><h2>${c.name}</h2></div><span class="category-enter" aria-hidden="true">${icon("right", 20)}</span>`, "category-card", `data-axis-item="${i}"`)).join("")}</section>`;
+  }
+  function controls(c) {
+    const f = prefs(c),
+      brands = ["Tutti", ...new Set(all(c.id).map((p) => p.brand))],
+      series = [
+        ...new Set(
+          all(c.id)
+            .filter((p) => f.brand === "Tutti" || p.brand === f.brand)
+            .map((p) => p.stats.series)
+            .filter(Boolean),
+        ),
+      ];
+    return `<div class="catalog-controls"><div class="filter-group">${c.id === "smartphone" ? `<div class="segmented" aria-label="Piattaforma">${["Android", "iOS"].map((v) => btn("platform", v, f.platform === v ? "active" : "", `data-value="${v}" aria-pressed="${f.platform === v}"`)).join("")}</div>` : ""}<label class="select-wrap"><span>Marca</span><select id="brand-filter">${brands.map((v) => `<option value="${esc(v)}" ${f.brand === v ? "selected" : ""}>${esc(v)}</option>`).join("")}</select></label>${series.length ? `<label class="select-wrap"><span>Serie</span><select id="series-filter"><option value="Tutte">Tutte le serie</option>${series.map((v) => `<option value="${esc(v)}" ${f.series === v ? "selected" : ""}>${esc(v)}</option>`).join("")}</select></label>` : ""}${
+      c.id === "console"
+        ? `<label class="select-wrap"><span>Famiglia</span><select id="family-filter"><option value="Tutte">Tutte le famiglie</option>${familyNames()
+            .map(
+              (v) =>
+                `<option value="${esc(v)}" ${f.family === v ? "selected" : ""}>${esc(v)}</option>`,
+            )
+            .join("")}</select></label>`
+        : ""
+    }</div><label class="sort-control"><span>Ordine</span><select id="sort-order">${c.sorts.map((s) => `<option value="${s.key}" ${s.key === f.sort ? "selected" : ""}>${s.label} ${s.dir === "asc" ? "↑" : "↓"}</option>`).join("")}</select></label></div>`;
+  }
+  function metricSub(c, p) {
+    if (c.id === "gpu")
+      return [
+        p.stats.architecture,
+        p.stats.memory != null ? fmt(p, "memory") : "",
+        p.stats.memoryType,
+      ]
+        .filter(Boolean)
+        .join(" · ");
+    if (c.id === "smartphone")
+      return [
+        p.stats.chip,
+        p.stats.year,
+        p.rank ? "#" + p.rank + " AnTuTu" : "",
+      ]
+        .filter(Boolean)
+        .join(" · ");
+    if (c.id === "schermi")
+      return [p.stats.panel, p.stats.resolution, fmt(p, "ms")]
+        .filter(Boolean)
+        .join(" · ");
+    if (c.id === "chip")
+      return [
+        p.stats.cpuCores != null ? p.stats.cpuCores + " core CPU" : p.stats.cpu,
+        p.stats.graphics,
+      ]
+        .filter(Boolean)
+        .join(" · ");
+    return [p.family || p.brand, p.variant].filter(Boolean).join(" · ");
+  }
+  function selectButton(p, compact = false) {
+    const yes = selected(p.cat).includes(p.id);
+    return btn(
+      "select",
+      icon(yes ? "check" : "plus", 17) +
+        (compact ? "" : `<span>${yes ? "Aggiunto" : "Confronta"}</span>`),
+      "select-button " + (yes ? "selected" : "") + (compact ? " compact" : ""),
+      `data-id="${p.id}" aria-pressed="${yes}" aria-label="${yes ? "Rimuovi" : "Aggiungi"} ${esc(p.name)} ${yes ? "dal" : "al"} confronto" title="${yes ? "Rimuovi dal" : "Aggiungi al"} confronto"`,
+    );
+  }
+  function category(c) {
+    const list = ordered(c),
+      s = order(c),
+      f = prefs(c),
+      ci = cats.indexOf(c);
+    const nav = (dir) => {
+      const next = cats[ci + dir];
+      return next
+        ? href(
+            categoryPath(next.id),
+            icon(dir < 0 ? "left" : "right", 17),
+            "icon-button",
+            `aria-label="Categoria ${dir < 0 ? "precedente" : "successiva"}: ${next.name}"`,
+          )
+        : `<button class="icon-button" disabled>${icon(dir < 0 ? "left" : "right", 17)}</button>`;
+    };
+    const metricKey =
+      s.key === "selectionPosition"
+        ? { gpu: "tflops", cpu: "boost", ssd: "read", ram: "rate" }[c.id] ||
+          s.key
+        : s.key;
+    const previewKeys =
+      {
+        gpu: ["memory", "architecture"],
+        cpu: ["cpuCores", "threads"],
+        ssd: ["capacity", "interface"],
+        ram: ["capacity", "kit"],
+        smartphone: ["chip", "ram"],
+        chip: ["cpuCores", "graphics"],
+        schermi: ["panel", "resolution"],
+        sensori: ["format", "pixel"],
+        console: ["family", "year"],
+      }[c.id] || [];
+    return `${crumb(c)}<div class="page-heading"><h1>${c.name}<span class="heading-count">${list.length}</span></h1><div class="category-axis">${nav(-1)}${nav(1)}${btn("filters", icon("filter", 18) + "<span>Filtri</span>", "filter-button", `data-cat="${c.id}" aria-label="Filtri e ordine"`)}</div></div>
+ ${c.id === "console" ? familyStrip() : ""}<div class="catalog-caption"><div class="catalog-switches">${c.id === "smartphone" ? `<div class="platform-switch" aria-label="Piattaforma">${["Android", "iOS"].map((v) => btn("platform", v === "iOS" ? "iPhone" : v, f.platform === v ? "active" : "", `data-value="${v}" aria-pressed="${f.platform === v}"`)).join("")}</div>` : ""}${
+   c.archive
+     ? `<div class="scope-switch" aria-label="Raccolta">${[
+         ["selection", c.id === "gpu" ? "Selezione 20" : "Top 20"],
+         ["all", "Archivio"],
+       ]
+         .map(([v, label]) =>
+           btn(
+             "scope",
+             label,
+             f.scope === v ? "active" : "",
+             `data-value="${v}" aria-pressed="${f.scope === v}"`,
+           ),
+         )
+         .join("")}</div>`
+     : ""
+ }</div>${btn("filters", esc(s.label) + " " + icon(s.dir === "asc" ? "up" : "down", 13), "text-button", `data-cat="${c.id}" aria-label="Modifica ordine per ${esc(s.label)}"`)}</div>
+ <label class="catalog-search">${icon("search", 17)}<input id="catalog-search" type="search" placeholder="Cerca in ${c.name}…" value="${esc(f.query)}" autocomplete="off" aria-label="Cerca in ${c.name}"><span>${list.length}</span></label>
+ <section class="product-list type-catalog" data-axis-surface="catalog" aria-label="${c.name}, ordine ${esc(s.label)}">${
+   list.length
+     ? list
+         .slice(0, f.limit)
+         .map(
+           (p, i) =>
+             `<article class="product-row ${state.catalogFocus[c.id] === p.id ? "axis-selected" : ""}" data-row-id="${p.id}">${href(productPath(p), `<span class="row-rank">${String(i + 1).padStart(2, "0")}</span><div class="row-name"><span class="eyebrow">${esc(p.brand)}</span><h2>${esc(p.short || p.name)}</h2>${c.id === "ram" ? `<small>${esc(p.variant)}</small>` : ""}</div><div class="row-metric"><strong>${esc(value(p, metricKey === "pixels" ? "resolution" : metricKey))}</strong><small>${esc(field(c, metricKey).unit || s.label)}</small></div><span class="row-preview" aria-hidden="true"><img src="${esc(imageFor(p))}" alt="" loading="lazy" width="480" height="320" draggable="false"></span>`, "product-open", `data-row-open="${p.id}"`)}<div class="row-chipline">${E.chips(p, previewKeys)}</div></article>`,
+         )
+         .join("")
+     : `<div class="empty"><h2>Nessun prodotto</h2>${btn("reset-filters", "Azzera filtri", "button")}</div>`
+ }</section>
+ ${list.length > f.limit ? `<div class="load-more">${btn("more-products", `Mostra altri ${Math.min(40, list.length - f.limit)}`, "text-button")}</div>` : ""}<p class="dataset-note">${esc(c.reference && f.scope === "selection" ? "Raccolta 14.10.2026 · " + (c.id === "smartphone" ? "AnTuTu V11 · " + (f.platform === "iOS" ? "iPhone, tablet esclusi" : "Android") : c.id === "cpu" ? "Speed Rank UserBenchmark" : "Selezione UserBenchmark") : c.note)}</p>${tray(c.id)}`;
+  }
+  function tray(cat) {
+    const list = selected(cat);
+    return list.length
+      ? `<aside class="compare-tray" aria-label="Selezione confronto"><span>${list.length}/3 selezionati</span>${href("confronto/" + cat, "Confronta", "text-button")}${btn("clear", icon("close", 17), "icon-button", `data-cat="${cat}" aria-label="Svuota selezione"`)}</aside>`
+      : "";
+  }
+  function glance(p, c) {
+    const keys = {
+      gpu: ["memory", "architecture", "cores", "year"],
+      smartphone: ["chip", "size", "hz", "year"],
+      schermi: ["panel", "resolution", "hz", "ms"],
+      chip: ["cpuCores", "graphics", "process", "year"],
+      sensori: ["format", "pixel", "technology"],
+      console: ["cpu", "gpu", "storage", "year"],
+    }[c.id];
+    return `<dl class="glance">${keys
+      .filter((k) => p.stats[k] != null)
+      .map(
+        (k) =>
+          `<div><dd>${esc(fmt(p, k))}</dd><dt>${k === "memory" ? "Memoria · " + (p.stats.memoryType || "") : field(c, k).label}</dt></div>`,
+      )
+      .join("")}</dl>`;
+  }
+  const sectionLabel = (c, key) => window.TechRefReader.topicLabel(c, key);
+  function destination(axis, dir) {
+    const r = state.route;
+    if (r.view !== "prodotto") return null;
+    const c = C(r.cat),
+      list = axis === "device" ? ordered(c) : topics(c),
+      i =
+        axis === "device"
+          ? list.findIndex((p) => p.id === r.id)
+          : list.findIndex((t) => t.key === r.key),
+      next = list[i + dir];
+    return next
+      ? axis === "device"
+        ? productPath(next, r.key)
+        : productPath(P(r.id), next.key)
+      : null;
+  }
+  function readerGraphic(p, key) {
+    if (key === "overview")
+      return `<div class="reader-art"><img src="${esc(heroImage(p))}" alt="" width="1536" height="1024" draggable="false"><small>Illustrazione di categoria</small></div>`;
+    if (key === "wiki")
+      return `<div class="reader-intro">${esc(p.wiki?.intro || "Scopri la storia di questa famiglia di console.")}</div>`;
+    const visual = E.visual(p, key);
+    if (!visual || visual.includes("visual-empty")) return "";
+    return `<div class="reader-graphic" aria-label="${esc(sectionLabel(C(p.cat), key))}: spiegazione visiva"><div class="graphic-preview">${visual.replace(/<details class="source-disclosure">[\s\S]*?<\/details>/g, "")}</div></div>`;
+  }
+  function explorer(p, c, r) {
+    return window.TechRefReader.render({
+      p,
+      c,
+      r,
+      list: ordered(c),
+      order: order(c),
+      scope: prefs(c).scope,
+      motion: state.motion,
+      icon,
+      href,
+      btn,
+      productPath,
+    });
+  }
+  function rankingDialog() {
+    const r = state.route,
+      c = C(r.cat),
+      p = P(r.id),
+      s = order(c),
+      list = ordered(c);
+    openDialog(
+      `<span class="eyebrow">${esc(c.name)}${c.id === "smartphone" ? " · " + (p.stats.platform === "iOS" ? "iPhone" : "Android") : ""}</span><h2 id="dialog-title">${esc(s.label)}</h2><nav class="ranking-picker" aria-label="Scegli prodotto">${list.map((x, i) => href(productPath(x, r.key), `<small>${String(i + 1).padStart(2, "0")}</small><span>${esc(x.short || x.name)}${c.id === "ram" ? `<small>${esc(x.variant)}</small>` : ""}</span>${x.id === p.id ? icon("check", 16) : ""}`, "", `data-close-dialog="true" ${x.id === p.id ? 'aria-current="true"' : ""}`)).join("")}</nav>`,
+      "ranking-dialog",
+    );
+  }
+  function sectionDetails(id, key) {
+    const p = P(id);
+    if (!p) return;
+    const c = C(p.cat),
+      t = topics(c).find((x) => x.key === key) || topics(c)[0],
+      visual = key === "overview" ? "" : E.visual(p, key);
+    openDialog(
+      `<span class="eyebrow">${esc(p.short || p.name)}</span><h2 id="dialog-title">${esc(sectionLabel(c, t.key))}</h2>${E.chips(p, t.keys)}${visual && !visual.includes("visual-empty") ? `<div class="section-detail-visual">${visual}</div>` : ""}${p.cat === "console" ? btn("wiki", "Leggi la mini wiki " + icon("arrow", 15), "button", `data-id="${p.id}"`) : ""}<div class="source-links">${btn("sources", "Fonti e specifiche", "text-button", `data-id="${p.id}"`)}</div>`,
+      "section-dialog",
+    );
+    state.dialogMode = "section";
+  }
 
-function categoriesDialog(){openDialog(`<h2 id="dialog-title">Categorie</h2><nav class="dialog-menu">${cats.map(c=>href('categoria/'+c.id,`<span>${c.name}</span><small>${all(c.id).length}</small>`,'','data-close-dialog="true"')).join('')}</nav>`);}
-function propertiesDialog(){const r=state.route;if(r.view!=='prodotto')return;const c=C(r.cat),p=P(r.id);openDialog(`<h2 id="dialog-title">Sezioni</h2><nav class="dialog-menu">${topics(c).map(t=>href(productPath(p,t.key),`<span>${sectionLabel(c,t.key)}</span>${t.key===r.key?icon('check',17):''}`,'','data-close-dialog="true"')).join('')}</nav>`);}
-function filtersDialog(id){const c=C(id||state.route.cat);if(!c)return;openDialog(`<span class="eyebrow">${c.name}</span><h2 id="dialog-title">Filtri e ordine</h2><div id="filter-options">${controls(c)}</div><div class="filter-end">${btn('reset-filters','Azzera filtri','text-button')}${btn('close-dialog','Mostra prodotti','button primary')}</div>`,'filters-dialog');state.dialogMode='filters';}
-function optionsDialog(){
- const r=state.route,c=C(r.cat),p=r.view==='prodotto'?P(r.id):null;
- openDialog(`<h2 id="dialog-title">${p?esc(p.short||p.name):'TechRef'}</h2><nav class="dialog-menu">${p?btn('sources','Fonti e specifiche','',`data-id="${p.id}"`):''}${c?btn('filters','Filtri e ordine','',`data-cat="${c.id}"`):''}${p?'':href('confronto/'+state.lastCat,'Confronta','','data-close-dialog="true"')}${btn('categories','Categorie')}${btn('help','Come navigare')}${href('metodo','Fonti e metriche','','data-close-dialog="true"')}</nav>`,'options-dialog');state.dialogMode='options';
-}
-function comparison(cat){const c=C(cat);if(!c)return `<div class="page-heading"><h1>Confronta</h1></div><div class="category-grid">${cats.map(x=>href('confronto/'+x.id,icon(x.icon,27)+`<h2>${x.name}</h2>`,'category-card simple')).join('')}</div>`;const list=selected(cat).map(P).filter(Boolean),g=state.route.key||'overview',ts=topics(c),t=ts.find(x=>x.key===g)||ts[0],metric=list[0]?E.primary(list[0],g):null,mixed=cat==='smartphone'&&new Set(list.map(p=>p.stats.platform)).size>1,showScale=metric&&!mixed&&list.every(p=>typeof p.stats[metric]==='number')&&metric!=='year',max=showScale?Math.max(...list.map(p=>p.stats[metric])):0;return `${crumb(c)}<div class="page-heading"><h1>Confronta<span class="heading-count">${list.length}/3</span></h1><label class="select-wrap"><span class="sr-only">Categoria</span><select id="compare-category">${cats.map(x=>`<option value="${x.id}" ${x.id===cat?'selected':''}>${x.name}</option>`).join('')}</select></label></div><div class="compare-pickers">${list.map(p=>btn('select',icon('check',15)+esc(p.short),'picker selected',`data-id="${p.id}" aria-pressed="true"`)).join('')}${btn('pick-compare',icon('plus',15)+'Aggiungi prodotto','picker',`data-cat="${cat}"`)}</div>${list.length<2?`<div class="empty"><h2>Scegli ${list.length?'un altro prodotto':'due prodotti'}</h2>${btn('pair','Usa una selezione','button',`data-cat="${cat}"`)}</div>`:`<nav class="macro-tabs" aria-label="Sezioni del confronto">${ts.map(x=>href('confronto/'+cat+'/'+x.key,x.label,x.key===g?'active':'')).join('')}</nav><div class="comparison-toolbar"><label><input type="checkbox" id="only-diff" ${state.onlyDiff?'checked':''}> Solo differenze</label>${mixed?'<span>AnTuTu: scale Android e iOS separate.</span>':''}</div><div class="compare-cards" data-axis-surface="compare" style="--columns:${list.length}">${list.map(p=>`<article><span class="eyebrow">${esc(p.brand)}</span>${href(productPath(p,g),esc(p.cat==='gpu'?p.short:p.name),'compare-product-title')}${showScale?`<div class="compare-bar"><strong>${esc(E.fmt(p,metric))}</strong><i style="--value:${max?p.stats[metric]/max*100:0}%"></i></div>`:''}${E.chips(p,t.keys.filter(k=>!state.onlyDiff||new Set(list.map(x=>E.fmt(x,k))).size>1))}${btn('sources','Fonti '+icon('link',14),'text-button',`data-id="${p.id}"`)}</article>`).join('')}</div><p class="metric-note">${esc(c.note)}</p>`}<div class="back-link">${href('categoria/'+cat,'Torna a '+c.name,'text-button')}</div>`;}
-function method(){return `<div class="page-heading"><h1>Fonti e metriche</h1><span class="count-label">${D.date}</span></div><div class="method-grid">${cats.map(c=>`<article>${icon(c.icon,22)}<h2>${c.name}</h2><p>${c.note}</p><small>${all(c.id).length} schede · ${all(c.id).filter(p=>p.image?.kind==='product').length} immagini di prodotto</small></article>`).join('')}</div><div class="coverage-note"><h2>Copertura dell’archivio</h2><p>${esc(D.coverageSummary||'Modelli e specifiche verificati sulle fonti disponibili. Dati mancanti indicati con N/D.')}</p><p>Le illustrazioni particellari identificano le categorie su fondo nero. Le fotografie ufficiali rimangono nelle anteprime degli elenchi e nelle fonti. La cover personalizzata del singolo prodotto è predisposta per la prossima fase.</p><p>Prezzi GPU: MSRP USA al lancio, senza imposte, conversione valutaria o inflazione. Valore teorico = TFLOPS FP32 / prezzo × 100. OEM o varianti senza un listino verificato restano N/D. NanoReview: indici e benchmark aggregati dalla fonte, distinti dalle specifiche ufficiali.</p><p>GPU: FP32 teorici, non prestazioni nei giochi. Le architetture eseguono carichi reali in modo diverso. AnTuTu: medie di una specifica versione e periodo, con scale Android e iOS separate.</p>${D.coverageDetails?.length?D.coverageDetails.map(d=>`<details><summary>${esc(d.title)}</summary><p>${esc(d.text)}</p></details>`).join(''):''}</div>`;}
-function render({focus=false}={}){
- hideTip();state.gestureCleanup?.();state.gestureCleanup=null;
- const previous=document.activeElement,caret=previous?.selectionStart;
- state.route=parse();const r=state.route;if(r.cat)state.lastCat=r.cat;if(r.view==='prodotto')ensureVisible(P(r.id));
- const page=r.view==='atlante'?atlas():r.view==='categoria'?category(C(r.cat)):r.view==='prodotto'?explorer(P(r.id),C(r.cat),r):r.view==='confronto'?comparison(r.cat):r.view==='metodo'?method():`<div class="empty"><h1>Prodotto non trovato</h1>${href('atlante','Apri le categorie','button')}</div>`;
- document.body.classList.toggle('reading',r.view==='prodotto');$('#app').innerHTML=shell(page);
- document.title=(r.view==='prodotto'?P(r.id).name:r.cat?C(r.cat).name:r.view==='metodo'?'Fonti e metriche':'Categorie')+' — TechRef';
- if(focus)$('#main').focus({preventScroll:true});else if(previous?.id&&/^[a-z-]+$/.test(previous.id))$('#'+previous.id)?.focus?.({preventScroll:true});
- if(previous?.id==='catalog-search'&&typeof caret==='number')$('#catalog-search')?.setSelectionRange?.(caret,caret);
- bindSwipe();bindWheel();bindImages();state.motion='';
-}
-function notify(message){const n=$('#notice');n.textContent=message;n.classList.add('show');clearTimeout(notify.timer);notify.timer=setTimeout(()=>n.classList.remove('show'),2800);}
-function toggle(id){const p=P(id);if(!p)return;const list=selected(p.cat);if(list.includes(id))state.selected[p.cat]=list.filter(x=>x!==id);else{if(list.length===3){notify('Massimo 3 prodotti. Rimuovine uno per aggiungerne un altro.');return;}state.selected[p.cat]=[...list,id];}state.lastCat=p.cat;render();}
-function pair(cat){const c=C(cat);if(!c)return;state.selected[cat]=(c.pair||all(cat).slice(0,2).map(p=>p.id)).filter(id=>P(id));go('confronto/'+cat);}
-function move(axis,dir){const r=state.route;if(r.view==='prodotto'){const c=C(r.cat);let dest;if(axis==='device'){const list=ordered(c),next=list.findIndex(p=>p.id===r.id)+dir;if(next>=0&&next<list.length)dest=productPath(list[next],r.key);}else{const ts=topics(c),idx=ts.findIndex(f=>f.key===r.key)+dir;if(idx>=0&&idx<ts.length)dest=productPath(P(r.id),ts[idx].key);}if(dest){state.explored=true;state.motion=axis==='device'?(dir<0?'enter-top':'enter-bottom'):(dir<0?'enter-left':'enter-right');go(dest);}return;}if(r.view==='categoria'){if(axis==='property'){const i=cats.findIndex(c=>c.id===r.cat);go('categoria/'+cats[(i+dir+cats.length)%cats.length].id);}else{const c=C(r.cat),list=ordered(c),current=list.findIndex(p=>p.id===state.catalogFocus[c.id]),next=Math.max(0,Math.min(list.length-1,current<0?(dir>0?0:list.length-1):current+dir));if(!list[next])return;state.catalogFocus[c.id]=list[next].id;if(next>=prefs(c).limit){prefs(c).limit=Math.ceil((next+1)/40)*40;render();}document.querySelectorAll('.axis-selected').forEach(x=>x.classList.remove('axis-selected'));const link=document.querySelector('[data-row-open="'+list[next].id+'"]');link?.closest('.product-row')?.classList.add('axis-selected');link?.focus({preventScroll:true});link?.scrollIntoView?.({block:'nearest',behavior:'smooth'});}return;}if(r.view==='atlante'){const items=[...document.querySelectorAll('[data-axis-item]')],cols=window.innerWidth<=760?2:3,current=items.indexOf(document.activeElement),next=Math.max(0,Math.min(items.length-1,(current<0?0:current)+(axis==='device'?dir*cols:dir)));items[next]?.focus();return;}if(r.view==='confronto'&&r.cat){if(axis==='property'){const ts=topics(C(r.cat)),idx=Math.max(0,Math.min(ts.length-1,ts.findIndex(t=>t.key===r.key)+dir));go('confronto/'+r.cat+'/'+ts[idx].key);}else{const items=[...document.querySelectorAll('.compare-product-title')],i=items.indexOf(document.activeElement);items[Math.max(0,Math.min(items.length-1,i+dir))]?.focus();}}}
-function setFilter(key,v){const c=C(state.route.cat);if(!c)return;const f=prefs(c);f.limit=40;if(key==='reset'){f.brand='Tutti';f.series='Tutte';f.family='Tutte';f.query='';f.sort=c.sorts[0].key;}else{f[key]=v;if(key==='brand'){f.series='Tutte';f.family='Tutte';}if(key==='platform'){f.brand='Tutti';f.series='Tutte';f.query='';f.sort=v==='iOS'?'year':'antutu';}if(key==='family'){f.series='Tutte';f.query='';}}if(state.route.view==='prodotto'){const list=ordered(c);if(!list.some(p=>p.id===state.route.id)){if(list[0])go(productPath(list[0],state.route.key));else go('categoria/'+c.id);}else render();}else render();if($('#dialog').open&&state.dialogMode==='filters'){const focused=document.activeElement?.id;$('#filter-options').innerHTML=controls(c);if(focused&&/^[a-z-]+$/.test(focused))$('#'+focused)?.focus?.({preventScroll:true});}}
-let returnFocus;
-function openDialog(html,cls=''){hideTip();const d=$('#dialog');if(!d.open)returnFocus=document.activeElement;state.dialogMode='';d.className=cls;d.innerHTML=`<div class="dialog-inner">${btn('close-dialog',icon('close'),'icon-button dialog-close','aria-label="Chiudi"')}${html}</div>`;if(!d.open)d.showModal();else {const title=$('#dialog-title');if(title){title.tabIndex=-1;title.focus({preventScroll:true});}}}
-function closeDialog(){const d=$('#dialog');d.close();state.dialogMode='';if(returnFocus?.isConnected!==false)returnFocus?.focus?.();else $('#main').focus({preventScroll:true});}
-function sources(id){const p=P(id),c=C(p.cat),links=p.sources?.length?p.sources:[{label:'Scheda ufficiale',url:p.source}];openDialog(`<span class="eyebrow">FONTI</span><h2 id="dialog-title">${esc(p.name)}</h2><p>${esc(p.variant)} <i>·</i> ${D.date}</p><dl>${c.fields.map(f=>`<div><dt>${f.label}</dt><dd>${esc(fmt(p,f.key))}</dd></div>`).join('')}</dl>${p.note?`<p class="source-note">${esc(p.note)}</p>`:''}<div class="source-links">${links.filter(x=>safeUrl(x.url)).map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer" class="button ghost">${esc(x.label)} ${icon('link',14)}</a>`).join('')}${p.benchmarkSource&&safeUrl(p.benchmarkSource)?`<a href="${esc(p.benchmarkSource)}" target="_blank" rel="noopener noreferrer" class="button ghost">Ranking AnTuTu ${icon('link',14)}</a>`:''}</div>${p.benchmarkScope?`<p class="metric-note">${esc(p.benchmarkScope)}</p>`:''}${p.image&&safeUrl(p.image.source)?`<p class="metric-note">Immagine: <a href="${esc(p.image.source)}" target="_blank" rel="noopener noreferrer">${esc(p.image.credit||p.brand)}</a>${p.image.kind==='family'?' · immagine di famiglia':''}. Originale del produttore, usato nell’anteprima del catalogo.</p>`:'<p class="metric-note">Visual astratto di categoria; non raffigura il prodotto.</p>'}`);}
-function metricInfo(id){const c=C(id);openDialog(`<span class="eyebrow">${c.name}</span><h2 id="dialog-title">${order(c).label}</h2><p>${c.note}</p>${c.id==='gpu'?'<p>FP32 indica operazioni in virgola mobile a 32 bit. Sono esclusi Tensor TFLOPS, RT TFLOPS e AI TOPS. Alcuni valori NVIDIA sono calcolati da core × 2 × clock boost; il dettaglio è nella fonte della scheda.</p>':c.id==='smartphone'?'<p>AnTuTu v11: selezione Android dal ranking Global di agosto 2026. iPhone dal ranking iOS cinese, rilevato il 9 ottobre 2026. I valori medi dipendono da configurazione e condizioni del test.</p>':c.id==='schermi'?'<p>Puoi ordinare per Hz, risoluzione o ms. I valori mancanti restano in fondo. Il tempo GtG non misura la latenza completa e i protocolli dei produttori possono differire.</p>':''}<div class="dialog-callout"><kbd>↑</kbd> ${order(c).dir==='asc'?'Valori minori':'Valori maggiori'} <span>·</span> <kbd>↓</kbd> ${order(c).dir==='asc'?'Valori maggiori':'Valori minori'}</div>`);}
-function help(){openDialog(`<span class="eyebrow">NAVIGAZIONE</span><h2 id="dialog-title">Scorri. Esplora.</h2><div class="help-row"><span class="help-axes">↑ ↓</span><div><h3>Cambia prodotto</h3><p>Scorri verso l’alto per il successivo, verso il basso per il precedente. La sezione resta aperta.</p></div></div><div class="help-row"><span class="help-axes">← →</span><div><h3>Cambia sezione</h3><p>Scorri a sinistra per avanzare, a destra per tornare. Puoi anche toccare i nomi in basso.</p></div></div><p>Tocca un valore per capirlo. Apri <strong>Approfondisci</strong> per tutte le informazioni della sezione.</p><p class="metric-note">Da desktop: trascina, usa le frecce della tastiera o la rotella. Shift + rotella cambia sezione. Negli elenchi, lo scorrimento verticale resta naturale.</p>`);}
-function search(){openDialog(`<h2 id="dialog-title">Cerca</h2><label class="search-field">${icon('search')}<input id="global-search" type="search" autocomplete="off" placeholder="Prodotto, marca, proprietà…" aria-label="Cerca prodotti"></label><div id="search-results" aria-live="polite"></div>`,'search-dialog');updateSearch('');$('#global-search').focus();}
-function updateSearch(q){const query=q.trim().toLowerCase(),found=products.filter(p=>(p.name+' '+p.brand+' '+C(p.cat).name+' '+Object.values(p.stats).join(' ')).toLowerCase().includes(query));$('#search-results').innerHTML=!query?`<div class="search-categories">${cats.map(c=>href('categoria/'+c.id,icon(c.icon,20)+c.name,'','data-close-dialog="true"')).join('')}</div>`:found.length?`<p class="search-count">${found.length} prodotti</p>`+found.slice(0,60).map(p=>href(productPath(p),`<span>${esc(p.name)}<small>${C(p.cat).name} · ${p.brand}</small></span>${icon('right',16)}`,'search-result','data-close-dialog="true"')).join(''):'<p class="empty-search">Nessun risultato.</p>';}
-document.addEventListener('click',e=>{if(Date.now()<suppressClickUntil&&e.button===0&&!e.ctrlKey&&!e.metaKey&&!e.shiftKey){e.preventDefault();e.stopImmediatePropagation();return;}if(e.target.closest('a')&&(e.ctrlKey||e.metaKey||e.shiftKey||e.button>0))return;if(e.target.closest('.skip')){e.preventDefault();$('#main').focus();return;}if(e.target.closest('[data-close-dialog]'))closeDialog();const target=e.target.closest('[data-action]');if(!target)return;const a=target.dataset.action;if(a==='info'){infoDialog(target.dataset.id,target.dataset.key);return;}if(a==='section-details'){sectionDetails(target.dataset.id,target.dataset.key);return;}if(a==='categories'||a==='menu')categoriesDialog();else if(a==='options')optionsDialog();else if(a==='properties')propertiesDialog();else if(a==='filters')filtersDialog(target.dataset.cat);else if(a==='search')search();else if(a==='help')help();else if(a==='sources')sources(target.dataset.id);else if(a==='metric-info')metricInfo(target.dataset.cat);else if(a==='close-dialog')closeDialog();else if(a==='select'){toggle(target.dataset.id);if($('#dialog').open&&state.dialogMode==='options')optionsDialog();else if($('#dialog').open&&state.dialogMode==='pick')updatePick($('#compare-search')?.value||'');}else if(a==='pair')pair(target.dataset.cat);else if(a==='clear'){state.selected[target.dataset.cat]=[];render();}else if(a==='brand'||a==='platform')setFilter(a,target.dataset.value);else if(a==='family')setFilter('family',target.dataset.value);else if(a==='family-wiki')familyWiki(target.dataset.value);else if(a==='wiki')wiki(target.dataset.id);else if(a==='pick-compare')pickCompare(target.dataset.cat);else if(a==='more-products'){prefs(C(state.route.cat)).limit+=40;render();}else if(a==='reset-filters')setFilter('reset');else if(a==='device-up')move('device',-1);else if(a==='device-down')move('device',1);else if(a==='property-left')move('property',-1);else if(a==='property-right')move('property',1);});
-document.addEventListener('change',e=>{const {id,value,checked}=e.target;if(id==='sort-order')setFilter('sort',value);else if(id==='series-filter')setFilter('series',value);else if(id==='brand-filter')setFilter('brand',value);else if(id==='family-filter')setFilter('family',value);else if(id==='compare-category')go('confronto/'+value);else if(id==='only-diff'){state.onlyDiff=checked;render();}});
-document.addEventListener('input',e=>{if(e.target.id==='global-search')updateSearch(e.target.value);else if(e.target.id==='compare-search')updatePick(e.target.value);else if(e.target.id==='catalog-search'){prefs(C(state.route.cat)).query=e.target.value;prefs(C(state.route.cat)).limit=40;render();}});
-document.addEventListener('keydown',e=>{if(e.ctrlKey||e.altKey||e.metaKey||e.target.closest('input,select,textarea,[contenteditable]'))return;if(e.key==='/'&&!$('#dialog').open){e.preventDefault();search();return;}if($('#dialog').open)return;if(e.key==='Escape')hideTip();if(e.key==='Escape'&&state.menu){state.menu=false;render();return;}if(['prodotto','categoria','atlante','confronto'].includes(state.route.view)){const step={ArrowUp:['device',-1],ArrowDown:['device',1],ArrowLeft:['property',-1],ArrowRight:['property',1]}[e.key];if(step){e.preventDefault();move(...step);}}});
-$('#dialog').addEventListener('click',e=>{if(e.target===$('#dialog'))closeDialog();});$('#dialog').addEventListener('cancel',()=>setTimeout(()=>returnFocus?.focus?.(),0));
-function bindSwipe(){
- const surface=$('[data-axis-surface]');if(!surface||surface.dataset.axisSurface==='atlas')return;
- const product=state.route.view==='prodotto';
- state.gestureCleanup=window.TechRefGestures.mount({surface,frame:product?$('.reader-card'):null,horizontalOnly:!product,canMove:(axis,dir)=>product?!!destination(axis,dir):true,navigate:move,onStart:hideTip,onDrag:()=>{suppressClickUntil=Date.now()+450;}});
-}
-window.addEventListener('hashchange',()=>{const old=state.route,next=parse();if(old?.view==='categoria')state.listScroll[old.cat]=window.scrollY||0;if(old?.view==='prodotto'&&next.view==='prodotto'&&old.cat===next.cat){state.explored=true;if(!state.motion){const c=C(next.cat);if(old.id!==next.id){const list=ordered(c);state.motion=list.findIndex(p=>p.id===next.id)<list.findIndex(p=>p.id===old.id)?'enter-top':'enter-bottom';}else if(old.key!==next.key){const ts=topics(c);state.motion=ts.findIndex(t=>t.key===next.key)<ts.findIndex(t=>t.key===old.key)?'enter-left':'enter-right';}}}state.menu=false;render({focus:true});if(next.view==='categoria')window.scrollTo({top:state.listScroll[next.cat]||0,behavior:'instant'});else if(old?.view!=='prodotto'||next.view!=='prodotto'||old.cat!==next.cat)window.scrollTo({top:0,behavior:'instant'});});
-function bindWheel(){
- const el=$('[data-axis-surface="product"]');if(!el)return;let total=0,axis='',last=0;
- el.addEventListener('wheel',e=>{if(e.ctrlKey||$('#dialog').open||e.target.closest('select,input'))return;e.preventDefault();const now=Date.now();if(now<state.wheelUntil)return;const next=Math.abs(e.deltaX)>Math.abs(e.deltaY)||e.shiftKey?'property':'device',delta=(Math.abs(e.deltaX)>Math.abs(e.deltaY)?e.deltaX:e.deltaY)*(e.deltaMode===1?16:e.deltaMode===2?el.clientHeight:1);if(now-last>180||next!==axis)total=0;axis=next;last=now;total+=delta;if(Math.abs(total)>70){state.wheelUntil=now+600;move(axis,total>0?1:-1);total=0;}},{passive:false});
-}
+  function categoriesDialog() {
+    openDialog(
+      `<h2 id="dialog-title">Categorie</h2><nav class="dialog-menu">${cats.map((c) => href(categoryPath(c.id), `<span>${c.name}</span><small>${all(c.id).length}</small>`, "", 'data-close-dialog="true"')).join("")}</nav>`,
+    );
+  }
+  function propertiesDialog() {
+    const r = state.route;
+    if (r.view !== "prodotto") return;
+    const c = C(r.cat),
+      p = P(r.id);
+    openDialog(
+      `<h2 id="dialog-title">Sezioni</h2><nav class="dialog-menu">${topics(c)
+        .map((t) =>
+          href(
+            productPath(p, t.key),
+            `<span>${sectionLabel(c, t.key)}</span>${t.key === r.key ? icon("check", 17) : ""}`,
+            "",
+            'data-close-dialog="true"',
+          ),
+        )
+        .join("")}</nav>`,
+    );
+  }
+  function filtersDialog(id) {
+    const c = C(id || state.route.cat);
+    if (!c) return;
+    openDialog(
+      `<span class="eyebrow">${c.name}</span><h2 id="dialog-title">Filtri e ordine</h2><div id="filter-options">${controls(c)}</div><div class="filter-end">${btn("reset-filters", "Azzera filtri", "text-button")}${btn("close-dialog", "Mostra prodotti", "button primary")}</div>`,
+      "filters-dialog",
+    );
+    state.dialogMode = "filters";
+  }
+  function optionsDialog() {
+    const r = state.route,
+      c = C(r.cat),
+      p = r.view === "prodotto" ? P(r.id) : null;
+    openDialog(
+      `<h2 id="dialog-title">${p ? esc(p.short || p.name) : "TechRef"}</h2><nav class="dialog-menu">${p ? btn("sources", "Fonti e specifiche", "", `data-id="${p.id}"`) : ""}${c ? btn("filters", "Filtri e ordine", "", `data-cat="${c.id}"`) : ""}${p ? "" : href("confronto/" + state.lastCat, "Confronta", "", 'data-close-dialog="true"')}${btn("categories", "Categorie")}${btn("help", "Come navigare")}${href("metodo", "Fonti e metriche", "", 'data-close-dialog="true"')}</nav>`,
+      "options-dialog",
+    );
+    state.dialogMode = "options";
+  }
+  function comparison(cat) {
+    const c = C(cat);
+    if (!c)
+      return `<div class="page-heading"><h1>Confronta</h1></div><div class="category-grid">${cats.map((x) => href("confronto/" + x.id, icon(x.icon, 27) + `<h2>${x.name}</h2>`, "category-card simple")).join("")}</div>`;
+    const list = selected(cat).map(P).filter(Boolean),
+      g = state.route.key || "overview",
+      ts = topics(c),
+      t = ts.find((x) => x.key === g) || ts[0],
+      metric = list[0] ? E.primary(list[0], g) : null,
+      mixed =
+        cat === "smartphone" &&
+        new Set(list.map((p) => p.stats.platform)).size > 1,
+      showScale =
+        metric &&
+        !mixed &&
+        list.every((p) => typeof p.stats[metric] === "number") &&
+        metric !== "year",
+      max = showScale ? Math.max(...list.map((p) => p.stats[metric])) : 0;
+    return `${crumb(c)}<div class="page-heading"><h1>Confronta<span class="heading-count">${list.length}/3</span></h1><label class="select-wrap"><span class="sr-only">Categoria</span><select id="compare-category">${cats.map((x) => `<option value="${x.id}" ${x.id === cat ? "selected" : ""}>${x.name}</option>`).join("")}</select></label></div><div class="compare-pickers">${list.map((p) => btn("select", icon("check", 15) + esc(p.short), "picker selected", `data-id="${p.id}" aria-pressed="true"`)).join("")}${btn("pick-compare", icon("plus", 15) + "Aggiungi prodotto", "picker", `data-cat="${cat}"`)}</div>${
+      list.length < 2
+        ? `<div class="empty"><h2>Scegli ${list.length ? "un altro prodotto" : "due prodotti"}</h2>${btn("pair", "Usa una selezione", "button", `data-cat="${cat}"`)}</div>`
+        : `<nav class="macro-tabs" aria-label="Sezioni del confronto">${ts.map((x) => href("confronto/" + cat + "/" + x.key, x.label, x.key === g ? "active" : "")).join("")}</nav><div class="comparison-toolbar"><label><input type="checkbox" id="only-diff" ${state.onlyDiff ? "checked" : ""}> Solo differenze</label>${mixed ? "<span>AnTuTu: scale Android e iOS separate.</span>" : ""}</div><div class="compare-cards" data-axis-surface="compare" style="--columns:${list.length}">${list
+            .map(
+              (p) =>
+                `<article><span class="eyebrow">${esc(p.brand)}</span>${href(productPath(p, g), esc(p.cat === "gpu" ? p.short : p.name), "compare-product-title")}${showScale ? `<div class="compare-bar"><strong>${esc(E.fmt(p, metric))}</strong><i style="--value:${max ? (p.stats[metric] / max) * 100 : 0}%"></i></div>` : ""}${E.chips(
+                  p,
+                  t.keys.filter(
+                    (k) =>
+                      !state.onlyDiff ||
+                      new Set(list.map((x) => E.fmt(x, k))).size > 1,
+                  ),
+                )}${btn("sources", "Fonti " + icon("link", 14), "text-button", `data-id="${p.id}"`)}</article>`,
+            )
+            .join("")}</div><p class="metric-note">${esc(c.note)}</p>`
+    }<div class="back-link">${href(categoryPath(cat), "Torna a " + c.name, "text-button")}</div>`;
+  }
+  function method() {
+    return `<div class="page-heading"><h1>Fonti e metriche</h1><span class="count-label">${D.referenceSnapshot || D.date}</span></div><div class="method-grid">${cats.map((c) => `<article>${icon(c.icon, 22)}<h2>${c.name}</h2><p>${c.note}</p><small>${all(c.id).length} schede · ${all(c.id).filter((p) => p.image?.kind === "product").length} immagini di prodotto</small></article>`).join("")}</div><div class="coverage-note"><h2>Copertura dell’archivio</h2><p>${esc(D.coverageSummary || "Modelli e specifiche verificati sulle fonti disponibili. Dati mancanti indicati con N/D.")}</p><p>Le illustrazioni particellari identificano le categorie su fondo nero. Le fotografie ufficiali rimangono nelle anteprime degli elenchi e nelle fonti. La cover personalizzata del singolo prodotto è predisposta per la prossima fase.</p><p>Prezzi GPU: MSRP USA al lancio, senza imposte, conversione valutaria o inflazione. Valore teorico = TFLOPS FP32 / prezzo × 100. OEM o varianti senza un listino verificato restano N/D. NanoReview: indici e benchmark aggregati dalla fonte, distinti dalle specifiche ufficiali.</p><p>GPU: FP32 teorici, non prestazioni nei giochi. Le architetture eseguono carichi reali in modo diverso. AnTuTu: medie di una specifica versione e periodo, con scale Android e iOS separate.</p>${D.coverageDetails?.length ? D.coverageDetails.map((d) => `<details><summary>${esc(d.title)}</summary><p>${esc(d.text)}</p></details>`).join("") : ""}</div>`;
+  }
+  function render({ focus = false } = {}) {
+    const previousRoute = state.route;
+    hideTip();
+    state.gestureCleanup?.();
+    state.gestureCleanup = null;
+    const previous = document.activeElement,
+      caret = previous?.selectionStart;
+    state.route = parse();
+    const r = state.route;
+    if (r.cat) state.lastCat = r.cat;
+    if (r.view === "prodotto") ensureVisible(P(r.id));
+    const page =
+      r.view === "atlante"
+        ? atlas()
+        : r.view === "categoria"
+          ? category(C(r.cat))
+          : r.view === "prodotto"
+            ? explorer(P(r.id), C(r.cat), r)
+            : r.view === "confronto"
+              ? comparison(r.cat)
+              : r.view === "metodo"
+                ? method()
+                : `<div class="empty"><h1>Prodotto non trovato</h1>${href("atlante", "Apri le categorie", "button")}</div>`;
+    document.body.classList.toggle("reading", r.view === "prodotto");
+    $("#app").innerHTML = shell(page);
+    document.title =
+      (r.view === "prodotto"
+        ? P(r.id).name
+        : r.cat
+          ? C(r.cat).name
+          : r.view === "metodo"
+            ? "Fonti e metriche"
+            : "Categorie") + " — TechRef";
+    if (focus) $("#main").focus({ preventScroll: true });
+    else if (previous?.id && /^[a-z-]+$/.test(previous.id))
+      $("#" + previous.id)?.focus?.({ preventScroll: true });
+    if (previous?.id === "catalog-search" && typeof caret === "number")
+      $("#catalog-search")?.setSelectionRange?.(caret, caret);
+    bindSwipe();
+    bindWheel();
+    bindImages();
+    updateReaderOverflow();
+    state.motion = "";
+    if (r.view === "prodotto") {
+      state.catalogFocus[r.cat] = r.id;
+      $("#reader-announcement").textContent =
+        P(r.id).name +
+        ". " +
+        sectionLabel(C(r.cat), r.key) +
+        ". Prodotto " +
+        (ordered(C(r.cat)).findIndex((p) => p.id === r.id) + 1) +
+        " di " +
+        ordered(C(r.cat)).length;
+    }
+    if (r.view === "categoria" && previousRoute?.view === "prodotto" && state.catalogFocus[r.cat])
+      document
+        .querySelector('[data-row-open="' + state.catalogFocus[r.cat] + '"]')
+        ?.focus({ preventScroll: true });
+    if (previous?.dataset?.readerTab)
+      document
+        .querySelector('[data-reader-tab="' + r.key + '"]')
+        ?.focus({ preventScroll: true });
+  }
+  function notify(message) {
+    const n = $("#notice");
+    n.textContent = message;
+    n.classList.add("show");
+    clearTimeout(notify.timer);
+    notify.timer = setTimeout(() => n.classList.remove("show"), 2800);
+  }
+  function toggle(id) {
+    const p = P(id);
+    if (!p) return;
+    const list = selected(p.cat);
+    if (list.includes(id)) state.selected[p.cat] = list.filter((x) => x !== id);
+    else {
+      if (list.length === 3) {
+        notify("Massimo 3 prodotti. Rimuovine uno per aggiungerne un altro.");
+        return;
+      }
+      state.selected[p.cat] = [...list, id];
+    }
+    state.lastCat = p.cat;
+    render();
+  }
+  function pair(cat) {
+    const c = C(cat);
+    if (!c) return;
+    state.selected[cat] = (
+      c.pair ||
+      all(cat)
+        .slice(0, 2)
+        .map((p) => p.id)
+    ).filter((id) => P(id));
+    go("confronto/" + cat);
+  }
+  function move(axis, dir) {
+    const r = state.route;
+    if (r.view === "prodotto") {
+      const c = C(r.cat);
+      let dest;
+      if (axis === "device") {
+        const list = ordered(c),
+          next = list.findIndex((p) => p.id === r.id) + dir;
+        if (next >= 0 && next < list.length)
+          dest = productPath(list[next], r.key);
+      } else {
+        const ts = topics(c),
+          idx = ts.findIndex((f) => f.key === r.key) + dir;
+        if (idx >= 0 && idx < ts.length)
+          dest = productPath(P(r.id), ts[idx].key);
+      }
+      if (dest) {
+        state.explored = true;
+        state.motion =
+          axis === "device"
+            ? dir < 0
+              ? "enter-top"
+              : "enter-bottom"
+            : dir < 0
+              ? "enter-left"
+              : "enter-right";
+        go(dest);
+      }
+      return;
+    }
+    if (r.view === "categoria") {
+      if (axis === "property") {
+        const i = cats.findIndex((c) => c.id === r.cat),
+          next = cats[i + dir];
+        if (next) go(categoryPath(next.id));
+      } else {
+        const c = C(r.cat),
+          list = ordered(c),
+          current = list.findIndex((p) => p.id === state.catalogFocus[c.id]),
+          next = Math.max(
+            0,
+            Math.min(
+              list.length - 1,
+              current < 0 ? (dir > 0 ? 0 : list.length - 1) : current + dir,
+            ),
+          );
+        if (!list[next]) return;
+        state.catalogFocus[c.id] = list[next].id;
+        if (next >= prefs(c).limit) {
+          prefs(c).limit = Math.ceil((next + 1) / 40) * 40;
+          render();
+        }
+        document
+          .querySelectorAll(".axis-selected")
+          .forEach((x) => x.classList.remove("axis-selected"));
+        const link = document.querySelector(
+          '[data-row-open="' + list[next].id + '"]',
+        );
+        link?.closest(".product-row")?.classList.add("axis-selected");
+        link?.focus({ preventScroll: true });
+        link?.scrollIntoView?.({ block: "nearest", behavior: "smooth" });
+      }
+      return;
+    }
+    if (r.view === "atlante") {
+      const items = [...document.querySelectorAll("[data-axis-item]")],
+        cols = window.innerWidth <= 760 ? 2 : 3,
+        current = items.indexOf(document.activeElement),
+        next = Math.max(
+          0,
+          Math.min(
+            items.length - 1,
+            (current < 0 ? 0 : current) +
+              (axis === "device" ? dir * cols : dir),
+          ),
+        );
+      items[next]?.focus();
+      return;
+    }
+    if (r.view === "confronto" && r.cat) {
+      if (axis === "property") {
+        const ts = topics(C(r.cat)),
+          idx = Math.max(
+            0,
+            Math.min(ts.length - 1, ts.findIndex((t) => t.key === r.key) + dir),
+          );
+        go("confronto/" + r.cat + "/" + ts[idx].key);
+      } else {
+        const items = [...document.querySelectorAll(".compare-product-title")],
+          i = items.indexOf(document.activeElement);
+        items[Math.max(0, Math.min(items.length - 1, i + dir))]?.focus();
+      }
+    }
+  }
+  function setFilter(key, v) {
+    const c = C(state.route.cat);
+    if (!c) return;
+    const f = prefs(c);
+    f.limit = 40;
+    if (key === "reset") {
+      f.brand = "Tutti";
+      f.series = "Tutte";
+      f.family = "Tutte";
+      f.query = "";
+      f.sort = c.sorts[0].key;
+      f.scope = c.reference ? "selection" : "all";
+    } else {
+      f[key] = v;
+      if (key === "scope") {
+        f.query = "";
+        f.brand = "Tutti";
+        f.series = "Tutte";
+        f.sort = v === "all" && c.id === "gpu" ? "tflops" : c.sorts[0].key;
+      }
+      if (key === "brand") {
+        f.series = "Tutte";
+        f.family = "Tutte";
+      }
+      if (key === "platform") {
+        f.brand = "Tutti";
+        f.series = "Tutte";
+        f.query = "";
+        f.sort = "antutu";
+      }
+      if (key === "family") {
+        f.series = "Tutte";
+        f.query = "";
+      }
+    }
+    history.replaceState(
+      null,
+      "",
+      "#/" +
+        (state.route.view === "prodotto"
+          ? productPath(P(state.route.id), state.route.key)
+          : categoryPath(c.id)),
+    );
+    if (state.route.view === "prodotto") {
+      const list = ordered(c);
+      if (!list.some((p) => p.id === state.route.id)) {
+        if (list[0]) go(productPath(list[0], state.route.key));
+        else go("categoria/" + c.id);
+      } else render();
+    } else render();
+    if ($("#dialog").open && state.dialogMode === "filters") {
+      const focused = document.activeElement?.id;
+      $("#filter-options").innerHTML = controls(c);
+      if (focused && /^[a-z-]+$/.test(focused))
+        $("#" + focused)?.focus?.({ preventScroll: true });
+    }
+  }
+  let returnFocus;
+  function openDialog(html, cls = "") {
+    hideTip();
+    const d = $("#dialog");
+    if (!d.open) returnFocus = document.activeElement;
+    state.dialogMode = "";
+    d.className = cls;
+    d.innerHTML = `<div class="dialog-inner">${btn("close-dialog", icon("close"), "icon-button dialog-close", 'aria-label="Chiudi"')}${html}</div>`;
+    if (!d.open) d.showModal();
+    else {
+      const title = $("#dialog-title");
+      if (title) {
+        title.tabIndex = -1;
+        title.focus({ preventScroll: true });
+      }
+    }
+  }
+  function closeDialog() {
+    const d = $("#dialog");
+    d.close();
+    state.dialogMode = "";
+    if (returnFocus?.isConnected !== false) returnFocus?.focus?.();
+    else $("#main").focus({ preventScroll: true });
+  }
+  function sources(id) {
+    const p = P(id),
+      c = C(p.cat),
+      links = p.sources?.length
+        ? p.sources
+        : [{ label: "Scheda ufficiale", url: p.source }];
+    openDialog(
+      `<span class="eyebrow">FONTI</span><h2 id="dialog-title">${esc(p.name)}</h2><p>${esc(p.variant)} <i>·</i> ${p.snapshot || D.date}</p>${p.snapshot ? '<p class="metric-note">Catalogo di riferimento · 14/10/2026. Specifiche aggiuntive, prezzi storici e fotografie conservati dall’archivio precedente.</p>' : ""}<dl>${c.fields
+        .filter((f) => p.stats[f.key] != null)
+        .map(
+          (f) => `<div><dt>${f.label}</dt><dd>${esc(fmt(p, f.key))}</dd></div>`,
+        )
+        .join(
+          "",
+        )}</dl>${p.note ? `<p class="source-note">${esc(p.note)}</p>` : ""}<div class="source-links">${links
+        .filter((x) => safeUrl(x.url))
+        .map(
+          (x) =>
+            `<a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer" class="button ghost">${esc(x.label)} ${icon("link", 14)}</a>`,
+        )
+        .join(
+          "",
+        )}${p.benchmarkSource && safeUrl(p.benchmarkSource) ? `<a href="${esc(p.benchmarkSource)}" target="_blank" rel="noopener noreferrer" class="button ghost">Ranking AnTuTu ${icon("link", 14)}</a>` : ""}</div>${p.benchmarkScope ? `<p class="metric-note">${esc(p.benchmarkScope)}</p>` : ""}${p.image && safeUrl(p.image.source) ? `<p class="metric-note">Immagine: <a href="${esc(p.image.source)}" target="_blank" rel="noopener noreferrer">${esc(p.image.credit || p.brand)}</a>${p.image.kind === "family" ? " · immagine di famiglia" : ""}. Originale del produttore, usato nell’anteprima del catalogo.</p>` : '<p class="metric-note">Visual astratto di categoria; non raffigura il prodotto.</p>'}`,
+    );
+  }
+  function metricInfo(id) {
+    const c = C(id);
+    openDialog(
+      `<span class="eyebrow">${c.name}</span><h2 id="dialog-title">${order(c).label}</h2><p>${c.note}</p>${c.id === "gpu" ? "<p>FP32 indica operazioni in virgola mobile a 32 bit. Sono esclusi Tensor TFLOPS, RT TFLOPS e AI TOPS. Alcuni valori NVIDIA sono calcolati da core × 2 × clock boost; il dettaglio è nella fonte della scheda.</p>" : c.id === "smartphone" ? "<p>AnTuTu v11: selezione Android dal ranking Global di agosto 2026. iPhone dal ranking iOS cinese, rilevato il 9 ottobre 2026. I valori medi dipendono da configurazione e condizioni del test.</p>" : c.id === "schermi" ? "<p>Puoi ordinare per Hz, risoluzione o ms. I valori mancanti restano in fondo. Il tempo GtG non misura la latenza completa e i protocolli dei produttori possono differire.</p>" : ""}<div class="dialog-callout"><kbd>↑</kbd> ${order(c).dir === "asc" ? "Valori minori" : "Valori maggiori"} <span>·</span> <kbd>↓</kbd> ${order(c).dir === "asc" ? "Valori maggiori" : "Valori minori"}</div>`,
+    );
+  }
+  function help() {
+    openDialog(
+      `<span class="eyebrow">NAVIGAZIONE</span><h2 id="dialog-title">Scorri. Esplora.</h2><div class="help-row"><span class="help-axes">↑ ↓</span><div><h3>Cambia prodotto</h3><p>Scorri verso l’alto per il successivo, verso il basso per il precedente. La sezione resta aperta.</p></div></div><div class="help-row"><span class="help-axes">← →</span><div><h3>Cambia sezione</h3><p>Scorri a sinistra per avanzare, a destra per tornare. Puoi anche toccare i nomi in basso.</p></div></div><p>Tocca un valore per capirlo. Apri il <strong>+</strong> accanto all’argomento per tutte le informazioni della sezione.</p><p class="metric-note">Da desktop: trascina, usa le frecce della tastiera o la rotella. Shift + rotella cambia sezione. Negli elenchi e nei dettagli lunghi lo scorrimento verticale resta naturale. Per cambiare prodotto puoi sempre scorrere sull’illustrazione o usare ↑ ↓.</p>`,
+    );
+  }
+  function search() {
+    openDialog(
+      `<h2 id="dialog-title">Cerca</h2><label class="search-field">${icon("search")}<input id="global-search" type="search" autocomplete="off" placeholder="Prodotto, marca, proprietà…" aria-label="Cerca prodotti"></label><div id="search-results" aria-live="polite"></div>`,
+      "search-dialog",
+    );
+    updateSearch("");
+    $("#global-search").focus();
+  }
+  function updateSearch(q) {
+    const query = q.trim().toLowerCase(),
+      found = products.filter((p) =>
+        (
+          p.name +
+          " " +
+          p.brand +
+          " " +
+          C(p.cat).name +
+          " " +
+          Object.values(p.stats).join(" ")
+        )
+          .toLowerCase()
+          .includes(query),
+      );
+    $("#search-results").innerHTML = !query
+      ? `<div class="search-categories">${cats.map((c) => href(categoryPath(c.id), icon(c.icon, 20) + c.name, "", 'data-close-dialog="true"')).join("")}</div>`
+      : found.length
+        ? `<p class="search-count">${found.length} prodotti</p>` +
+          found
+            .slice(0, 60)
+            .map((p) =>
+              href(
+                productPath(p),
+                `<span>${esc(p.name)}<small>${C(p.cat).name} · ${p.brand}</small></span>${icon("right", 16)}`,
+                "search-result",
+                'data-close-dialog="true"',
+              ),
+            )
+            .join("")
+        : '<p class="empty-search">Nessun risultato.</p>';
+  }
+  document.addEventListener("click", (e) => {
+    if (
+      Date.now() < suppressClickUntil &&
+      e.button === 0 &&
+      !e.ctrlKey &&
+      !e.metaKey &&
+      !e.shiftKey
+    ) {
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      return;
+    }
+    if (
+      e.target.closest("a") &&
+      (e.ctrlKey || e.metaKey || e.shiftKey || e.button > 0)
+    )
+      return;
+    if (e.target.closest(".skip")) {
+      e.preventDefault();
+      $("#main").focus();
+      return;
+    }
+    if (e.target.closest("[data-close-dialog]")) closeDialog();
+    const target = e.target.closest("[data-action]");
+    if (!target) return;
+    const a = target.dataset.action;
+    if (a === "info") {
+      infoDialog(target.dataset.id, target.dataset.key);
+      return;
+    }
+    if (a === "section-details") {
+      sectionDetails(target.dataset.id, target.dataset.key);
+      return;
+    }
+    if (a === "ranking") rankingDialog();
+    else if (a === "categories" || a === "menu") categoriesDialog();
+    else if (a === "options") optionsDialog();
+    else if (a === "properties") propertiesDialog();
+    else if (a === "filters") filtersDialog(target.dataset.cat);
+    else if (a === "search") search();
+    else if (a === "help") help();
+    else if (a === "sources") sources(target.dataset.id);
+    else if (a === "metric-info") metricInfo(target.dataset.cat);
+    else if (a === "close-dialog") closeDialog();
+    else if (a === "select") {
+      toggle(target.dataset.id);
+      if ($("#dialog").open && state.dialogMode === "options") optionsDialog();
+      else if ($("#dialog").open && state.dialogMode === "pick")
+        updatePick($("#compare-search")?.value || "");
+    } else if (a === "pair") pair(target.dataset.cat);
+    else if (a === "clear") {
+      state.selected[target.dataset.cat] = [];
+      render();
+    } else if (a === "brand" || a === "platform" || a === "scope")
+      setFilter(a, target.dataset.value);
+    else if (a === "family") setFilter("family", target.dataset.value);
+    else if (a === "family-wiki") familyWiki(target.dataset.value);
+    else if (a === "wiki") wiki(target.dataset.id);
+    else if (a === "pick-compare") pickCompare(target.dataset.cat);
+    else if (a === "more-products") {
+      prefs(C(state.route.cat)).limit += 40;
+      render();
+    } else if (a === "reset-filters") setFilter("reset");
+    else if (a === "device-up") move("device", -1);
+    else if (a === "device-down") move("device", 1);
+    else if (a === "property-left") move("property", -1);
+    else if (a === "property-right") move("property", 1);
+  });
+  document.addEventListener("change", (e) => {
+    const { id, value, checked } = e.target;
+    if (id === "sort-order") setFilter("sort", value);
+    else if (id === "series-filter") setFilter("series", value);
+    else if (id === "brand-filter") setFilter("brand", value);
+    else if (id === "family-filter") setFilter("family", value);
+    else if (id === "compare-category") go("confronto/" + value);
+    else if (id === "only-diff") {
+      state.onlyDiff = checked;
+      render();
+    }
+  });
+  document.addEventListener("input", (e) => {
+    if (e.target.id === "global-search") updateSearch(e.target.value);
+    else if (e.target.id === "compare-search") updatePick(e.target.value);
+    else if (e.target.id === "catalog-search") {
+      prefs(C(state.route.cat)).query = e.target.value;
+      prefs(C(state.route.cat)).limit = 40;
+      history.replaceState(null, "", "#/" + categoryPath(state.route.cat));
+      render();
+    }
+  });
+  document.addEventListener("keydown", (e) => {
+    if (
+      e.ctrlKey ||
+      e.altKey ||
+      e.metaKey ||
+      e.target.closest?.("input,select,textarea,[contenteditable]")
+    )
+      return;
+    if (e.key === "/" && !$("#dialog").open) {
+      e.preventDefault();
+      search();
+      return;
+    }
+    if ($("#dialog").open) return;
+    if (e.key === "Escape") {
+      hideTip();
+      if (state.route.view === "prodotto") {
+        go(categoryPath(state.route.cat));
+        return;
+      }
+    }
+    if (e.key === "Escape" && state.menu) {
+      state.menu = false;
+      render();
+      return;
+    }
+    if (
+      ["prodotto", "categoria", "atlante", "confronto"].includes(
+        state.route.view,
+      )
+    ) {
+      const step = {
+        ArrowUp: ["device", -1],
+        ArrowDown: ["device", 1],
+        ArrowLeft: ["property", -1],
+        ArrowRight: ["property", 1],
+      }[e.key];
+      if (step) {
+        e.preventDefault();
+        move(...step);
+      }
+    }
+  });
+  $("#dialog").addEventListener("click", (e) => {
+    if (e.target === $("#dialog")) closeDialog();
+  });
+  $("#dialog").addEventListener("cancel", () =>
+    setTimeout(() => returnFocus?.focus?.(), 0),
+  );
+  function updateReaderOverflow() {
+    const el = $(".xr-data");
+    if (el)
+      el.toggleAttribute(
+        "data-scrollable",
+        el.scrollHeight > el.clientHeight + 3,
+      );
+  }
+  window.addEventListener("resize", updateReaderOverflow);
+  function bindSwipe() {
+    const surface = $("[data-axis-surface]");
+    if (!surface || surface.dataset.axisSurface === "atlas") return;
+    const product = state.route.view === "prodotto";
+    state.gestureCleanup = window.TechRefGestures.mount({
+      surface,
+      frame: product ? $(".xr-body") : null,
+      horizontalOnly: !product,
+      canMove: (axis, dir) =>
+        product
+          ? !!destination(axis, dir)
+          : axis === "property" &&
+            !!cats[cats.findIndex((c) => c.id === state.route.cat) + dir],
+      navigate: move,
+      onStart: hideTip,
+      canStartAxis: (axis, e) =>
+        !(axis === "device" && e.target.closest(".xr-data[data-scrollable]")),
+      onDrag: () => {
+        suppressClickUntil = Date.now() + 450;
+      },
+      onUpdate: (axis, dir, allowed) => {
+        const cue = $(".swipe-destination");
+        if (!cue) return;
+        const c = C(state.route.cat),
+          ts = topics(c),
+          list = ordered(c);
+        cue.textContent = !allowed
+          ? "Fine percorso"
+          : axis === "device"
+            ? list[list.findIndex((p) => p.id === state.route.id) + dir]?.name
+            : sectionLabel(
+                c,
+                ts[ts.findIndex((t) => t.key === state.route.key) + dir]?.key,
+              );
+      },
+    });
+  }
+  window.addEventListener("hashchange", () => {
+    const old = state.route,
+      next = parse();
+    if (old?.view === "categoria")
+      state.listScroll[old.cat] = window.scrollY || 0;
+    if (
+      old?.view === "prodotto" &&
+      next.view === "prodotto" &&
+      old.cat === next.cat
+    ) {
+      state.explored = true;
+      if (!state.motion) {
+        const c = C(next.cat);
+        if (old.id !== next.id) {
+          const list = ordered(c);
+          state.motion =
+            list.findIndex((p) => p.id === next.id) <
+            list.findIndex((p) => p.id === old.id)
+              ? "enter-top"
+              : "enter-bottom";
+        } else if (old.key !== next.key) {
+          const ts = topics(c);
+          state.motion =
+            ts.findIndex((t) => t.key === next.key) <
+            ts.findIndex((t) => t.key === old.key)
+              ? "enter-left"
+              : "enter-right";
+        }
+      }
+    }
+    state.menu = false;
+    render({ focus: true });
+    if (next.view === "categoria")
+      window.scrollTo({
+        top: state.listScroll[next.cat] || 0,
+        behavior: "instant",
+      });
+    else if (
+      old?.view !== "prodotto" ||
+      next.view !== "prodotto" ||
+      old.cat !== next.cat
+    )
+      window.scrollTo({ top: 0, behavior: "instant" });
+  });
+  function bindWheel() {
+    const el = $('[data-axis-surface="product"]');
+    if (!el) return;
+    let total = 0,
+      axis = "",
+      last = 0;
+    el.addEventListener(
+      "wheel",
+      (e) => {
+        if (e.ctrlKey || $("#dialog").open || e.target.closest("select,input"))
+          return;
+        if (
+          e.target.closest(".xr-data[data-scrollable]") &&
+          !e.shiftKey &&
+          Math.abs(e.deltaY) >= Math.abs(e.deltaX)
+        )
+          return;
+        e.preventDefault();
+        const now = Date.now();
+        if (now < state.wheelUntil) return;
+        const next =
+            Math.abs(e.deltaX) > Math.abs(e.deltaY) || e.shiftKey
+              ? "property"
+              : "device",
+          delta =
+            (Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : e.deltaY) *
+            (e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? el.clientHeight : 1);
+        if (now - last > 180 || next !== axis) total = 0;
+        axis = next;
+        last = now;
+        total += delta;
+        if (Math.abs(total) > 70) {
+          state.wheelUntil = now + 600;
+          move(axis, total > 0 ? 1 : -1);
+          total = 0;
+        }
+      },
+      { passive: false },
+    );
+  }
 
-function safeUrl(url){return typeof url==='string'&&/^https:\/\//.test(url);}
-function searchText(p){return [p.name,p.brand,p.family,C(p.cat).name,...Object.values(p.stats)].join(' ').toLowerCase();}
-function categoryImage(id){return 'assets/particles/'+id+'.png';}
-function heroImage(p){return p.cover?.src||categoryImage(p.cat);}
-function visualImage(p){return p.image?.resolution==='thumbnail'?null:p.image;}
-function imageFor(p,hero=false){return (hero?visualImage(p):p.image)?.src||categoryImage(p.cat);}
-function bindImages(){document.querySelectorAll('img').forEach(img=>{img.addEventListener('error',()=>{if(img.dataset.fallback)return;img.dataset.fallback='1';const id=img.closest('[data-visual]')?.dataset.visual,p=P(id);img.src=categoryImage(p?.cat||state.route.cat||'gpu');},{once:true});});}
-function familyNames(){return [...new Set(all('console').map(p=>p.family).filter(Boolean))];}
-function familyStrip(){const f=prefs(C('console')),brands=['Tutti',...new Set(all('console').map(p=>p.brand))],names=[...new Set(all('console').filter(p=>f.brand==='Tutti'||p.brand===f.brand).map(p=>p.family))];return `<div class="family-brands" aria-label="Produttori console">${brands.map(n=>btn('brand',n==='Tutti'?'Tutte':n,f.brand===n?'active':'',`data-value="${esc(n)}" aria-pressed="${f.brand===n}"`)).join('')}</div><nav class="family-strip" aria-label="Famiglie console">${['Tutte',...names].map(n=>btn('family',n,f.family===n?'active':'',`data-value="${esc(n)}" aria-pressed="${f.family===n}"`)).join('')}</nav>${f.family!=='Tutte'?`<div class="family-intro"><span>${all('console').filter(p=>p.family===f.family).length} modelli</span>${btn('family-wiki','Storia della famiglia '+icon('arrow',14),'text-button',`data-value="${esc(f.family)}"`)}</div>`:''}`;}
-function propertyContent(p,c,f){if(f.key==='wiki')return `<div class="property-content wiki-preview"><span class="value-label">Mini wiki</span><p>${esc(p.wiki?.intro||p.note||'Consulta la fonte ufficiale per approfondire.')}</p></div>`;const v=value(p,f.key),cpu=c.id==='chip'&&['cpu','cpuCores','clusters'].includes(f.key),gpu=c.id==='chip'&&['graphics','gpuCores'].includes(f.key);return `<div class="property-content"><span class="value-label">${esc(f.label)}</span><strong class="hero-value ${v.length>10?'long':v.length>6?'medium':''}">${esc(v)}</strong>${f.unit&&v!=='N/D'?`<span class="value-unit">${esc(f.unit)}</span>`:''}${cpu&&p.cpuDetail?.length?`<div class="cpu-clusters">${p.cpuDetail.map(cl=>`<div class="cpu-cluster"><span class="core-dots" aria-hidden="true">${Array.from({length:Math.min(12,Number(cl.count)||0)},()=>'<i></i>').join('')}</span><span>${cl.count?esc(cl.count)+' × ':''}${esc(cl.type||cl.name||'Core')}${cl.clock?' · '+esc(cl.clock):''}</span></div>`).join('')}</div>`:''}${gpu&&p.gpuDetail?.note?`<p class="value-note">${esc(p.gpuDetail.note)}</p>`:''}${f.key==='antutu'?`<p class="value-note">${esc(p.benchmarkScope||'Nessun punteggio verificato per questa versione.')}</p>`:v==='N/D'?'<p class="value-note">Dato non disponibile nelle fonti verificate.</p>':''}</div>`;}
-function wiki(id){const p=P(id);if(!p)return;const w=p.wiki||{};openDialog(`<span class="eyebrow">${esc(p.family||p.brand)} · ${p.stats.year?esc(value(p,'year')):''}</span><h2 id="dialog-title">${esc(p.name)}</h2><p>${esc(w.intro||p.note||'')}</p>${w.highlights?.length?`<ul class="wiki-highlights">${w.highlights.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}${w.compatibility?`<h3 class="wiki-subtitle">Compatibilità</h3><p>${esc(w.compatibility)}</p>`:''}<div class="source-links">${btn('sources','Fonti e specifiche','button',`data-id="${p.id}"`)}${p.family?btn('family-wiki','Tutta la famiglia','button',`data-value="${esc(p.family)}"`):''}</div>`,'wiki-dialog');}
-function familyWiki(name){const f=(D.consoleFamilies||[]).find(x=>x.name===name||x.id===name),list=all('console').filter(p=>p.family===name).sort((a,b)=>a.stats.year-b.stats.year);openDialog(`<span class="eyebrow">MINI WIKI</span><h2 id="dialog-title">${esc(name)}</h2>${f?.intro?`<p>${esc(f.intro)}</p>`:''}<nav class="family-timeline">${list.map(p=>href(productPath(p,'wiki'),`<time>${p.stats.year?esc(value(p,'year')):'—'}</time><span>${esc(p.name)}<small>${esc(p.variant)}</small></span>${icon('right',14)}`,'','data-close-dialog="true"')).join('')}</nav>`,'wiki-dialog');}
-function pickCompare(cat){state.searchCat=cat;openDialog(`<h2 id="dialog-title">Aggiungi al confronto</h2><label class="search-field">${icon('search',18)}<input id="compare-search" type="search" autocomplete="off" placeholder="Cerca un prodotto…" aria-label="Cerca prodotto da confrontare"></label><div id="compare-results"></div>`);state.dialogMode='pick';updatePick('');$('#compare-search').focus();}
-function updatePick(q){const list=all(state.searchCat).filter(p=>searchText(p).includes(q.trim().toLowerCase()));$('#compare-results').innerHTML=`<p class="search-count">${list.length} prodotti · ${selected(state.searchCat).length}/3 selezionati</p>`+list.slice(0,50).map(p=>btn('select',`<span>${esc(p.name)}<small>${esc(p.brand)} · ${p.stats.year||''}</small></span>${icon(selected(p.cat).includes(p.id)?'check':'plus',16)}`,'search-result',`data-id="${p.id}" aria-pressed="${selected(p.cat).includes(p.id)}"`)).join('');}
+  function safeUrl(url) {
+    return typeof url === "string" && /^https:\/\//.test(url);
+  }
+  function searchText(p) {
+    return [p.name, p.brand, p.family, C(p.cat).name, ...Object.values(p.stats)]
+      .join(" ")
+      .toLowerCase();
+  }
+  function categoryImage(id) {
+    return C(id)?.art || "assets/particles/gpu.png";
+  }
+  function heroImage(p) {
+    return p.cover?.src || categoryImage(p.cat);
+  }
+  function visualImage(p) {
+    return p.image?.resolution === "thumbnail" ? null : p.image;
+  }
+  function imageFor(p, hero = false) {
+    return (hero ? visualImage(p) : p.image)?.src || categoryImage(p.cat);
+  }
+  function bindImages() {
+    document.querySelectorAll("img").forEach((img) => {
+      img.addEventListener(
+        "error",
+        () => {
+          if (img.dataset.fallback) return;
+          img.dataset.fallback = "1";
+          const id = img.closest("[data-visual]")?.dataset.visual,
+            p = P(id);
+          img.src = categoryImage(p?.cat || state.route.cat || "gpu");
+        },
+        { once: true },
+      );
+    });
+  }
+  function familyNames() {
+    return [
+      ...new Set(
+        all("console")
+          .map((p) => p.family)
+          .filter(Boolean),
+      ),
+    ];
+  }
+  function familyStrip() {
+    const f = prefs(C("console")),
+      brands = ["Tutti", ...new Set(all("console").map((p) => p.brand))],
+      names = [
+        ...new Set(
+          all("console")
+            .filter((p) => f.brand === "Tutti" || p.brand === f.brand)
+            .map((p) => p.family),
+        ),
+      ];
+    return `<div class="family-brands" aria-label="Produttori console">${brands.map((n) => btn("brand", n === "Tutti" ? "Tutte" : n, f.brand === n ? "active" : "", `data-value="${esc(n)}" aria-pressed="${f.brand === n}"`)).join("")}</div><nav class="family-strip" aria-label="Famiglie console">${["Tutte", ...names].map((n) => btn("family", n, f.family === n ? "active" : "", `data-value="${esc(n)}" aria-pressed="${f.family === n}"`)).join("")}</nav>${f.family !== "Tutte" ? `<div class="family-intro"><span>${all("console").filter((p) => p.family === f.family).length} modelli</span>${btn("family-wiki", "Storia della famiglia " + icon("arrow", 14), "text-button", `data-value="${esc(f.family)}"`)}</div>` : ""}`;
+  }
+  function propertyContent(p, c, f) {
+    if (f.key === "wiki")
+      return `<div class="property-content wiki-preview"><span class="value-label">Mini wiki</span><p>${esc(p.wiki?.intro || p.note || "Consulta la fonte ufficiale per approfondire.")}</p></div>`;
+    const v = value(p, f.key),
+      cpu = c.id === "chip" && ["cpu", "cpuCores", "clusters"].includes(f.key),
+      gpu = c.id === "chip" && ["graphics", "gpuCores"].includes(f.key);
+    return `<div class="property-content"><span class="value-label">${esc(f.label)}</span><strong class="hero-value ${v.length > 10 ? "long" : v.length > 6 ? "medium" : ""}">${esc(v)}</strong>${f.unit && v !== "N/D" ? `<span class="value-unit">${esc(f.unit)}</span>` : ""}${cpu && p.cpuDetail?.length ? `<div class="cpu-clusters">${p.cpuDetail.map((cl) => `<div class="cpu-cluster"><span class="core-dots" aria-hidden="true">${Array.from({ length: Math.min(12, Number(cl.count) || 0) }, () => "<i></i>").join("")}</span><span>${cl.count ? esc(cl.count) + " × " : ""}${esc(cl.type || cl.name || "Core")}${cl.clock ? " · " + esc(cl.clock) : ""}</span></div>`).join("")}</div>` : ""}${gpu && p.gpuDetail?.note ? `<p class="value-note">${esc(p.gpuDetail.note)}</p>` : ""}${f.key === "antutu" ? `<p class="value-note">${esc(p.benchmarkScope || "Nessun punteggio verificato per questa versione.")}</p>` : v === "N/D" ? '<p class="value-note">Dato non disponibile nelle fonti verificate.</p>' : ""}</div>`;
+  }
+  function wiki(id) {
+    const p = P(id);
+    if (!p) return;
+    const w = p.wiki || {};
+    openDialog(
+      `<span class="eyebrow">${esc(p.family || p.brand)} · ${p.stats.year ? esc(value(p, "year")) : ""}</span><h2 id="dialog-title">${esc(p.name)}</h2><p>${esc(w.intro || p.note || "")}</p>${w.highlights?.length ? `<ul class="wiki-highlights">${w.highlights.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}${w.compatibility ? `<h3 class="wiki-subtitle">Compatibilità</h3><p>${esc(w.compatibility)}</p>` : ""}<div class="source-links">${btn("sources", "Fonti e specifiche", "button", `data-id="${p.id}"`)}${p.family ? btn("family-wiki", "Tutta la famiglia", "button", `data-value="${esc(p.family)}"`) : ""}</div>`,
+      "wiki-dialog",
+    );
+  }
+  function familyWiki(name) {
+    const f = (D.consoleFamilies || []).find(
+        (x) => x.name === name || x.id === name,
+      ),
+      list = all("console")
+        .filter((p) => p.family === name)
+        .sort((a, b) => a.stats.year - b.stats.year);
+    openDialog(
+      `<span class="eyebrow">MINI WIKI</span><h2 id="dialog-title">${esc(name)}</h2>${f?.intro ? `<p>${esc(f.intro)}</p>` : ""}<nav class="family-timeline">${list.map((p) => href(productPath(p, "wiki"), `<time>${p.stats.year ? esc(value(p, "year")) : "—"}</time><span>${esc(p.name)}<small>${esc(p.variant)}</small></span>${icon("right", 14)}`, "", 'data-close-dialog="true"')).join("")}</nav>`,
+      "wiki-dialog",
+    );
+  }
+  function pickCompare(cat) {
+    state.searchCat = cat;
+    openDialog(
+      `<h2 id="dialog-title">Aggiungi al confronto</h2><label class="search-field">${icon("search", 18)}<input id="compare-search" type="search" autocomplete="off" placeholder="Cerca un prodotto…" aria-label="Cerca prodotto da confrontare"></label><div id="compare-results"></div>`,
+    );
+    state.dialogMode = "pick";
+    updatePick("");
+    $("#compare-search").focus();
+  }
+  function updatePick(q) {
+    const list = all(state.searchCat).filter((p) =>
+      searchText(p).includes(q.trim().toLowerCase()),
+    );
+    $("#compare-results").innerHTML =
+      `<p class="search-count">${list.length} prodotti · ${selected(state.searchCat).length}/3 selezionati</p>` +
+      list
+        .slice(0, 50)
+        .map((p) =>
+          btn(
+            "select",
+            `<span>${esc(p.name)}<small>${esc(p.brand)} · ${p.stats.year || ""}</small></span>${icon(selected(p.cat).includes(p.id) ? "check" : "plus", 16)}`,
+            "search-result",
+            `data-id="${p.id}" aria-pressed="${selected(p.cat).includes(p.id)}"`,
+          ),
+        )
+        .join("");
+  }
 
-function infoDialog(id,key){
- const p=P(id);if(!p)return;const i=E.info(p,key),visual=E.visualForKey(p,key);
- openDialog(`<span class="eyebrow">${esc(p.short||p.name)} · ${esc(i.label)}</span><h2 id="dialog-title">${esc(i.title)}</h2><div class="explain-value">${esc(i.value==='N/D'?'Dato non disponibile':i.value)}</div><p>${esc(i.text)}</p>${visual&&!visual.includes('visual-empty')?`<div class="explain-visual">${visual}</div>`:''}${i.note?`<details class="source-disclosure"><summary>Note della fonte</summary><p>${esc(i.note)}</p></details>`:''}<div class="source-links">${btn('sources','Fonti del prodotto','text-button',`data-id="${p.id}"`)}</div>`,'explain-dialog');state.dialogMode='explain';
-}
-let tipTarget=null,suppressClickUntil=0;
-function hideTip(){const el=$('#info-tooltip');if(el){el.hidden=true;el.innerHTML='';}tipTarget?.removeAttribute('aria-describedby');tipTarget=null;}
-function showTip(target){if(!target||$('#dialog').open||!window.matchMedia?.('(hover: hover)').matches)return;const p=P(target.dataset.id);if(!p)return;const el=$('#info-tooltip');if(!el)return;hideTip();tipTarget=target;el.innerHTML=E.tooltip(p,target.dataset.key);el.hidden=false;target.setAttribute('aria-describedby','info-tooltip');const rect=target.getBoundingClientRect(),box=el.getBoundingClientRect(),width=window.innerWidth,height=window.innerHeight;el.style.left=Math.max(16,Math.min(width-box.width-16,rect.left))+'px';el.style.top=Math.max(16,Math.min(height-box.height-16,rect.top-box.height-12>12?rect.top-box.height-12:rect.bottom+12))+'px';}
-document.addEventListener('pointerover',e=>{const t=e.target.closest('[data-action="info"]');if(t&&t!==tipTarget)showTip(t);});
-document.addEventListener('pointerout',e=>{if(tipTarget&&e.target.closest('[data-action="info"]')===tipTarget&&!tipTarget.contains(e.relatedTarget))hideTip();});
-document.addEventListener('focusin',e=>{const t=e.target.closest('[data-action="info"]');if(t)showTip(t);else hideTip();});
-document.addEventListener('contextmenu',e=>e.preventDefault());
-document.addEventListener('click',e=>{if(Date.now()<suppressClickUntil&&e.button===0&&!e.ctrlKey&&!e.metaKey&&!e.shiftKey){e.preventDefault();e.stopImmediatePropagation();}},{capture:true});
-window.addEventListener('scroll',hideTip,{passive:true});
+  function infoDialog(id, key) {
+    const p = P(id);
+    if (!p) return;
+    const i = E.info(p, key),
+      visual = E.visualForKey(p, key);
+    openDialog(
+      `<span class="eyebrow">${esc(p.short || p.name)} · ${esc(i.label)}</span><h2 id="dialog-title">${esc(i.title)}</h2><div class="explain-value">${esc(i.value === "N/D" ? "Dato non disponibile" : i.value)}</div><p>${esc(i.text)}</p>${visual && !visual.includes("visual-empty") ? `<div class="explain-visual">${visual}</div>` : ""}${i.note ? `<details class="source-disclosure"><summary>Note della fonte</summary><p>${esc(i.note)}</p></details>` : ""}<div class="source-links">${btn("sources", "Fonti del prodotto", "text-button", `data-id="${p.id}"`)}</div>`,
+      "explain-dialog",
+    );
+    state.dialogMode = "explain";
+  }
+  let tipTarget = null,
+    suppressClickUntil = 0;
+  function hideTip() {
+    const el = $("#info-tooltip");
+    if (el) {
+      el.hidden = true;
+      el.innerHTML = "";
+    }
+    tipTarget?.removeAttribute("aria-describedby");
+    tipTarget = null;
+  }
+  function showTip(target) {
+    if (
+      !target ||
+      $("#dialog").open ||
+      !window.matchMedia?.("(hover: hover)").matches
+    )
+      return;
+    const p = P(target.dataset.id);
+    if (!p) return;
+    const el = $("#info-tooltip");
+    if (!el) return;
+    hideTip();
+    tipTarget = target;
+    el.innerHTML = E.tooltip(p, target.dataset.key);
+    el.hidden = false;
+    target.setAttribute("aria-describedby", "info-tooltip");
+    const rect = target.getBoundingClientRect(),
+      box = el.getBoundingClientRect(),
+      width = window.innerWidth,
+      height = window.innerHeight;
+    el.style.left =
+      Math.max(16, Math.min(width - box.width - 16, rect.left)) + "px";
+    el.style.top =
+      Math.max(
+        16,
+        Math.min(
+          height - box.height - 16,
+          rect.top - box.height - 12 > 12
+            ? rect.top - box.height - 12
+            : rect.bottom + 12,
+        ),
+      ) + "px";
+  }
+  document.addEventListener("pointerover", (e) => {
+    const t = e.target.closest('[data-action="info"]');
+    if (t && t !== tipTarget) showTip(t);
+  });
+  document.addEventListener("pointerout", (e) => {
+    if (
+      tipTarget &&
+      e.target.closest('[data-action="info"]') === tipTarget &&
+      !tipTarget.contains(e.relatedTarget)
+    )
+      hideTip();
+  });
+  document.addEventListener("focusin", (e) => {
+    const t = e.target.closest('[data-action="info"]');
+    if (t) showTip(t);
+    else hideTip();
+  });
+  document.addEventListener("contextmenu", (e) => e.preventDefault());
+  document.addEventListener(
+    "click",
+    (e) => {
+      if (
+        Date.now() < suppressClickUntil &&
+        e.button === 0 &&
+        !e.ctrlKey &&
+        !e.metaKey &&
+        !e.shiftKey
+      ) {
+        e.preventDefault();
+        e.stopImmediatePropagation();
+      }
+    },
+    { capture: true },
+  );
+  window.addEventListener("scroll", hideTip, { passive: true });
 
-render();
-const mc=document.modelContext;
-if(mc?.registerTool){const life=new AbortController();window.addEventListener('pagehide',()=>life.abort(),{once:true});const tool={name:'techref_configure_comparison',title:'Confronta prodotti TechRef',description:'Apre un confronto tra due o tre prodotti della stessa categoria, sostituendo la selezione visibile.',inputSchema:{type:'object',properties:{productIds:{type:'array',items:{type:'string'},minItems:2,maxItems:3}},required:['productIds'],additionalProperties:false},annotations:{readOnlyHint:false,untrustedContentHint:false},execute:async input=>{const ids=input?.productIds;if(!Array.isArray(ids)||ids.length<2||ids.length>3||new Set(ids).size!==ids.length||ids.some(id=>typeof id!=='string'||!P(id)))throw Error('Servono 2–3 ID validi e distinti.');const cat=P(ids[0]).cat;if(ids.some(id=>P(id).cat!==cat))throw Error('Scegli la stessa categoria.');state.selected[cat]=[...ids];state.lastCat=cat;history.pushState(null,'','#/confronto/'+cat);render({focus:true});return {category:cat,products:ids,view:'confronto'};}};try{Promise.resolve(mc.registerTool(tool,{signal:life.signal})).catch(()=>{});}catch{}}
+  render();
+  const mc = document.modelContext;
+  if (mc?.registerTool) {
+    const life = new AbortController();
+    window.addEventListener("pagehide", () => life.abort(), { once: true });
+    const tool = {
+      name: "techref_configure_comparison",
+      title: "Confronta prodotti TechRef",
+      description:
+        "Apre un confronto tra due o tre prodotti della stessa categoria, sostituendo la selezione visibile.",
+      inputSchema: {
+        type: "object",
+        properties: {
+          productIds: {
+            type: "array",
+            items: { type: "string" },
+            minItems: 2,
+            maxItems: 3,
+          },
+        },
+        required: ["productIds"],
+        additionalProperties: false,
+      },
+      annotations: { readOnlyHint: false, untrustedContentHint: false },
+      execute: async (input) => {
+        const ids = input?.productIds;
+        if (
+          !Array.isArray(ids) ||
+          ids.length < 2 ||
+          ids.length > 3 ||
+          new Set(ids).size !== ids.length ||
+          ids.some((id) => typeof id !== "string" || !P(id))
+        )
+          throw Error("Servono 2–3 ID validi e distinti.");
+        const cat = P(ids[0]).cat;
+        if (ids.some((id) => P(id).cat !== cat))
+          throw Error("Scegli la stessa categoria.");
+        state.selected[cat] = [...ids];
+        state.lastCat = cat;
+        history.pushState(null, "", "#/confronto/" + cat);
+        render({ focus: true });
+        return { category: cat, products: ids, view: "confronto" };
+      },
+    };
+    try {
+      Promise.resolve(mc.registerTool(tool, { signal: life.signal })).catch(
+        () => {},
+      );
+    } catch {}
+  }
 })();

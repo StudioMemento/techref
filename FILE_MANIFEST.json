@@ -1,11 +1,16 @@
 {
   "project": "TechRef",
-  "revision": "minimal-particles-2026-10-12",
+  "revision": "navigation-10-2026-10-14",
   "files": [
     {
+      "path": ".gitignore",
+      "bytes": 23,
+      "sha256": "6fd31f0543645498ec65f231c41377a5bbea08ca104cb0b1eed430996a9b3e18"
+    },
+    {
       "path": "README_DEPLOY.md",
-      "bytes": 3007,
-      "sha256": "5cc4e74f4d72dff112013a1e986d6c1d2a16ce8e20d2e0b8240d27c8b0be0146"
+      "bytes": 2311,
+      "sha256": "9fd37d61a699acc2422df388635a990f42882c7beec54692cadb405736476b02"
     },
     {
       "path": "catalog/asset-manifest.json",
@@ -78,9 +83,19 @@
       "sha256": "f558e54a834a59fba03309ceae7864d54d41ec6c8a28c2918744dc20c9c48cb2"
     },
     {
+      "path": "catalog/reference-120.json",
+      "bytes": 202916,
+      "sha256": "6d0c833ef5873e2559a7162f72edef205e0fa6621254a12ec959c3229646d94f"
+    },
+    {
       "path": "docs/ASSETS.md",
-      "bytes": 3527,
-      "sha256": "65b2297bf9e3913b0530050afd2eccde871f69b5de9e9bc5793c48c2ef9586ac"
+      "bytes": 4021,
+      "sha256": "387ea48a3932dada47fd512c3b0da6da9d83d374dc4a0c562b0d309eee5faf8f"
+    },
+    {
+      "path": "docs/CATALOGO-120-2026-10-14.md",
+      "bytes": 41196,
+      "sha256": "babb55b75c4817fbb3037a905629adcba470aead8273bb62b1393a97240b3d3e"
     },
     {
       "path": "docs/FOCUS-GPU.md",
@@ -88,9 +103,24 @@
       "sha256": "98b47c2e237cdbb371018f69995a6c54b01fbbd79542f3f26d6541bec2008c5e"
     },
     {
+      "path": "docs/NAVIGAZIONE-10.md",
+      "bytes": 3743,
+      "sha256": "332026511d1d7c43a9a17838d2a45e788a762bd90dd5831454e2ac0592be604c"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 18587,
+      "sha256": "a4aba3aac3d2bd18c8c7607ae1272892523d43a73af4e5d6a714ebc11a9ac337"
+    },
+    {
+      "path": "package.json",
+      "bytes": 306,
+      "sha256": "61b0869af34d9b214855a1535d95d1fa297eab64af730f6d98a1163887c2903f"
+    },
+    {
       "path": "public/app.js",
-      "bytes": 48903,
-      "sha256": "9cb6cdeed1a07b867b3d75ce33fede030646e1a1bf69f9ee219a28e72442c5e6"
+      "bytes": 62157,
+      "sha256": "79bf92bec5f1bf0279f3ec6ada6a4e7f74d4cebb74c41605209cd6a1a30dca01"
     },
     {
       "path": "public/assets/categories/chip.webp",
@@ -1198,6 +1228,51 @@
       "sha256": "45a5882c381f8037b9500136e63cce3abd33815a5e93ea560882543e2b3723c0"
     },
     {
+      "path": "public/assets/stage/battery.webp",
+      "bytes": 296408,
+      "sha256": "3a907ef1b3b03f8052ca7c8891b81e9c844a952b2a7a917a3e6c9bcf0c773b8c"
+    },
+    {
+      "path": "public/assets/stage/camera.webp",
+      "bytes": 271274,
+      "sha256": "8b7915bc6f5127258d03b40cbd0e2450957cfd633a3422e525a49d77eed97f77"
+    },
+    {
+      "path": "public/assets/stage/chip.webp",
+      "bytes": 435468,
+      "sha256": "aba70c3278927f4350d0b97420d1081146879180dc5dee9a02a208829946a413"
+    },
+    {
+      "path": "public/assets/stage/display.webp",
+      "bytes": 336168,
+      "sha256": "baaf3064d27f2191654f2e71a0b83e82e0a28d5b98144b1c63d234fad4766f5d"
+    },
+    {
+      "path": "public/assets/stage/gpu.webp",
+      "bytes": 354728,
+      "sha256": "c8973b7f98973a06ae95a38e132d334bd4949f1b02327e983e77540173ebb1e4"
+    },
+    {
+      "path": "public/assets/stage/monitor.webp",
+      "bytes": 301976,
+      "sha256": "4d8f0da6030ce01fe6cfc09e783f6a20b31beb6f5fcf8b21fe120807e40b92d4"
+    },
+    {
+      "path": "public/assets/stage/phone.webp",
+      "bytes": 376426,
+      "sha256": "4a045a59e4256ccf1b24e3354507fc5c93e4e179926aaea6b3a160e031443972"
+    },
+    {
+      "path": "public/assets/stage/ram.webp",
+      "bytes": 278546,
+      "sha256": "de4a20361231298076dff0e576c7fcde77c9a53e98e9819104f1c7dd66c77e7c"
+    },
+    {
+      "path": "public/assets/stage/ssd.webp",
+      "bytes": 336310,
+      "sha256": "4402e02120eda3179f2ba0ecf1c1872d8aaae4108923d0d0673beffc86beabc1"
+    },
+    {
       "path": "public/assets/void/chip.webp",
       "bytes": 6718,
       "sha256": "181990479160c5c714f53c3a24d7a4c792d3e7f02a63c86ae77387676f9c779c"
@@ -1228,6 +1303,16 @@
       "sha256": "10b0b2fa7cc4007506c59878cfa015d0442bb25f8c0712b2a13bf6fecb0b4c68"
     },
     {
+      "path": "public/catalog-2026.js",
+      "bytes": 150412,
+      "sha256": "56ffa603d2a98dba2a5f4fc08c715d4c34ed8f7a897ce2370380d08a2dec9e16"
+    },
+    {
+      "path": "public/catalog-schema.js",
+      "bytes": 8096,
+      "sha256": "0774d7c9c936a775dc51f0afdcc2bdae7f7bf329210ba6aa8bc18a823c555484"
+    },
+    {
       "path": "public/data.js",
       "bytes": 1426395,
       "sha256": "96f9d86feadaa7a366a381a4af056198a207408c1f75e80c2ff87e93bdc62bc9"
@@ -1254,8 +1339,8 @@
     },
     {
       "path": "public/focus/assets/ICON-LICENSE.txt",
-      "bytes": 1092,
-      "sha256": "ddbe6082ec3cf979db47e5af549d2849c5d6182b3e005ef91ce1dbb9eb122f11"
+      "bytes": 1071,
+      "sha256": "b5b1f1da112d18ea2147decfd48ddc1bf2b5aeb6c265381579340e95b15a2bb2"
     },
     {
       "path": "public/focus/assets/inter-latin-300-normal.woff2",
@@ -1284,8 +1369,8 @@
     },
     {
       "path": "public/focus/index.html",
-      "bytes": 614,
-      "sha256": "a9dacbbcd76963f42ef2a83c4b0907d9cd9de3af0fe1feda58edad5fb1b1daa0"
+      "bytes": 948,
+      "sha256": "f4c8b5ceedad8d272e565fcca8183d2b37d09ab6ac02c7549e79d67293223018"
     },
     {
       "path": "public/focus/style.css",
@@ -1294,13 +1379,28 @@
     },
     {
       "path": "public/gestures.js",
-      "bytes": 7563,
-      "sha256": "c36d468bbbb72189a695873b1dadf1f439073384b0b4bbdfee932d97386bf4f3"
+      "bytes": 7583,
+      "sha256": "f6d0896737a1b10855431fbce76b3b59473513a93e86d249d3258bafccced86f"
     },
     {
       "path": "public/index.html",
-      "bytes": 1275,
-      "sha256": "b70fde59a0ac5c0e11a959f60139f19dfcd6177b87a14cafab68314eec089027"
+      "bytes": 1804,
+      "sha256": "d5053dbea0a612e1a23a2662012074b236a39ca486f9beb1ac2b0f5b4ef2661e"
+    },
+    {
+      "path": "public/navigation.css",
+      "bytes": 19416,
+      "sha256": "705f43cb4fa44a3ec13feb72c8003892e7515321d5eb9ea8c1013bcd80d719fb"
+    },
+    {
+      "path": "public/reader.js",
+      "bytes": 16080,
+      "sha256": "917af61397506258805876ff501712c1854c54afcee2d8178c108f774fd82199"
+    },
+    {
+      "path": "public/review.html",
+      "bytes": 1284,
+      "sha256": "7a3c30ef502a0a667ae3393176ba71ad6a8665371ff4b65740c461495e6bae3a"
     },
     {
       "path": "public/scene.js",
@@ -1323,9 +1423,24 @@
       "sha256": "868451834f47d8c633a69f1888ff4a6a523d8fd31b3f93814ff3f06689c6a7dc"
     },
     {
+      "path": "scripts/build-catalog.py",
+      "bytes": 10376,
+      "sha256": "58a7c90676fb9d0da1b0a17317591403c2e6940cdc7894e31ff8bf850e0c026a"
+    },
+    {
+      "path": "scripts/manifest.py",
+      "bytes": 516,
+      "sha256": "b2f78b3b50d315583df7bad0408bfa653b89235244ddad1099b5c12f86b21a0d"
+    },
+    {
+      "path": "tests/navigation.test.cjs",
+      "bytes": 9072,
+      "sha256": "507e43c84238d49e67748a6790e1d195a2e88a1c7ba455f9ff027e31b14ae25b"
+    },
+    {
       "path": "vercel.json",
-      "bytes": 158,
-      "sha256": "1ac519fff43aaf1058e9eacc46a1cc7b0e40ae2681fe22b04790ac7058d5e304"
+      "bytes": 182,
+      "sha256": "d1c7d54b05d8a280c7a74bbf7384a2fdbb8d42259204dc4810482baaa27eadfa"
     }
   ]
 }

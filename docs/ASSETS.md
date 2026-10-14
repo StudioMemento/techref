@@ -41,3 +41,7 @@ La Demo 06 usa il visual come immagine piana, senza cornice, particelle o lastra
 Le fotografie ufficiali già presenti restano locali e compaiono nelle anteprime degli elenchi. URL originali, crediti e distinzione fra foto specifiche e immagini di famiglia sono conservati in `catalog/asset-manifest.json` e nei record prodotto. Nessuna immagine generata viene presentata come foto reale del prodotto.
 
 Gli asset della Demo 04 in `dist/assets/categories/` sono conservati come archivio e non sono caricati dalla nuova esperienza.
+
+## Revisione navigazione 10 · 14 ottobre 2026
+
+`public/assets/stage/`: nove illustrazioni generiche già generate per TechRef (phone, chip, camera, battery, display, gpu, ssd, ram, monitor), riutilizzate dal prototipo precedente. WebP con alpha; non sono foto ufficiali di un modello. La scheda lo esplicita. Ring e particelle sono effetti CSS locali, separati dalle rappresentazioni quantitative. Le foto prodotto dell’archivio restano negli elenchi e conservano la provenienza originale.
